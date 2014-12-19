@@ -1,0 +1,31 @@
+Title:MeMonitor
+----
+Shortdesc:A health tracking tool
+----
+Description:An invisible way of tracking a multitude of biological indicators overtime to better track your health and wellbeing. Every morning you get out of bed, go to your bathroom mirror 
+and start to get ready. This system during that time will record a whole host of imformation on you including weight, pulse, temperature, face color etc and will track this over a long period 
+of time. It may also have api's to feed in information from the likes of fitbit and other smart monitoring devices.
+----
+Tags:health wellbeing tracking 
+----
+Names:Enda Mc Cormack
+----
+StudentIDs:s00112762
+----
+prjurl:
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea:health fitness and well-being
+----
+Primaryos:Web/apps
+----
+Primarytechnology:c#
+----
+Secondarytechnology:JavaScript/Html
+----
+

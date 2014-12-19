@@ -1,0 +1,38 @@
+Title: CA1
+
+----
+
+Description: In-class exam on styling and layout
+
+----
+Session: Semester 5 (2013-14)
+----
+
+Text:
+Write an app to display the working hours of a number of **Employees**. Each **Employee** object will have a name and a number for hours worked. Your app should display the employee names and the number of hours worked by each - the names should drawn randomly from a collection of names (hard-coded), while the number of hours worked by each should be randomly chosen from the range 20-60. The number of Employee objects displayed should also be randomly decided, in the range 5-15.
+
+At the bottom of the screen there should be summary information detailing the total number of hours worked, summed for all Employees shown.
+
+Use a **Data Template** retrieved from the **ResourceDictionary** to display the Employee's **Name** and **HrsWorked** as shown opposite.
+
+On the left, display the details of the currently selected **Employee** in the listbox. Additionally, there should be a swatch (small box of color) reflecting the amount of hours worked, colored as follows:
+
+*   Green, where < 30 hrs
+*   Amber, where >=30 and <50 hrs
+*   Red, where >=50 hrs
+
+Use a **IValueConverter** to implement this. Create the colours from code rather than attempt to retrieve them from the **ResourceDictionary**.
+
+A Button should allow for the collection of Employees to be re-generated.
+
+Use basic styling to present this information in a pleasing fashion. Use XAML resources to keep your code easy to read and maintain. Use binding expressions wherever possible to simplify the UI (user interface). Employ a layout approach that ensure the display scales well when resized. You must employ a separate ResourceDictionary file which should hold (at a minimum) a **LinearGradientBrush**, a **Data Template** and a **SolidColorBrush**. Use the **LinearGradientBrush** somewhere in the display.
+
+#### Marking Scheme
+
+* Layout &amp; Styling, Brushes etc.    25 marks
+* Data generation (Employees data)      25 marks
+* Binding & color swatch coding         25 marks
+* General coding logic                  25 marks
+
+<script src="http://form.jotformpro.com/jsform/20714837170956" type="text/javascript"></script>
+----

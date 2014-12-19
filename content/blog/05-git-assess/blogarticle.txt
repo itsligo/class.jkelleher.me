@@ -1,0 +1,53 @@
+----
+Title: Submit with Git
+----
+Tags: Git, continuous_assessment
+----
+Description: Submitting Assessment with Git
+----
+Date: 22-10-13
+----
+Text:
+As part of our committment to embrace industry standard tooling and workflows, I distribute and accept assessment using Git and Github.(image: octocat.png class:img-right width:150)
+The purpose of this post is to provide students with instructions to retrieve assignements, make amendments and resubmit work to private Github repositories.
+####Organisation
+(link: www.github.com text:Github) have generously provided private repositories to academic institutions. Class issues assessment will be posted on a page on my site but where an acccompanying piece of code is offered, this will be hosted on Github and a link to the repo provided with the assessment instruction. I have also created a singel private repository for each student (using your student ID). This single repo will host all your submitted assessment - each piece of assessment in a separate branch. The basic workflow is as follows:
+
+* Assessment issued via web site with (where necessary) an accompanying Github repo link to house _starter code_ (partial solution)
+* If assessment has _starter code_, then student clones this to local repository (this can be anywhere)
+* Student works on code, committing regularly to local repository
+* When time to submit, student pushes completed solution to invidually assigned private Github repository (named after Student ID)
+
+Some of the benefits of this approach are:
+
+* Student work is private on Github
+* Student submission will be permanently available
+* Lecturer will _see_ regular commits of work assuring against plagiarism
+* Github provides backup mechanism against lost work
+* Student experiences first-hand established industry practice in version control
+
+####Process
+1. Lecturer issues assessment. If _starter code_ applicable, then student clones this starter project:
+
+        git clone https://github.com/itsligo/mvcbs_music_ef.git        
+This creates a local copy of the cloned project.
+If, however, there is no _starter code_ and the student begins with a self-created project, then all that is needed is to add the new solution to Git source control, whilst in the root folder of the solution:
+
+        git init
+1. Before beginning work, the student creates a distinct branch of the current project named CA1, CA2 or whatever reflects the number of the assessment. This new branch (e.g. CA1) will be the basis for the work of the assessment. It also protects the original provided code should the student wish to revert to it.
+
+        git checkout -bf ca1
+Note _-f_  (optionally) discards any changes made to the code (since the lasst commit) and _-b_ (optionally) switches to the new branch (ca1)
+
+        git remote add ca1 https://s01234567@bitbucket.org/s01234567.git
+This adds a remote branch to the student's Bitbucket private repository so the student can regularly push the local repo to Bitbucket. The student must first have created this repo on Bitbucket and enabled **jkelleher_its** as an **admin** user on that repo. Bitbucket is used by students as it permits private repositories to be created. However, students can request Github to activate their account as a _student_ by visiting www.github.com/edu. This simple process provides 5 free private repos on Github. If using Github, enable **jkelleher** as **admin** collaborator so that I have access.
+1. Student works on assessment modifying as necessary to complete the work. Student regularly commits changes made so that milestones are captured by the Git repository. It is important to show regular commits to underwrite the fact that the assessment is being regularly worked on. A single large commit will draw attention and prompt an interview to establish provenance. 
+
+        git add .
+        git commit -m 'Added key feature as per part 2 of assessment'
+        git push -u ca1 ca1
+First line adds all changes to local repo. Next line commits those changes to the local repo. Final line pushes this commit to the Bitbucket repo previously associated with this repo. Future pushes need only say 'git push' since the _-u_ switch specifies the _s01234567_ private Bitbucket repository as the default destination for your push. Also, the mention of _'ca1 ca1'_ is redundant so long as you stay with the _ca1_ branch.
+1. That's it. Following each _push_, a complete copy of the student's work is pushed to the private repository on Bitbucket/Github. To submit on due date, send email with link to the repo.
+
+#####Reducing traffic
+One last thing. When working with projects that use Nuget a large packages folder can develop which is then normally pushed to your Git repository. This can slow your working with your remote repo and cause large traffic to/from the cloud. Instead, be sure to enable Nuget (link: http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages text:restore) for your Solution to avoid pushing the large packages folder to Github.)

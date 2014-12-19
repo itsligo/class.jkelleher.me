@@ -1,0 +1,28 @@
+Title: FOOP202 Lesson
+----
+Description: Consolidating concepts, Binding
+
+----
+Date: 2014-2-22
+
+----
+Tags: debugging, exceptions, generic collections, binding
+
+----
+Text:
+This lesson focuses on building a relatively large console based application to cement current and past topics and to take time to identify pitfalls when coding larger applications.
+The practice exercises are more involved and require careful examination of how to approach what is demanded. These are intended to be built largely out of class with pinch-points brought to class for discussion.
+
+####Binding
+Data binding is a significant concept that we only introduce at this stage in very small doses. It play a much bigger role in later coding, particularly popular now in web development. Here we'll focus on showing how data (from whatever resource e.g. database or in-memory objects) can be surfaced at the UI with a minimal of effort and to ensure that changes are propagated back/forth easily between the two locations.
+
+Specifically we look at binding data to user controls. By this, we mean the ability to have interface controls display their values automatically, updating themselves as their origin values change. This obviates the need to watch data sources and update the UI accordingly. It forms the basis of not just desktop applications but increasingly is found in frontend web development in frameworks such as Backbone, KnockoutJS (from Microsoft) & AngularJS (from Google). We'll likely see AngularJS in Yr 3.
+
+Binding is the mechanism whereby data can be injected into controls by declaratively indicating the association between the control and the data. XAML make heavy use of data binding to simplify the back-end.
+
+* Basic [element-to-element](http://10rem.net/blog/2009/03/18/silverlight-3-%E2%80%93-ui-element-to-element-binding) binding
+
+* Binding using [ItemsSource](http://blog.cylewitruk.com/2010/09/wpf-combobox-and-databinding-datacontext-itemssource-displaymemberpath-selecteditem-selectedvalue-selectedvaluepath/) to collection
+
+----
+practices:

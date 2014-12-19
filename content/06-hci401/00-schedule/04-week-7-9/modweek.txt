@@ -1,0 +1,31 @@
+Title: Week 7-9
+----
+Description: Human Abilities
+
+----
+Week: 7-9
+
+----
+Tags:
+
+----
+Text: 
+####[<i class='icon-th-list icon-large'></i>    Human Abilities (Perception)](https://docs.google.com/presentation/d/1qwrXUENAb4JvtcDFbUaWiAl7y5W0EZAlvCGNAJ9ejc8/edit?usp=sharing)
+
+* Optical  [Illusion](http://www.johnsadowski.com/big_spanish_castle.php);  (Other [illusions](http://www.michaelbach.de/ot/index.html))
+* Fitts Law (Quiz - [Tog](http://www.asktog.com/columns/022DesignedToGiveFitts.html)) (MSDN  [Blog](http://blogs.msdn.com/jensenh/archive/2006/08/22/711808.aspx))  (Test Fitts' [Law](http://www.tele-actor.net/fitts/index.html))
+* Users don't [change](http://www.uie.com/brainsparks/2011/09/14/do-users-change-their-settings/) settings ([www.uie.com](http://www.uie.com))
+
+####[<i class='icon-th-list icon-large'></i>    Human Abilities (Cognition)](https://docs.google.com/presentation/d/1iqQm89JdKp7SU5nBzbG-gvzuqnm_76aNfyOrKMssub8/pub?start=false&loop=false&delayms=3000)
+
+*   Selective [Attention](http://uxmag.com/articles/selective-attention-and-user-experience)
+*   [Stroop](http://en.wikipedia.org/wiki/Stroop_effect) Effect
+*   Gulf of Execution and Evaluation ([Scott Klemmer](http://openclassroom.stanford.edu/MainFolder/VideoPage.php?course=HCI&video=GulfOfExecution&speed=100) Stanford). Also [Udacity](https://design101-forum.udacity.com/t/gulf-of-execution-and-evaluation-electric-kettle/4954/5) examples.
+*   Design as Communication ([Norman](http://www.jnd.org/dn.mss/design_as_communication.html))
+*   [Psychology](http://www.businessinsider.com/100-things-you-should-know-about-people-2010-11?op=1) factors to exploit (BusinessInsider.com)
+*   Design [Introduction](https://docs.google.com/file/d/0B_ax7Tsevzx_UkhZYlN4Y3V2eWc/edit?usp=sharing)
+*   Fish eye lens [menu](http://www.cs.umd.edu/hcil/fisheyemenu/fisheyemenu-demo.shtml) (UMD)
+*   Gestalt Theory in Design ([SixRevisions.com](http://sixrevisions.com/web_design/gestalt-principles-applied-in-design/) or [AndyRutledge.com](http://www.andyrutledge.com/gestalt-principles-1-figure-ground-relationship.php))
+*   Eye tracking - [video](http://www.etre.com/usability/eyetracking/showme/), [case](http://www.eyetools.com/casestudy/CaseStudy-Web_Site_Redesign_20050303.pdf),  ([summary](http://blog.eyetools.net/eyetools_research/2005/02/how_eyetracking.html)), [criticisms](http://www.sensorydrive.co.uk/2006/06/01/is-eye-tracking-really-useful/),  Nielsen [F-pattern](http://www.useit.com/alertbox/reading_pattern.html)
+*   The [Problem](http://www.azarask.in/blog/post/is_visual_feedback_enough_why_modes_kill/) with Modes
+*   Dissonance ([Smashing Magazine](http://uxdesign.smashingmagazine.com/2011/10/13/design-with-dissonance/)) Example: [Spent](http://playspent.org/)

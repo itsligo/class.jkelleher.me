@@ -1,0 +1,31 @@
+Title: Arduino Quadcopter
+----
+Shortdesc:
+An Arduino radio controlled Quadcopter
+----
+Description:
+We plan to build an Arduino radio controlled Quadcopter by buying all the components and assembling them onto a homemade frame.
+After it's build we may use (depending on time) the open source AeroQuad library for Arduino to get it up and running so we can the then take a block of work each. Someone could work on getting a suitable camera working while someone else could work on a windows app to show telemetry data coming from the Quad. This app could possibly display the transmitter/controller commands and maybe even the video from the camera. Depending on time we could add other sensors to give us more data to display on the windows app such as altitude and air temperature.
+----
+Tags:
+----
+Names:Paul Shiels, Marcin Kadziel, Thomas Conolloy, Michael Connolloy
+----
+StudentIDs:S00119099 ,S00122901 ,S00119500 ,S00121467  
+----
+prjurl:http://prj300quadblog.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Development) Yr 3
+----
+Supervisor:
+----
+Primaryarea: Arduino Application
+----
+Primaryos: Windows
+----
+Primarytechnology: c/c++
+----
+Secondarytechnology:
+----

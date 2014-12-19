@@ -1,0 +1,13 @@
+Title: FOOP202 Assessment
+
+----
+
+Description: Schedule for Foundation Object Oriented Programming 202
+
+----
+Session: Semester 4 (2014-15)
+----
+Alert: If uploading solutions to CA or exams, use this (link: http://www.jotformpro.com/jkelleher/foop20x text:link).
+----
+Text: FOOP202 (link: https://amm.itsligo.ie/module/webview//COMP06179/201200/999999 text:[syllabus]) runs for a full semester.
+----

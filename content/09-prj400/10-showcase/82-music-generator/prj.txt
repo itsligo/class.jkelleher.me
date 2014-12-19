@@ -1,0 +1,41 @@
+﻿Title: Music Generator
+----
+Shortdesc:
+Windows phone music player
+----
+Description:
+
+Windows phone music player which plays local music files and also streams music.
+The local file player will record player history to help with auto generated playlists and smart shuffle.
+The app will also have the option to stream music by creating playlists. A WCF web service or web API will be used to create these platlists 
+with multiple options ie:
+    based on music in local collection
+    player history
+    querying on-line api's for recommendations
+    music tempo 
+A database will continually record information of the app's usage for example time of day or if a track was skipped to further refine playlist generation.
+The purpose will be to have a player that keeps track on user usage to try 'know' what music the user wants to hear
+
+----
+Tags: windows phone, WCF, C#, xaml
+----
+Names:Eddie Lennon
+----
+StudentIDs:S00132504
+----
+prjurl:
+----
+gitrepo:https://github.com/s00132504/4thYearProject.git
+----
+Programme:B.Sc. Computing (Software Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: Windows phone, WCF
+----
+Primaryos: Window 8
+----
+Primarytechnology: c#
+----
+Secondarytechnology: xaml
+----

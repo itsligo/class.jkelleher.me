@@ -1,0 +1,29 @@
+﻿Title: App Pharmacy
+----
+Shortdesc:A full responsive web application 
+----
+Description: My aim is to create a system that will help phamacy/GP and their patiants to keep track of the Medication given, making sure they are taken correctly and that the drugs are taken at th right times by setting up reminders, also the system will keep the records of the patients and their appointments.
+----
+Tags: 
+----
+Names:Russell Ndlovu
+----
+StudentID:S00113056
+----
+prjurl:http://ndlovurussell.wordpress.com
+----
+gitrepo:
+----
+Programme:BSc Hons Computing (Software Dev) Yr 4
+----
+Supervisor:Neil Gannon
+----
+Primaryarea: Medication Tracker
+----
+Primaryos: Web
+----
+Primarytechnology: PHP, HTML5,Javascript
+----
+Secondarytechnology: Aptana Studio, Adobe Photoshop, CSS
+----
+

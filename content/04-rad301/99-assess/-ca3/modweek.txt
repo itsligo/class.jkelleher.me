@@ -1,0 +1,41 @@
+Title: CA3
+
+----
+
+Description: Catchup ASP.NET MVC + Bootstrap + EF
+
+----
+Session: Semester 5 (2013-14)
+----
+Text:
+An ASP.NET MVC application that employs the Northwind database. The application will have the following features/functionality:
+
+* Use Bootstrap 3.0 CSS framework extensively to style web page elements, supplanting any CSS offered by VS2012 templates (remove traces of site.css)
+* Establish data connection with Northwind and generate a DAL to the data using Entity Framework
+* Initial (Home) page will display a list of **Products**. 
+* Improve the display of the **Product** details by displaying some indicator (e.g. small label or image) alongside those **Products** that are marked as discontinued.
+* Paginate the listing of **Products** using Troy Goode's MVCPagedlist code.
+* For each **Product** indicate the **Supplier** of that **Product**. This can be done by displaying the **Supplier** summary in a **Tooltip**, or by clicking to reveal a panel containing the information. Or devise a mechanism of your own that doesn't involve leaving the page. Invoke this lookup using Ajax.
+* For each **Product** when clicked, have a partial view rendered on the same page (e.g. at the bottom) with a list of 3 Orders (not **OrderDetail**) that contain that **Product**. The 3 **Orders** selected must represent those **Orders** with the greatest quantity of the selected **Product**.
+
+Other Points to note:
+
+* You may use Entity Framework
+* You should employ whatever features of the Bootstrap framework that you feel would enhance the UI but balance this against the marking scheme
+* Use of a master page (i.e. layout.cshtml) and partial views are encouraged
+* Provide robust code that defends against errors particularly wrt database access
+* Reward is provided for exceptional coding that (e.g. performant, robust, elegant)
+
+####Marking Scheme
+* Styling (use of Bootstrap etc.)                    <span class='pull-right'>**20 marks**</span>
+* Controllers, data retrieval/querying, Ajax, LINQ<span class='pull-right'>**30 marks**</span>
+* Constructing Views and using Razor View engine<span class='pull-right'>**30 marks**</span>
+* Good programming practice, innovative approach<span class='pull-right'>**20 marks**</span>
+
+####Upload
+Use Git (including Github or alternative) to manage your work. Follow the procedure outlined in my [post](/blog/git-assess) regarding submission.
+I will assume you will use the repo address you provided earlier. Be careful that you use a new branch CA3 for this assignment. Use 'git branch -d branch_to_delete' to delete a local branch (more on my blog (link:http://jkwp.itsligo.ie/blog/git text:post)).
+<div class="alert alert-danger">
+It is important that you use Git from the beginning of your work and do regular commits so that I can see the work being added over time. Expect to push every hour or so. If you fail to comply with this, your submission may be rejected.
+</div>
+----

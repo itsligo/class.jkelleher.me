@@ -1,0 +1,25 @@
+Title: PRJ400 Handup
+
+----
+
+Description: PRJ400 Handup
+
+----
+Session: Semester 7 & 8 (2013-14)
+----
+
+Text:
+### Submitting work
+‘Handup‘ gives direction on the final leg – getting your project submitted. Upload [here](handup/upload).
+
+Please note that your code should be in a single zip file in the following format:
+
+>B.Sc. (Soft) PRJ400 S00101010 S02020202 S03030303 S04040404 TEAM_NAME 2013-4 CODE.zip
+
+Documentation should be in (link: prj400/supports/pdf text:PDF) format.
+
+Submitting your work is a vital part of your module and one which is typically completed under some pressure. You should treat the submission as you would do a seated examination. You are also expected to be informed of the college policy on plagiarism.
+
+Here you will find all you need to learn how to complete this stage properly. Please remember that it is your responsibility to fully appraise yourself of the necessary steps as with the numbers of submissions involved, it will not be possible for lecturing staff to check that you have do so correctly. If in any doubt, consult with me ahead of time and do a dummy run.
+
+Now, read the posts in this section for all the details of submission and the subsequent assessment. And keep an eye on the class calendar.

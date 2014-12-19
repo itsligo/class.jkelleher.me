@@ -1,0 +1,39 @@
+Title: Grinsen(Project Nervous Ostrich)
+----
+Shortdesc:A 3D horror/puzzle game.
+----
+Description:Grinsen. An survival horror game with puzzles and exploration. 
+Third-person Horror game with evasion, hiding and puzzle solving. Various floors with 
+interconnecting rooms to be unlocked by keys given when puzzles are solved, the player 
+must collect and combine items in order to solve puzzles all while avoiding the 
+“Girl in White”.
+
+The game will have 3D rooms and objects with fixed camera angles in these rooms, the 
+camera angles will change depending on where the player is in a particular room, the 
+player and the GIW will be fully rendered and textured 3D models that will be able to 
+rotate and move freely throughout the environments but certain objects in rooms they will 
+not be able to pass through.
+----
+Tags: vidya gaems survival horror grinsen project nervous ostrich xbox pc game boo 2spooky Programmers Don’t Wear Ties Grinsen Exploration Puzzles Evasion Hiding 3D weird science
+----
+Names:Michael Gilmartin, Ciaran Callaghan, Oisin Keighron, Jake Devers
+----
+StudentIDs:S00123200, S00122876, S00115809, S00117000
+----
+prjurl:http://project300games.wordpress.com/
+----
+gitrepo:https://github.com/calahoon/SampleNo
+----
+Programme:B.Sc. Computing (Games Dev) Yr 3
+----
+Supervisor:Neil Gannon
+----
+Primaryarea: C#, XNA
+----
+Primaryos: PC, Xbox
+----
+Primarytechnology: C#, XNA, Monogame
+----
+Secondarytechnology: Blender, FL Studio, Photoshop, Adobe Premiere Pro
+----
+

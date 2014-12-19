@@ -1,0 +1,41 @@
+Title: Upload Submission
+----
+Description: Upload Submission
+
+----
+Session: Semester 7 & 8 (2013-14)
+----
+Tags: upload
+----
+
+Text: 
+<script type="text/javascript" src="http://form.jotform.com/jsform/20454955143"></script>
+####Alternative Upload Methods
+
+The primary means of uploading your work is with the form above. If you do not see the form above, then no submissions are currently being accepted (e.g. past deadline). You can also find this form [here](http://bit.ly/prj400) (bit.ly/prj400).
+
+There are several other ways you can choose to deliver your project. Since most of the services mentioned below are not under my control, you cannot assume that files have been delivered until I confirm that I have received them.
+
+Most of these services have limits on the size of the files shared. Please ensure that your submission has no extraneous files (or duplicates).
+
+* Dropbox
+
+Dropbox is a facility whereby you can have a special folder on your PC which is automatically synchronized with online storage, typically for backup purposes. You can also however share a folder in your Dropbox with others. Use this link to signup and receive a free 2Gb account. This is a fast, safe and reliable service. You must name your folder as directed below and share it to me at kelleher.john@itsligo.ie so that I can access your folder.
+
+The alternative methods below should not be used unless Dropbox has not worked.
+
+* DropSend
+
+DropSend is a simple service where you upload your files one at a time providing my email (kelleher.john@itsligo.ie) as the recipient address. You will likely have to use the service twice to send both docs and zip files but note that there is currently a 5 files/month limit so step carefully.
+
+* GMail
+
+I have purchased 25Gb of storage on GMail so you may be able to email your project through to me. However, note that your email may likely be bounced because mail servers between you and me may not be happy about the size of your project or virus checkers on mail servers may spot executable code (even inside a zip file) and reject accordingly. PDF files work fine though.
+
+* Google Docs
+
+As before, I’ve upped storage on my account. You’ll need a GMail account but can upload any file (e.g. zip and pdf files) to your account and then share them with me. Better yet, place them in a folder (properly named) and share the folder. You can use my gmail email: johnkelleher42@gmail.com or kelleher.john@itsligo.ie
+
+* Physical Handup
+
+Should you be unable to submit using the above methods, burn to CD/DVD, label as above, place in envelope, address to John Kelleher, B&H and place in my post-box at Management suite of Business & Humanities. Alternatively, you can use a pen drive. You must have the envelope stamped/dated by the school secretary.

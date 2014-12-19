@@ -1,0 +1,14 @@
+Title: FOOP202 Lesson
+----
+Description: Debugging
+
+----
+Date: 2014-4-28
+
+----
+Tags: debugging,breakpoints
+
+----
+Text: 
+We begin by examining debugging tools built into the IDE to help us spot where errors are occuring in our code. Using conditional breakpoints we can narrow down the source of bugs in code.
+Using **System.Diagnostics** namespace, we can output debug information to the **Debug** stream without interupting the flow of our program.

@@ -1,0 +1,34 @@
+Title: RAD301 Revision
+
+----
+Description: A comprehensive revision practice
+
+----
+Date: Late Nov
+
+----
+Tags: 
+
+----
+Text: 
+
+####Using Data Annotations
+Data annotations 'mark up' data models to aid in validation and display of those properties. See [here](http://www.asp.net/mvc/tutorials/mvc-music-store/mvc-music-store-part-6) for more details.
+
+####Unobtrusive Javascript Validation
+When using data annotations, we are marking up properties with particular validation criteria. These are evaluated on the server and the ModelState set to valid if there are no problems. However, the round trip to the server to do this testing is expensive and so client-side checking is preferred. But because JS may not be enabled on the client (rare), it is stil necessary to provide server side checking. By including the following JS scripts (after jQuery), MVC will automatically add unobtrusive JS client-side checking:
+
+* jquery.validate.js
+* jquery.validate.unobtrusive.js
+
+Having established a competency in the array of tooling and libraries for modern web applications, we'll spend some time bringing these to bear on a particular problem. We'll use:
+
+- ASP.MVC as the application architecture
+- Entity Framework as the object-relational-mapping tool to yield data from a SQL Server (or other) database
+- (link: http://www.getbootstrap.com text:Bootstrap) (or similar) as a CSS framework to prettify the end-user interface
+- (link: http://www.jquery.com text:jQuery) (and assorted plugins) to improve the experience for users
+- Use of custom libraries (e.g. (link: https://github.com/TroyGoode/PagedList text:MVC pagination) by Troy Goode)
+----
+practices:
+####[CampRoll](https://github.com/itsligo/2014rad301ca1)
+####[Northwind](https://github.com/itsligo/northwind)

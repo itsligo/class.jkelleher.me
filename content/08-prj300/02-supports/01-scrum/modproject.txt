@@ -1,0 +1,26 @@
+Title: Scrum
+
+----
+
+Description: Scrum Project Management
+
+----
+Tags: prj_mgmnt
+----
+
+Text:
+#### Project Management
+(image: ScrumDiagram.png title:Scrum) 
+
+(link: http://scrummethodology.com text:Scrum) is an iterative, incremental framework for project management often seen in agile software development but is often used in other domains. Key features of the approach are:
+
+- suits projects where final deliverables are subject to change or are ill-defined at the outset
+- setting of product backlog – a prioritised list of the elements necessary to the final delivered product
+- sprint – a period (2-4 wks) during which a subset of the product backlog, called a sprint backlog, is worked to deliver a potentially deliverable product increment, that is, a working (albeit possible limited) version of the final product
+- defined accountablity – at each weekly team meeting individuals are called to account for their tasks and explain progress
+
+A simple (link:http://www.mountaingoatsoftware.com/topics/scrum text:guide) to Scrum (www.mountaingoatsoftware.com)
+
+For more on project planning, read (link:http://www.comp.nus.edu.sg/~damithch/guide3e/Ch8.html text:Chp. 8) of “Practical Tips for Software-Intensive Student Projects” by Damith C. Rajapaske.
+(youtube:http://www.youtube.com/embed/kYajjGi5-qM class:img-center)
+(youtube:http://youtu.be/Q5k7a9YEoUI class:img-center)

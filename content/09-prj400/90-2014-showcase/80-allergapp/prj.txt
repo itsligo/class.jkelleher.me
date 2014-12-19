@@ -1,0 +1,27 @@
+Title:AllergApp
+----
+Shortdesc:An Application for mobile devices.
+----
+Description:An Application for mobile devices.using multiple programming languages and and frameworks to create a user friendly app that can be used by people with various different allergies.
+----
+Tags:gui javascript web app
+----
+Names:Ronan O' Malley
+----
+StudentIDs:s00080256
+----
+prjurl:http://AllergApp.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea:
+----
+Primaryos:Web/Multi
+----
+Primarytechnology:C#/JavaScript/SQL
+----
+				

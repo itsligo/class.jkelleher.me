@@ -1,0 +1,122 @@
+Title: CA2
+
+----
+
+Description: Building a prototype of UI design
+
+----
+Session: Semester 7 (2013-14)
+----
+
+Alert:
+####Feedback CA2 ([Results](https://docs.google.com/spreadsheet/pub?key=0Avax7Tsevzx_dFpQY0FLNHpBUkNuZVN1WGliZVVtTEE&single=true&gid=4&output=html))
+
+I have provided commentary specific to each submission (below) but provide some general observations here also. Remember the marks available to this element of CA are relatively few but the points I make here will obviously impact more with CA2 and beyond.
+
+**Gov.ie**
+Within 3 lines, I found a sp mistake. Also, no clear assessment title, no page numbers, no programme title, no clear introduction to the work, missing full-stop on first paragraph. These are basics and cost marks and you will be judged by the quality of your presentation. Avoid commentary like ‘hopefully’ - present the work objectively and dispassionately.
+What makes person 1. a ‘prime example of little experience’ - his being a taxi driver. Be careful of careless phrasing. You need to flesh out the relationship these people have to the site. Why should gov.ie concern them? Avoid shallow questioning like ‘would you use it if it were better’ - it’s leading and difficult for a person to gauge what you propose. Typically, they will answer in the affirmative so as to avoid appearing negative or obstructive. References to ‘normal routine’ are not explained.
+Be cautious about broad statements like 'The system (All government sites) navigation is broken and inconsistent.’ and ‘there is no consistency’. Avoid vague un-quantified objectives like ‘as user friendly as possible’. In scoping the relationship between user and data, can you foresee any opportunity to have the system hold data for the user? For example, many recipe sites provide a folder to hold personally selected recipes. 
+Disability and accessibility are mentioned and the addressing of ’simple english’ is welcome. Would be nice to see mention of Flesch-Kincaid readability or similar (http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests). Some better understanding of supports for visually impaired (e.g. aria, screen readers, high contrast, custom style sheets) would be welcome.
+Q11 about things going wrong - you could consider that many users may not know what dept or agency to address their concerns. The system could take a query and make recommendations (similar to Google guesses) as to the appropriate agency.
+The suggestion to provide actual content rather than refer to other sites is perhaps not practicable - the reasons for this should be elicited and listed.
+I do like the proposed re-design however. The predominant textual approach reflects a priority on content over style. One improvement might be in the search results - perhaps some coding could be used to indicate which dept the result will redirect to. The approach is similar to that employed by citizens information.ie.
+The photos unfortunately lacked captions and coupled with the poor lighting and blurring made some largely unreadable.
+
+**Student Renting Site**
+Regrettably marks lost from the outset for readily remedied items: no title, programme/module title, page numbers, captions for screen shots, cross references, document structure. These are basics for any documentation.
+The work undertaken by each team member is welcome though I question if any software development was undertaken - perhaps low-fidelity prototyping but not soft dev.
+‘may now’ - be wary of basic grammatical/semantic mistakes. The description of the test subjects is sketchy. You should paint a clearer picture to underwrite their requirements and help describe the target audience.
+The task analysis question answers are poorly described making it difficult to understand how the system will function. For example, it isn’t clear how a prospective renter makes contact with or expresses an interest regarding a property. Also, how is renter commentary/rating on a property moderated - there are legal implications around possible libel.
+Grammar - 'there are a new bunch of students’.
+Aside from the under-description of the system, I would welcome some greater ingenuity around the problem domain. For example, given the sometimes urgency to find accommodation you may have considered various mechanisms for finding a price point for landlords. For example, airlines use models to dictate what the price should be. In this instance, one could raise the price as term time approaches. Or perhaps a dutch auction or a bidding process. This would help distinguish your offering and offer some USP.
+Some technical innovations could have been suggested - for example, your phone/browser can identify your location and help direct your foot journey about your prospective college environs. Admittedly, if the imagery is kosher, the deal may be sealed sight unseen.
+A flow-chart would have been useful to document the task process for both student and landlord.
+Pop-ups on web sites are either unwelcome or using extensions like ABP killed. In any case, on a home page they are un-necessary.
+The proposed screen designs lack captioning making it difficult to identify their place in the tasks. The ‘Create Listing’ screen is not well designed with poorly chosen drop-downs (e.g. none for no. bedrooms and ‘Rent’ where it should be a radio button), a single line for ‘full’ address. More importantly, I cannot discern the flow from one screen to the next.
+On ‘Registration Page’, what purpose do the image placeholders serve? There should be information here ‘selling’ the need to register. What is your service, how is it better/safer/quicker/cheaper?
+Overall, the proposal is under specified. There are elements that I would expect to see that are not present. For example, for those seeking accommodation (and this word is spelled incorrectly!) you could offer sliders to indicate chosen rent cost range, or number bedrooms (in the case of a house), or distance from a chosen point (typically the college). I didn’t see a map - surely this is useful?
+I do welcome the mockups and you obviously have given Balsamiq a good test drive which is to be commended. There is certainly evidence of work here and that is acknowledged. I would recommend rehearsing the user needs more closely ahead of further work though.
+
+**Susi**
+Good title page, roc, layout, figure captions though page numbers missing (curious given the toc). Good introductory overview though more concerned with proposed remedies than recap on issues arising. ‘Facultative’ - new one to me! Some good observations and discovery documented from the contextual enquiry.
+There is good reflection on the mobile use opportunity and the possible remedies to that use case, though I’m unsure of the distinction between your definition of ‘adaptive’ and ‘responsive’. 
+Fig 2. The sequence of sub-task items and their relationship with a main task could be better underscored by careful shading to reinforce the relationship. 
+Ticketing support is a useful addition and should also help align support efforts efficiently. The proposed implementation would appear to be conducted totally within the Susi system. However it might be more typical for certain actions (confirming resolution) to be initiated from sent emails. Such detail could well be added though the overall proposal is reasonably well articulated.
+The coloured alert bar is well placed and a well understood convention at this point.
+Fig. 4 doesn’t resolve how the UI will manifest itself on mobile but is nonetheless welcome. 
+Overall, a very good report.
+
+**Print Service**
+Good presentation, title, page numbers, roc, integration of designs with text commentary. Good solid overview. Traits are probably not what you’re seeking - these are distinguishing characteristics of an individual. You’re looking for representative behaviours and backgrounds. Your descriptions of these users is good and reflects the user base well. The description of the conduct of the interview is also very good.
+‘What tasks are desired’ - could this be expanded? For example, ‘where’s my job?’, how much do I print, can I bulk buy etc., can I sell back credit? ‘Relationship with data’ would cover things like authentication of the user, perhaps signalling a possible ‘pay as I go’ payment system? How about the system suggesting a suitable printer to accommodate document page size or volume or colour or current availability or location or speed? As for support, how about online chat (e.g. Zopim).
+My overal impression is that a system such as this should be largely unobtrusive. Following a print request, the system would prompt for your chosen printer based upon your location and perhaps the type of document (paper size/colour/quantity). You need not necessarily restrict your choice of printer based on your location given that you’re on a network. A map would be a useful mechanism for this.
+I’m unsure about your rationale for not designing an online top-up provision as this is a necessary part of the printing process.
+The input controls for choosing ‘Printer’ and ‘black-white / colour’ are inappropriate indicating links rather than state changes. This part of the work is under-developed and doesn’t represent a substantial improvement (appearance notwithstanding) in task support.
+There are parts of this document which are markedly better than others - perhaps a more coordinated team effort might remove these ‘steps’ in quality.
+Overall, a good effort but the proposed redesign is somewhat underwhelming.
+
+**Media Player**
+Single Page submission only (by one individual), no reference to rest of group who submitted nothing. All contacted X2 by email and individually asked Mon/Tue 26-1-14, regrettably no response forecoming.
+----
+Text: 
+###Overview
+
+In this assignment you will use the contextual inquiry methodology to learn more about the work practices of your target users. The interviews will help you perform a task analysis of your idea. Finally, you will design sketches (screen mockups) of your proposed user interface. CA2 is worth 20% of HCI401. Consult the class calendar for due date.
+
+####Requirements
+
+* Interview at least two (2) target users (not class members) using contextual inquiry. Use a usability interview consent form.
+* Answer the standard task analysis questions.
+* Analyse new and existing tasks. Describe six (6) tasks in moderate detail that users will perform with your application. There should be two (2) each of easy, moderate, and difficult tasks. Compare and contrast your tasks with any existing tasks.
+* Based on your analysis and tasks, explain your proposed interface. Describe in text and support your description with  sketches of important screens. You may need to use several sketches in sequence and properly annotated to convey the dialog with the program.
+* Choose one each of your easy, moderate, and difficult tasks and develop a scenario for each, total three (3), that describes how they will be performed using your user interface.
+
+####Deliverable
+
+You will submit by email a printed essay of approx. 2500 words. Your essay should follow the outline below.
+
+* Each team member’s name, student ID, programme stream and role.
+* Problem and solution overview (100 words)
+* Contextual inquiry interview descriptions and results (600 words)
+* Task analysis questions (500 words)
+* Analysis of new and existing tasks (800 words). Six (6) tasks your application will support (2 each of easy, moderate, difficult)
+* Interface design (400 words): Functionality summary (what you can do with it) User interface description and sketches (how you use it) * Three (3) scenarios of example tasks with sketches
+* Any additional sketches
+
+###Writing Guidelines
+
+####Problem and solution overview
+
+This overview should be a concise statement of the problem you are tackling and a brief synopsis of your proposed solution. The intent is not to fully recount work completed in CA1 but to summarise the discovery made to this point.
+
+####Contextual inquiry interview descriptions and results
+
+Describe the rationale behind your choice of target users. For each of the two users, give some details of their background, the environment where you observed their work, and your role as the “apprentice”. Identify tasks and themes that the users shared in common in their work practices. Then, note anything unique about each interview and comment on the rationale behind these events.
+
+####Task analysis questions
+
+Answer the standard task analysis questions – Who? (e.g. background, skills, physiology) What? (task now/desired, interaction with: people, objects, data) Where? (environment, static/mobile) Why? (motivations - intrinsic/extrinsic) When? (timing, frequency). Use examples from your interviews when applicable.
+
+####Analysis of new and existing tasks
+
+Next, you need to analyze the new and existing tasks. These should be real world tasks replete with details (e.g., programming the VCR to watch 'The Simpsons' on Tuesday). The tasks identified should be realistic, grounded in your analysis of the problem domain and confirmed through your interviews. In selecting the tasks to document, you should avoid trivial or well documented tasks such as 'Login' screens. Equally, even the 'easy' tasks have to justify your design effort. Don't ignore the possibility of taking a perceived difficult task and making it an 'easy' one by respecifying a design goal. For example, the task of invoking a backup task could be radically simplified by having the system monitor change patterns in files and more regularly backup those regularly changed files automatically.
+
+####Interface design
+
+Give a rationale for your design ideas. This section should clearly indicate the functionality of your artifact and what the user interface will be like (described and sketched — references the figures in your text). You should then describe three scenarios of how someone would use it to accomplish three of the tasks above. Scenarios include the steps users will go through to accomplish the task. You should include “storyboards” of the sequences described in your three scenarios. It is important that the sequence of actions necessary to progress the task is clearly evidenced in your mockups. Pay particular attention to labelling, annotations of screens, numbering and referencing in the text.
+
+####Marking Scheme
+* Contextual Enquiry (20 marks)
+* Task Analysis questions (10 marks)
+* Analysis of tasks (25 marks)
+* Interface Design (30 marks)
+* Document Preparation & Presentation (15 marks)
+
+####Submission
+
+Please submit your document as HCI401 CA2 TITLE AB CD EF where X is the part number and AB, CD, EF are the initials of the group members and TITLE is the working name for the application.
+
+<div class='alert'>
+Click (link: http://www.jotform.com/form/20510407093 text: here popup: yes) to upload.
+</div>

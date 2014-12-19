@@ -1,0 +1,26 @@
+Title: FA1:
+
+----
+
+Description: Formative Assignment 2 on classes
+
+----
+Session: Semester 5 (2013-14)
+----
+
+Text:
+
+A simple (simpler than FA1) app that 'races' cars.
+
+(image: img1.png title: screenshot)
+
+* Begin by creating a simple UI modelled on the screenshot.
+* Then create a **Car** class to represent the racing car. A **Car** has a cc (engine size) and a 'name'.
+* A slider is used on the screen to represent the movement of each **Car** along a track.
+* The movement along the 'track' is progressed on the **Tick** event of a **DispatcherTimer**.
+* Use a **Random** class object to decide on how much each **Car** moves.
+* On each **Tick**, check to see if any **Car** has won.
+
+----
+practices:
+####[Solution](https://github.com/itsligo/car_race)

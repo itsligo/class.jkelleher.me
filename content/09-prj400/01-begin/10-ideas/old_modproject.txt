@@ -1,0 +1,235 @@
+Title: Ideas
+
+----
+
+Description: PRJ400 Ideas
+
+----
+Tags: ideas
+----
+
+Text: 
+#####Some of these ideas have been done recently and some not so. Most can be re-interpreted to take the idea in a different direction. Most can be scaled to suit both Ord. and Hons. levels.
+
+####Community Placemaker
+An innovative idea put forward by a local businesswoman looking for a team or talented individual to build out a real, live solution. The system would perhaps involve Wordpress or similar and let interested parties post photos of sites with potential - for example, a derelict building that could be rejuvenated to become a cafe or community centre. The site would play host to architects putting forward examples of their works, community activists highlighting the potential of a site or premises as well as interested parties who could vote ideas up or down.
+Consult Una L'estrange or John Kelleher for more details.
+
+####Pregnancy Monitor
+A phone app is required to monitor pregnant women in rural India.
+
+Women register with the system through an interview with a doctor/medical officer and the following information is elicited and stored.
+
+- personal  details (name, address (village), gps of village, photograph, fingerprint)
+- basic medical details ( e.g.  blood group, allergies, number of previous pregnancies,  existing medical conditions ..)
+- notes on previous pregnancies  ( date, outcome, e.g. type of birth,  notes on any previous complications)
+- details regarding this particular pregnancy ( date of registration, expected due date, ..). 
+- Other involvement with Samuha schemes ?
+
+On each visit a number of indicators are monitored which are associated with the basic personal record. ( date of visit, size, foetal heartbeat, ketone level, blood sugar level, evidence of infection, ….general comments…. Etc.) 
+
+If a scan is carried out, a record of this is also stored (date, scan image, comments). Patients records can be located via the gps or name of the village, and then by name or by fingerprint recognition.
+
+Data can be stored on or offline. A cloud-based database can be updated. Practically speaking it would be good for a medical team to download the section of the database regarding the women they are visiting that day, and upload changes later?
+
+Alerts can be built into the system, as the medical team sees fit:
+
+- Women near due date in a particular area,
+- Women with particular medical conditions or complications who might need specific attention
+- Records are also kept of the birth which could be accessed for subsequent pregnancies.
+
+Some Initial Questions:
+
+- Do other medical records exist that could be retrieved? 
+- Is there a particular interface to a GIS  system that is used like the one just sent?
+- What phone platform would be most useful – I assume android from this?
+
+####Business Simulation
+
+Real Live Business environment, eg Gym as the business with the 3D simulation. You as user can browse through the GYM, and all items within the GYM, such as equipment, Fixtures, Stocks,. Its possible to identify what is meant by assets through visually browsing of the 3d environment
+Also have scheduled Events running through the Month of the business:
+New members ie adding to/ generating Sales  month, year to date totals
+Staff wages
+Expenses for the month such as Light & Heat, telephone
+Running totals on Profit & loss ie Sales less expenses
+and also on Balance sheet ie Assets/ Liabilities/ Capital
+Consult reynolds.gary@itsligo.ie for more details.
+
+####Low-Vision System tablet app
+Scientific calculator for visually impaired customisable for level of visual impairment. Might be a bit small but could possibly work as one of a suite of apps (on whatever platform suits).
+
+####Local Water Safety Registration and Management System
+A system is required by a local group organising water safety classes. The system should include the following functionality:
+
+####Student registration system
+System to register students for specific qualifications
+Maintenance of student records detailing student qualifications
+Trainer registration and assignment of trainer to classes
+Maintenance of trainer records detailing qualifications and training experience
+Timetabling system
+Entry of exam results and printing of exam records
+Printing of Reports
+Based on last years software engineering assignment, a fully analysed, coded and tested system will be required. It should be based on a SQL server database and coded in C#. User interface design will be very important. Speak with Therese Hume (hume.therese@itsligo.ie)
+####Secure Car pooling system for IT Sligo
+A car pooling management system utilising GPS coordinates and a map system to enable car pooling to and from the Institute. A crucial aspect of this system would be authentication and security, basically so that people would know who they were giving lifts to. A linked smartphone app that
+might also deal with people who needed a lift from a certain point in real time. Speak with Therese Hume (hume.therese@itsligo.ie)
+####Arduino
+Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software. It’s intended for artists, designers, hobbyists, and anyone interested in creating interactive objects or environments. A beginners kit costs <€100. A version is also available called Netduino that use the .NET Micro Framework so can be programmed directly from Visual Studio in C#. Chernoff Faces The point of Chernoff Faces is to display multiple variables at once by positioning parts of the human face, such as ears, hair, eyes, and nose, based on numbers in a dataset. The assumption is that we can read people’s faces easily in real life, so we should be able to recognize small differences when they represent data.
+
+####Google Calendar Manager
+
+A particular facility of Google Calendar is to manage multiple calendars per account. These can be ‘shared’ with other Google users. However currently (Jun07) the publishing of a merged view of multiple calendars isn’t supported (at least not officially). Your program (web hosted or client app) would provide a means of managing the array of possibilities that Google Calendar brings.
+
+####Internship/Graduate Placement System
+
+Allow authorised students submit and or update their CVs (stored in xml format). Management system for the coordinator to include
+
+- Notification system
+- Logging System
+- Management Reporting System
+- Allow authorised students submit and or update their CVs (stored in xml format)
+- Allow authorised partner companies search database using different criteria
+- Management system for the coordinator to include
+- Technologies used will include: SQL Server, Exchange Sever *& .Net development
+
+####Financial Services Administration System
+
+- Recording financial applications
+- Recording client personal data
+- Recording client personal data
+- Downloading Vendor Offers
+- Accounting Module
+- Technologies used will include: Microsoft Access, VBA
+
+####Elevator Simulator
+
+Design and implement a simulator to illustrate the sequencing of elevators visiting floors. For example, elevators should be aware of requests from different floors, current loads, and other elevators and their positions when deciding whether to ascend or descend. Your program would simulate arrival of persons, their requests, priority floors, predicted traffic levels for particular days and times of day and perhaps ‘learn’ from the patterns of traffic observed throughout the day/week. This project is suitable for both 3rd and 4th years but could easily be embelished to provide a more informative and interesting interface showing the elevators in motion and statistics as the simulation runs.
+
+####Air Traffic Controller Game
+
+This involves the simulation of airplanes arriving at a specific airport (not the navigation of airplances between airports – done recently). The task for the player of this game/simulator is to manage the safe descent of multiple randomly arrving airplanes through several levels of ‘parking’. Consideration may have to be given to emergency landings, the risk of running out of fuel if left ‘parked’ for too long, weather problems (fog etc.) and the impact thereof, runway closure due to accident or any number of real-life issues. The suits both 3rd and 4th years but at 4th year one could graphically enhance the game to make it more engaging.
+
+####Home Audio Server
+
+Web based interface to large collection of audio files and/or images. The interface should allow users to browse the files in a variety of ways, and initiate streamed audio sessions.
+
+####Kitchen Planner
+
+Kitchen design tool allowing the placement of various kitchen units (with various door panels, colours etc.) along a specified space. System would render the scene in 3D using DirectX or OpenGL.
+
+####DooYoo.co.uk Clone
+
+Site to provide independent review/evaluation on goods and services. Forum to relate bad experiences, shoddy work and recommendations of everything from builders and books to restaurants and cafes.
+
+####Childrens Game
+
+Educational game to help young children (<10) practice their sums tables and spelling. Must use speech recognition (libraries available) to ‘hear’ the child’s answer. A game would be used as a vehicle for the exercises. Alternatively, check out educational/puzzle solving games from www.popcap.com, particularly Bookworm.
+
+####Used books Brokerage
+
+Web site to handle the buying and selling of second-hand text books. It is envisaged that this project be fully rolled out to the students of the college and as such would require great attention to detail. Probably involves ASP.Net or similar.
+
+####Biometric Analysis Program
+
+Takes digitised images of faces (from an arbitrary distance). Works (I believe) by taking key measurements between features on the face. The ratio of these distances from one another serves to distinguish one face from another.
+
+####Automated Web Surveys
+
+System to permit the placement of an online web questionnaire/survey and accompanying analysis.
+
+####Kiddies First Program.
+
+Simple (for the child) first program displaying elementary shapes and colours for a child of 3-4 to interact with using a mouse. Careful attention must be paid to ease of use. Must be entertaining and not overtly repetitive.
+
+####Query Engine
+
+Innovative query engine for a particular use. E.g. selecting a house from a large list according to multiple criteria. Alternatively, a film database could be interrogated. The actual querying can be easily handled by a pass-through SQL statement. The challenge would be in the design of an interface to handle multiple criteria (AND/OR) in an intuitive fashion.
+
+####Backup Program
+
+As per standard backup programs. Involves use of some compression technology, e.g. ZIP, LZW. Possibly incorporating security features a la encryption. Must incorporate selective inclusion of files and probably incremental backups.
+
+####Family Tree Organiser
+
+Web application that would allow a group of people to create a family tree. It should be possible for any of group to:
+
+- add new members to the family tree
+- add information (e.g. pictures/text) about any member of the tree
+- join two pre-existing family trees together (if appropriate)
+- easily create links between stores/pictures e.g. dyamincally create an image map that would allow clicking on a picture bring you directly to a member’s link.
+
+####OCR (Optical Character Recognition)
+
+Using a camera shot (from camcorder or scanned photo), analyse letters (probably typed) to decipher the alphabetic character. One solution is to lay down a grid over the bitmap and compare the number and position of the ‘black’ and ‘white’ blocks to a stored template for each character. Can be enhanced to accommodate multiple typefaces, different sizes, italics etc.
+
+####Wallpaper and Paint Estimator
+
+Input dimensions of room and accurate calculation of paint volume and rolls of paper produced. Should be extremely user friendly for use in shop, perhaps by customer. Must accommodate room features such as windows, doors, wall fixtures, dormer windows etc.
+
+####Parking Lot Optimiser
+
+Permit user to describe shape of car park and provide plan of best arrangement of parking bays to optimise capacity and freedom of entry/exit.
+
+####Traffic Light Planner
+
+Allows user to enter description of various junctions and traffic flows. Provides assistance in the positioning of traffic lights and the timings thereof.
+
+####Traffic Flow Planner
+
+Allows user to enter measures of traffic flow at various times of day and for different parts of the town. Then permits user to view the actual flow visually in a simulated ‘blimp’-view (overhead) of the town to better understand the interplay between various trouble spots.
+
+####Weather Forecast Animator
+
+System to provide for the preparation and animation of weather fronts and placement of weather symbols.
+
+####Web-Based Crossword
+
+Children crossword puzzle which runs via the web. Random Crossword will be generated and user will be given clues with also the possibility of choosing an image as a further clue. Administrator will be able to set clues and link images. Development: Java
+
+####Encryption Utility
+
+Encrypt files, groups of files and file types. E.g. Trucrype open source application.
+
+####Internet Usage Monitor
+
+Hidden program which will monitor a users Internet usage. Sites visited, times logged on, downloads made etc. Should also be able to detect sites with certain “key” words which the administrator can enter in a database.
+
+####Steganography
+
+Encryption of a message within a routine sound file (wav, mp3 etc.). The program would enable the recording of the secret message within the normal sound file rendering it inaudible without the program to extract (filter) it. Perhaps integrate into an SVG file (see next).
+
+####Stop-frame animation tool
+
+Connect with a web-cam to devise an interface suitable for children to develop stop-frame animations.
+
+####Patchwork Quilt arranger
+
+Program would allow designer to preview full screen impression of particular pattern. Would provide for importing of swatches (samples) of material and render this full size and according to pattern. Would also allow user to modify pattern.
+
+####Stock Price Monitor
+
+Based on novel interface to show overall impression of movement in the stock market and across particular cross-sections of the market (e.g. telecoms, pharma, minerals). Colour coding would show market movement and market share would be represented by sizes of squares representing each company. This interface is available freely on the net but your project would implement it. Similar system at www.smartmoney.com/marketmap or sectormaps.
+
+####House-finder
+
+Novel interface to assist house buyer find preferred property. Would be primarily graphical showing filtered houses on a map represented by dots. Would permit selection according to criteria.
+
+####Chemistry Tutor
+
+System to permit student to ‘work’ with standard chemistry equipment assembling components to conduct experiment. Would provide realistic feedback according to actions taken. E.g. bubbling when magnesium placed with water.
+
+####Magic Lens
+
+System of representing a map whereby the user can select one or more ‘lenses’ or child windows which when moved across the map, would reveal either electrical conduits, gas mains, water pipes, or sewer pipes. Could choose two lenses to reveal two items.
+
+####Golf Putting
+
+Simulation game to show movement of golf ball across undulating greens.
+
+####Electronic Voting
+
+System to accommodate electronic voting in polling centre or alternatively across web.
+
+####Air Traffic Control Simulator
+
+Simulation game to show arrival and landing of aircraft at busy airport. Program would generate emergencies and show ‘radar-like’ display of airplanes ‘stacked’ above airport.

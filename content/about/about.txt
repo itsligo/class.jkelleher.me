@@ -1,0 +1,35 @@
+
+Title: About
+
+----
+
+Description: John Kelleher short bio
+
+----
+
+Col1:
+### Lecturing
+My main interests are:
+
+- software development
+- user experience design
+- front-end development
+- web design and development
+- css,js,php,cms (WP, Processwire)
+- client-side JS frameworks (Angular)
+- arduino, gadgeteer micro-controllers
+----
+Col2:
+###Other work
+I am currently programme chair for Software. I administer third and fourth year projects across three programmes - software, games & web dev. If you have an idea for a project or have an interest in having some students take a look at a problem, contact me.
+
+I also entertain collaboration with industry in differing aspects of software/hardware development. Or if you have an interest in undertaking post-graduate work or industrial partnership, feel free to make contact.
+
+####Student Queries
+Students are welcome to meet me for queries and arranged project meetings at the following specified times:
+ 
+ * Monday 11-1:30
+ * Thu 12-1:30
+ * Fri 11-1:30
+ 
+Do note however that most queries have their answer on this site so please consult it in the first instance.

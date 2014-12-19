@@ -1,0 +1,30 @@
+Title: s00111947 PRJ400
+----
+Shortdesc:
+A 3D superhero style RPG
+----
+Description:
+I will be developing a fully open 3d world style RPG(Role Playing Game). I will be developing the game in Unity using C#. I plan to have a character and class creation system and a set area of an open world free to explore. You will level up different powers and abilities through playing and there will be a set amount of missions. I will be creating my own assetts for the game and will be doing all of the coding myself.
+----
+Tags: Unity, Game, C#
+----
+Names:Stephen Lavelle
+----
+StudentIDs:S00111947
+----
+prjurl:http://s00111947prj400.wordpress.com/
+----
+gitrepo:N/A
+----
+Programme:B.Sc. Computing (Software) Yr 4
+----
+Supervisor:Paul Powell
+----
+Primaryarea: Unity
+----
+Primaryos: Windows PC
+----
+Primarytechnology: Unity3D
+----
+Secondarytechnology: C#, possibly 3ds Max
+----

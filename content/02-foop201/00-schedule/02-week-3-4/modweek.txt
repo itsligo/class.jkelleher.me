@@ -1,0 +1,50 @@
+Title: FOOP201 Lesson
+----
+Description: Classes, XAML, Random Class
+
+----
+Date: 2013-10-1
+
+----
+Tags: XAML, Timers, Iteration, Class
+
+----
+Text: 
+###Timer
+Just as introducing the Random class earlier helps to make apps more engaging, **DispatcherTimer** helps to enhance your applications.
+
+**DispatcherTimer** is a simple timer class for WPF. For a simple tutorial go [here.](http://zamjad.wordpress.com/2011/10/10/using-dispatchertimer-class/)
+
+A **DispatcherTimer** needs to have an **Interval** set and responds to the **Start()** and **Stop()** methods. The **Interval** property is of type **TimeSpan**. An event handler needs to be wired up to the **Tick** event to intercept it and handle any custom code.
+
+###Working with loops
+You will have worked with loops and iteration in previous semesters but here we'll build more complicated applications to tease out your ability to work with iteration. For example, we'll shuffle a deck of cards using our knowledge of Random and looping structures.
+
+###Canvas Layout Panel
+We won't use the **Canvas** control much but it makes for a very simple panel where you have a need for absolute coordinates - that is, positioning elements at specific x- and y-values. Read a little more [here](http://wpftutorial.net/Canvas.html).
+
+###More on Classes
+Classes form the basis for everything we do in OO programming so you'll need to know how to work with them from an early stage.
+
+* (link:http://www.slideshare.net/randyconnolly/oo-development-4-object-concepts text:OO Development 4 - Object Concepts")
+View more presentations from (link:http://www.slideshare.net/randyconnolly text:Randy Connolly)
+
+* Using Classes (link:http://msdn.microsoft.com/en-us/beginner/bb308750.aspx text:Randy Connolly) (Microsoft, with examples)
+
+* Introduction to Classes (link:http://www.dotnetperls.com/property text:http://www.dotnetperls.com)
+
+* (link:http://www.dotnetperls.com/this-constructor text:Constructor initialiser) and using **base** keyword (dotnetperls.com)
+
+* C#.Net Tutorials - (link:http://csharp.net-tutorials.com/classes/introduction/ text: Introduction to Classes)
+
+* Introduction to (link:http://www.csharp-station.com/Tutorials/Lesson07.aspx text: Classes) (CSharp Station)
+
+### Major C# Video Series
+Microsoft Virtual Academy [C# Fundamentals](http://www.microsoftvirtualacademy.com/training-courses/c-fundamentals-for-absolute-beginners)
+----
+practices:
+####[30-9-14 Launch](https://github.com/itsligo/launch.git)
+####[7-10-14 TeacherMarks](https://github.com/itsligo/TeacherMarks.git)
+####[Word Drop](https://github.com/itsligo/worddrop)
+####[Word Drop: Lect 8-10-13](https://github.com/itsligo/worddrop_class)
+####[Countdown](https://github.com/itsligo/countdown)

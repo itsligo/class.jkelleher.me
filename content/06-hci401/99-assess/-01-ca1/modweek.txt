@@ -1,0 +1,148 @@
+Title: CA1
+----
+
+Description: Investigation of UI
+
+----
+Session: Semester 7 (2013-14)
+----
+Alert:
+####Feedback CA1 ([Results](https://docs.google.com/spreadsheet/pub?key=0Avax7Tsevzx_dFpQY0FLNHpBUkNuZVN1WGliZVVtTEE&single=true&gid=4&output=html))
+I have provided commentary specific to each submission (below) but provide some general observations here also. Remember the marks available to this element of CA are relatively few but the points I make here will obviously impact more with CA2 and beyond.
+
+* Reports should be properly formatted and described. This includes inter alia, a title, perhaps sub-title, authors (including their Student IDs, programme of study, perhaps role), page numbers, appendix/ices & bibliography (where appropriate), diagrams (usually), footnotes (if appropriate), captions, table and figure numbering and referencing, headings, sub-headings, paragraphs. Spelling and grammar matter.
+* Good structure. You should try to build your case, beginning with an overview of your chosen domain, elaborating upon who uses what currently if anything, how it is received, how it leads to difficulties etc. Not all components will be relevant but often the reporting lacked a coherent beginning, middle and end. Particularly with groups it is necessary to keep a tight rein on the structure of your content.
+* Better diagrams - and captions. Better referencing of tables/figures/appendices etc. from your text.
+* Be restrained in your criticism. Be objective and substantiate your commentary with evidence - either your own (objectively discovered and empirically derived) evidence or (more typically) findings of others. Leave emotion and personal opinion behind - everything must be evidence-based. I understand your reading will be limited and allow for this.
+* Know the user - know the users' tasks. Be clear as to what the (proposed/current) will be asked to support.
+* Keep your focus. Some proposed systems were expansive and unrealistic (for perhaps political, financial or technical reasons). It might be tempting to demand that a particular system deliver many features in an effort to not be exposed to criticism for excluding anything. Design is a process of compromise - this is to be expected - and defended.
+
+**Gov.ie**
+Gov.ie
+Be wary of drawing attention to the fact that a single document may be an amalgam of work from several - the font/styles should match!
+There are some generalisations used - e.g. 'everything that needs to be explained should be explained in a very simple way' - that really need re-examining. These can amount to platitudes and need substantiating to be relevant or valid in this context.
+There are very few headings to aid in structuring your argument which makes for difficult reading but also hints at a lack of structure in your thinking.
+You set ambitious goals for this site's home page - 'considering that this is meant to show you everything you will need to know about our government it seems to lapse in a good few areas'.
+It's unreasonable for such a site to offer little more than a front-door that leads to more specific sites (like Susi). The trick here is perhaps to help visitors identify with their needs. This may be best achieved by having the site help identify the class of user, gradually channeling their needs to the appropriate site.
+However, you could also argue that visitors should be encouraged to 'explore' what the Government of Ireland is - perhaps its historical place, selling to FDI, encouraging tourism - this list needs examining and enumerating.
+Attend to the language you use: 'They have done great down in choosing the right platform'. Temper your criticism of the largely textual rendering by considering the accessibility issues which may underpin that choice.
+While a distinctive unified branding is desired to convey a impression of any business, a government is a different animal. Consider how many disparate sites are needed, emerging as they do to address need, over many years - should we restrict these sites to the original design of (say) 10 years ago - or should we update every site to emulate the design of the latest one?
+'Content front and center' - exception being Google - I think Google epitomised content front and center, no?
+'Solid colours, plain squares' - flat design? Is this fashion or a quantified improvement?
+While site availability is important, we are more concerned with design and usability in this instance.
+The its relevance is slight, your reference to Healthcare.gov (while an apparent mis-step) is (rightly) small but perhaps over-represented in the biblio. Include citations in the text where there is an entry in the biblio.
+'There should be proper clear and easy to read fonts with appropriate font weight' - you should be clear as to what you mean by this.
+Site is presented well in Irish/English, the official languages.
+Good to explore browser compatibility and mobile browsing. Should consider this for the redesign.
+No concrete proposals for the redesign. The criticisms levelled are not adequately substantiated or remediated. Only a single page (homepage) of Gov.ie was seemingly examined. The report could show greater understanding of the role of the site and the practicalities of governmental sites.
+
+**Media Player**
+Report should be labelled correctly, have author details, programme of study, dated, bibliography, page numbers, figure captioning and numbering, better structure.
+Initial paragraph describing product is confusing - unsure of purpose, catalog my media assets? portal to view/play those assets? purchase multimedia products? Product scope needs redefining. Is it a shop front?
+Your comparison with iTunes (and iTunes store), MediaMonkey, XMBC makes the purpose clearer but the criticism of these media managers doesn't convince me of your alternative's usp.
+For example, offering a different user experience from one section of your app/site (?) doesn't provide a consistent user interaction which would impede adoption.
+While business alliances are perhaps something to consider should you seek to commercialise a product such as this, they are not a concern immediately for our CA, given that it is largely a business consideration.
+Overall, not a convincing proposition. I don't see evidence of a full understanding of the domain space nor insight into a significant improvement to the user experience. The overall objective is expansive and the advantage to users not clear. It also might appear short-sighted to achieve the level of integration of these products across such a diverse field. ITunes has taken over a decade to reach its current (pole?) position and this largely achieved by virtue of phenomenal vertical integration of its products.
+There needs to be greater focus on the benefit to users. Also, the diverse constituents (music, games etc.) are consumed differently and have different characteristics that are not elicited here but perhaps should.
+
+**Student Renting**
+Initial finding of there being no sites catering for student rental not wholly accurate - rent.ie does provide listings by town/college. Be careful to fully substantiate all observations.
+Much of the information you recommend for your suggested site is already available on other sites and you don't draw attention to the deficits of these other sites - if any. 
+The characterisation of the user population is more like a list of tasks that a user may wish to undertake rather than observations around the users' experience, needs, competencies, use environment etc.
+Ironically, much of your proposed sample interfaces are screenshots pulled for rent.ie which you earlier say doesn't address the use cases. Hmm.
+While not wholly relevant, your criticism of landlords is supported by references to reports/findings. Keep objectivity in your arguments and substantiate your comments with adequate reference rather than opinion and conjecture.
+Much of the report concerns itself with a list of search criteria. It doesn't differentiate the proposed redesign by reference to missed opportunities with existing offerings. The emphasis appears to be on adding more features rather than fundamentally considering how the current tasks are satisfied. And this redesign shouldn't concern itself with superficial details like colour and font choices but rather understanding better how to support different classes of user across a range of well-defined tasks.
+Also, page numbers missing and report structure could be improved. Also, names and associated details of authors as well as programme of study etc.
+
+**Susi**
+Good initial appearance, structure, title page, page numbers, figure references (though captions welcome).
+Some book/article references esoteric and insufficiently defined but still welcome. Background information on the system and its justification set the tone well for the ensuing discussion.
+The inconsistencies and flaws in design of the current system are well developed and enumerated. Given the global audience of the system, the needs of disabled access are rightly examined and criticised (though it's best to resist personal opinion on the reason for this given the lack of any evidence - however tempting).
+The ability to drop data by an errant click is correctly criticised - data should be protected from accidental deletion. It would appear that many criticisms could be addressed by creating a better visual hierarchy to support the conveying of information in a logical fashion e.g. using larger typeface for key pieces of information (e.g. Student Name).
+The suggestion of a more two-way approach to the 'conversation' is probably an appropriate design goal and one which should dramatically alter the interaction for the better (if executed correctly!)
+In your redesign I would exploit the branding of 'Susi' on the home page by providing casual information about its role and what tasks are achievable rather than challenge the user to register before knowing if there is anything there of interest.
+Also consider mobile usage and make a call on whether it should be supported. While a redesign is not needed in CA1, you provide evidence of its direction. Be sure to re-examine this direction in CA2 when you'll map out the tasks to be supported and from there craft a design.
+Overall, a good answer (though perhaps too long) with points well enumerated and presented.
+
+**Print Service**
+Need title page for document, page numbers, better headings.
+You propose a photocopy re-design but then admit no need for UI - this would seem to be a very distinct separate project.
+Unsure of admission of no control of kiosk UI - seems that you are excluding some features or perhaps a case of domain not sufficiently defined.
+When giving a number of reasons for something, consider a bullet list for readability - first page has 1 heading and little structure despite covering a range of material.
+Your classification of user seems predicated exclusively on their computing ability and absence/presence of a degree - also some bold assumptions.
+Your analysis of the current system could employ screenshots or task descriptions to better point up the deficiencies.
+The criticisms you forward for the current system are often superficial and some not particularly credible - e.g. most people using a browser will know that an underlined text is a link to another page. However, good insights into language for foreign students and opening hours for part-timers.
+Some of your recommendations are trivial and others indistinct e.g. 4) of 'Overall look/feel'.
+Difficult to follow some changes as you refer to extant pages (e.g. 'Print' page) without showing what that looks like or how your changes would alter its appearance. The proposed sketches lack clarity and could be larger. Also, there is little discussion of task flow - what does the user do first, then next etc. to complete a task. And how will this change under your proposed system.
+Overall, be careful with spelling and phrasing, use better structure to arrange your information, provide clearer and better sequenced sketches/screenshots. 
+Extend your concern beyond the appearance and arrangement of links/pages. Consider the task flow and extend the feature set to better support the users' needs. Consider how best to serve the actual needs of the users. But also consider the other stakeholders - the service providers. There are needs there (revenue generation, security etc.) that need identifying and considering.
+----
+
+Text: 
+###Overview
+
+CA1 is a group project (teams of 4) concerned with analysis and early design of a given domain. You should first select a product for consideration, possibly from the following list. Consult the class calendar for due date. CA1 is worth 10% of HCI401.
+
+####Idea for Projects
+
+* Car Pooling
+* Clothes retail site
+* Photo ordering site
+* Photo (media) gallery
+* Music-download website
+* Tivo Inteface
+* Kiosk Image Printer
+* Guitar Tutor application
+* Online voting/survey site
+* Online assignment submission system
+* Home Media Server
+* Second-hand book site
+* Scanning software
+* Theatre Booking Application
+* Media Player Application
+* Selling Advertising Slots on TV/Radio
+* Telephone call show organisation
+* Flower Sales site
+* Video Editing Suite
+* Estate agency site
+* Online Arcade site
+
+Your assignment is to identify an application similar to one of the above to form the basis of a project for the remainder of the year. You will conceive, design, develop and evaluate an interface for your chosen idea. You should observe the need for good human-centered design in interactive computer systems and analyse problems that you encounter. Should you wish to choose one of the above ideas, a small penalty (3%) will be imposed - by way of encouragement to broaden the range of ideas.
+
+Given that this choice of idea is the basis for the rest of the assignment it is important that your choice of idea will require an interface of sufficient complexity to sustain your later work. If in any doubt, consult me or you may find (as has happened) you need to change ideas during the year and incur extra work.
+
+###Deliverables
+
+You will submit an report of approx. 10 pages of text with accompanying diagrams etc. in addition to this. It should follow the outline below.
+
+####Problem or Idea
+Describe the problem(s) that your project will seek to solve. Take the user’s point of view. Consider what the user’s goals are, and what obstacles lie in the way. Note the project ideas above are not problems—they’re solutions.
+Identify the kinds of tasks that you would foresee as necessary/useful to the user(s). Avoid vague goals – detail the many tasks that you expect such a system to support. Though it is reasonable for a given system to support a very limited set of tasks, in this instance, I favour more complicated systems that have a good range of supported tasks since this assignment will be expanded upon and needs an inherent complexity to support later assessment.
+
+####Analysis
+Characterize the user population that faces the problem you’re trying to solve. Give more background for the problem or new idea. It doesn’t just focus on the negative aspects of the current situation, but also identifies some positive aspects that may be beneficial to retain. A few salient examples from existing systems or work practices should be used to support those claims. Relate the user environment within which the proposed system will operate. Consider the user, their background, the tasks' data requirements, the environment of use, connectivity with other applications/users. Reflect on the other systems that your proposed system might/should integrate with and to what benefit. You need not provide a whole end-to-end solution –  instead you may wish to focus on part of the chain of tasks required to achieve an overall goal.
+You should consider alternative solutions currently available for this particular problem space and debate the relative merits/demerits of these.
+
+####Suggested Improvements
+Describe a possible solution to the problem—i.e., the interface that you envision, and how it will address the problem. You aren’t absolutely committed to your solution, since you may find after building and evaluating some prototypes that a wholly different solution will work better.
+Refrain from hardware solutions as these may be problematic to design/prototype later – focus on software solutions for which available prototyping tools will readily support. Be critical but realistic in your appraisal of competitive alternatives – do not overlook the reasons for current designs – elaborate on the insight these alternative approaches reveal so that you can better inform your future designs.
+Sketch your ideas – these can be very ‘rough’ and are readily disposable but will help articulate and communicate your ideas (to me as well as to your group and future users). Ensure these sketches are scanned clearly enough so that I can zoom and make out the detail.
+
+####Submission
+
+Please submit your document as HCI401 CA1 2013-14 TITLE AB CD EF
+
+where X is the part number and AB, CD, EF are the initials of the group members and TITLE is the working name for the application.
+
+<div class='alert'>
+Click (link: http://www.jotform.com/form/20510407093 text: here popup: yes) to upload.
+</div>
+
+Note: Your chosen concept here cannot be that drawn from your PRJ400 module.
+
+####Marking Scheme
+* Description of proposed domain/project (15 marks)
+* Analysis of user population (20 marks)
+* Analysis/Presentation of tasks performed/planned to perform (20 marks)
+* Identification/Presentation of necessary issues/problems and outline design (25 marks)
+* In-class Presentation (20 marks - individual mark)

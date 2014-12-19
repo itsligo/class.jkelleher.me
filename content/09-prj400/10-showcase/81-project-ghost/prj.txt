@@ -1,0 +1,32 @@
+﻿Title: Project Ghost
+----
+Shortdesc:
+A mobile augmented reality game.
+----
+Description:
+A mobile augmented reality game that allows the player to see virtual ghosts on real world and interact with them.
+----
+Tags: 
+----
+Names:Artur Assuncao Pinheiro
+----
+StudentIDs:S00150676
+----
+prjurl:
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Game Dev) 
+----
+Supervisor:
+----
+Primaryarea:
+----
+Primaryos: Android OS
+----
+Primarytechnology: C#
+----
+
+Secondarytechnology:
+----
+

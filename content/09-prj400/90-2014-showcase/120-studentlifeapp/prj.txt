@@ -1,0 +1,29 @@
+Title:StudentLife App
+----
+Shortdesc:An Android Application to help students keep track of their finances timetable.
+----
+Description:An Android Application to help students keep track of their finances and not to overspent in the month.  This will hopefully be achieved with the help of Voice Recognition. Also, a feature to enter your college timetable and will get a notification 10/15 before the class begins as to never miss class again. This feature will also include being able to enter project deadlines and receive notifications when they are near. 
+----
+Tags:Android App Java SQLite Student
+----
+Names:Patrick Cusack
+----
+StudentIDs:s00111260
+----
+prjurl:http://studentlifeapp.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea:
+----
+Primaryos:Android
+----
+Primarytechnology:Java/SQLite
+----
+Secondarytechnology:
+----
+

@@ -1,0 +1,35 @@
+﻿Title: Surgery Database
+----
+Shortdesc:
+Database for a dental surgery.
+----
+Description:
+The aim of this project is to create a database for managing a dental surgery. 
+It will enable:
+Booking (receptionists will be able to book and re-schedule appointments for doctors; concurrency requirements and transaction management issues are considered)
+Managing medical history (dentists will be able to create and edit entries in medical history) 
+Managing orders for materials and equipment (dentists and nurses will be able to submit requests for materials and equipment)
+Managing payments (receptionists will make entries for cash/credit cards payments and create claims for payments from HSE; the financial manager will be able to track which payments are paid by HSE and which are due)
+----
+Tags: SQL, T-SQL, SQL Server
+----
+Names:Jaroslaw Jablonski
+----
+StudentIDs:S00124251
+----
+prjurl:
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Development) Hons. Yr 4
+----
+Supervisor:
+----
+Primaryarea: Database Development
+----
+Primaryos: Windows
+----
+Primarytechnology: T-SQL
+----
+Secondarytechnology: 
+----

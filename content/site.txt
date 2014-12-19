@@ -1,0 +1,11 @@
+Title: John Kelleher
+----
+Author: John Kelleher
+----
+Description: lecturer, developer, part-time designer and collector of shiny new tech
+----
+Text: Hello World!
+----
+Copyright:
+
+© 2012-(date: Year) • Based on (link: http://getkirby.com text: Kirby)

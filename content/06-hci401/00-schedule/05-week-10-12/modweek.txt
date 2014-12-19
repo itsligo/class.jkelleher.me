@@ -1,0 +1,31 @@
+Title: Week 10-12
+----
+Description: Conceptual Models
+
+----
+Week: 10-12
+
+----
+Tags:
+
+----
+Text: 
+[Conceptual ](https://docs.google.com/presentation/d/1JFkDFqOCZMU6D_ils6vxRp4fAzmbpjl4-8ObTbYaZcg/pub?start=false&loop=false&delayms=3000)Model
+<iframe src="https://docs.google.com/presentation/d/1JFkDFqOCZMU6D_ils6vxRp4fAzmbpjl4-8ObTbYaZcg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+*   [Guidelines ](https://docs.google.com/file/d/0B_ax7Tsevzx_dXYwcWlPeWZaVWM/edit?usp=sharing)for Conceptual Model
+*   Techno-gibberish - Contextual Inquiry &amp; tacit knowledge ([video](http://www.howtogeek.com/94947/the-true-marvels-of-engineering-and-techno-gibberish-video/))
+*   Psychological Human characteristics ([Business Insider](http://www.businessinsider.com/100-things-you-should-know-about-people-2010-11?op=1))
+*   Anti-Mac [notes ](https://docs.google.com/presentation/d/1WAe9gPI1-10d0cf4ys2DGXE31T81iBNOS0ryVyXuwi0/edit?usp=sharing)- The [Anti-Mac](http://www.useit.com/papers/anti-mac.html) Interface( Gentner &amp; Nielsen)
+*   The [Myth](http://tafein2009.files.wordpress.com/2009/09/the-myth-of-metaphor.pdf) of Metaphor by Alan Cooper
+*   Interesting spin on [interface](http://www.cs.unm.edu/~dlchao/flake/doom/) for System  Administration
+*   [Lifeline](http://www.cs.umd.edu/hcil/lifelines/latestdemo/chi.html) demo
+*   Interface Hall of Shame ([iarchitect.com](http://homepage.mac.com/bradster/iarchitect/shame.htm))
+*   MS  Paper Clip [Payback](http://www.idleworm.com/tch/pclip.shtml)
+*   Contextual [Inquiry](http://wiki.fluidproject.org/display/fluid/Contextual+Inquiry) (alt [ppt](http://courses.ischool.berkeley.edu/i213/s09/lectures/i213-3.ppt)): SitePoint [article](http://www.sitepoint.com/article/contextual-enquiry-primer) (Gerry Gaffney)
+*   [Scenarios](http://infodesign.com.au/usabilityresources/scenarios/) (InfoDesign.com) and [Personas](http://www.usability.gov/how-to-and-tools/methods/personas.html) (usability.gov), (alt [Personas](http://www.webcredible.co.uk/user-friendly-resources/web-usability/personas.shtml), Webcredible.co.uk)
+*   OMS  [notes](https://docs.google.com/presentation/d/1FtZn4__h2uh8RyBsbOKofNEaMwnH5SM-tULQxbJXLOc/edit?usp=sharing) -The 1984 Olympic Message [System](/wp-content/uploads/hci/Olympic_Messaging_System_Gould.pdf)
+*   [Stalk](http://www.ddj.com/dept/architect/184413411) Your User  (Veen)
+*   [Everything is a ReMix](https://www.youtube.com/watch?v=yAmmtCJxJJY) (Kirby [Ferguson](http://www.everythingisaremix.info))
+*   Nest thermostat ([Technologizer](http://technologizer.com/2011/10/25/nest-its-the-ipod-of-thermostats/))
+*   xkcd on [web design](http://xkcd.com/773/)

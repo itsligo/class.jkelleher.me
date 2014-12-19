@@ -1,0 +1,29 @@
+﻿Title: Automated Web Surveys
+----
+Shortdesc:Automated Web Surveys that a user can create and then use.
+----
+Description:
+System to permit the placement of an online web questionnaire/survey and accompanying analysis 
+----
+Tags: MVC,EF,UI
+----
+Names:Thomas Connolly
+----
+StudentIDs:S00119500
+----
+prjurl:
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Development) Hons. Yr 4
+----
+Supervisor:Unknown
+----
+Primaryarea: WebSite
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: MVC
+----
+Secondarytechnology: CSS,jQuery,EntityFramework,HTML
+----

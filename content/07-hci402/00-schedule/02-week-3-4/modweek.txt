@@ -1,0 +1,19 @@
+Title: Week 3-4
+----
+Description: Design Principles
+
+----
+Week: 3-4
+
+----
+Tags:
+
+----
+Text: 
+####[<i class='icon-th-list icon-large'></i>    Design Principles](https://docs.google.com/presentation/d/1c1szjfNZJOzTAkrVZMqRaJyylqedYO_9H7n6D88FCNo/pub?start=false&loop=false&delayms=3000)
+
+*   Tog's First [Principles](http://www.asktog.com/basics/firstPrinciples.html)
+*   [Design Patterns](http://mashable.com/2011/09/16/ui-design-resources/) ([Mashable Tech](http://mashable.com/)) Or from [Smashing Magazine](http://www.smashingmagazine.com/2009/06/15/40-helpful-resources-on-user-interface-design-patterns/)
+*   Design Principles ([Gov.uk](https://www.gov.uk/designprinciples))
+*   A Crash Course in UX ([RichOakley.com](http://posts.richoakley.com/post/a-crash-course-in-ux))
+*   [Speed](http://blog.kissmetrics.com/speed-is-a-killer/) (Kissmetrics.com)

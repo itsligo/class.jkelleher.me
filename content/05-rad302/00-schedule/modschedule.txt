@@ -1,0 +1,11 @@
+Title: RAD302 Schedule
+
+----
+
+Description: Schedule for Rich Application Development 302
+
+----
+Session: Semester 6 (2014-15)
+----
+Text:
+#### We progress through the module in carefully charted weekly payloads. Each week has an accompanying set of exercises which are hosted on Github.

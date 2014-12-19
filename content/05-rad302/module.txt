@@ -1,0 +1,39 @@
+Title: RAD302
+
+----
+
+Description: Rich Application Development 302
+
+----
+Session: Semester 6 (2014-5)
+----
+
+Text: RAD302 (link: https://amm.itsligo.ie/module/webview/COMP/COMP07150/201300/999999 text:[syllabus]) focuses less on UI than its precursors and instead examines deeper database access issues, n-tier development, object-relational models as well as experimenting with model-view controller architecture patterns.
+
+This module is taught currently to BSc. (Ord.) Computing (Software Development) and B.Sc. (Ord.) Computing (Games Development), both in year 3, Level 7. The programming language is C# in the .NET environment with some detours into JS, jQuery libraries and JS frameworks.
+
+It follows on work completed in Rich Application Development (link:rad301 text:RAD301). The focus is on building n-tier applications using modern development frameworks and ORM (object-relational mapping) tools. While the abiding allegiance is towards C# and .NET, the offering is now increasingly agnostic and embraces a number of (now related) open-source technologies and practices. We'll touch on CSS frameworks (as earlier) and jQuery & related plugins. We'll also have some exposure to JS client-side frameworks (e.g. Ember, AngularJS) and Web API, and reflect on how the role of server and client is changing. Implicit in the delivery is the introduction of the role of design patterns and their significance and implementation.
+
+I will retain Entity Framework (currently version 5) building on exposure to LINQ in (link:rad301 text:RAD301). I will also use localDb and SQL Server but may use the Azure cloud offering instead of local servers.
+
+Remember this is a short semester ahead of work placement so it is important that you consolidate your knowledge from (link:rad301 text:RAD301) ahead of tackling the concepts within this module.
+
+**Recommended textbooks**:
+(image: http://www.manning.com/palermo3/palermo3_cover150.jpg class:img-right img-rounded width:130 alt:Manning link:http://www.manning.com/palermo3)
+ASP.NET (link:http://www.manning.com/palermo3/ text:MVC 4 in Action) (Manning, 2012) - a thorough but reasonably demanding treatise of the subject.
+
+Two specific online resources worth mentioning are [W3Schools.com](http://www.w3schools.com/aspnet/mvc_intro.asp) and MS's ASP.NET MVC [Getting Started](http://www.asp.net/mvc) pages.
+
+(image: rob-miles-yellow-book.jpg class:img-left img-rounded  width:130 text:C# Yellow Book link:http://www.robmiles.com/c-yellow-book/)
+Rob Miles' (link: http://www.robmiles.com/c-yellow-book text:CSharp Yellow Book) is now a classic and updated to XAML for 2012. There is much to interest you at Rob's site, especially those working in Games or Arduino/Gadgeteer - highly commended.
+
+(image: pluralsight.png width:130 class:img-right img-rounded link:http://pluralsight.com/ alt:Pluralsight) offers (paid-for) subscriptions covering a tremendous array of languages including all the material covered in this module. Subscriptions can be bought by the month and so affordable. Currently your [Dreamspark membership](https://www.dreamspark.com/Product/Product.aspx?productid=21) offers you a number of months free.
+
+(image:http://ecx.images-amazon.com/images/I/51IoEQ1rzcL._SL160_AA160_.jpg link: http://www.amazon.co.uk/Pro-2010-Experts-Voice-NET/dp/1430272058/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1284398216&amp;sr=8-1-spell alt:Pro WPF, Apress, 2008 class:img-left img-rounded width:130)
+(link: http://www.amazon.co.uk/Pro-2010-Experts-Voice-NET/dp/1430272058/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1284398216&amp;sr=8-1-spell text:Pro WPF) provides very comprehensive coverage  of all aspects of WPF. It does not deal with C#.
+
+(link:http://www.murach.com/index.htm text:An excellent book on C#) at this level is Joel [Murach]()'s book Murach's [C# 2010](http://www.murach.com/books/cs10/index.htm). It is current with developments in .NET 4.0 and works well for those  not too confident with C#. Murach's approach is unique presenting topics example  by example in a very clear layout.
+(image:http://www.murach.com/images/cs10download.jpg link: http://www.murach.com/books/cs10/index.htm alt:Murach Press class:img-left img-rounded width:130)
+
+(image: programmers_heaven.jpg alt:Programmers Heaven link:http://www.programmersheaven.com/ebooks/csharp_ebook.pdf class:img-right img-rounded width:130)
+Programmers' Heaven free [ebook](http://www.programmersheaven.com/ebooks/csharp_ebook.pdf) is a  first class resource for C#. There are other resources at this site (C# School)  that are suited to beginners. Do note that this book however covers only some  aspects of .NET 2.0. Beware of this issue since many resources on the web on C#  target .NET 1.1 or earlier whereas many new changes in 2.0 render earlier  material obsolete.

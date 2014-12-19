@@ -1,0 +1,49 @@
+Title: Prototyping
+
+----
+
+Description: Prototyping Tools
+
+----
+Session: Semester 8 (2014)
+----
+
+Text:
+![](http://t0.gstatic.com/images?q=tbn:ANd9GcSs5r4iVbqOI8wlpeeRO2qeuvQjnWQRfKR2wyxVRyBAjzjWEzeiaQ "Prototyping")Prototyping is where you produce a limited, incomplete version of your product be it a software application, web site or item of hardware. By definition, the prototype is often lacking many features of the final, hoped for, solution but provides a tangible usually interactive product which helps stakeholders to identify with the direction the design is taking. The key ideas behind prototyping is that the effort to produce one is very limited so that ideally several prototypes can be produced at little cost (both time and money). This help drive design discussions and gives an opportunity for both designers and users to get 'hands-on' with something approximating the eventual product.
+
+The production of the prototype should not be at as high an engineering level as that used to create the final solution. For example, in software, you would not use the programming language intended for the production release to create the prototype. Indeed, for web and client software development, it is becoming popular to employ paper-prototyping as a means of teasing out possible designs or 'exploring the design-space'.
+
+For your particular prototype you will need to identify suitable prototype-development tools that best help to illustrate your design choices. For example, [Powerpoint](http://www.istartedsomething.com/20071018/powerpoint-prototype-toolkit-01/) can actually work quite well to illustrate many software applications including web apps. Microsoft Expression Blend has a feature called [SketchFlow](http://www.microsoft.com/expression/products/sketchflow_overview.aspx) which is dedicated to creating prototypes for apps, particularly those using [Silverlight](http://www.google.ie/url?sa=t&amp;source=web&amp;cd=4&amp;ved=0CDAQFjAD&amp;url=http%3A%2F%2Fsilverlight.net%2F&amp;ei=sitmTpb_I8-q8AOXj5mSCg&amp;usg=AFQjCNEf21KHcLcFdVhG-T9tmTzP6Np3fg). For web applications as well as software, there are many [wire-framing products](http://www.google.ie/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CEYQswYwAA&amp;url=http%3A%2F%2Fwww.smashingmagazine.com%2F2009%2F09%2F01%2F35-excellent-wireframing-resources%2F&amp;ei=0StmTt__EZHm-gaV5NCaCg&amp;usg=AFQjCNE7IpJju0svOpfWmseZLQSdwiLMzw) (and [others](http://spyrestudios.com/15-quality-web-based-applications-to-create-mock-ups-and-wireframes/)) which assist in making concrete your design decisions.
+
+Alternatively, you can use [sketching and wireframes kits](http://www.smashingapps.com/2011/02/02/50-free-web-ui-mobile-ui-wireframe-kits-and-source-files-for-designers.html) to give accurate images of typical controls to use for mocking up prototypes. Either print them out or arrange them to specify a proposed interface layout.
+
+#### Outline of the prototyping process
+
+The process of prototyping involves the following steps
+
+1.  Identify basic [requirements
+](http://en.wikipedia.org/wiki/Requirement "Requirement")basic requirements including the input and output information desired. Details, such as security, can typically be ignored
+2.  Develop Initial Prototype
+initial prototype is developed that includes only user interfaces
+3.  Review
+The customers, including end-users, examine the prototype and provide feedback on additions or changes
+4.  Revise and Enhance the Prototype
+Using the feedback both the specifications and the prototype can be improved. Negotiation about what is within the scope of the contract/product may be necessary. If changes are introduced then a repeat of steps #3 and #4 may be needed
+
+#### Prototyping Supports/Tools
+
+Powerpoint Prototyping toolkit (courtesy: [istartedsomething.com](http://www.istartedsomething.com/))
+
+SketchFlow (part of [Expression Suite](http://msdn.microsoft.com/en-us/expression/))
+
+[![SketchFlow](http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-01-44-28-metablogapi/1016.Blend_5F00_15978A55.png "SketchFlow")](http://www.microsoft.com/expression/products/sketchflow_overview.aspx)
+
+[Powerpoint Toolkit](http://www.istartedsomething.com/20071018/powerpoint-prototype-toolkit-01/)
+
+![](http://www.justinmind.com/img/wireframe-interactive "justinmind.com")
+
+[justinmind.com](http://www.justinmind.com/prototyper/features-build)
+
+[Codiqa](www.codiqa.com)(image:http://codiqa.com/static/images/v3/why/simple_interface_image.jpg)
+
+[ConceptBoard](http://conceptboard.com/)(image:http://www.finsmes.com/wp-content/uploads/2012/01/cb_logo.jpg)

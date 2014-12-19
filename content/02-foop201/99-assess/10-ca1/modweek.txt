@@ -1,0 +1,14 @@
+Title: CA1
+
+----
+
+Description: FOOP201 CA1
+
+----
+Session: Semester 5
+----
+
+Text:
+
+Download and complete (link: FOOP201CA1.pdf text:CA1) here by date on class calendar.
+You must delete the bin, obj and debug folders before uploading your zip file. Unzip to ensure you have a working program.

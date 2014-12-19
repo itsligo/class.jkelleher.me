@@ -1,0 +1,31 @@
+﻿Title: FunPlay
+----
+Shortdesc:
+Mobile Application and website for children to play games and learn.
+----
+Description:
+The aim of this project is to help young Children (6 - 10yrs) improve on the learning capabilities when the come home from school, instead of spending hours playing the Playstation 
+they could go on to their parents tablet or smartphone or the computer and play exciting and fun games while at the same time learning through puzzle solving, adding and subtracting sums as part of a game etc.
+----
+Tags: HTML, CSS, MySQL, Android OS, Javascript, Java
+----
+Names:Killian Smith
+----
+StudentIDs:S00121125
+----
+prjurl:
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: Mobile app development/Website
+----
+Primaryos: Android OS
+----
+Primarytechnology: HTML5
+----
+Secondarytechnology: HTML, Bootstrap, CSS, MySQL, Javascript
+----

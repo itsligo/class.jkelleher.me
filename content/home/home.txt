@@ -1,0 +1,11 @@
+Title: Home
+
+----
+
+Text: 
+
+###Class support site 2014-15
+Here you'll find material related to the programmes I'm involved with for 2014-15. If interested in how this site was created, read my (link: /blog/tag;cms text:blog).
+
+----
+--Alert: If uploading solutions to CA or exams, go to the Assessment link on your respective module.

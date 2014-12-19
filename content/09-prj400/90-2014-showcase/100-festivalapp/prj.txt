@@ -1,0 +1,46 @@
+﻿Title: Festival Mobile App
+
+----
+
+Shortdesc:
+ This is a service where I'll create a template app for festivals.
+
+----
+
+Description:
+ Even though I may be creating a template app, I will be basing it on one festival, Ballina Salmon Festival, to show its functionality. Every festival will have events (Main, Children's and Pubs), and on every page it will show where each event is along with the information for each event. If there is a price, it will be also mentioned. I hope also would like to create a coupon system where the business will have a deal on for the week of the festival.
+
+----
+
+Tags: Festival Mobile App, Cross Platform
+----
+Names:Patrick Melia
+----
+
+StudentIDs:S00107997
+
+----
+prjurl:http://patrickmelia.wordpress.com/project/
+
+----
+
+gitrepo:PMelia07
+
+----
+Programme:BSc. (Hon) Computing (Soft Dev), Level 8, Year 4
+----
+
+Supervisor:Vivion Kinsella
+
+----
+Primaryarea: Mobile
+
+----
+Primaryos: Multi-platform
+ (Android, iOS, Windows Phone)
+----
+
+Primarytechnology: Phonegap(HTLM5) or Xamarin(C#)
+---
+Secondarytechnology: 
+----

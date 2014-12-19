@@ -1,0 +1,44 @@
+Title: FOOP201 Lesson
+----
+Description: Consolidating work to date, more on Classes & Layout panels.
+
+----
+Date: 2013-10-15
+
+----
+Tags: class, layout, collections
+
+----
+Text: 
+This lesson will pull together all the material covered to date and target it towards a larger practice exercise. We'll introduce some more detail around these topics while building out the solution in and outside of class. In particular, we'll work more with classes now that we have a basic knowledge of UI work.
+
+###Collections
+(link:http://www.youtube.com/watch?v=MJLDsP7bE-4 text:Arrays) are the simplest collection classes. However they have limitations (fixed size, explicit indexing required, store a single type) which often leads programmers to seek out other collection classes such as ArrayList and generic collections.
+
+* (link: http://msdn.microsoft.com/en-us/library/9b9dty7d.aspx text:Arrays Programming Guide) - a compact but complete guide to using class Array.
+
+* (link:http://www.c-sharpcorner.com/uploadfile/mahesh/workingwitharrays11232005064036am/workingwitharrays.aspx text:Array) tutorial (Mahesh Chand) (link:http://www.c-sharpcorner.com text: www.c-sharpcorner.com)
+
+* The **ArrayList** class is one step up from using basic arrays. (link:http://dotnetperls.com/arraylist text:Dot Net Perls) have a good article on ArrayLists. Learn also how to (link:http://www.dotnetperls.com/array-initializer text:initialise arrays) (dotnetperls.com)
+
+* (link:http://msdn.microsoft.com/en-us/library/ybcx56wz%28v=vs.110%29.aspx text:Collection classes) generally refer to more sophisticated classes for holding data. Generic collections are collection classes that can be **typed** to hold only values of a certain type (an improvement over **ArrayList**).
+
+* C# Station also has a good tutorial on (link:http://www.csharp-station.com/Tutorials/Lesson20.aspx text: generic collections)
+
+###Layout Panels
+Building on experience with **StackPanel**, we look at [DockPanel](http://www.wpf-tutorial.com/panels/dockpanel/) and [Grid](http://www.wpf-tutorial.com/panels/grid/).
+
+----
+practices:
+####[Cao](https://github.com/itsligo/cao)
+<small>Simple GUI to manipulate a Student class and present a list of Students. Covers:
+* creating a class
+* adding constructors (default and working ctors)
+* properties and corresponding data members
+* enumerated data types
+* using ObservableCollection<T> to handle data binding
+* handling events to ListBox and Buttons</small>
+####[Boxer-Starter](https://github.com/itsligo/boxer_starter)
+####[Boxer](https://github.com/itsligo/boxer)
+####[Cinema](https://github.com/itsligo/cinema)
+####[Client](https://github.com/itsligo/client)

@@ -1,0 +1,30 @@
+Title:Synergy
+----
+Shortdesc:Home Automation with Arduino
+----
+Description:An Arduino based home automation system that will be controlled by an Android, iPhone or Windows Phone via a web app. It will enable the user to control a household by giving the user access to all electrical systems that are connected to the Arduino Microcontroller. Such systems may include a buildings lighting system, electrical sockets, alarm systems, door/window sensors and other systems that can be integrated into an Arduino interface. 
+The system will be controlled by an in-house developed App which will enable the user to carry out tasks such as turning on/turning off lights,setting mood lighting/event lighting, arming or disarming alarm systems, receiving status reports such as weather information and getting a general overview on the household from an electrical standpoint.
+----
+Tags:Arduino, Home Automation, Smart Living, Remotely Control
+----
+Names:Paul Kenny, Sean Caine, Tommie Corrigan, Conor Horan
+----
+StudentIDs:S00116253, S00123647, S00122306, S00117921
+----
+prjurl:http://teamsynergyitsligo.blogspot.ie/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (SoftDev) Yr 3
+----
+Supervisor:
+----
+Primaryarea:C, C#
+----
+Primaryos:Android, iOS, Windows Phone
+----
+Primarytechnology:C/C++, C#, 
+----
+Secondarytechnology:CSS, jQuery, Javascript, Python
+----
+

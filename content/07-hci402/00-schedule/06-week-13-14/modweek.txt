@@ -1,0 +1,25 @@
+Title: Week 13-14
+----
+Description: Evaluation
+
+----
+Week: 13-14
+
+----
+Tags:
+
+----
+Text:
+[Evaluation Methodology](https://docs.google.com/presentation/d/1HGx0NoAafEwIvTilwToRFsprSlWO-e_12wXYGmlwYpc/edit?usp=sharing)
+Usability [Heuristics](https://docs.google.com/presentation/d/1AYkcgL88cbF17ZQS8z22rEwKJrLKFpiHpnl9tQKxoA8/edit?usp=sharing)
+Heuristic [Evaluation](http://www.usabilitybok.org/heuristic-evaluation)
+
+* HE of [McInterface](http://www.sims.berkeley.edu/courses/is213/s01/projects/P2/appendix_d.htm) Project ([Results](http://www.sims.berkeley.edu/courses/is213/s01/projects/P2/HE_index.html#findings))
+* [Nielsen](http://www.useit.com/papers/heuristic/) on HE
+
+[Qualtitative](https://docs.google.com/presentation/d/1rCfZZgMVYbkdq0oW_gEXh8IGJInisG40T4ROtcuPbUE/edit?usp=sharing) Methods
+[Quantitative](https://docs.google.com/presentation/d/1xpErgYN-sUoBNsQGPFA3Paci2lnD1_iOjEgdG3DUgFk/edit?usp=sharing) Methods
+
+* Informal User Interface Design Process ([Microsoft](http://msdn.microsoft.com/en-us/library/ms993286.aspx))
+* User [Testing](http://zurb.com/word/user-testing)
+* Thinking [Aloud](http://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/) (Nielsen)

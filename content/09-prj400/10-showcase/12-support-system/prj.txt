@@ -1,0 +1,38 @@
+Title: Support System
+----
+Shortdesc:
+Open Source web based application.
+----
+Description:
+The aim of the project is to develop an application which will be used for tracking technical 
+support. The application will allow users to register/ or login to create support case with detailed information 
+about it (the case number, time created, case type, general information about the case, and if the case is closed or 
+still open). After creating the case- user will be able to print or copy to local computer all information about the 
+case. Also- the dashoboard for a user account will be created, so when he/she log in to a system- a list of all casses 
+will be displayed and available to view. The email can be sent directly from an application, after creating 
+a case.
+I aim to create a reusable application that can be used with any business website which may need an online 
+support/ tracking system availbale for business customers.
+----
+Tags: Bootstrap, Laravel, mySql
+----
+Names: Aneta Marszalek
+----
+StudentID: S00113838
+----
+prjurl: http://prj400amblog.wordpress.com
+----
+gitrepo: https://github.com/aneta07/prj400
+----
+Programme:B.Sc. Computing (Software) Yr 4
+----
+Supervisor:
+----
+Primaryos: Multi-platform
+----
+Primaryarea: PHP
+----
+Primarytechnology: PHP
+----
+Secondarytechnology: CSS,jQuery,MySQL
+----

@@ -1,0 +1,33 @@
+Title: FOOP202 Lesson
+----
+Description: Exception Handling, Generic Collections
+
+----
+Date: 2014-1-21
+
+----
+Tags: exceptions handling
+
+----
+Text:
+Great [collection](http://channel9.msdn.com/Series/C-Fundamentals-for-Absolute-Beginners/01) of C# videos from Bob Tabor
+
+###Exceptions
+Exceptions are a mechanism for handling unexpected events to your application whilst running. Exceptions impose a performance penalty so are reserved for those rare events.
+
+Puran Mehra provides a simple [introduction](http://www.c-sharpcorner.com/UploadFile/puranindia/ExceptionHandlingCsharp07082009014725AM/ExceptionHandlingCsharp.aspx) on [C# Corner](http://www.c-sharpcorner.com/). MSDN also has a [summary](http://msdn.microsoft.com/en-us/library/ms173160.aspx) page for Exceptions.
+
+####Videos
+
+* (link:http://msdn.microsoft.com/en-us/vstudio/aa700773.aspx text:MSDN) has a video introducing exceptions (read ahead to lesson 11).
+* [Channel9](http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners/Gracefully-Handling-Exceptions-20) on Exceptions.
+
+###Generic Collections
+As we move up the food chain in terms of storing data in memory objects, we encounter generic collections. These are special collections that are strongly typed - by that I mean that you can specify the type of data that they can store. This restriction is welcome as it ensures that any attempt to store something other than the proposed data type will prompt a compile-time error and not a run-time.
+
+As previously, Bob Tabor offers a good [video](http://channel9.msdn.com/series/C-Fundamentals-for-Absolute-Beginners/22) on the various types of generic collections. We'll concern ourselves mostly with List<T> and ObservableCollection<T>, though gradually you'll see more use of variations like ICollection<T>, IEnumerable<T>. Stack<T>, SortedList<T> and Queue<T>.
+
+----
+practices:
+####[Exceptions](https://github.com/itsligo/exceptions.git)
+<small>GUI app showing try..catch..finally exception handling. Uses FormatException and DivideByZero exceptions</small>

@@ -1,0 +1,40 @@
+Title: FOOP202 Lesson
+----
+
+Description: Inheritance & Polymorphism
+
+----
+Date: 2014-2-22
+
+----
+Tags: inheritance, override, virtual, polymorphism
+
+----
+Text:
+Great [collection](http://channel9.msdn.com/Series/C-Fundamentals-for-Absolute-Beginners/01) of C# videos from Bob Tabor
+
+We draw a line under the recent larger practice exercises and target the significant topic of **Inheritance**. Like classes and encapsulation, **Inheritance** is a key concept to master in OO programming. It enables larger program to be built more readily while managing the complexity of relationships between classes. Remember, class are representations of real-world objects or concepts which need to be modeled in your software.
+We look at various keywords that arise (_virtual_, _override_, _new_) to support it. A number of practice exercises are used to reinforce this concept.
+
+Read the following articles on inheritance:
+(link:http://www.csee.usf.edu/~turnerr/Software_Systems_Development/028_Inheritance.ppt text:Slides) on Inheritance (South Florida College)
+(link:http://www.codeproject.com/Articles/1445/Introduction-to-inheritance-polymorphism-in-C text:Inheritance & Polymorphism) (CodeProject - (link:http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=20248 text:Nishant Sivakumar))
+
+Inheritance by (link:http://channel9.msdn.com/series/C-Fundamentals-for-Absolute-Beginners/17 text:Bob Tabor) This is part of a much larger series of videos provided by Bob Tabor (of LearningVisualStudio.com) and sponsored by Microsoft. Having listened to Bob for several years now, I can highly recommend his tutorials.
+
+(youtube:http://www.youtube.com/watch?v=jMeneDJBZR8)(link:http://www.youtube.com/watch?v=jMeneDJBZR8 text:Zoom1177) has a video on the basics of inheritance. (8 min.)
+
+Inheritance helps with larger programs to manage the complexity of many classes. It help to structure your code so that you can write less and help your application be more robust if code needs to be altered later. It also help when extended your program or reusing code in another program.
+
+(link:http://www.kirupa.com/net/inheritance_pg1.htm text:Kirupa.com) has a simple introduction to inheritance eschewing a GUI approach for a console based set of examples around the concept of 'aliens'.
+
+----
+practices:
+####[VideoRental](https://github.com/itsligo/videorental.git)
+<small>Inheritance used to handle different kinds of DVD</small>
+####[PractVideoRental](https://github.com/itsligo/practvideorental.git)
+<small>Lecture build-up to VideoRental example</small>
+####[SavingsAccount](https://github.com/itsligo/bankaccount.git)
+<small>Using inheritance to handle different kinds of bank account</small>
+####[Patients](https://github.com/itsligo/inheritPatients)
+<small>Using inheritance to handle public & private patients</small>

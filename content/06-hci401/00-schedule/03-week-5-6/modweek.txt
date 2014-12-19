@@ -1,0 +1,30 @@
+Title: Week 5-6
+----
+Description: Usability Principles & Heuristics
+
+----
+Week: 5-6
+
+----
+Tags:
+
+----
+Text: 
+####[<i class='icon-th-list icon-large'></i>  Usability Principles](../slides/usabilityprinciples)
+* 10 Usability Heuristics ([Nielsen](http://www.useit.com/papers/heuristic/heuristic_list.html)) & [examples](http://designingwebinterfaces.com/6-tips-for-a-great-flex-ux-part-5) of these in [web](http://www.designingwebinterfaces.com)
+* [Guerrilla](http://www.useit.com/papers/guerrilla_hci.html) HCI: Using Discount Usability Engineering (Nielsen)
+* First Principles of Interaction Design ([Tog](http://www.asktog.com/basics/firstPrinciples.html))
+* [10 Principles](http://uxdesign.smashingmagazine.com/2008/01/31/10-principles-of-effective-web-design/) of Effective Web Design ([Smashing](http://www.smashingmagazine.com/) Magazine)
+* [Designing for Usability](https://docs.google.com/viewer?a=v&amp;q=cache:2diZsF5KRPsJ:citeseerx.ist.psu.edu/viewdoc/download%3Fdoi%3D10.1.1.84.8860%26rep%3Drep1%26type%3Dpdf+usability+principles+hci&amp;hl=en&amp;gl=ie&amp;pid=bl&amp;srcid=ADGEESgIg3gVEhVVxHENJdAvg6ICSrVxBEjz2u7zLVqmX7DEcSDccYhyrb4wiyE5xLOgXsLvFAx_DrvVAurU544-9k5LOxfL2iJxMKyIyXZYqLzDinhvdMa-JUvMDDAnz0bX_VEr6u0k&amp;sig=AHIEtbTuOklxi5RoDoyLb2gx_a2ySurpdw): Key Principles and What Designers Think (Gould &amp; Lewis)
+*   Steve Jobs on design ([Youtube](http://www.youtube.com/watch?v=FF-tKLISfPE&amp;feature=related))
+*   Good  Web Sites Can Lead to Healthy [Sales](http://www.nytimes.com/library/tech/99/08/cyber/commerce/30commerce.html)
+*   Apple  Human Interface [Guidelines](http://developer.apple.com/library/mac/#documentation/UserExperience/Conceptual/AppleHIGuidelines/Intro/Intro.html)
+*   Office  12 [Blog](http://blogs.msdn.com/jensenh/archive/2005/10/03/476412.aspx) (Slides)
+*   Windows 8 [criticism](http://www.extremetech.com/computing/138701-windows-8-the-disastrous-result-of-microsofts-gutless-equivocation)
+[](/wp-content/uploads/hci/Usability%20Principles.ppt)
+* Empathetic Design (link: http://www.ideo.com/60minutes/ text: Video) (David Kelley, (link: http://www.ideo.com text: IDEO))
+* Why designers need [empathy](http://www.slate.com/blogs/the_eye/2013/11/08/empathize_with_your_end_user_creative_confidence_by_tom_and_david_kelley.html). Also by [IDEO](http://www.ideo.com/images/uploads/news/pdfs/Empathy_on_the_Edge.pdf)
+
+[](http://bmrc.berkeley.edu/courseware/cs160/fall99/readings/E-Commerce%20Report%20good-web-design.htm)
+
+[](http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html)

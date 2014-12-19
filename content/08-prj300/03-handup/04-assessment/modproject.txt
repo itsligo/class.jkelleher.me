@@ -1,0 +1,139 @@
+Title: Assessment
+----
+Description: How PRJ300 is assessed
+
+----
+Session: Semester 5 & 6 (2013-14)
+----
+Tags: assessment
+----
+
+Text: 
+####Particular care is given to assessing not just the overall achievement of the team project but the input of the team members to that result. A (file: project_module_rubric.pdf text:rubric) is used to guide the overall project assessment. 
+
+The components that contribute to your result include:
+
+- Team Report & Deliverables
+- Individual Report (one from each team member)
+- Peer assessment report
+- Project Deliverables
+- Presentation
+
+Each team is awarded a Collective Team Mark, with the different aspects of the project contributing according to the following table:
+
+- Team Report 25%
+- Project Deliverables 55%
+- Presentation 20%
+
+The Individual Report is also assessed. The Individual Mark for Team Work and the mark for the Individual Report are then weighed together into an Overall Individual Mark according to the following table:
+
+- Individual Mark for Team Work 80%
+- Individual Report 20% (including blog posts)
+
+####Team Report
+
+While it will vary according to the stream that you have chosen the aims are broadly the same while the nature of the deliverables might vary including inter alia:
+
+- Detailed description of the problem to be solved
+- Background information and research such as survey of any existing systems that address similar problems
+    results of any market research conducted
+    results of technical research into suitable platforms, tools, technologies, algorithms, data structures, etc.
+- Requirements specification for the system to be built (agreed between the team and supervisor).
+- Design of the proposed system and its user interface.
+- Record of key implementation decisions, such as development platforms, methodology, hardware (where applicable), and any additional software, along with reasons for those decisions.
+- Results of any initial implementation steps/prototyping. It is important that its operation and design is capture in the documentation.
+- Discussion of any problems encountered, including both technical issues and management issues, like team working etc.
+- Time plan for the project.
+- Code stack employed – libraries, frameworks, languages, protocols, other methodologies
+- Summary of what was achieved, referring to the stated requirements.
+
+The front page of the report should include:
+
+- The text “Team Report”
+- Project Title (e.g. “Frogger iPhone App”)
+- Date (e.g. “Winter 2013″ or “Summer 2014″)
+- Names and Student IDs and Streams of all team members (e.g. “John Kelleher, S01234567, Software Development”)
+Module (“PRJ300″)
+- Programme (e.g. “B.Sc. in Computing (Software Development) Level 7 Year 3″)
+- Name of supervisor
+
+The team report should run to about _8000_ words or _16_ pages, though with diagrams and tables, the likely completed document will be over 20 pages in total.
+
+###Individual Report
+
+Individual reflection on the project is important for getting the most out of it. This is the primary role of the Individual Report. Each student must submit one Individual Report at the end of the project, written by themselves. It should run to about 3000 words (around 6 pages), excluding any appendices. The main parts of the Individual Report are:
+
+- Summary of own individual contribution to the project.
+- Reflection on the project, the running of it, and own role within it.
+
+The reflection should cover aspects such as what was achieved, what was not achieved and why, critical discussion on the running of the project, what you have learnt from the project, and what you would do differently if you were starting over again. Note that the Individual Report is marked primarily on the quality of the reflection and on the qualities as a report, not on the extent of contribution as such to the project. The Individual Report should be submitted electronically, in PDF format. The front page of the report should include:
+
+- The text “Individual Report”
+- Project Title (e.g. “Frogger iPhone App”)
+- Date (e.g. “Winter 2013″ or “Autumn 2014″)
+- Your name and student ID (e.g. “John Kelleher, S01234567, Software Development”)
+- Other team members’ names & student IDs headed by “Other Team Members”
+Module (“PRJ300″)
+- Programme (e.g. “B.Sc. in Computing (Software Development) Level 7 Year 3″)
+- Name of supervisor
+<a id="peer"></a>
+###Peer Assessment
+
+Peer assessment is a key aspect of the overall assessment. It is used to distribute the collective team mark to each individual according to merit as perceived by his/her peers, i.e. the other team members. Each team member is asked to rate each of his or her peers according to a number of aspects. The peer assessments are submitted in complete confidence and will not be seen by the other students. Each team member is assessed according to the following aspects:
+
+- Contributing to the team’s work
+- Interacting with teammates
+- Keeping the team on track
+- Expecting quality
+- Having relevant knowledge skills and abilities
+
+Thus it is not just the amount of contributed work that is being evaluated, say in terms of words in the reports or lines of source code, but a wide spectrum of contributions all of which are important for a successful end result. This also means that everyone gets a chance to contribute according to their specific skills and get proper recognition for this. Clearly, someone who excels in designing the system architecture and design has made a very important contribution. Likewise, someone who is a great writer and took the lead on getting the team report together has also made a big contribution. But someone who was instrumental in mediating between conflicting views, say, and thus helped holding the team together has clearly also made a very valuable contribution to the team as a whole. Each aspect is rated on a five-point scale. Select the statement that most closely represents your team member’s contribution, as you see it. Assessing your peers is a privilege and big responsibility. Be fair and objective in your evaluations. Each supervisor is charged with carrying out a sanity check on the peer marks based on what they have learnt during the interaction with the team members throughout the semester, as well as from the team and individual reports. Should there be obvious problems with some of the peer marks, then the supervisor together with other lecturers familiar with the students will override any or all of those marks where necessary.
+
+Peer assessment is then used to help inform an Individual Mark for Team Work for each team member from the Collective Team Mark. This is done by distributing the collective team mark among the team members according to merit as perceived by the team members themselves, such that the average of the individual marks for the team work equals the assigned Collective Team Mark. While the peer assessment will influence this distribution, the panel of lecturers reviewing the project will consider other factors that may also impact the individual mark for team work to include inter alia, meeting attendance, blogging effort, consistency of work, presentation performance – and adjust the distribution accordingly in consultation with the project rubric.
+
+###Deliverables
+
+Deliverables will vary according to the choice of project and/or programme stream. However, in all cases, they will consist of expressions of the design & implementation that has been reached or of the process of arriving at the deliverables. For example, in a software project, they could consist of (though not necessitate all of):
+
+- a database design/schema
+- use-case diagrams
+- task analysis
+- contextual inquiry
+- low/high-fidelity prototype
+- UI sketches
+- all coded solutions and test programs
+
+Ultimately, you should discuss with your supervisor as to the best choice of deliverable to represent your evolved project.
+
+###Worked Example
+
+To illustrate how this would work in practice, consider a team of 4: John, Paul, George & Ringo. The collective team mark is arrived at by assessing the group effort showcased by the presentation, team report and deliverables (weighted 30%,50% and 20% respectively). Let’s say this collective team mark amounts to 65%. There initially each member of the team is awarded 65% (i.e. 65% + 65% + 65% +65% = 260/4 = 65%). Now we calculate the Individual Mark for Team Work for John, Paul, George & Ringo. Let’s say in this instance that Ringo didn’t contribute well to the overall effort, while George excelled and played a key role throughout. John & Paul’s contribution was less than George and reasonably similar. The relative contribution of each team member is assessed with reference to: peer assessment feedback, attendance at meetings, supervisor’s observations, quality and consistency of blog posts and performance at presentation. The assessment panel will apply a weighting ranging typically from .85 to 1.05 reflecting the relative contribution to the achievement of the overall project.
+
+The Individual Mark for Team Work given to each member is arrived at by multiplying the collective team mark by this weighting. In this instance, John might be scored 70%, Paul 75%, George 80%, & Ringo 35%. Now to arrive at the Overall Individual Mark for each student, we factor in the mark given for each member’s individual report. This is assessed for each member as follows: John (65%), Paul, (70%), George (75%) and Ringo (50%). This individual report mark is worth 20% of the student’s final mark while the Individual Mark for Team Work is worth the remaining 80%.
+
+>John       70% * 0.8 + 65% * 0.2 = 69%
+>Paul        75% * 0.8 + 70% * 0.2 = 74%
+>George    80% * 0.8 + 75% * 0.2 = 79%
+>Ringo      35% * 0.8 + 50% * 0.2 = 38%
+
+So the final Overall Individual Mark for each student is John (69%), Paul (74%), George (79%) and Ringo (38%). You will see that while all share in the success (or not) of the team effort, some will benefit more if their contribution befits that. A good individual report will also boost the final result as will how the student faired in their engagement with the team effort.
+<a id="present"></a>
+###Presentation
+At the end of the PRJ300 module, a presentation of your project work is required as part of the assessment of the module. Consult the marking scheme post for details. A similar interim presentation will take place just before Christmas and the guidelines below equally apply to that presentation.
+
+You may not (depending on your project) have ‘on-screen’ material to show. You do not need to deliver a PointPoint presentation. Often these presentations take longer to ‘setup’ than to read. If you use a short on-screen presentation, then rehearse it well beforehand. Do not simply read each word from the screen. What is needed by the evaluators is a convincing display of acquired knowledge and your accomplishments to date. You need to ‘sell’ the work you have done and assure us of the effort invested. Often it is a good idea to have a poster (A3 or A2) which you can use to illustrate your ideas/progress/vision.
+
+Avoid the need to log-on in order to show your work/presentation if possible. Place the material on a shared folder or usb stick beforehand. Remember, use your time wisely and be sure you make clear the work that you have done.
+
+You will usually present to 3 lecturers and we endeavour to have your supervisor as one of those. Typically, you will be asked questions about your work and how you tackled certain issues. We may require you to show the code or other underlying mechanism to your work. Similarly, you should have those part of your work that you feel particularly well represent you, at hand so that your efforts are best exhibited.
+
+You will have 10 minutes to make your presentation. After that, there will be a q&a. We, the reviewers, will need to hear a competent, rehearsed and reasonably articulate description of the work undertaken. Include pitfalls, highlights, key technologies and your opinions. For unusual projects, it might be wise to walk us through a simple use scenario of your product or a guide to how you achieved what you are presenting. For example, were your project a 3D animation using 3D Studio Max, you could prepare interim drawings showing how you built up the model you are presenting.
+
+It is important that you present or have available to show all work for which you wish to be considered. Material referred to in your written documentation should be on hand for scrutiny or discussion.
+
+Within a group it is useful to have designated roles for the work undertaken, at least in your defense of your work. While questions will be fielded perhaps generally at the group, feel free to direct the answering of those questions to that person tasked with handling them. However, the reviewers will be interested in hearing from specific individuals to to better inform themselves as to their own contribution.
+
+Don’t forget to recount your difficulties and how you over-came them or learned from them. PRJ300 is a process and we are as interested in the manner of your conduct of the process as we are in the final product. Even when elements undertaken don’t make the final design, there may well be value in the experience that is worthy of comment.
+
+You may find the following slide deck useful if you plan to use Powerpoint:
+<iframe src="http://www.slideshare.net/slideshow/embed_code/16177875" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px;" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/itseugene/7-tips-to-beautiful-powerpoint-by-itseugenec" title="7 Tips to Beautiful PowerPoint by @itseugenec" target="_blank">7 Tips to Beautiful PowerPoint by @itseugenec</a> </strong> from <strong><a href="http://www.slideshare.net/itseugene" target="_blank">Eugene Cheng</a></strong> </div>

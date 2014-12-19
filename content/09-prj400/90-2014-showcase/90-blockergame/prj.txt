@@ -1,0 +1,30 @@
+Title: Blocker
+----
+Shortdesc:
+Multi- platform 3D Game
+----
+Description:
+The aim of the project is to develop a 3D game which can be deployed to many different devices (PC, Android, Mobile, Oculus Rift)
+----
+Tags: Monogame, Xamarin , Oculus
+----
+Names:Damien Costello
+----
+StudentIDs:S00112806
+----
+prjurl:http://s00112806.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Game Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: 
+----
+Primaryos: Multi-platform(Windows, Windows Phone, Android, IOS)
+----
+Primarytechnology: Monogame
+----
+Secondarytechnology: C#, 3DMax, Xamarin, Oculus Rift
+----

@@ -1,0 +1,80 @@
+Title: FOOP201 Lesson
+----
+Description: Static, enum, ItemSource and larger practices
+
+----
+Date: 2013-11-1
+
+----
+Tags: class, layout, collections
+
+----
+Text: 
+A large component of CA falls due around now so we'll initially focus on developing coding ability in class through a range of practice exercises. You should bring whatever issues you encounter in your own study to class so we can address them before moving on.
+Some new material will be introduced however to fill gaps in our ability to complete larger more complicated applications.
+
+####Object Initialiser
+Objects are created from their parent classes using constructors. A default constructor (ctor) takes no parameters and so data members (or properties) assume default values in the absence of suggested values for the new object. A working ctor takes incoming values to use to initialise the data members (perhaps via member properties). The member properties may work to validate this incoming data before assigning to the data members - to catch bad data.
+Another alternative is to use an object initialiser. This avoids the need for other ctors (though a default ctor is good practice for other reasons) by employing the public properties of the class. Note that the order of the property references is irrelevant and you can choose to omit some references if you wish.
+
+	public class Patient {
+		private string _title;
+		private DateTime _dob;
+
+		public string Title {get;set;}
+		public DateTime DOB {get;set;}
+
+		public Patient()
+		{
+
+		};
+
+		public Patient(string tle, DateTime db)
+		{
+			_title = tle;
+			_dob = db;
+		}
+	}
+
+	public class MainWindow {
+		Patient jack = new Patient();	// using default ctor
+		// using working ctor
+		Patient joan = new Patient("Joanie", DateTime.Parse("4/7/1970");
+		// using object initializer - note order of property references are arbitrary
+		Patient jill = new Patient() { DOB=new DateTime(1980,12,23), Title = "Jilly"};
+	}
+
+####Enum keyword
+Another useful keyword is enum. Use it when you need a new type (like int, float) but none of the built-in types matches the particular set of values you want to limit the variable to.
+
+The **enum** keyword is used to declare an enumeration, a distinct type consisting of a set of named constants called the enumerator list. The default underlying type of the enumeration elements is (link: http://msdn.microsoft.com/en-us/library/5kzh1b5w%28v=VS.80%29.aspx text: int). By default, the first enumerator has the value 0, and the value of each successive enumerator is increased by 1. For example:
+
+    enum Days {Sat, Sun, Mon, Tue, Wed, Thu, Fri};
+
+In this enumeration, _Sat_ is _0_, _Sun_ is _1_, _Mon_ is _2_, and so forth. Enumerators can have initializers to override the default values. For example:
+
+    enum Days {Sat=1, Sun, Mon, Tue, Wed, Thu, Fri};
+
+To convert a value (say, a _String_), to an equivalent value in the enumerated data type you can use the static methods of class _Enum_ as follows:
+
+    public enum Blood_Type {A,B,AB,O};
+    Blood_Type myType = Blood_Type.A;
+    Blood_Type yourType;
+    yourType = Enum.Parse("A");
+
+For more help, look to (link:http://www.dotnetperls.com/enum text:dotnetperls.com)
+
+####Miscellaneous
+Now that we understand classes better, we consider the notion of employing objects of one class within another class. This is the concept of composition and a major building block in itself in applications.
+####Practice
+Create a simple GUI to handle a collection of tenants. Incorporate the following functionality:
+
+* Tenant class to have the following data: name, date_start_tenancy, address, type_tenancy (holiday, monthly annual)
+* Display a summary of the tenancies
+* Permit the deletion of a tenancy by selecting from the list
+----
+practices:
+####[Boxer-Starter](https://github.com/itsligo/boxer_starter)
+####[Boxer Rounds](https://github.com/itsligo/boxerrounds.git)
+####[EnumExample](https://github.com/itsligo/enumExample)
+####[VetList](https://github.com/itsligo/VetList)

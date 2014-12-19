@@ -1,0 +1,26 @@
+Title: FOOP202
+----
+Description: Foundation Object Oriented Programming 202
+----
+Session: Semester 4 (2014-15)
+----
+
+Text: Foundation Object-Oriented Programming 202 (link:https://amm.itsligo.ie/module/webview//COMP06179/201200/999999 text:syllabus) is taught on the following programmes:
+
+- B.Sc. (Ord.) Computing (Software Development) Year 2
+- B.Sc. (Ord.) Computing (Web Development & Creative Media) Year 2
+- B.Sc. (Ord.) Computing (Games Development) Year 2
+
+It follows on work done in Introduction to Programming 1 Using C# and Introduction to Programming 2 Using C#. The focus is exclusively on C# and the .NET framework. Foundation Object-Oriented Programming 202 is continued  in Semester 4 and Rich Application Development 301 and 302 follow in the 3rd year.
+
+####Recommended textbooks
+
+(image:http://ecx.images-amazon.com/images/I/51IoEQ1rzcL._SL160_AA160_.jpg link: http://www.amazon.co.uk/Pro-2010-Experts-Voice-NET/dp/1430272058/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1284398216&amp;sr=8-1-spell alt:Pro WPF, Apress, 2008 width:160  class:img-right img-rounded)
+(link: http://www.amazon.co.uk/Pro-2010-Experts-Voice-NET/dp/1430272058/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1284398216&amp;sr=8-1-spell text:Pro WPF) provides very comprehensive coverage  of all aspects of WPF. It does not deal with C#.
+
+(image:http://www.murach.com/images/cs10download.jpg link: http://www.murach.com/books/cs10/index.htm alt:Murach Press class:img-right img-rounded width:140)
+(link:http://www.murach.com/index.htm text:An excellent book on C#) at this level is Joel [Murach]()'s book Murach's [C# 2010](http://www.murach.com/books/cs10/index.htm). It is current with developments in .NET 4.0 and works well for those  not too confident with C#. Murach's approach is unique presenting topics example  by example in a very clear layout.
+
+(image: programmers_heaven.jpg alt:Programmers Heaven link:http://www.programmersheaven.com/ebooks/csharp_ebook.pdf class:img-right img-rounded width:140)
+
+Programmers' Heaven free [ebook](http://www.programmersheaven.com/ebooks/csharp_ebook.pdf) is a  first class resource for C#. There are other resources at this site (C# School)  that are suited to beginners. Do note that this book however covers only some  aspects of .NET 2.0. Beware of this issue since many resources on the web on C#  target .NET 1.1 or earlier whereas many new changes in 2.0 render earlier  material obsolete.

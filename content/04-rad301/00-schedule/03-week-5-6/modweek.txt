@@ -1,0 +1,42 @@
+Title: RAD301 Lesson
+
+----
+Description: CSS Handling, Debugging, localDb
+
+----
+Date: Late Oct
+
+----
+Tags: css,LINQ-to-SQL
+
+----
+Text: 
+
+####Minification & Bundling
+[Bundling and minification](http://www.asp.net/mvc/tutorials/mvc-4/bundling-and-minification) are two techniques you can use in ASP.NET 4.5 to improve request load time.  Bundling and minification improves load time by reducing the number of requests to the server and reducing the size of requested assets (such as CSS and JavaScript.)
+
+####Debugging Web Applications
+[Firebug](http://getfirebug.com/) (Firefox extension) is an incredibly useful tool to debug issues with CSS and JS in your web app. IE developer tools are also well integrated with VS and the Chrome/Safari Developer tools are also well developed.
+
+####Simple LINQ-to-SQL database handling
+We'll begin our database connectivity on familiar ground - LINQ-to-SQL. As your confidence grows we'll migrate across to Entity Framework (its big brother) which will expand our capabilities significantly. LINQ-to-SQL works identically in MVC as in WPF except in this case, the querying happens server-side with the results passed back to the browser. We can (and will) later on experiment with Ajax calls which will make it appear as though the querying is happening locally. This is achieved by avoiding the page refresh and just updating elements of the DOM using calls to the server.
+Additionally, we'll also later examine means of using sophisticated client-side jQuery plugins/controls which enable local (client-side) querying of the downloaded data.
+Initially, however, we'll make some simple queries and use Razor (with some CSS styling) to render the returned data in the browser. In order to simplify development and avoid complexities to do with SQL Server access in the college, we'll use a new feature built-in to VS2012 - localDb. Think of this as a lighter version of SQL Server Express. The benefit is that [localDb](http://blogs.msdn.com/b/jerrynixon/archive/2012/02/26/sql-express-v-localdb-v-sql-compact-edition.aspx) not only has a smaller perf overhead but is spun up only on demand by a running process (and shut down automatically afterwards). This obviates the need for SQL Server (of any variant) on our PCs in the lab. Consider its use on your own PCs too.
+
+####Expanding MVC
+We'll build on our understanding of MVC by introducing layout views, Bootstrap integration, ViewBag (and alternatives), and initiating database access.
+
+####Reminder - ASP.NET MVC Resouces
+Be sure to revisit [Week 1-2](/rad301/schedule/week-1-2) notes on ASP.NET MVC for a full list of walkthroughs, books and video courses that cover this material.
+
+###Useful Databases
+You'll find the databases we use included with the repos in any case.
+(file: /content/04-rad301/northwnd.mdf text: Northwind Database)
+(file: /content/04-rad301/MvcMusicStore.mdf text: Music Store Database)
+----
+practices:
+####[MVC Music Base](https://github.com/itsligo/mvcbs_music_base)
+####[MVC Music Store](https://github.com/itsligo/mvcbs_music)
+####[MVC Bootstrap](https://github.com/itsligo/mvcbs.git)
+####[Basic LINQ2SQL](https://github.com/itsligo/linq2sqlmvc_simp "NW LINQ2SQL Access")
+####[NW LINQ2SWQL](https://github.com/itsligo/mvcbs_nw.git "NW Bootstrap MVC")

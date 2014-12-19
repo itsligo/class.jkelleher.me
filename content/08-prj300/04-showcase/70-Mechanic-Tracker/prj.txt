@@ -1,0 +1,42 @@
+﻿Title: Mechanic Tracker
+----
+
+Shortdesc:
+A Web Application to track mechanics at work for accountability reasons
+----
+
+Description: Our idea is to create a web application that would be used in large scale garage companies with a secondary Windows Phone Application for the Mechanics to use to assist in their everyday work. The main application main features consist of: 1. The ability for a Manager/Owner/Supervisor to assign jobs to available mechanics that is skilled enough to complete the job. 2. Secondly, the owner can use the application to view stats on each mechanic or job to see if a job was completed on time or if unforeseen problems arose or to see if certain mechanics are consistently performing well or underperforming. 3.  Lastly, the Windows Phone Application will allow a mechanic to sign in and scan a Barcode/QR Code stuck to a car to see what jobs he must complete on that car. He can select which job to start and when done select finish job and the application will record the time taken to complete the job.
+----
+
+Tags: ASP.Net MVC, C#, Windows Phone
+----
+
+Names:Daniel Fitzpatrick,Alan Lawless,John Cahill,Francis Gallagher
+----
+
+StudentIDs:S00128052,S00132822,S00002909,S00123499
+----
+
+prjurl:http://jfad.edublogs.org/
+----
+
+gitrepo:
+----
+
+Programme:B.Sc. Computing (Sotware Development) Yr 3
+----
+
+Supervisor:Unknown
+----
+
+Primaryarea: ASP.NET MVC
+----
+
+Primaryos: Windows
+----
+
+Primarytechnology: ASP.NET MVC, Windows SDK 8.0
+----
+
+Secondarytechnology: Bootstrap, Angular.js(Or Something Similar), JQuery, HTML, MySQL/NoSQL
+----

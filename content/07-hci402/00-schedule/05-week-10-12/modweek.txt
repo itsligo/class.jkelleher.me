@@ -1,0 +1,38 @@
+Title: Week 10-12
+----
+Description: Psychology of UX
+
+----
+Week: 10-12
+
+----
+Tags:
+
+----
+Text: 
+####[<i class='icon-th-list icon-large'></i>    Psychology of Web Design &amp; User Behaviour](https://docs.google.com/presentation/d/15pIjxJsJsk1AwLPrZmihxqZUnJDMx5Y2d2wFQ3KDCJc/embed?start=false&loop=false&delayms=3000)
+
+*   Card [Sorting](http://www.usabilityfirst.com/usability-methods/card-sorting/) ([UsabilityFirst](http://www.usabilityfirst.com))
+* Information Architecture ([UsabilityFirst)](http://www.usabilityfirst.com/about-usability/information-architecture/)
+*   Designing to [Sell](http://www.smashingmagazine.com/2009/04/06/design-to-sell-12-tips-to-help-your-website-convert/) (Smashing Magazine)
+*   [Anatomy](http://www.formstack.com/the-anatomy-of-a-perfect-landing-page) of a Landing Page ([FormStack.com](http://www.formstack.com))
+*   Adding Constraints [May Boost](http://webdesignledger.com/tips/adding-constraints-may-boost-your-creativity) Your Creativity (Web Design Ledger)
+*   Proximity in Design: [Why I Can't Use](http://www.smashingmagazine.com/2011/04/26/proximity-in-design-why-i-can-t-use-my-car-s-a-c/) My Car's A/C
+*   Showcase of 20 Inspiring [Web Development](http://www.pixelstadium.com/blog/20-inspiring-web-development-process-diagrams.html) Process diagrams (PixelStadium) (particularly, [Paz](http://www.paznow.com/ucd/))
+*   You're [Not A User Experience](http://whitneyhess.com/blog/2011/04/23/youre-not-a-user-experience-designer-if/) Designer If... (Pleasure &amp; Pain)
+*   What Makes Someone [Leave A Website](http://blog.kissmetrics.com/leave-a-website/) ([Kissmetrics](http://blog.kissmetrics.com/))
+*   10 [Golden Principles](http://www.avc.com/a_vc/2010/03/10-golden-principles-of-successful-web-apps.html) ([notes](http://www.zdnet.com/blog/weblife/10-golden-rules-for-building-successful-web-apps-from-fred-wilson/1361)) of successful web apps (Fred Wilson, VC)
+*   10 [Web Application](http://speckyboy.com/2011/03/31/10-essential-web-application-usability-guidelines/) Usability Guidelines ([Speckyboy](http://speckyboy.com/) Design Magazine)
+*   Steve Krug's [Video](http://blip.tv/play/Ad_LKZCcZQ) (Business of  Software)
+*   How  User [Read](http://www.useit.com/alertbox/9710a.html) on the Web (Nielsen)
+*   [Writing](http://www.useit.com/papers/webwriting/) for the Web (Nielsen)
+*   10 Useful Usability [Findings](http://www.smashingmagazine.com/2009/09/24/10-useful-usability-findings-and-guidelines/) (Smashing)
+*   [Search](http://www.useit.com/alertbox/9707b.html) and You May find (Nielsen)
+*   The Dos &amp; Don'ts of Website Navigation ([Chromaticsites.com](http://www.chromaticsites.com/blog/the-dos-and-donts-of-website-navigation-usability/))
+*   [Difference](http://www.useit.com/alertbox/9705a.html) between Web Design and GUI Design (Nielsen)
+*   Why Web  Design is [Similar](http://www.useit.com/alertbox/scottbutler.html) to GUI Design (Butler)
+*   Why Web Design is different to  [Print](http://www.useit.com/alertbox/990124.html) Design (Nielsen)
+*   CraigsList Site [Redesign](http://www.youtube.com/watch?v=6Q3_jnO8HJk&amp;feature=related)
+*   Web UX Article ([thinkvitamin.com](http://thinkvitamin.com/features/product-pages-so-much-suck-so-easy-to-fix/))
+*   [Breadcrumbs](http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices-2/) in Web Design
+*   Apple Store [Redesign](http://www.uie.com/articles/apple_forms/)

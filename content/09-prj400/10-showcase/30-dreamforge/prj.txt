@@ -1,0 +1,27 @@
+Title:DreamForge
+----
+Shortdesc:A project showcase/crowdfunding application
+----
+Description:The software will comprise of an application that will allow users to build an online showcase of their own invention, product or appeal to the greater online community as an investment opportunity or just to share ideas with like-minded people.  The site will be geared towards technology, science, and art projects but will accommodate other areas of interest too. It will be a crowd funding based website but the focus will be on producing a clever piece of software to achieve the given task following the best coding practices, UX and interface design possible.
+----Tags:Javascript,Git,Web,RaspberryPi
+----
+Names:Conor Horan
+----
+StudentIDs:S00117921
+----
+prjurl:http://conzoh.blogspot.ie/
+----
+gitrepo:
+----
+Programme:BSc (Hons) in Software Development (add-on)
+----
+Supervisor:The Good Lord
+----
+Primaryarea:Project Portfolio, Crowdfunding, Creator Community, Internet of Things
+----
+Primaryos:Cross-Platform, Cross-Device
+----
+Primarytechnology:Javascript
+----
+Secondarytechnology: HTML,CSS,jQuery,NoSql
+----

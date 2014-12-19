@@ -1,0 +1,39 @@
+Title: Prototyping
+
+----
+
+Description: Testing your design using prototyping
+
+----
+Tags: prototype
+----
+
+Text: 
+####Prototyping is where you produce a limited, incomplete version of your product be it a software application, web site or item of hardware. By definition, the prototype is often lacking many features of the final, hoped for, solution but provides a tangible usually interactive product which helps stakeholders to identify with the direction the design is taking. The key ideas behind prototyping is that the effort to produce one is very limited so that ideally several prototypes can be produced at little cost (both time and money). This help drive design discussions and gives an opportunity for both designers and users to get ‘hands-on’ with something approximating the eventual product.
+
+The production of the prototype should not be at as high an engineering level as that used to create the final solution. For example, in software, you would not use the programming language intended for the production release to create the prototype. Indeed, for web and client software development, it is becoming popular to employ paper-prototyping as a means of teasing out possible designs or ‘exploring the design-space’.
+
+For your particular prototype you will need to identify suitable prototype-development tools that best help to illustrate your design choices. For example, Powerpoint can actually work quite well to illustrate many software applications including web apps. Microsoft Expression Blend has a feature called SketchFlow which is dedicated to creating prototypes for apps, particularly those using Silverlight. For web applications as well as software, there are many wire-framing products (and others) which assist in making concrete your design decisions.
+
+Alternatively, you can use sketching and wireframes kits to give accurate images of typical controls to use for mocking up prototypes. Either print them out or arrange them to specify a proposed interface layout.
+
+####Outline of the prototyping process
+
+The process of prototyping involves the following steps
+
+* Identify basic requirements
+basic requirements including the input and output information desired. Details, such as security, can typically be ignored
+* Develop Initial Prototype
+initial prototype is developed that includes only user interfaces
+* Review
+The customers, including end-users, examine the prototype and provide feedback on additions or changes
+* Revise and Enhance the Prototype
+Using the feedback both the specifications and the prototype can be improved. Negotiation about what is within the scope of the contract/product may be necessary. If changes are introduced then a repeat of steps #3 and #4 may be needed
+Prototyping Supports/Tools
+
+(image: pptprorotypetoolkit.jpg title:PPT Prototyping width:300 height:300 class:img-right)
+#####Powerpoint Prototyping (link: http://www.shengdongzhao.com/research_tips/how-to-create-interaction-diagrammockups-in-powerpoint text: toolkit)
+
+#####SketchFlow (part of (link: http://msdn.microsoft.com/en-us/expression text: Expression Suite))
+(image: codiqa.jpg title:Codiqa width:300 height:300 class:img-right)
+#####(link: http://www.codiqa.com text:Codiqa) provides a useful online tool to produce workable mockups of mobile phone interfaces.

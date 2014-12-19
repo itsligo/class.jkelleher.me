@@ -1,0 +1,30 @@
+Title: FA1
+
+----
+
+Description: Formative Assignment 1 on classes
+
+----
+Session: Semester 5 (2013-14)
+----
+
+Text:
+
+(image: img1.png title: Screenshot1)
+
+Create a basic WPF Application to maintain a list of expenses incurred. Each expense will have the following attributes:
+
+* expense category (one of 'Travel', 'Entertainment' or 'Office')
+* cost (must be 1 cent or more, to max of €100)
+* date incurred (must be date <30 previous)
+
+Your UI should show a list of **Expenses**. A button at the bottom of the screen will add another Expense. Use a **ListBox** to show the expenses on screen and each expense should be displayed similar to this:
+
+> Travel: €23.35 on 3/8/2013
+
+The **ListBox** should be pre-populated with a handful of **Expenses** on program startup. As such, these **Expenses** must be auto-generated randomly. This obviates the need for the user to enter any data.
+
+At the bottom of the screen, provide a total for all **Expenses** beside the button to add another. Use some styling to decorate your UI.
+----
+practices:
+####[Solution](https://github.com/itsligo/expenses)

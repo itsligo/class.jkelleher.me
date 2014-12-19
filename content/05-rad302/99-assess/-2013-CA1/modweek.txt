@@ -1,0 +1,58 @@
+Title: CA1
+
+----
+
+Description: Comprehensive CA
+
+----
+Session: Semester 6 (2013-14)
+----
+
+Text:
+
+<div class='alert alert-info'>Competition</div>
+(image: logo.png class: bg-success)
+> In recognition of the work involved in this CA, I thought it might be worth securing a small prize.  Happily [O'Reilly](http://shop.oreilly.com/category/ebooks.do) have offered two €50 eBook vouchers for their [store](http://shop.oreilly.com/category/ebooks.do).
+The best overall result for this CA will get one voucher and the most improved result (over the RAD301 result) will get another. Good luck.
+
+This CA is to be completed out of class and submitted by the due date as per the class calendar. It examines the following concepts/topics:
+
+*   Entity framework
+*   Code First ORM creation
+*	Data Migration
+*   Working with DbContext
+*   Building LINQ-to-Entity queries
+*	Employing WebAPI & Ajax calls
+
+Build a web application that fulfils the following specification:
+
+1.  Store details for a tour agency about its _Trips_. Each _Trip_ consists of a number of _Legs_. A _Trip_ has a name (e.g. 'Sahara Adventure') as well as a start date and finish date. A _Trip_ also has a minimum number of guests for it to be consider **viable**.
+2.  Each _Leg_ consists of a start location and a finish location (e.g a city). A _Leg_ also has a start date and a finish date. A _Guest_ may join for a _Leg_ or a number of _Legs_.
+3.  A _Trip_ is not **complete** unless there are _Legs_ spanning each date from the _Trip's_ start date through to the finish date, i.e. no 'gaps' in the coverage of the _Legs_.
+4.  For a _Trip_ to be considered **viable**, the number of _Guests_ booked on a minimum of 2 _Legs_ are calculated; that is, a _Guest_ only counts towards the quota needed to mark a _Trip_ as **viable** if they are booked on 2 or more _Legs_ of that _Trip_. Note this indicates unique _Guests_. For a _Trip_ to be **viable**, there needs to be at least 3 such _Guests._
+5.  A _Guest_ consists simply of a first name.
+
+### Requirements
+
+1.  Write the necessary classes to hold the above data and create a Code First Entity Framework application to generate the supporting database **(10 marks)**
+2.  Allow the user to create new _Trips_ and _Legs_. _Legs_ should be created in such as way that the user can indicate which _Trip_ they are associated with. Error checking should be enforced to ensure that a _Leg_ cannot be created that fall outside the dates of the associated _Trip_. **(15 marks)**
+3.  The user should be allowed to add a _Guest_ to a _Leg_. However, rather than type the name of a _Guest_, you should present a list of the test data _Guest_ s and the user will select one from the list **(10 marks)**
+5.  The app should list the _Trips_ indicating whether a _Trip_ is **viable** or **complete**, as defined above **(10 marks)**
+6.  A _Leg_ should not be permitted to be added unless it is valid - that is, falls between the start and finish dates of a _Trip_ as well as not clashing with another _Leg_. **(10 marks)**
+7.  The details of all _Trips_ and their constituent _Legs_ &amp; _Guests_ should be clearly presented to the user - find a means to indicate 'gaps' in the _Legs_ of a _Trip_ **(5 marks)**
+8.  Your app should be preloaded with a rich set of test data consisting of &gt;5 _Trips_, each with &gt;5 _Legs_ and each of these with &gt;4 _Guests_. Some _Trips_ will be **viable**, some **complete**, some both **viable** and **complete** and some neither **viable** nor **complete**. Do this work in a _Seed()_ method and such that data migration is also facilitated. **(5 marks)**
+8.	Some aspects of the above functionality should be provided using Ajax calls from the client to a Web API returning JSON data. **(15 marks)**
+9.	User interface including refinements to the user's interaction with the application (e.g. using Ajax, better presentation, error reporting). For example, gaps in a _Trip_ could be visually presented as gaps in a [Progressbar](http://getbootstrap.com/components/#progress) using Bootstrap. Or try to incorporate an image for each stop on the _Trip_. There's an interesting and simple way to [expose the images](http://stackoverflow.com/questions/8363531/accessing-main-picture-of-wikipedia-page-by-api) at Wikipedia to your app for inclusion.  **(20 marks)**
+
+### Notes/Hints
+
+*   Avoid using a connection string unless one is not generated automatically - this facilitates easier checking of your work during correction. If using a connection string, don't reference your dev machine directly - use the ".\(localdb)\v11.0" prefix. If necessary, you can use ".\SQLExpress" but use (localdb) in preference.
+*   The award of a mark for this CA is not final unless an in-class selective assessment confirms your understanding. Penalties will apply for poor performance in-class in the answering of a question which is correctly answered in the assignment. You can mitigate against 
+*   You may use VS2012 or VS2013.
+*   There are marks for presentation of your data and for building robust code. Use jQuery/CSS or extensions/derivatives such as CSS Frameworks (e.g. Bootstrap) and jQuery plugins to ease development and improve your deliverables.
+*	Use Github to submit your work. You will have confirmed your CA repository previously and named the branch for "RAD302CA". This is important as I will not investigate which of potentially many branches is the correct one.
+*	A number of submissions will be selected for interview. Your mark is contingent on your attendance to this interview. The purpose of the interview is to confirm your understanding of the code you have submitted.
+
+<div class='well'>
+Upload to <a href='http://bit.ly/rad30x'>bit.ly/rad30x</a>
+</div>

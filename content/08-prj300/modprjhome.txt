@@ -1,0 +1,28 @@
+Title: PRJ300
+
+----
+
+Description: Project 300
+
+----
+
+Session: Semester 5 & 6 (2014-15)
+
+----
+Alert: Important : Register for the Project (link:https://docs.google.com/forms/d/1uVO8n1gvOJp_36KFRmW3M0udGoHq_ZhOWDUJCYJ9J_0/viewform text:here) before 19-9-14
+----
+Alert:
+Project 2014-5 [List](https://docs.google.com/spreadsheets/d/1ie8KhEZU8rGIcesOUE99n62x6YGUv6eEbFur2zLgRjw/pubhtml?gid=1600570440&single=true)
+
+----
+--Alert: If repeating PRJ300, you should read carefully (link: prj300/handup/repeat text:this) advice.
+----
+
+Text:
+The Project 300 module is core to several streams in the programmes offered by Dept. Computing & Creative Practice. It represents an opportunity to undertake a substantial, independent, and unique body of work which can pull together many strands of study and provide a useful portfolio of students’ skills.
+
+PRJ300 (link:https://amm.itsligo.ie/module/webview//COMP07147/201200/999999 text:Syllabus) is undertaken by:
+
+- BSc. (Ord) Computing (link: https://amm.itsligo.ie/programme/webview/COMP/SG_KSDEV_B07/201300/999999 text: Software Development), Level 7, Year 3
+- BSc. (Ord) (link: https://amm.itsligo.ie/programme/webview/COMP/SG_KWDEV_B07/201200/999999 text: Web Development & Creative Media), Level 7, Year 3
+- B.Sc. (Ord) (link: https://amm.itsligo.ie/programme/webview/COMP/SG_KGDEV_B07/201200/999999 text: Games Development), Level 7, Year 3

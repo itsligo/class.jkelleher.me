@@ -1,0 +1,54 @@
+Title: WebAPI
+----
+Description: Web API & Azure
+
+----
+Date: 2014-2-26
+
+----
+Tags: WebAPI,Azure
+
+----
+Text:
+###Ajax calls of Partial Views
+We saw partial views in RAD301. They allow for the compartmentalising of output to your views. However, they work best when driven from the client-side using Ajax. We'll work through examples of this in-class but there are some good examples [online](http://www.c-sharpcorner.com/UploadFile/3d39b4/rendering-a-partial-view-and-json-data-using-ajax-in-Asp-Net/).
+We'll typically use $.ajax() calls from jQuery to invoke the appropriate action method in the controller back on the server. You can of course use JS or as we may see later, use custom libraries in say AngularJS to make that call. The response from the server can be a partial view or even JSON. If the latter, then you'll typically operate a MVC JS client-side framework to consume the returned JSON.
+
+###Web API
+ASP.NET [Web API](http://www.asp.net/web-api) is a framework that makes it easy to build HTTP services that reach a broad range of clients, including browsers and mobile devices. ASP.NET Web API is an ideal platform for building RESTful applications on the .NET Framework.
+**Web API_1** practice (opposite) shows how to set up an API controller and permit access to JSON formatted data using Ajax calls [(Source)](http://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api)
+
+There are useful [notes](http://www.asp.net/web-api/overview), [videos](http://www.asp.net/web-api/videos) and [walk-through](http://www.asp.net/web-api/samples) tutorials available.
+
+If you're curious of how web api and asp.Net MVC stack up then Scott Allen has a [good explanation](http://odetocode.com/blogs/scott/archive/2013/07/01/on-the-coexistence-of-asp-net-mvc-and-webapi.aspx). For example, you might be considering whether your plain old action method can return Json for your client to consume (it can).
+
+####Web API Practicalities
+While Web API is generally well supported by MS VS, there are a number of issues that can arise but which are relatively easy to fix. If you encounter difficulties ensure you have the following covered:
+
+1. If using Ninject for DI, there is some extra work to do to notify the Dependency Injector to work with Web API. You'll find the additonal code [here](http://www.peterprovost.org/blog/2012/06/19/adding-ninject-to-web-api/) or [here](https://gist.github.com/jkelleher/9639182) and most of the amendments are to do with the **NinjectWebCommon.cs** file in the **App_Start** folder.
+1. If you find an exception while trying to enumerate the Json results, you may need to add this to the connection string: **MultipleActiveResultSets=True;**
+1. If using lazy loading (i.e. _virtual_ prefix for navigation properties), you may encounter an error when attempting to serialize objects in response to ajax calls. This is reported as **'Self referencing loop detected for property'** Look [here](http://blogs.msdn.com/b/hongyes/archive/2012/09/04/loop-reference-handling-in-serializer.aspx) for workarounds. Essentially, you can disable lazy loading which might be a good idea from a perf pov. This can be done on a case-by-case basis (over-riding the 'virtual' qualifier) or across your entire application. Alternatively, just apply this to tell JSON not to follow navigation properties when serializing: **config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;**
+1. You may encounter an error while attempting to serialize the results returned by your web api call. This is due to MS prioritising an XML format to the data rather than JSON. Fix this by adding the following code to your **webapiconfig..cs** file:
+```
+var json = config.Formatters.JsonFormatter;
+            json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
+			config.Formatters.Remove(config.Formatters.XmlFormatter);
+```
+Most of these issues are likely not to arise if you choose a MVC Web Api project initially. An increasingly typical course of action is to create a RESTful web api service at the server end, eschewing the use of Views. The Json data pulled using Ajax methods is then consumed by client-side JS, often handled by modern JS libraries/frameworks like KnockoutJS, AngularJS, Backbone or EmberJS. This aids responsiveness at the client as more can be accomplished without server-side calls. For example, a table of data could be sorted, filtered or queried locally, without expensive server calls.
+
+####Google Maps
+In class we'll employ the Google Maps API to work up an app to display the locations of countries around the world. We'll create a database of locations and their corresponding longitude and latitude coordinates. Wrapping this database with Entity Framework will let us surface the data at the client where the user can search for a particular country. The search will execute using ajax to the back-end, calling Google Maps into action to display the country in the main window.
+
+###Azure
+Azure is Microsoft's comprehensive offering for cloud computing. Scott Gu (VP) heads up Azure and provided this excellent 90min introduction the range of services.
+<iframe width="560" height="315" src="http://www.youtube.com/embed/i8MOJho5TDs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+----
+
+practices:
+####[Web API 1](https://github.com/itsligo/web_api_1.git)
+<small>Simple introduction to web api</small>
+####[College](https://github.com/itsligo/college)
+<small>asp.NET follow-on from EFBlogCon. DI branch uses Repository pattern with Dependency Injection from Ninject.</small>
+####[College2](https://github.com/itsligo/college2)
+<small>Same as above but for older VS2012 installs with lower versions of MVC etc.</small>

@@ -1,0 +1,26 @@
+Title: RAD302 Assessment
+
+----
+
+Description: Schedule for Rich Application Development 302
+
+----
+Session: Semester 6 (2014-5)
+----
+Alert: If uploading solutions to CA or exams, use this (link: http://www.jotformpro.com/jkelleher/rad30x text:link). 
+----(Results [SD3](https://docs.google.com/spreadsheet/pub?key=0Avax7Tsevzx_dExCNFk0dDJDaERjbERQLU91WWdTb2c&single=true&gid=2&output=html) & [GD3](https://docs.google.com/spreadsheet/pub?key=0Avax7Tsevzx_dExCNFk0dDJDaERjbERQLU91WWdTb2c&single=true&gid=3&output=html) to date)
+----
+Text:
+For end-Semester exams 2014, please ensure you follow the following instructions before uploading your work:
+
+* Do **not** use Git - if you did enable Git, enable showing all files and delete the **.git** folder
+* Right-click on the Solution (not Project) and **enable** NuGet Restore
+* Delete the bin folder
+* Delete the obj folder
+* Delete the packages folder
+* Zip your entire solution folder - this file should be only 2-3Mb at most. Unzip again if you like to confirm all your files are there.
+* Keep a copy of your work - you are not permitted to have usb stick or other external storage in the exam room but save to H.
+* You can email yourself a copy (since there are no executables left in the zip, this should work fine) but do not subsequently open.
+* Ensure you receive a confirmation email after you upload your work.
+
+----

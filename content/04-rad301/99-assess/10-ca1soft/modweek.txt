@@ -1,0 +1,54 @@
+Title: CA1 (Soft)
+
+----
+
+Description: Assignment ASP.NET MVC + Bootstrap + EF (Code First)
+
+----
+Session: Semester 5
+----
+-Alert:
+----
+Text:
+Write an ASP.NET MVC application that employs manages summer camps for kids. The application will have the following features/functionality:
+
+* Each **Camp** consists of a **Title** and a **StartDate**.
+* Each **Camp** will have an associated number of children. Each **Child** has a **Name** and **Sex** (M/F).
+* Your app's home page will list each **Camp** (sorted by **StartDate**, most recent first) along with the number of children on that **Camp**. If there are no children on the **Camp**, display 'None'.
+* Display a styled button alongside each **Camp** which when clicked leads to a 'Details' page. This page displays the **Camp** name and a table of the children on that **Camp**. Provide a button to return the user to the 'Home' page.
+* The app will begin with 3 **Camps** - one **Camp** will have **two** children and the others will have none. Seed the database to provide this data. Do this properly using a database initialiser class.
+
+Additionally ensure you adhere to the following technical requirements:
+
+* Use Entity Framework Code First to generate a database corresponding to your model classes
+* Seed the database as described above. Do so in an effective manner
+* Provide robust code that defends against errors particularly wrt database access
+* Reward is provided for exceptional coding that (e.g. performant, robust, elegant)
+* You should employ whatever features of the Bootstrap >3.0 framework that you feel would enhance the UI but balance this against the marking scheme
+* Be **sure** to enable Nuget (link: http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages text:restore) for your Solution to avoid submitting the large packages folder along with your solution.
+* Your zipped solution should be <3mb; if not, ensure you have followed the above points.
+
+####Marking Scheme
+* Styling (use of Bootstrap etc.)                  **20 marks**
+* Controllers, data retrieval/querying, EF      **30 marks**
+* Constructing Views and using Razor View engine   **30 marks**
+* Good programming practice, innovative approach  **20 marks**
+
+#### Internet Access
+You cannot access past class exercises or other coded answers save those you find in the permitted sites below:
+
+* Stack Overflow
+* MSDN (Microsoft Reference)
+* Pages of relevant Nuget packages/jQuery plugins
+
+You should not access all other sites including:
+
+* class.jkelleher.me
+* github pages other than that mentioned above
+
+####Upload
+Use this link: (link: http://bit.ly/rad30x text:bit.ly/rad30x)
+----
+practices:
+####[Solution](https://github.com/itsligo/2014rad301ca1)
+<small>Sample solution</small>

@@ -1,0 +1,29 @@
+Title: PRJ400
+
+----
+
+Description: Project 400
+
+----
+Session: Semester 7-8 (2014-15)
+----
+-Alert: Important : Register for the Project (link:https://docs.google.com/forms/d/1uVO8n1gvOJp_36KFRmW3M0udGoHq_ZhOWDUJCYJ9J_0/viewform text:here) before 19-9-14
+----
+Alert: Project 2014-5 List [here](https://docs.google.com/spreadsheets/d/1ie8KhEZU8rGIcesOUE99n62x6YGUv6eEbFur2zLgRjw/pubhtml)
+
+----
+--Alert: Interim Presentations Results. (link: https://docs.google.com/spreadsheet/pub?key=0Avax7Tsevzx_dFpQY0FLNHpBUkNuZVN1WGliZVVtTEE&single=true&gid=6&output=html text:Results/Feedback)
+----
+-Alert:
+Interim Presentations in D1010 on Mon, Jan 27th 2013 2-5:30pm & 28th 9am-6pm (link: prj400/showcase text:Running Order)
+----
+-Alert: If repeating PRJ400, you should read carefully (link: prj400/handup/repeat text:this) advice.
+----
+
+Text: The Project module in this capstone Level 8 programme is a significant body of independent effort. It represents an opportunity to undertake a substantial, independent, and unique body of work which can pull together many strands of study and provide a useful portfolio of students’ skills.
+
+PRJ400 (link:https://amm.itsligo.ie/module/webview//COMP08097/201200/999999 text:Syllabus) is undertaken by student on the B.Sc. Computing (Software Development), Level 8, Year 4. However, electives on the programme make it attractive to graduates of the following programmes:
+
+- BSc. (Ord) Computing (link: https://amm.itsligo.ie/programme/webview/COMP/SG_KSDEV_B07/201200/999999 text: Software Development), Level 7, Year 3
+- BSc. (Ord) (link: https://amm.itsligo.ie/programme/webview/COMP/SG_KGDEV_B07/201200/999999 text: Web Development & Creative Media), Level 7, Year 3
+- B.Sc. (Ord) (link: https://amm.itsligo.ie/programme/webview/COMP/SG_KWDEV_B07/201200/999999 text: Games Development), Level 7, Year 3

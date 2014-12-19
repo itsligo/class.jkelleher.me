@@ -1,0 +1,29 @@
+Title:Pexil
+----
+Shortdesc:A presentation tool
+----
+Description:A Presentation tool using a JavaScript Library (like Impress, Remark or Reveal) and combining it with a GUI to produce markdown-friendly presentations
+----
+Tags:gui presentation javascript web
+----
+Names:Jason Looby
+----
+StudentIDs:s00110809
+----
+prjurl:http://pexil.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea:
+----
+Primaryos:Web/Multi
+----
+Primarytechnology:PhP/C#/Markdown
+----
+Secondarytechnology:JavaScript/Html
+----
+

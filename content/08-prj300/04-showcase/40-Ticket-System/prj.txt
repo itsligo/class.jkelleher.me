@@ -1,0 +1,32 @@
+﻿Title:Ticket System 
+----
+Shortdesc:Ticket Parking System.
+----
+
+Description:The aim of the project is to develop a robust mobile application with a dynamic interface that will allow users quickly to pay for a parking space using their phone. The app will allow users to reliably renew their tickets from a far if they cannot make it back in time there by reducing the hassle and time waste the current business model causes the consumer. The application will also allow the Traffic warded to easily scan licence plates and tell if there was a ticket paid for that car using this system. There will be a website that will allow users to register for this service and show the locations of cars that were parked using this system(via gps),and will allow the traffic wardens to be more accurately dispensed threw out the town there by reducing the required amount of wardens and cost to the local county council.
+ 
+----
+Tags:Parking,mobile,app,ticket
+----
+
+Names:Darius Berzanskis,Grazvydas Nargelis,John Dwyer,Neil Fallon
+----
+StudentIDs:S00124530,S00134162,S00130070,S00117905
+
+----
+prjurl:http://pay4parkingapp.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Development) Yr 3
+----
+
+Supervisor:TBA
+----
+Primaryarea:City and Town Parking 
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: Java
+----
+Secondarytechnology: Html,CSS,jQuery,MySQL,Bootstrap,asp.net

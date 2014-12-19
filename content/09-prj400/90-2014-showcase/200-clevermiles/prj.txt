@@ -1,0 +1,29 @@
+Title: CleverMiles Mobile App
+----
+Shortdesc:An iPhone App that tracks how well you drive.
+----
+Description:A native iOS application that uses device hardware and web services to determine how well you are driving.
+----
+Tags: iPhone, iOS
+----
+Names:Davin Kelly
+----
+StudentIDs:S00008561
+----
+prjurl:http://davinkelly4th.wordpress.com
+----
+gitrepo:
+----
+Programme:B.Sc. Hons in Computing Software Development Yr 4
+----
+Supervisor:Paul Powell
+----
+Primaryarea: iPhone App
+----
+Primaryos: iOS
+----
+Primarytechnology: Objective-C
+----
+Secondarytechnology: 
+----
+

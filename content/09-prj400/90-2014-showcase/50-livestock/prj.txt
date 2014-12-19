@@ -1,0 +1,27 @@
+Title: Live-Stock 
+----
+Shortdesc:
+A farm managament system that will help manage live stock more efficiently.
+----
+Description: Te aim of the project is to build a management system in the form of a website that will help farmers keep track of their animals and all the different details that would be useful to record. The system will allow the users to log in, enter and save all of there animals to the system. It will keep track of what new born animals came from what mother (sheep/cow), when they were born, when animals are bought into the farm and when they die, most of this information is a legal requirement. Also to record what medicines were given to each animal and when their withdrawl period is up(the period after medicine they cant be sold or killed). The system will also have a feature that will tell the user where they will get the best price for their weighed livestock.The site may also have a forum like section for users to post questions and search for machinery. ----Tags: .Net, MVC, SQL Server, Mobile Site
+----
+Names:Adrian Carney
+----
+StudentIDs:S00102157
+----
+prjurl: http://live--stock.blogspot.ie/ 
+----
+gitrepo: 
+----
+Programme:B.Sc. Computing (Software Develpment) Yr 4
+----
+Supervisor:Una LEstrange
+----
+Primaryarea:
+----
+Primaryos:
+----
+Primarytechnology: ASP.NET, HTML 
+----
+Secondarytechnology: A CSS Framework, A javascript framework, Sql Server
+----

@@ -1,0 +1,61 @@
+Title: Revision
+----
+Description: Revision, Review of development stacks, Git
+
+----
+Date: 2013-9-10
+
+----
+Tags: Revision,Git
+
+----
+Text: 
+
+This sprint is all about re-establishing your coding practice. We'll lightly and briefly touch on some old topics to prime the next phase but mostly we'll be leaving WPF/XAML behind and moving to a new app dev stack using ASP.NET MVC and a bunch of open-source add-ons that even Microsoft have embraced e.g. CSS frameworks (like Bootstrap & Skeleton), jQuery (& some plugins).
+This will begin to create a comprehensive development stack fit for enterprise standards. In RAD302, we'll flesh out the database end of things with Entity Framework but for now we'll content ourselves with LINQ-to-SQL which you'll remember from last year.
+
+####Git & Github 
+2013-14 will see the introduction of Git across the programming stream. We'll expend some time ensuring you are familiar with its workings and you'll find that most class material will be distributed via Github. Look [here](/prj300/supports/git) for more study material on Git.
+
+####New development stacks
+To-date, we've focused on client-side applications (using WPF) as well as some exposure to web programming through ASP.NET. This pair of modules (RAD301/2) will move the debate embracing ASP.NET MVC (quite different) as well as significantly increase work with databases (from the programming end). Shane Wildermuth does a good job sketching this changing [web environment](https://docs.google.com/viewer?url=http%3A%2F%2Fwildermuth.com%2Fdownloads%2FCodeStock_ModernWebDev.pdf) and Dan Wahlin [introduces](http://weblogs.asp.net/dwahlin/archive/2011/02/22/getting-started-with-asp-net-mvc-3-and-razor.aspx) you to ASP.NET MVC.
+
+####Revision of Core Concepts
+For those approaching this module from a less than confident standpoint, you should look to the following notes to bring you up to speed, ready to take on board new concepts.
+
+* [OO Development 4 - Object Concepts](http://www.slideshare.net/randyconnolly/oo-development-4-object-concepts "OO Development 4 - Object Concepts")
+* View more presentations from [Randy Connolly](http://www.slideshare.net/randyconnolly)
+* Using [Classes](http://msdn.microsoft.com/en-us/beginner/bb308750.aspx) (Microsoft, with examples)
+* Introduction to Classes ([dotnetperls.com](http://www.dotnetperls.com/property))
+* Constructor initialiser and using _base_ keyword ([dotnetperls.com](http://www.dotnetperls.com/this-constructor))
+* C#.Net Tutorials - [Introduction to Classes](http://csharp.net-tutorials.com/classes/introduction/)
+* Introduction to [Classes](http://www.csharp-station.com/Tutorials/Lesson07.aspx) (CSharp Station)
+* Generics Quick [explanation ](http://channel9.msdn.com/showpost.aspx?postid=10189)(Anders Hejlsberg)
+* Generics ([Part 1](http://blogs.msdn.com/charlie/archive/2006/08/18/706658.aspx),  [Part  2](http://blogs.msdn.com/charlie/archive/2006/09/05/740477.aspx)) (Charlie Calvert's Community Blog)
+* [List](http://en.csharp-online.net/Understanding_Generics%E2%80%94Examining_the_List(T)_Type)&lt;T&gt; (C#Online.net)
+* [Generics](http://http//download.microsoft.com/download/c/b/f/cbfbdf30-de37-45a7-a806-20a93f94b7b8/Michaelis_ch11.pdf) (Mark Michaelis, O' Reilly - [Essential C#](http://www.codeproject.com/books/EssentialCS20.asp))
+* Generics (Deitel) [Part  1](http://www.deitel.com/articles/csharp_tutorials/20051111/Intro_CSharpGenerics.html), [Part  2](http://www.deitel.com/articles/csharp_tutorials/20051111/MotivationforCSharpGenerics.html), [Part  3](http://www.deitel.com/articles/csharp_tutorials/20051111/GenericMethodImplementation.html)
+* Media streams on Generics (K. [Dollard](http://www.dotnetrocks.com/default.aspx?showID=122) (@  18:30min) &amp; Juval [Lowy](http://msdn.microsoft.com/dotnetrocks/Default.aspx))
+###CSS Frameworks
+![Bootstrap](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMID0alNXAvanwgC7xtH42Wm3LYew_ZIsYCnmYzIbz9pjEkIR "Bootstrap")
+
+As we depart from XAML, we need a new candidate for client-side UI declarative language. For that CSS3 is the obvious choice, now well supported by [most browsers](http://css3test.com/). While I don't propose to deal with CSS directly (you will have encountered it in a previous module), I will look at means of expediting the creation, manipulation and deployment of CSS to speed up overall development.
+Rather than craft CSS classes individually we will employ a CSS framework to bring good quality designs to bear on your applications. There is [much choice here](http://usablica.github.io/front-end-frameworks/compare.html). However, a popular choice (now incorporated into VS2013) from Twitter is [Bootstrap](http://getbootstrap.com). Bootstrap is an open-source Javascript framework developed by the team at Twitter. It is a combination of CSS and some Javascript code (built on [jQuery](http://jquery.com/)) designed to help build user interfaces.
+####Learning Bootstrap
+* Understanding Bootstrap 3 ([Sitepoint](http://www.sitepoint.com/understanding-twitter-bootstrap-3/?utm_source=dlvr.it&utm_medium=facebook))
+* Read [Scott Allen's account](http://odetocode.com/blogs/scott/archive/2013/01/08/why-use-the-bootstrap-grid.aspx) of using grids in Bootstrap.
+* Mad Kristensen's interview brings some insight into how VS2012 supports the use of CSS during development:
+<iframe style="height:288px;width:512px" src="http://channel9.msdn.com/Shows/Web+Camps+TV/Mads-Kristensen-Takes-the-Pain-Out-of-CSS/player?w=512&h=288" frameBorder="0" scrolling="no" ></iframe>
+####Revision Practice
+To help you build up your coding skills:
+
+* Write a program to take a number and shows its reverse. While doing this for a string is a trivial exercise, do this exclusively with a number (int).
+* Write a conventional tictactoe game in WPF. You'll find full source on Github opposite, open in a week or so. This is a refresher.
+* Try the OddEven app which works to show how we can bind data from one part of an interface with another - declaratively, rather than procedurally, though we'll show both in action in this application. You'll see from the README.md that there are two branches showing both approaches.
+
+----
+practices:
+####[Reverse Number](https://github.com/itsligo/reversenumber.git)
+####[Tictactoe](https://github.com/itsligo/tictactoe)
+####[Odd Even (WPF)](https://github.com/itsligo/wpfoddeven)
+####[Games Yr 3 App](https://github.com/itsligo/gd3mvcapp.git)

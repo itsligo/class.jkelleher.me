@@ -1,0 +1,17 @@
+Title: FOOP202 Lesson
+----
+Description: Revision
+
+----
+Date: 2014-5-1
+
+----
+Tags: 
+
+----
+Text: 
+As more CA falls due around now, we'll focus our efforts on dealing with issue arising around this. There are several practice exercises that draw out your understanding of the topics covered to date and you're advised to tackle these outside of class. Then bring those problems that arise, into class so we can throw some light on any problems.
+----
+practices:
+####[MoviesApp](https://github.com/itsligo/moviesapp)
+<small>Small GUI app showing inheritance usage.</small>

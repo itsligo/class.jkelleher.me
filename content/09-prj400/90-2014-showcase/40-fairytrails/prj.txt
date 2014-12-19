@@ -1,0 +1,28 @@
+﻿Title: Group Fairy Trails
+----
+Shortdesc:
+An android application to teach kids visual programming.
+----
+Description:
+Create an android application in Java programming language. This application will teach kids programming concepts such as conditions and looping through visual based learning. The age group of the kids will be from eight to twelve years.The application will allow the user to select a character at the beginning, question/s will then be asked and the user must answer correctly to advance to the next level. The aim of the app will be to give children of solving simple using programming concepts. 
+----
+Tags: Java, Android SDK, Mobile
+----
+Names:Lisa McNama, Nicola McHugh
+----
+StudentIDs:S00109133,S00101916
+----
+prjurl:http://fairytrailsapp.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: Android SDK
+----
+Primaryos: Android SDK
+----
+Primarytechnology: Java
+----

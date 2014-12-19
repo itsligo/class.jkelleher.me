@@ -1,0 +1,60 @@
+Title: Web Apps
+----
+Description: Building out ASP.NET MVC using EF
+
+----
+Date: 2014-1-26
+
+----
+Tags: MVC,ASP.NET
+
+----
+Text: 
+
+####Recap on ASP.NET MVC Resources
+ASP.NET MVC is an alternative to Microsoft's [ASP.NET](http://www.asp.net/) Web Forms server-side processing model. It lends itself better to larger applications where the use of the MVC (Model-View-Controller) pattern helps to better differentiate roles within an application. You'll find more resources in [RAD301](/rad301).
+
+####Taking Stock
+
+RAD302 follows the vector set by [RAD301](/rad301) by filling in gaps in what is necessary for best practice at enterprise-level computing. First, though some reflection on where we've come from and some further commentary on the significance of the move.
+
+[Nick Polyak](http://awebpros.com/#Home.) provides an excellent pair of [posts](http://www.codeproject.com/Articles/456638/HTML5-JavaScript-Knockout-JQuery-Guide-for-Recover) detailing his move from WPF/Silverlight/XAML to the more web-centric stack of HTML/JavaScript/JQuery/KnockoutJS. His is a journey currently not uncommon as Microsoft re-orientate themselves as a serious web development tools company and in the process dis-possess themselves of previous leanings, notably WPF &amp; Silverlight.
+
+Though the move to these alternative technologies is difficult there is much that was good in the design of WPF/Silverlight and Nick salvages that which is good and seeks to employ those tactics in the web stack - e.g. KnockoutJS to replicate data binding from XAML.
+
+The [first post](http://www.codeproject.com/Articles/456638/HTML5-JavaScript-Knockout-JQuery-Guide-for-Recover) brings you up to speed on the role/syntax of JavaScript, how to work with JS in VS20XX and comes complete with source code.
+
+The [second post](http://www.codeproject.com/Articles/464853/HTML5-JavaScript-Knockout-JQuery-Guide-for-Recover) will make more sense to those quite familiar with Silverlight but there's still a lot of use here. Those who remember Bea Stollnitz's (Costa) excellent blog post on rendering a graphical solar system from templates and styling will appreciate Nick's version, now employing KnockoutJS.
+
+####Working with databases
+We will use Entity Framework (EF) to help with accessing and manipulating databases. EF (like its competitor [nHibernate](http://nhforge.org/)) is an object-relational mapping tool. This means it helps your app to liaise more easily with a database. There are two (popular) ways by which EF will do this:
+
+* Code First (new database) - building a **new** database from class definitions ([video](http://msdn.microsoft.com/en-us/data/jj193542))
+* Code First (existing database) - taking an **existing** database and having EF create a bunch of proxy classes to assist in interacting with that database ([video](http://msdn.microsoft.com/en-us/data/jj200620))
+
+Julie Lerman (a guru in this area) has an excellent, short [article](http://msdn.microsoft.com/en-us/magazine/hh148150.aspx) explaining these approaches. For any information on EF, your best starting point is MS's EF [Page](http://msdn.microsoft.com/en-us/data/ee712907).
+
+In Code First approach, you avoid working with visual model designer (EDMX) completely. You write your POCO classes first and then create database from these POCO classes. Developers who follow the path of Domain-Driven Design (DDD) principles prefer to begin by coding their classes first and then generating the database required to persist their data.
+
+Entity Framework (EF) enables developers to create data access applications by programming against a conceptual application model instead of programming directly against a relational storage schema. The goal is to decrease the amount of code and maintenance required for data-oriented applications. The general ambition of EF is to lower the impedance mismatch between how we manage data in database and how we seek to manipulate it in code.
+
+####Flavours of EF support
+As Rowan Miller shows in this [video](http://channel9.msdn.com/Shows/Web+Camps+TV/Rowan-Miller-Demonstrates-Entity-Framework-5-Using-ASPNET-MVC-4), EF can be employed in various ways, depending on whether your database already exists or is being created fresh. Similarly, you may prefer to work with a schema designer or have your database created through POCOs.
+
+####Repository Pattern & Dependency Injection
+The Repository pattern ensures that there is separation of concerns between that part of your code that handles the direct data access and that part that constructs the views (controller). Doing this means that you can substitute another repository that (say) provides test data.
+Dependency injection ensures that the MVC controllers don't have a dependency on the repositories you create. We use [Ninject](http://www.nuget.org/packages/ninject) to provide this behaviour. Look to the Northwind or College examples opposite.
+See [here](http://www.asp.net/mvc/tutorials/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application) for a full walkthrough.
+
+----
+practices:
+####[Northwind](https://github.com/itsligo/northwind)
+<small>Using EF Database First variant, Ajax querying, Bootstrap styling, MailService to handle contact form, Dependency Injection with Repository pattern</small>
+####[EFBlogCon](https://github.com/itsligo/ef_cf_con)
+<small>Console app showing basic EF Code First setup. Extend using data migrations</small>
+####[PractEFBlogCon](https://github.com/itsligo/practEFBlogCon)
+<small>In-class build up to EFBlogCon. uses data migration, lazy loading, seeding database</small>
+####[College](https://github.com/itsligo/college)
+<small>asp.NET follow-on from EFBlogCon. DI branch uses Repository pattern with Dependency Injection from Ninject.</small>
+####[College2](https://github.com/itsligo/college2)
+<small>Same as above but for older VS2012 installs with lower versions of MVC etc.</small>

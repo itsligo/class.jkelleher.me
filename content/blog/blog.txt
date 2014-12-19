@@ -1,0 +1,6 @@
+----
+Title: Blog
+----
+Text:
+News items and general class administration/advice will be posted here.
+----

@@ -1,0 +1,33 @@
+Title: Week 7-9
+----
+Description: Graphic Design
+
+----
+Week: 7-9
+
+----
+Tags:
+
+----
+Text: 
+####[<i class='icon-th-list icon-large'></i>    Graphic](https://docs.google.com/presentation/d/1SmElKOtSALMKKs6VWWz2Lngh8lmIySCMmIuFvXg79Dw/edit?usp=sharing) Design (also MIT graphic design [notes](http://groups.csail.mit.edu/graphics/classes/6.893/F03/readings.html))
+
+*   Office [12](http://blogs.msdn.com/jensenh/archive/2006/03/31/565877.aspx) (msdn blog) Adaptive menus
+*   Napoleon's March on Moscow 1812 ([mmbenetts](http://mmbennetts.wordpress.com/2011/12/15/napoleons-ruinous-retreat-from-russia/))
+*   Logo [Evolution](http://www.hongkiat.com/blog/logo-evolution/)
+*   Innovative [Logos](http://theroxor.com/2009/10/22/23-brilliant-logos-with-hidden-messages/)
+*   10 [Mistakes](http://turbomilk.com/blog/cookbook/icon_design/10_mistakes_in_icon_design/) in Icon Design (Turbomilk.com)
+*   Design by the [Numbers](http://speakerdeck.com/u/sachag/p/design-by-the-numbers) ([Sacha Grief](http://speakerdeck.com/u/sachag))
+*   Colour Psychology in Web Design ([naldzgraphics.net](http://naldzgraphics.net/tips/color-psychology-in-web-design/))
+*   The Fundamental Elements of [Design](http://www.underconsideration.com/quipsologies/archives/december_2011/arminvit_57.php) (Underconsideration.com)
+*   Golden [Rectangle](http://net.tutsplus.com/tutorials/other/the-golden-ratio-in-web-design/) (tutsplus.com). Also [CreativeBloq.com](http://www.creativebloq.com/design/designers-guide-golden-ratio-12121546). Also [more](http://www.hongkiat.com/blog/golden-ratio-in-moden-designs/)
+*   Five [Principles](http://uxdesign.smashingmagazine.com/2008/04/24/5-more-principles-of-effective-web-design/) of Effective Web Design (Smashing Magazine)
+*	[AIDA](http://webdesign.tutsplus.com/articles/employing-aida-principles-in-web-design--webdesign-6997) - Attract, Interest, Desire, Action. (Tutsplus)
+*   Eurodebt Infographic ([BBC](http://www.bbc.co.uk/news/business-15748696))
+*   London Underground Map ([Beck](http://www.dedeceblog.com/2011/07/06/map-redesign-for-the-london-undergound/) - Dedeceblog.com)
+*   John Snow's [Cholera  Map](http://flowingdata.com/2007/09/12/john-snows-famous-cholera-map/)
+*   Visualisation ([Bumptop](http://www.youtube.com/watch?v=M0ODskdEPnQ))
+*   Matthias Shapiro '[Info  Viz](http://www.youtube.com/watch?v=_l-Dby7-JG4)' Talk (5m)
+*   Graphic [Design  Principles](http://ux.artu.tv/?p=121) Illustrated (MS UX chit chat)
+*   10 Tips for [Troubleshooting](http://designshack.co.uk/articles/layouts/10-tips-for-troubleshooting-a-lackluster-design) a Lackluster Design (DesignShack)
+*   Alan Blackwell [interview](http://youtu.be/k9dFkrHXM2k) on visual respresentation

@@ -1,0 +1,29 @@
+Title: Farmer Friend
+----
+Shortdesc:A Farm Managment System.
+----
+Description:This system will be used to keep a record of key items on a farm. They will include stock records, keep track of income and expenditure and display the increase or decrease in livestock prices.
+
+----
+Tags: MEAN,JavaScript,Node,Angular,Mongo
+----
+Names:Paul Kenny
+----
+StudentIDs:S00116253
+----
+prjurl:http://farmerfriendprj400.blogspot.ie/
+----
+gitrepo: https://github.com/PaulKenny101/PRJ400
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:John Kelleher
+----
+Primary area: Wordpress CMS
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: MEAN
+----
+Secondarytechnology: Bootstrap
+----

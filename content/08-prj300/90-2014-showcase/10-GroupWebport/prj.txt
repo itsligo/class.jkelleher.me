@@ -1,0 +1,30 @@
+Title: Group Webport
+----
+Shortdesc:
+A CMS to manage an online portfolio.
+----
+Description:
+The aim of the project is to develop a CMS (with the hope of adding a mobile application), which showcases students’ skills in the form of an online portfolio. The site will allow students to create a profile which showcases their abilities in the general Web Development/Web Design/General Design sphere, to interested parties. Businesses can then advertise relevant opportunities they have to the registered students. Businesses can then determine which student(s) meet their needs via information on the site. The CMS will benefit the students by allowing for contact with the marketplace. Other site functionality (e.g. mapping) will be added as required). 
+----
+Tags: Wordpress,CMS,MySql
+----
+Names:Lianna Ryan,James Daly,Michael Jordon,Laura Ellis
+----
+StudentIDs:S00123717,S00123882,S00123062,S00009037
+----
+prjurl:http://prj300groupblog.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Web Dev) Yr 3
+----
+Supervisor:Colm Davey
+----
+Primaryarea: Wordpress CMS
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: PHP
+----
+Secondarytechnology: CSS,jQuery,MySQL
+----

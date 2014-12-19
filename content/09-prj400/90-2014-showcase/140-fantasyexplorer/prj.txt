@@ -1,0 +1,45 @@
+﻿Title: Fantasy-Explorer
+
+----
+Shortdesc: Role playing game
+
+----
+Description: An action and explorer where the player will take on the role of a James Mattison a former rescue diver. He was sent out to sea by an old aquintence to search for a missing ship which disappeared at sea. At the start of the game the player will be at the bottom of the pacific inside an old cruise vessal. Once there you're are contacted by your client and told that their is a safe holding a long lost artifact and for you to retrieve it. Once it is discovered the object transports him to a world where all is not as it seems. Creatures from myth come to life e.g. Wizards, leprechauns, banshee etc. Once there the object that transported you has shattered and vanishes. Now the player must travel across this and many more stange places to recover the pieces and get home. EXAMPLES Underwater cities, Space, Dead city, castle etc.
+
+----Game: The game will be level based I am aiming for 5 height maps at the minimum if big levels and 10 if small. The player will be able to move across heightmaps and interact with objects and NPC's. Some Npc's will give out missions to the player each giving out a unique gift at the end of the mission if completed. Each level will have their own faction, some will interact with the player well and others they will have to do certain goals to enter these locations. Combat system - weapons will vary between close and longrange combat. Transportation will consist of variety of objects from a portal, flying device etc. The overall goal is system is to aquire the shards once the player acomplished this goal he will have completed the game.
+
+----
+Names:Brian Lynch
+
+----
+StudentID:S00101614
+
+----
+prjurl:http://fantasyexplorer.wordpress.com/
+
+
+----
+gitrepo:
+
+
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 3
+
+
+
+----
+Supervisor:
+
+----
+Primaryarea:
+
+----
+Primaryos: Pc/ XBOX
+
+----
+Primarytechnology: (undecided)Unity or mono + c#
+
+----
+Secondarytechnology: Photoshop, softimage, 3dsmax, visual studio
+
+

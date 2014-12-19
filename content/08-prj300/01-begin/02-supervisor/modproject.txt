@@ -1,0 +1,20 @@
+Title: Supervisor
+
+----
+
+Description: Project Supervisor
+
+----
+Tags: supervisor
+----
+
+Text: 
+#####A supervisor is assigned for each project usually with consideration for the subject matter involved. It is expected of the project team/individual to meet on a weekly basis with the supervisor and use him/her as a sounding board for new ideas and major developments within the project. If the project team member(s) fail to fully engage with the supervisor, it tends to have a detrimental effect on the end result.
+
+Each student will be required to maintain on a regular basis a (link: prj300/begin/project_log text:project log) documenting progress throughout the module. This will be monitored by the supervisor and form part of the overall evaluation. In Prj300, your supervisor will assign a project should you fail to agree one by the appointed deadline.
+
+Your supervisor will be your first port of call for any project related matters. You should make weekly contact with your assigned supervisor. Your project log can also act as a conduit for discussion. Your supervisor will also attend a sprint review meeting (or similar if using another project management framework) to offer feedback.
+
+Currently, there is provision for 30min per student per project at Level 8 and where teams of 4 are employed, there is an allocation of 90 minutes per week. It is important that you make the most of this time.
+
+Read (link: http://www.comp.nus.edu.sg/~damithch/guide3e/Ch6.html text:Chp. 6) of “Practical Tips for Software-Intensive Student Projects” by Damith C. Rajapaske.

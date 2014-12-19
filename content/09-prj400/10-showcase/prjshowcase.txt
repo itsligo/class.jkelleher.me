@@ -1,0 +1,99 @@
+Title: PRJ400 Showcase
+
+----
+AlertX:
+Day | Venue | Duration
+:--- | -----------------: | ----------:
+Mon Jan 27th | D1010 | 2-6pm
+Tue Jan 28th | D1010 | 9-6pm
+
+* * *
+**Mon Jan 27th**
+* * *
+Clevermiles Mobile App
+S00008561 SD4
+PP	2:00 pm
+
+Mental Health App	
+S00113423 SD4            	
+TH	2:30 pm
+
+Festival Mobile App
+S00107997 SD4
+VK	3:00 pm
+
+Mobile Programming App	
+S00101916 SD4
+S00109133 SD4
+FK	3:30 pm
+
+Farm Management System	
+S00102157 SD4            	
+UL	4:10 pm
+
+HTML5 Game	
+S00102884 SD4            	
+NG	4:40 pm
+
+Untitled
+S00060751 SD4            	
+JK	5:10 pm
+
+* * *
+**Tues Jan 28th**
+* * *
+App Pharmacy
+S00113056 SD4            
+NG	9:00 am
+
+Pexil	
+S00110809 SD4            	
+KM	9:30 am
+
+DicePoker	
+S00109663 SD4            	
+DV	10:00 am
+
+AllergApp	
+S00080256 SD4            	
+JK	10:30 am
+
+Blocker Game	
+S00112806 SD4            	
+FK	11:15 am
+
+OnlineDVD Platform	
+S00112365 SD4            	
+FK	11:45 am
+
+StudentLife App	
+S00111260 SD4            	
+DV	12:20 pm
+
+Incendies Game	
+S00108063 SD4            	
+NG	2:00 pm
+
+Fantasy Role Game	
+S00101614 SD4            	
+NG	2:30 pm
+
+easyCMS	
+S00108166 SD4            	
+UL	3:00 pm
+
+MeMonitor	
+S00112762 SD4            	
+TH	3:30 pm
+
+Facebook App	
+S00101157 SD4            	
+UL	4:10 pm
+
+Hotel Booking System	
+S00110436 SD4            	
+JC	4:40 pm
+
+E-Vent Social App	
+S00114071 SD4            	
+JK	5:10 pm

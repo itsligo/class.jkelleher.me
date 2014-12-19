@@ -1,0 +1,42 @@
+Title: Group WristWatch
+----
+Shortdesc:
+A wristwatch panic alert
+----
+Description:
+The aim of the project is to develop a  wristwatch type divice where
+it will allow the emergency services to find the exact location of the wristwatch bearer.
+When the user presses the button on the wristwatch for 3 seconds (to allow no human error) 
+it will send out the person's id and GPS to the call centre. The call centre then sends the 
+location and the persons information to the ambulance. (There may be an addition of sending
+the information to relatives and neighbours of the wristwatch bearer).
+
+ 
+----
+Tags: none (so far)
+
+----
+Names:Ciaran Donoghue, Craig Gallagher, Martin Hoban, Niall Hoban
+
+----
+StudentIDs:S0013340,S00133386,S00127670,S00130770
+
+----
+prjurl:
+----
+gitrepo:
+
+----
+Programme:B.Sc. Computing (soft Dev) Yr 3
+
+----
+Supervisor:
+
+----
+Primaryarea: unsure
+----
+Primaryos: Laptops, possible mobiles
+----
+Primarytechnology: Java, arduino board, GPS parallax module
+----
+Secondarytechnology: CSS, SQL management studio

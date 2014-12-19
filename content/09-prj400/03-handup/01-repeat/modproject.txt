@@ -1,0 +1,41 @@
+Title: Repeating
+
+----
+
+Description: Repeating Project 400
+
+----
+Session: Autumn Board (2014)
+----
+Tags: repeat
+----
+
+Text: 
+#####This article provides guidance for those who have failed PRJ400. As is the norm for all repeat modules, you will need to apply to the examinations office to ‘resit’ the module assessment. This is your responsibility as we cannot presume that every student who fails a module will seek to repeat it. There is also a fee to pay as with any repeat module.
+
+###When do I repeat?
+
+You will work on your Project over the summer and submit before the first working day of September. You will need to present your work in person at start of September and must make provision for same.
+
+###What do I do?
+
+When you fail PRJ400, in the first instance you have the opportunity to consult with your supervisor during the pastoral days immediately after exam results are published. To repeat PRJ400, you will work individually rather than in a group. Generally, repeat students will follow the objectives of the previously agreed proposal. Work submitted after the deadline is not guaranteed to be accepted. During the first week of September, you will need to make yourself available for presentation of your work (see below). While we will take into account family and work obligations, you must ensure that you make yourself known to your supervisor or me (John Kelleher) so that a time slot for your presentation can be arranged. It may be the case that student email provision may have lapsed or passwords forgotten, so again, assume your message has not been received if you do not get a response.
+The requirements of PRJ400 are outlined in the module (link:https://amm.itsligo.ie/module/webview//COMP07147/201200/999999 text:syllabus.)
+
+###What do I submit?
+
+You will be tasked with the same requirements as described in the module syllabus – to analyse, design and build a client application, web app, mobile app, game. Often, the repeat work will be very similar to the work already undertaken but perhaps taken in a different direction or expanded upon further. This allows you to build on the knowledge you have already gained. Alternatively, you can propose a completely different idea, but with the approval of your supervisor during pastoral days.
+
+###How is it assessed?
+
+PRJ400 will be assessed broadly the same as for your first attempt. The learning outcomes and objectives agreed in your proposal frame the assessment. A (link:http://jkwp.itsligo.ie/content/09-prj400/03-handup/04-assessment/project_module_rubric.pdf text:rubric) is used to guide the overall project assessment. As for documentation, this requirement is the same as for your initial attempt.
+
+You will as mentioned above be required to attend for a presentation at an agreed date/time between the first week of the academic year. You should make contact with John Kelleher if you have not been contacted within the first few days of September.
+
+Marking Scheme
+
+- Presentation 20%
+- Project Report 25%
+- Deliverables 55%
+
+<script type="text/javascript" src="http://form.jotformeu.com/jsform/21694043376355"></script>

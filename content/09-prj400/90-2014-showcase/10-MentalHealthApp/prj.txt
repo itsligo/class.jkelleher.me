@@ -1,0 +1,29 @@
+Title:Mental Health Application 
+----
+Shortdesc:
+Application to help monitor and create a temporal track of mental health status
+----
+Description:
+To help sufferers of mental health issues, maintain an awareness of their mental health status and build a temporal mental health profile.  The application will use phone sensors, phone use and the Computerised Experience Sampling Method to track behaviour, perceived mood and feelings and build a data profile that can form the basis of any discussions held with medical professionals.  The application will also feedback to the user through alarms where sensor input and phone use detect that behaviour, mood and feelings are moving out of a what has previously been established as a standard profile baseline for the device owner. The application will provide possible actions in response to out of baseline readings and suggest ways of keeping within an acceptable range of the baseline using the approach of the Wellness Action Recovery Plan. 
+----
+Tags:Mental Health,Health,Mobile Application 
+----
+Names:Stuart Davies
+----
+StudentIDs:S00113423
+----
+prjurl:http://year4projects00113423.blogspot.ie/
+----
+gitrepo:
+----  
+----
+Supervisor: Therese Hume
+----
+Primaryarea: Mental Health Monitoring 
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: 
+Windows Phone 8----
+Secondarytechnology: Android, iOS
+----

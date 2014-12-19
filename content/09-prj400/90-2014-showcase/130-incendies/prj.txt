@@ -1,0 +1,29 @@
+Title:Incendies
+----
+Shortdesc:A 3D Third person shooter game
+----
+Description:A 3D Third person shooter/RPG story driven game that will involve the player being able to play as multiple characters. The game will be built using unreal engine with the story and gameplay logic being coded using unreal kismet and the unreal scripting language. It will use the built in models within the unreal engine. The game will play out more like an interactive movie with the player being able to switch between characters at will. The story will begin with a cataclysmic world changing event where every person on the planet gains a superpower. The player, through multiple characters, will have to find out what happened and have to cope with this new world. 
+----
+Tags:story udk game third-person
+----
+Names:Richard Clark-Elliott
+----
+StudentIDs:s00108063
+----
+prjurl:http://incendiesgame.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: 
+----
+Primaryos: Windows
+----
+Primarytechnology:UDK Unreal Engine/Unreal Script
+----
+Secondarytechnology:C#
+----
+

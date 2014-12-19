@@ -1,0 +1,28 @@
+﻿Title: Online Booking Service for a computer repair shop
+----
+shortDesc:booking service
+----
+Description: allows users to register and book appointments for their devices to be fixed
+----
+Tags: online booking service
+----
+Names: Noel Breslin, Tiernan Gilmartin, Thomas Cawley, Aaron McGrane
+-----
+Student Id's: s00119592, s00119162, s00117372, s00122604
+-----
+prjurl: http://teamglobetrotters.wordpress.com 
+-----
+gitrepo:
+----
+Programme: B.Sc. Computing (Web Dev and Software Dev) Yr 3
+----
+Supervisor: Dana V.
+----
+Primarytechnology: PHP, MySql, HTML5, CSS3, JavaScript, Jquery
+----
+Primaryarea: Dreamweaver, 000Hosting
+----
+SecondaryTech: PhotoShop
+----
+
+

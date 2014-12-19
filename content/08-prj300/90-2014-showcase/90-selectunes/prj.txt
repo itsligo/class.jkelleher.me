@@ -1,0 +1,29 @@
+Title: SelecTunes
+----
+Shortdesc: Virtual Jukebox
+----
+Description: The aim of the project is to provide a interactive music system to an audience who can choose songs from playlists. This system can be integrated into the music system of social places as well as in the home and workplace
+----
+Tags: music player network server mobile
+----
+Names:Gerard Carroll, Neville Farrell, Eddie Lennon, David O'Toole
+----
+StudentIDs:S00009509, S00121475, S00132504, S00003408
+----
+prjurl:http://selectunes.wordpress.com/
+----
+gitrepo: https://github.com/SelecTunes/prj300.git
+----
+Programme:B.Sc. in Computing in Software Development Yr 3
+----
+Supervisor: 
+----
+Primaryarea: SignalR
+----
+Primaryos: Windows
+----
+Primarytechnology: C#, ASP.Net MVC 4, HTML5, CSS
+----
+Secondarytechnology: SignalR, WPF, ASP.Net 4.5, jQuery, Ajax, SQL
+----
+

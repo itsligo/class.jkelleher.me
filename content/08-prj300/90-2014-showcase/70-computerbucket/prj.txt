@@ -1,0 +1,30 @@
+Title: Computer Bucket
+----
+Shortdesc:
+On-line computer assembly shop.
+----
+Description:
+To create a full set of software for online shop with computer parts. It will include: Dynamic website for taking orders from customers; Application for mobile phones to track order (Extra if we have enough time); Application for managing and processing the orders; Database linking the website and the application.
+----
+Tags: Wordpress, ASP.NET, SQL Server, WPF
+----
+Names:Ronan Clancy,Darius Berzanskis,Marco Leite,Jaroslaw Jablonski
+----
+StudentIDs:S00105604,S00124530,S00149173,S00124251
+----
+prjurl:http://computerbucket.wordpress.com/
+----
+gitrepo:https://github.com/s00149173/computerbucket.git
+----
+Programme:B.Sc. Computing (Software Development) Yr 3
+----
+Supervisor:Dana Dana Vasiloaica
+----
+Primaryarea: Dynamic Website & Database 
+----
+Primaryos: Windows
+----
+Primarytechnology: C#
+----
+Secondarytechnology: ASP.NET, SQL Database, WPF
+----

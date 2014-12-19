@@ -1,0 +1,29 @@
+Title:3D Brave Chess
+----
+Shortdesc:A 3D Chess game
+----
+Description:A 3D Chess Game, with unique and egaging graphics and animation. The game will consist of player versus player and player versus computer playing modes.
+----
+Tags:3D Brave Chess
+----
+Names:James Carolan, Egidijus Grismanauskas, Aaron Keenam, Robert Doohan
+----
+StudentIDs:S00118944, s00116785, s00121171, S00118621
+----
+prjurl:http://bravechess.wordpress.com/
+----
+gitrepo:https://github.com/TalonTwist/3DBraveChess
+----
+Programme:B.Sc. Computing (Games Dev) Yr 3
+----
+Supervisor:Paul Powell
+----
+Primaryarea: XNA
+----
+Primaryos: PC, Xbox
+----
+Primarytechnology: C#, Monogame
+----
+Secondarytechnology: Soft Image, Photoshop
+----
+

@@ -1,0 +1,173 @@
+title:Requirements Gathering
+
+----
+name: requirementsgathering
+
+----
+slides:class: center, middle, inverse
+# Requirements Gathering
+---
+class: left, inverse
+layout: true
+name: bulletSlide
+---
+![Eames Chair](http://upload.wikimedia.org/wikipedia/commons/e/e3/Eameslounch.jpg)
+![Eames House](http://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Eames_house_entry.jpg/498px-Eames_house_entry.jpg)
+##### Charles Ormond Eames, Jr (1907–1978)
+##### Bernice Alexandra "Ray" (née Kaiser) Eames (1912–1988)
+---
+##Interview with Charles Eames 1/3
+* What is your deﬁnition of design?
+    * "A plan for arranging elements in such a way as to best accomplish a particular purpose"
+* Is design an expression of art (an art form)?
+    * "The design is an expression of the purpose. It may (if it is good enough) later be judged as art."
+* Does the creation of design admit constraint?
+    * "Design depends largely on constraints."
+---
+##Interview with Charles Eames 2/3
+####"What constraints?"
+
+####"The sum of all constraints. Here is one of the few effective keys to the design problem -- the ability of the designer to recognize as many of the constraints as possible - his/her willingness and enthusiasm for working within these constraints - the constraints of price, of sized of strength, of balance, of surface, of time, etc; each problem has its own peculiar list."
+---
+##Interview with Charles Eames 3/3
+
+###"Does design obey laws?"
+--
+
+###"Aren’t constraints enough?"
+
+--
+###There are no rules of good composition in design.
+###Only good designs.
+---
+###Why Requirements Gathering
+* Explore the fundamentals of interfaces and the interaction design process
+* Practice the fundamental concepts, methods, and practices of interaction design. 
+* Practice “form follows function” and “be the user”
+* Explore how products create experiences, and understand the role that interaction with products fulﬁlls in human existence
+* Learn to present design ideas
+* Learn to critique design ideas
+---
+### Data Gathering Methods
+
+* Questionnaires
+* Interviews
+* Focus Groups
+* Naturalistic observation
+* Extant documentation
+* Contextual Enquiry
+---
+##Why do Requirements
+* Uncovered information may lead to:
+    * abandoning a bad idea
+        * video-phones, recipe management programs
+    * very good ideas
+        * Window usage matches a working set model – E.g. Rooms
+    * basis for driving design
+    * protects from building a useless program
+* Often assumptions designers have about users and interface are wrong
+---
+#Designing Software
+![Building Software](http://blog.thingsdesigner.com/uploads/id/tree_swing_development_requirements.jpg)
+---
+##Data Gathering Techniques
+* Data Recording
+* Interviews
+* Questionnaires
+* Observation
+---
+##Data Recording
+* Notes
+* Audio
+* Video
+* Photographs
+---
+##Interviews
+* Unstructured
+    - are not directed by a script. Rich but not replicable. 
+* Structured 
+    - are tightly scripted, often like a questionnaire. Replicable but may lack richness.
+* Semi-structured 
+    - guided by a script but interesting issues can be explored in more depth. Can provide a good balance between richness and replicability.
+---
+##Interview Technique
+* Open vs. Closed Questions
+* Avoid leading questions
+* Beware unconscious biases
+* Use props/prototypes
+---
+##Questionnaires
+* Questions can be closed or open
+* Closed questions are easier to analyze by computer
+* Can be administered to large populations, low cost
+* Paper, email and the web used for dissemination
+* Sampling can be a problem when the size of a population is unknown as is common online
+---
+##Questionnaires
+* Make sure purpose of study is clear
+* Assure anonymity
+* Do pilot run to verify design
+* Consider a shorter version
+* Include a stamped addressed envelope if posted
+* Consider follow-up with emails, phone calls
+* Provide an incentive/reward/stoyr
+* 40% response rate is high, 20% is often acceptable
+---
+##Observation
+* Direct observation in the field
+    - Structuring frameworks
+    - Degree of participation (insider or outsider)
+    - Ethnography
+* Indirect observation: tracking users’ activities
+    - Diaries
+    - Interaction logging
+---
+##Observation - Structuring
+* The Goetz and LeCompte (1984) framework:
+    - Who is present?
+    - What is their role?
+    - What is happening?
+    - When does the activity occur?
+    - Where is it happening?
+    - Why is it happening?
+    - How is the activity organized? 
+---
+##Ethnography
+* Investigation approach that include participant observation and interviews
+* Be aware of conflict between participant observation and ethnography
+* Immersion in the culture of the organisation
+* Analyzing video and data logs can be time-consuming
+* Collections of comments, incidents, and artifacts are made
+---
+##Requirements Specification
+* Data Requirements
+* Environmental Requirements
+* Functional Requirements
+* Usability Requirements
+* User Requirements
+* User Experience Requirements
+.footnote[[usabilityfirst.com](http://www.usabilityfirst.com/about-usability/requirements-specification/)]
+---
+##Requirements Specification
+* Data Requirements
+    * Gather all necessary information
+* Environment Requirements
+    * Consider noise, lighting, privacy
+* Functional Requirements
+    * Respondents unkowningly betray existing problems
+* Usability Requirements
+    * Efficient, intuitive, accessible E.g. [(Kord Pad)](http://www.korddefence.com.au/Images)
+* User Requirements
+    * Meeting the physical & cognitive needs of users
+* User Experience Requirements
+    * Boost transaction, engage, delight, offer mastery
+.footnote[[usabilityfirst.com](http://www.usabilityfirst.com/about-usability/requirements-specification/)]
+---
+###Example: University Cafeteria
+####Factors influence requirements in this instance?
+
+* Functional: The system will calculate the total cost of purchases
+* Data: Access to the price of products in the cafeteria
+* Environmental: Carrying tray, likely rushing, noisy, busy, users conversing with one another
+* User: Likely <25, comfortable with technology.
+* Usability: Readily accessible, friendly to neophytes, memorable for frequent user, quick, efficient, remedy errors quickly

@@ -1,0 +1,32 @@
+Title: Week 3-4
+----
+Description: Understanding Users
+
+----
+Week: 3-4
+
+----
+Tags:
+
+----
+Text:
+####[<i class='icon-th-list icon-large'></i>   Know the User](https://docs.google.com/presentation/d/1yDi89XGfmRav2NdB9xI0VqJ6vVXL8eMAAQ4uXPUnQvU/edit?usp=sharing)
+####[<i class='icon-th-list icon-large'></i>   Requirements Gathering](../slides/requirementsgathering)
+####[<i class='icon-th-list icon-large'></i>   Task Analysis &amp; Contextual Inquiry](http://husk.eecs.berkeley.edu/courses/cs160-sp11/images/2/24/Cs160-sp11-05.pdf)
+####[<i class='icon-th-list icon-large'></i>   Interaction Design](https://docs.google.com/presentation/d/1tb_qmUnQ9442zXUV0NJmfd9sq3roEzstBtll6DOT1N0/edit?usp=sharing)
+
+*  Wiley (link: http://www.wiley.com/legacy/wileychi/interactiondesign/pdf/ID_ch6.pdf text: Chapter) on Interaction Design
+*   BART Design (BART ui [video1](http://www.youtube.com/watch?v=V4_ZzaIe2Lc&amp;feature=BFa&amp;list=PL13B810A5F19581D0&amp;lf=mh_lolz), [video2](http://www.youtube.com/watch?v=4ihTOH7_FZY&amp;feature=BFa&amp;list=PL13B810A5F19581D0&amp;lf=mh_lolz), [video3](http://www.youtube.com/watch?v=Kyl2g11KSqc),  [redesigned](http://www.youtube.com/watch?v=M79xjOtVP4o&amp;feature=BFa&amp;list=PL13B810A5F19581D0&amp;lf=mh_lolz), [redesigned2](http://williamclark.prosite.com/43819/395766/interaction-design/the-bart-kiosk-redux))
+*   Real-world exercise in Contextual Inquiry ([Photodev](http://www.adamatorres.com/gallery-project/?page_id=106)) by [Adam Torres](http://www.adamatorres.com/gallery-project/?page_id=106)
+*   The Paradox of Choice ([Smashing](http://www.smashingmagazine.com/2011/11/28/easier-is-better-than-better/))
+* Barry Schwartz: The Paradox of Choice [(TED video)](http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html?utm_source=email&source=email&utm_medium=social&utm_campaign=ios-share)
+*   Google [Mission](http://www.google.com/about/corporate/company/tenthings.html) statement (Google)
+*   David Kelley: [IDEO](http://www.ted.com/talks/lang/eng/david_kelley_on_human_centered_design.html) (TED)
+*   Psychological Usability [Heuristics](https://docs.google.com/spreadsheet/ccc?key=0An-LJr2fswPHdGRDMUdQU3BKQmgteXd2UVcwVjhtb3c&amp;hl=en_US#gid=0) (UX Mag, _ _[Jordi Sánchez](http://uxmag.com/contributors/jordi-s%C3%A1nchez "View user profile."))
+*   The $300m [button](http://www.uie.com/brainsparks/2011/10/17/the-back-story-for-the-300-million-button/)
+*   [Personality in Design](http://www.alistapart.com/articles/personality-in-design/) ([Aarron Walter](http://www.alistapart.com/authors/w/awalter), UX Lead at MailChimp) ([PopChart](http://popchartlab.com/collections/prints/products/the-insanely-great-history-of-apple) faq)
+*   [Fun in Design](http://www.smashingmagazine.com/2012/02/24/a-fun-approach-to-creating-more-successful-websites/) (Smashing Magazine, Jeremy Girard)
+*   [How to Build Products that Users Love](http://startupclass.samaltman.com/courses/lec07/) (Sam Altman)
+*   Whither [Skeuomorphic Design](http://www.fastcodesign.com/1670760/will-apples-tacky-software-design-philosophy-cause-a-revolt) (FastCompany)
+*   Microsoft's [biggest gamble](http://www.fastcodesign.com/1670705/microsoft-new-design-strategy#1) (FastCompany)
+*   Tim Brown: Designers - Think Big [(TED2009)](http://www.ted.com/talks/tim_brown_urges_designers_to_think_big.html)

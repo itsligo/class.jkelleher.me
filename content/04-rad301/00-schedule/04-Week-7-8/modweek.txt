@@ -1,0 +1,77 @@
+Title: EF Intro
+
+----
+Description: Introducing Entity Framework
+
+----
+Date: Late Oct
+
+----
+Tags: Entity_Framework, DropDownList
+
+----
+Text: 
+
+####DropDownlist
+The Select form tag allows for the creation of a list of item from which the user can choose. Razor provides a mechanism for creating such input controls. Refer to my blog (link: http://www.jkelleher.me/2013/11/using-dropdownlist-mvc-and-razor/ text: post) for details on the code.
+
+####Toastr
+(link: http://www.toastrjs.com text: Toastr) is a Javascript library for Gnome / Growl type non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended. (link: http://codeseven.github.io/toastr/demo.html text: Demo.)
+
+####Entity Framework Introduction
+EF is a popular choice as a Data Access Layer (along with nHibernate). Read (link:http://www.codeproject.com/Articles/691517/Beginners-Guide-for-Designing-ASP-NET-MVC-Applicat text:here) for some context on the relationship between data layers, data access layer and business logic layer.
+
+Having explored database access using the familiar LINQ-to-SQL in FOOP202, it is now time to graduate to using Microsoft's premier object-relational-mapping (ORM) tool - Entity Framework.
+
+Entity Framework (EF) enables developers to create data access applications by programming against a conceptual application model instead of programming directly against a relational storage schema. The goal is to decrease the amount of code and maintenance required for data-oriented applications. The general ambition of EF is to lower the impedance mismatch between how we manage data in database and how we seek to manipulate it in code.
+
+As Rowan Miller shows in this [video](http://channel9.msdn.com/Shows/Web+Camps+TV/Rowan-Miller-Demonstrates-Entity-Framework-5-Using-ASPNET-MVC-4), EF can be employed in various ways, depending on whether your database already exists or is being created fresh. Alternatively, you may prefer to work with a schema designer (known as **Model First**) or have your database created through POCOs (Plain Old CLR Objects), known as **Code First**. For a walkthrough employing DbContext in a Database First approach consult [here](http://msdn.microsoft.com/en-US/data/jj206878).
+
+Julie [Lerman](http://learnentityframework.com/learnentityframework/), an expert in the framework, presents this gentle, short [introduction](http://msdn.microsoft.com/en-us/data/ff191186) (downloadable video 10min) to _creating your first entity model_.
+This video is part of a series which looks in detail (though a a simple level) at the creation and use of an Entity model - all of which can be downloaded for later viewing.
+
+(link: http://msdn.microsoft.com/en-us/data/ff628208 text:Julie Lerman) continues with a [video](http://msdn.microsoft.com/en-us/data/ff628208) on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model. We use LINQ (Language Integrated Querying) to Entities to query the database.
+
+####Video Walkthrough
+<iframe src="//media.heanet.ie/player/6bf55f08bc30d7b4970407a46ab81718" name="6bf55f08bc30d7b4970407a46ab81718" width="640" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
+#### Possible Issues with EF in labs
+Sometimes in the college labs we observed issues with working with Entity Framework. We prescribed solutions to all these issues but I will enumerate them here. Essentially, the problem was with working with EF Code First where the database wasn't created by the startup code. Normally, once you created the model classes and the associated DbContext class, running the application prompted the creation of the database in the local instance of SQL Express. However, this sometimes didn't happen.
+A quick solution is to employ LocalDb rather than SQL Server - LocalDb is available with VS2012 and later but otherwise proceed as below.
+
+The solution is to provide a connection string to direct your application to the correct database on the appropriate server. Here are the steps required:
+
+1.  Open web.config for your application (not the Views web.config) and explicitly add  a connection string. This is somewhat similar to the connection string already present for handling membership. Here is a typical example:
+
+~~~~
+<add name="blogConnString" connectionString="Data Source=.\SQLSERVER;Initial Catalog=BlogDB;Integrated Security=True;MultipleActiveResultSets=True" providerName="System.Data.SqlClient"/>
+~~~~
+
+If using (localDb) here's the connection string:
+
+~~~~
+<add name="BlogEntities" providerName="System.Data.SqlClient"  connectionString="Data Source=(localdb)\v11.0;Initial Catalog=BlogDb;Integrated Security=true;"/>
+~~~~
+
+Note that the Data Source will differ depending on the name of the server. Note the name of the connection string as this is needed later in your code.
+2.  Ensure you have created the data model classes and the associated DbContext class.
+3.  Create a constructor for the DbContext class you created and invoke the base class constructor passing a single string parameter with the format "name=_name of connection string_" as follows:
+~~~~
+public BlogEntities(): base("BlogEntities"){}
+~~~~
+4.  This resolved issues in all but one case that I witnessed. In this single case, the additional step required was to manually create the database referenced in the connection string through SQL Server Management Studio.
+5.  Running the application and browsing to a page that queries the database will now prompt the creation of the database - you will notice a slight delay while this is done but only on the first occasion of a run.
+
+####Invoking SPROCs
+While LINQ-to-SQL provides ready, easy access to database resources, it is common for access to the database to be mediated through dba-created stored procedures. We'll work to map these stored procedures to *functions* in LINQ-to-SQL and show how to pass parameters through to the SPROC and retrieve result sets for rendering to the browser.
+
+----
+practices:
+####[Simple Seed Coder First](https://github.com/itsligo/simpleseedcodefirst.git)
+<small>EF database seeding, also 2nd branch showing partial views displayed using ajax calls</small>
+####[AnotherBlogMVC](https://github.com/itsligo/anotherblogmvc.git)
+<small>Simpler than above, EF, db seeding, some controller action methods</small>
+####[MVC Music Base](https://github.com/itsligo/mvcbs_music_base)
+<small>Starter app for beginning work on using code first 'Music' database with MVC</small>
+####[MVC Music Store](https://github.com/itsligo/mvcbs_music)
+<small>Completed 'Music' database MVC app</small>

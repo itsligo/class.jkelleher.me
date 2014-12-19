@@ -1,0 +1,80 @@
+Title: More on EF
+----
+Description: More on EF
+
+----
+Date: 2014-2-26
+
+----
+Tags: MVC,ASP.NET
+
+----
+Text: 
+####In-class work
+The exercises opposite explore the following areas in particular:
+
+* consider Ajax operations (using jQuery) and data validation when performing the CRUD operations
+* engage EF data migration to support later changes to the data model and push these changes up to the database itself
+* develop and deploy Dependency Injection (a form of Inversion of Control container) to enfore separation of concerns between the database and its querying
+
+These topics are clearly commmented and explained in the code provided by the examples opposite. Note that there may be multiple branches within a project so that earlier material is preserved and not 'cluttered' by later more complicated work.
+
+####Database Migrations
+In earlier versions of EF, the solution was to 'drop' (delete) the database and re-script it. This meant that any extant data was lost. The work-around was to provide a 'Seed' method inside which code was used to created objects which then became entities in the database. While this wasn't arduous there needed to be a more 'gentle' way to update the database model.
+
+Later versions of EF provide for database migration. This is a more intelligent way to update the model. It works by taking the changes you propose for the classes and creates scripts which make the corresponding modifications to the database structure. An additional bonus is that these changes can be rolled back should you change your mind. Seeding the database as before is also supported albeit in a slightly different way.
+With code-first, the inevitability is that you will want to make changes to the model you created on foot of classes defined. This can have a significant effect on the resulting database and in the past necessitated the tear-down of the database and recreation. [Data migrations](http://msdn.microsoft.com/en-us/data/jj591621.aspx) aids in the updating of the schema to avoid the need to **drop** the database.
+
+Method:
+```
+Install-Package EntityFramework
+Enable-Migrations
+Add-Migration NewFieldForLocation
+Update-Database
+```
+In lab, we found that some needed to add the **-IncludePreRelease** switch to the Install-Package command (first command). This is likely to do with some conflict with EF and data migrations, one I haven't seen outside of labs.
+
+The first command above ensures that EF is installed. The second fires up Data Migrations - a one time deal. The third command you may call a number of times - whenever you make a change to the class that back the data model. Each time you will then call update-database to push your local changes to the database.
+
+####Issues with Data Migration
+Sometimes data migration can throw problems, reporting that Add-Migration must be run but this doesn't resolve the problem. This may be a common problem for those using EF6 as changes were made that prompt this error. If you are having such (or similar) issues, work through the solution here.
+
+1. Focus on the **Configuration** class that Data Migrations created for you. Ensure the following lines are in the ctor:
+~~~~
+    AutomaticMigrationsEnabled = true;
+    AutomaticMigrationDataLossAllowed = true;
+~~~~
+   These lines ensure that data migrations are automatically made (first line) and that if that migration leads to data loss (or change), then you accept that is okay (generally the case with seed data)
+2. Do your seeding of the database in the over-ridden Seed() method of **Configuration** class rather than a class derived from either **DropCreateDatabaseAlways<>** or **DropCreateDatabaseIfModelChanges<<>**
+3. In the DbContext class, add the following line to the ctor:
+~~~~
+Database.SetInitializer(new MigrateDatabaseToLatestVersion<TourContext, Configuration>());
+~~~~
+4. You may have to update your EF version to >6 to ensure this works. You may wish to use NuGet package manager to remove the existing EF install to make sure that the latest version is installed.
+5. Remember to fully examine any exceptions that you get and remember to drill down into the last inner-exception to get the true cause of the problem.
+
+####Database First Approach
+Julie [Lerman](http://learnentityframework.com/learnentityframework/), an expert in the framework, presents this gentle, short [introduction](http://msdn.microsoft.com/en-us/data/ff191186) (downloadable video 10min) to _creating your first entity model_.
+This video is part of a series which looks in detail (though a a simple level) at the creation and use of an Entity model - all of which can be downloaded for later viewing.
+
+(link: http://msdn.microsoft.com/en-us/data/ff628208 text:Julie Lerman) continues with a [video](http://msdn.microsoft.com/en-us/data/ff628208) on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model.
+
+Julie Lerman continues with a video on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model.)Julie continues in this [video](Julie Lerman continues with a video on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model.) by finally consuming the data provided by the Entity Model. We use LINQ (Language Integrated Querying) to Entities to do this providing a C# language syntax to query the data.
+
+####Sample Database
+You'll find a [script](http://msftdbprodsamples.codeplex.com/releases/view/55330) for AdventureWorksLT (note the LT - light version) from Microsoft. You may choose to download the database instead if you find it easier.
+
+----
+practices:
+####[Northwind](https://github.com/itsligo/northwind)
+<small>Using EF Database First variant, Ajax querying, Bootstrap styling, MailService to handle contact form, Dependency Injection with Repository pattern</small>
+####[EFBlogCon](https://github.com/itsligo/ef_cf_con)
+<small>Console app showing basic EF Code First setup. Extend using data migrations</small>
+####[PractEFBlogCon](https://github.com/itsligo/practEFBlogCon)
+<small>In-class build up to EFBlogCon. uses data migration, lazy loading, seeding database</small>
+####[College](https://github.com/itsligo/college)
+<small>asp.NET follow-on from EFBlogCon. DI branch uses Repository pattern with Dependency Injection from Ninject.</small>
+####[College2](https://github.com/itsligo/college2)
+<small>Same as above but for older VS2012 installs with lower versions of MVC etc.</small>
+####[Ransom Note](https://github.com/itsligo/ransomnote)
+<small>Puzzle to write a ransome note from a magazine</small>

@@ -1,0 +1,27 @@
+Title: Week 1-2
+----
+Description: Introduction to HCI
+
+----
+Week: 1-2
+
+----
+Tags:
+
+----
+Text: 
+####[<i class='icon-th-list icon-large'></i>   Introduction to HCI401](https://docs.google.com/presentation/d/1aBlxnHRriBRws8NqTgMqH6xVh94PVfVhmktLZ4eByz0/edit?usp=sharing)
+([Speakerdeck](https://speakerdeck.com/u/jkelleher/p/hci401-introduction))
+
+* Disasters from [UI mistakes](http://www.cracked.com/article_19776_6-disasters-caused-by-poorly-designed-user-interfaces.html) USS [Vincennes](http://www.washingtonpost.com/wp-srv/inatl/longterm/flight801/stories/july88crash.htm) ([analysis](http://www-cs-students.stanford.edu/~lswartz/vincennes.pdf))
+* [History](https://docs.google.com/presentation/d/1swmIbXtj585phpRpWdJyYiA1dO0XDvSaOX4ODDRqe40/edit?usp=sharing) of HCI ([Speakerdeck](https://speakerdeck.com/u/jkelleher/p/history-of-ui))
+* Palm Beach Presidential [ballot](http://www.mit.edu/~jtidwell/ballot_design.html)
+* Videos ([Augment](http://www.youtube.com/watch?v=JfIgzSoTMOs) Engelbart Grace)
+* Videos (Jobs [Kay](http://www.youtube.com/watch?v=r36NNGzNvjo) [Laurel](http://www.youtube.com/watch?v=y6FT80ZoVJY) Woz)
+* Videos of Apple [Lisa](http://www.youtube.com/watch?v=W35vpsPIwlU&amp;feature=related)
+* [Taxonomy](https://docs.google.com/file/d/0B_ax7Tsevzx_a1dTdVpKXzNEVFU/edit?usp=sharing) of HCI
+* Bill Buxton's [keynote ](http://videos.visitmix.com/MIX09/KEY01)Mix09 Video ([notes](http://blogs.msdn.com/tims/archive/2009/03/18/mix09-day-1-keynote-pt-1-bill-buxton-on-experience-design.aspx))
+* [OOBE](http://www.slideshare.net/harrybr/out-of-box-experience-design-presentation) (Out of the Box Experience)
+* [Books](https://docs.google.com/presentation/d/1zkBaJYjy4FMEjaIZGIEbQjnCE116UWv0J6stjfUnxIU/edit?usp=sharing)
+* User [interfaces](https://docs.google.com/presentation/d/1RSlS8tF7QQtuUkLzIfUaJDNEKyyg5dYCBKYohuZeew0/edit?usp=sharing) in the world
+* Seven [Myths](http://www.cs.chalmers.se/idc/ituniv/kurser/02/mdi/seven.pdf) of Interface Design

@@ -1,0 +1,30 @@
+Title: Game
+----
+Shortdesc:
+A HTML5 Game.
+----
+Description:My idea is to create a game to help the children learn mathematics.
+The game will be developed in HTML5 and run on multiple platforms, but my main focus will be the Windows 8. The game will contain puzzles, sums, tables, drag and drop, etc. The game will be in 2D with simple graphs and colorful image. when the player to complete a level he will receive a star... 
+----
+Tags: HTML5,CSS3,Javascript
+----
+Names:Jorge Rodrigues
+----
+StudentIDs:S00102884
+----
+prjurl:http://s00102884.blog.com/
+----
+gitrepo:
+----
+:B.Sc. Computing (Software Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: Windows 8
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: HTML5
+----
+Secondarytechnology: CSS3,jQuery and Javascript
+----

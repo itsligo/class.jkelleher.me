@@ -1,0 +1,31 @@
+Title:E-Vent
+----
+Shortdesc:A Calendar themed social event Application
+----
+Description:A web based Social application with a sleek Calender themed main User Interface in which Users can add, discuss and share media for certain events.
+Users can create and share info about local or national or international events on certain dates. Users can add friends on the system, join events and share photos relating to occasions.
+Users will recieve notifications from posts. 
+----
+Tags:gui events calendar discussion media 
+----
+Names:Karl Colleary
+----
+StudentIDs:s00114071
+----
+prjurl:http://eventprj400.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea:
+----
+Primaryos:Web/Multi
+----
+Primarytechnology:C#/iOS/.Net using xamarin
+----
+Secondarytechnology:JavaScript
+----
+

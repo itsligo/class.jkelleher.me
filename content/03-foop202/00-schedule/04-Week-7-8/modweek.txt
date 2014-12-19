@@ -1,0 +1,40 @@
+Title: FOOP202 Lesson
+----
+Description: Basic database querying
+
+----
+Date: 2014-3-8
+
+----
+Tags: database, LINQ
+
+----
+Text:
+This lesson changes direction and focuses on querying data from an industry standard database, SQL Server. We look at the need for database access and the role databases play in business applications. We examine the initial steps needed to secure access to the database from the application including setting up logins and users.
+While there are many ways in which access can be had to databases, we look at a recent popular mechanism called LINQ (Language Integrated Querying). LINQ permits the querying of any data set whether it comes from a database or POCO (Plain Old CLR Objects) - effectively any in-memory collection of objects.
+
+LINQ's syntax is a little similar to T-SQL which some students will be familiar with from study of database. However, we avoid using T-SQL directly for several reasons.
+
+We examine WHERE clauses, ORDERBY and SELECT projections.
+
+We also look to how we can surface the data retrieved from the database in the UI. We implement primitive binding to keep this exposition simple and maintainable.
+
+####Database
+We'll work mostly with Northwind - download a copy [here](http://qubex.com.np/Downloads/NORTHWND.zip) and follow this [video](http://www.screencast.com/t/GvjnbCJw5) to see how to wire it up.
+Later, we'll use [AdventureWorksLT2008R2](http://msftdbprodsamples.codeplex.com/releases/view/93587) - take note of the version to use.
+
+####LINQ
+LINQ (Language Integrated Querying) is a new technology promoting SQL  querying to a first-class element of your code. This means that you can now  refer to tables as classes within your code. Similarly, fields become properties  of those classes. LINQ also add new syntax to perform querying rather than  having to code SQL embedded in your code. You can also call stored procedures  and views, if that's the way you want to go.
+
+*	[Bob Tabor ](http://channel9.msdn.com/series/C-Fundamentals-for-Absolute-Beginners/23)kicks us off with a gentle treatment of LINQ for manipulating collections.
+*   LINQ to SQL ([5 min Overview](http://www.hookedonlinq.com/LinqToSQL5MinuteOVerview.ashx)) (HookedOnLINQ)
+*   101 LINQ [Samples](http://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b) (Intro ) (Microsoft) - useful summary of many LINQ queries
+*   Scott  Guthrie [video](http://weblogs.asp.net/scottgu/archive/2007/01/28/video-using-linq-with-asp-net-in-vs-orcas-part-1.aspx) on LINQ ([blog](http://weblogs.asp.net/scottgu/archive/2007/05/19/using-linq-to-sql-part-1.aspx))
+*   LINQ [videos](http://msmvps.com/blogs/luisabreu/archive/2007/04/20/mike-taulty-on-linq.aspx) (4 parts) ([Mike Taulty](http://www.miketaulty.com/))
+*   [Video ](http://msdn2.microsoft.com/en-us/library/bb820881.aspx)How to:  Writing Queries in C# (Walkthru) (LINQ) (MSDN) Wrox VB.NEt &amp; C# [LINQ Talk](http://www.wrox.com/WileyCDA/Section/id-291776.html) (66min.) code camp :  2006
+*   LINQ Connecting [SQL  Database](http://blogs.msdn.com/charlie/archive/2007/11/19/connect-to-a-sql-database-and-use-the-sql-designer.aspx) with LINQ to SQL Designer (Charlie  Calvert): very short but practical walkthu of basics.
+----
+
+practices:
+####[Really Simple LINQ](https://github.com/itsligo/reallysimplelinq)
+<small>Simple introduction to LINQ-SQL</small>

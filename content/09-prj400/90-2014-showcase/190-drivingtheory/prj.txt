@@ -1,0 +1,40 @@
+Title: Online Driver Theory Test
+----
+Shortdesc: Online Driver Theory Test web application.
+----
+Description: This ASP.NET MVC 5 Web Application will contain a database of Test Questions (including Answers, Wrong Answers, User Registration and Test Results). 
+
+The Application Design will be easy to use on mobile devices by using Responsive HTML5 and MVC 5 features.
+Lastly, the system will allow to process PayPal payments for bookings and customers will be able to pay a fee for full use of the application.
+As a preview registered users will be able to make a few attempts for free.
+
+- Database of Questions, Amswers, Wrong Answers
+- User Registraion and Log In
+- Progress tracking
+- Mobile Responsive UI
+* PayPal payment processing
+
+----
+Tags: mobile online driver theory test paypal
+----
+Names:Igor Yushchenko
+----
+StudentIDs:s00110436
+----
+prjurl: http://prj400.wordpress.com
+----
+gitrepo: 
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor: John Carter
+----
+Primaryarea: Online Quiz, Database, Progress Tracking
+----
+Primaryos: Web
+----
+Primarytechnology: C#, ASP.NET - MVC5
+----
+Secondarytechnology: HTML/CSS/JavaScript/JQuery UI/Bootstrap
+----
+

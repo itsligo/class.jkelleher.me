@@ -1,0 +1,40 @@
+Title: ASP.NET MVC4
+
+----
+Description: Introducing MVC & CSS Frameworks
+
+----
+Date: Early Oct
+
+----
+Tags: MVC,CSS,Bootstrap
+
+----
+Text: 
+
+ASP.NET MVC is an alternative to Microsoft's [ASP.NET](http://www.asp.net/) Web Forms server-side processing model. It lends itself better to larger applications where the use of the MVC (Model-View-Controller) pattern helps to better differentiate roles within an application. ASP.NET MVC is a well-established, popular server-side web application development stack and plays nice with many open-source contributions such as jQuery and CSS frameworks.
+
+###Quick MVC Walkthrough
+For a very quick tour of ASP.NET MVC, follow this [walkthrough](http://www.asp.net/mvc/tutorials/mvc-5/introduction/getting-started) of creating a basic ASP.NET MVC application that queries a movie database. This example creates a new database but I'll provide a script of this database for you to create it using SQL Server Management Studio. This avoids the need to work with Entity Framework (as per the example) until later though following the directions given will make employing EF straight-forward.
+
+###ASP.NET MVC Videos
+* Net-Tuts from Scratch [screencasts](http://net.tutsplus.com/sessions/asp-net-from-scratch/) - a little old now but for now, the first couple of lessons is fine.
+* [Scott Allen MVC4 Pluralsight Course](http://pluralsight.com/training/Player?author=scott-allen&name=mvc4-building-m1-intro&mode=live&clip=0&course=mvc4-building) - Scott is well known for Pluralsight videos and his work on ASP.NET is exemplary.
+
+###Books on MVC
+* [ASP.NET MVC 4 in Action](http://www.manning.com/palermo3/) (Manning, 2012) - a thorough but reasonably demanding treatise of the subject - for more capable coders.
+* MS's ASP.NET MVC [Getting Started](http://www.asp.net/mvc) pages - a compendium of guidance on ASP.NET MVC.
+
+###Significant Worked examples:
+* [W3Schools.com](http://www.w3schools.com/aspnet/mvc_intro.asp) - a simple structure tour of how ASP.NET MVC works. Not indepth but a good starting off point.
+*   MVC [MusicStore](http://mvcmusicstore.codeplex.com/) - this is a substantial application employing Entity Framework 4 and comes complete with 190page tutorial pdf. You may choose to following this [online](http://www.asp.net/mvc/tutorials/mvc-music-store/mvc-music-store-part-1) in a step-by-step walkthrough.
+*   MVC ['OdeToFood'](http://www.asp.net/mvc/pluralsight) video course - From [Pluralsight](http://www.pluralsight-training.net/microsoft/) (highly recommended) comes a complete programme of videos on ASP.NET MVC3 with Entity Framework. (Source code [mvc3](http://odetofood.codeplex.com/SourceControl/changeset/view/fac05c7ddb6d) link &amp; [mvc4](http://odetofoodmvc4.codeplex.com/SourceControl/changeset/view/b44d115a8719) link)
+*   [Movie App](http://www.asp.net/mvc/tutorials/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3) - from MS ASP.NET site comes a medium level ASP.NET web app concerning a Movie database. (Source code [link](http://code.msdn.microsoft.com/Introduction-to-MVC-3-10d1b098)). Also in MVC4 [version](http://www.asp.net/mvc/tutorials/mvc-4/getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4).
+*   [Contoso](http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application) University - from Tom Dykstra comes a thorough walkthrough MVC3 application complete with database.
+These worked examples are best completed outside of class as they are too extensive to complete as a group in-lab. Head to the Practice exercises for more manageable walk-throughs in ASP.NET MVC.
+* [ASP.NET MVC4](http://www.microsoftvirtualacademy.com/training-courses/developing-asp-net-mvc-4-web-applications-jump-start#fbid=c34av8gu2e1) Video Course courtesy of [Microsoft Virtual Academy](http://www.microsoftvirtualacademy.com/). This is a up-to-date, well-presented video series with self-assessment tests and targets MS certification.
+
+----
+practices:
+###[RAD301 Music MVC](https://github.com/itsligo/bootstrap4.git)
+###[MVC+Bootstrap](https://github.com/itsligo/mvcbootstrap3)

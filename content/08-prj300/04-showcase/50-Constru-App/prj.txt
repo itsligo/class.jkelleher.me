@@ -1,0 +1,47 @@
+Title: Constru-App
+----
+Shortdesc:
+ To create a website and an app which will provide a brand new hub / portal for students and lecturers / management.
+----
+Description: The Project name is Constru-App.  The primary goal of the hub will be to provide students with an overview of their own academic record and statistics (Grades, attendance, and averages, along with class averages for same). The attendance is collected via a barcode scanner, by which the student swipes their student card across an in-class barcode scanner which records their attendance when they arrive for class. The grades are calculated and pushed up to the hub (which will be hosted in the cloud) by the lecturer.
+The hub will allow students to apply for extra classes for a module they find difficult. It will also provide a private area for students to contact their class reps and where necessary, discuss issues with the class in general or other classes.
+The student will also able to request a copy of their academic record. This document is a personal document for the student, which can be used to apply for any job if so desired.  The student will also be able to, at the instigation of a lecturer or a manager, to provide electronic feedback to replace the current QA1 forms. This data will be collated into an electronic QA2 form and pushed to the Head of Department (HOD). 
+Summary of functionality of Hub:
+
+For the Student:
+* Ability to determine attendance
+* Ability to see current grades across modules in comparison with class
+* Ability to contact Class rep or begin a discussion
+* Ability to provide feedback on modules
+* Obtain documentation relevant to employers
+* Access mobile app to facilitate some or all of the above
+
+For the Lecturer:
+* View attendance
+* Enter grades
+* Analyse grades and attendance across modules
+* Liaise with class reps on issues
+* Review (but not change) student feedback on a module
+* Other functionality will be added as required and more focus may be put on the Student or Lecturer aspect of the hub as the project develops.
+
+----
+Names: Ruairi Coleman, Thomas Keaveney, Maarten D. Tiemessen, David Vance
+----
+StudentIDs: S00157859, S00132578, S00132821, S00125769
+----
+prjurl: http://www.construapp.wordpress.com
+----
+gitrepo:
+----
+Programme: B.Sc. Computing (Software Development) Yr 3
+----
+Supervisor: Colm Davey
+----
+Primaryarea: New Hub / Portal
+----
+Primaryos: Windows and Android 
+----
+Primarytechnology: MVC and Java.
+----
+Secondarytechnology: Azure, Bootstrap, JQuery
+----

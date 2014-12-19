@@ -1,0 +1,66 @@
+Title: Assessment
+----
+Description: How PRJ400 is assessed
+
+----
+Session: Semester 7 & 8 (2013-14)
+----
+Tags: assessment
+----
+
+Text: 
+###Particular care should be given to the documentation of the process as much as summation of the accomplishment. A (file: project_module_rubric.pdf text:rubric) is used to guide the overall project assessment. 
+****
+Research is an measure of the complexity of the chosen subject matter. A higher mark will be awarded for work that is novel, not particularly addressed in lectures or a new application of an existing technology. It rewards those who choose projects that involve a certain degree of initiative and willingness to work in an area not well known to them.
+
+Implementation is a measure of the quality of the implemented solution. A project employing relatively simple or familiar technology would still score well here if the application of that technology were of a high standard. For example, a modest database replete with stored procedures, constraint handling, efficient indexing etc..
+
+Final Presentation mark reflects the quality of the presentation of the deliverables. A well rehearsed presentation with confidence and competency shown in the student’s reaction to questions would result in a high mark.
+
+Documentation measures the quality and appropriateness of the submitted documentation. The documentation should adequately reflect the work involved, the challenges encountered and how they were dealt with as well as exhibiting a personal understanding of the technology and this particular application.
+
+A (file: project_module_rubric.pdf text:rubric) is used to guide the overall project assessment. The components (and their weighting) that contribute to your result include:
+
+- Project Report 25% (including blog posting)
+- Project Deliverables 55%
+- Presentation 20% (comprising Interim 10%)
+
+While it will vary according to the stream that you have chosen the aims are broadly the same while the nature of the deliverables might vary including inter alia:
+
+- Detailed description of the problem to be solved
+- Background information and research such as
+    - survey of any existing systems that address similar problems
+    - results of any market research conducted
+    - results of technical research into suitable platforms, tools, technologies, algorithms, data structures, etc.
+- Requirements specification for the system to be built (agreed between the student and supervisor).
+- Design of the proposed system and its user interface.
+- Record of key implementation decisions, such as development platforms, methodology, hardware (where applicable), and any additional software, along with reasons for those decisions.
+- Results of any initial implementation steps/prototyping. It is important that its operation and design is capture in the documentation.
+- Discussion of any problems encountered, including both technical issues and management issues, like time management etc.
+- Time plan for the project.
+- Summary of what was achieved, referring to the stated requirements.
+
+The front page of the report should include:
+
+- The text “Project Report”
+- Project Title (e.g. “Frogger iPhone App”)
+- Date (e.g. “Winter 2014″ or “Summer 2015″)
+- Names and Student ID and Stream of student (e.g. “John Kelleher, S01234567, Software Development”)
+- Module (“PRJ400″)
+- Programme (e.g. “B.Sc. in Computing (Software Development) Level 8 Year 4″)
+- Name of supervisor
+
+The report should run to about 9000 words or approx. 20 pages, though with diagrams and tables, the likely completed document will be over 30 pages in total.
+
+####Assessment
+
+The student’s engagement with the supervisor will make a contribution to the scoring, incorporating such efforts as:
+
+- Research and information gathering
+- Creative input
+- Communication and engagement within supervisor
+- Quality and quantity of concrete contributions to deliverables
+- Attendance at meetings
+
+You may find the following slide deck useful if you plan to use Powerpoint:
+<iframe src="http://www.slideshare.net/slideshow/embed_code/16177875" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px;" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/itseugene/7-tips-to-beautiful-powerpoint-by-itseugenec" title="7 Tips to Beautiful PowerPoint by @itseugenec" target="_blank">7 Tips to Beautiful PowerPoint by @itseugenec</a> </strong> from <strong><a href="http://www.slideshare.net/itseugene" target="_blank">Eugene Cheng</a></strong> </div>

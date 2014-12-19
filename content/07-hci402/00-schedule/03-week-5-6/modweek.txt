@@ -1,0 +1,25 @@
+Title: Week 5-6
+----
+Description: Usability Engineering
+
+----
+Week: 5-6
+
+----
+Tags:
+
+----
+Text: 
+####[<i class='icon-th-list icon-large'></i>    Usability Engineering](https://docs.google.com/presentation/d/1PSfdoatINC8ia7pi-P0f_x0pBgcjviU6x134XIjXoM8/embed?start=false&loop=false&delayms=3000) Lifecycle
+####[<i class='icon-th-list icon-large'></i>    Prototyping](https://docs.google.com/presentation/d/1wtvUbfpFiGkuJOLt80pCkySXJGjzPwAzmIrYMO9_bU0/edit?usp=sharing) ([resources](http://infodesign.com.au/usabilityresources/paperprototypinggraphics/))
+*   [Perils](http://www.cooper.com/journal/1999/09/the_perils_of_prototyping.html) of Prototyping (Cooper)
+*   [IDEO Prototyping](http://www.slate.com/blogs/the_eye/2013/10/23/the_importance_of_prototyping_creative_confidence_by_tom_and_david_kelley.html)
+*   Usability and You: [The Design Process](http://spyrestudios.com/usability-and-you-the-design-process/) (Spyre Studios)
+*   Powerpoint for prototyping ([msdn](http://blogs.msdn.com/jensenh/archive/2006/02/20/535444.aspx)) &amp; [Bob's](http://blogs.msdn.com/jensenh/archive/2006/01/24/516810.aspx) feature
+*   [Wireframing](http://www.smashingmagazine.com/2009/09/01/35-excellent-wireframing-resources/) readings (Smashing Magazine)
+*   Wireframing [Tools](http://speckyboy.com/2011/02/23/10-completely-free-wireframing-and-mockup-tools/) ([Specky Boy](http://speckyboy.com/))
+*   Dedicated mobile vs Responsive Design [treatise](http://mobile.smashingmagazine.com/2012/08/22/separate-mobile-responsive-website-presidential-smackdown/) (Smashing Magazine)
+*   Using Paper Prototyping to manage [risk](http://www.uie.com/articles/prototyping_risk/)
+*   Paper Prototyping - Still our [favourite](http://www.uie.com/articles/paper_prototyping/) ([video ](http://www.youtube.com/watch?v=ppnRQD06ggY)examples)
+*   [$300m Button](http://www.uie.com/articles/three_hund_million_button/) (Jared Spool)
+*   Developers [advice](http://milanvrekic.com/things-i-learned-about-interface-design) on UI (Milan Vrekic)

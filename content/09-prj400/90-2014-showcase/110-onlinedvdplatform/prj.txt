@@ -1,0 +1,29 @@
+Title:OnlineDvd Platform
+----
+Shortdesc:A Platform that allows you to download Dvd's legally
+----
+Description:A platform, similar to steam for games, that allows users to download Dvd's online in a legal way. Currently the only way to watch a show legally is on Tv, Netflixs(or comparable service) or by purchasing the very expenicive DvD sets. This would add another way to legally purchase the material that is comparable to Dvd but much cheaper due to the lower production cost.
+----
+Tags:Online Platform
+----
+Names:Ross Dooney
+----
+StudentIDs:s00112365
+----
+prjurl:http://onlinedvdplatform.blogspot.ie/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea:
+----
+Primaryos:Web/Multi
+----
+Primarytechnology:Php or C#
+----
+Secondarytechnology:JavaScript/Html/Css/MySql(xaml/Sql Server)
+----
+

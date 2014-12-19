@@ -1,0 +1,57 @@
+Title: CA1
+
+----
+
+Description: Assignment ASP.NET MVC + Bootstrap + EF/LINQ2SQL
+
+----
+Session: Semester 5 (2013-14)
+----
+Alert:
+####Feedback on CA1 (Results: [GD3](https://docs.google.com/spreadsheet/pub?key=0Avax7Tsevzx_dFpQY0FLNHpBUkNuZVN1WGliZVVtTEE&single=true&gid=3&output=html)/[SD3](https://docs.google.com/spreadsheet/pub?key=0Avax7Tsevzx_dFpQY0FLNHpBUkNuZVN1WGliZVVtTEE&single=true&gid=2&output=html))
+In the first instance, do note that these comments are general meaning that they may not apply directly or in full measure to you own individual work. I am happy to meet with you personally to offer feedback (see times available on my site & arrange an appt.).
+That said, there are observations that apply to many attempts to CA1 that would warrant comment. In general, attempts made by all were sound and a base level of understanding of the concepts were in evidence. A few key points to note:
+
+* Virtually all attempts employed the mvcbs_music base solution from class. While I see the allure of beginning here, you do rob yourself of the opportunity to incorporate Bootstrap and setup the basic app for yourself, something that you likely will have to complete at semester end (or before)
+* I encouraged experimentation with all aspects of Bootstrap. At best I got what was directly exhibited in class with little ingenuity or curiousity evident to explore the library further - perhaps a missed opportunity
+* There was a degree of laziness (likely not ability) in not amending even the mvcbs_music to say, remove redundant menu items, or even change the colour. Or incorporate a theme to change the entire look. Or include an icon or a styled button. At times, it looked like the submission was by the 'lowest bidder'. There were ample marks for styling and innovation that were left on the table by some.
+* Generally, the Controllers worked but the code was not particularly well thought out by some. Best practice would re-use a single action method to complete a very related function (e.g. sort ascending & sort descending). Some submissions even re-used the baked in 'About' controller to satisfy the required sorting and filtering - without changing even the name.
+* Comment your code - include you authorship details
+* Many did not add test data to the database - simple to achieve and marks lost
+* Very few employed partial views though directly suggested - in future CA, candidate approaches like this would not be hinted directly
+* Many neglected to permit click-through the Orders to the Albums (and retrieve the Artist name)
+* Appreciate that this was a relatively modest exercise where the points made above have no major impact on understanding and maintainability. However, you'll understand that as application size/complexity scales, the points above become much more significant and impactful.
+* Do reflect that while I will bring to class what is reasonably achievable in class, it isn't practical (or sensible) to host every single feature within a class-delivered exercise. It is expected that you will incorporate related material readily into your own practice. For example, Bootstrap icons to decorate your UI are easy-picking, would not be necessarily visited in class, instead relying on past knowledge (in this case spans).
+
+----
+Text:
+An ASP.NET MVC application that employs the MvcMusicStore database. The application will have the following features/functionality:
+
+* Use Bootstrap 3.0 CSS framework to style web page elements as permitted by the styles
+* Establish data connection with database and generate a DAL to the data using either LINQ2SQL classes or Entity Framework
+* Initial (Home) page will display a list of **Orders** for **Albums**, this to be formatted as per other screens using Bootstrap
+* Permit searching for an **Order** by name
+* Sorting of **Order** list by date
+* Sorting of **Order** list by size of **Order**, that is, the value of an **Order**
+* Support clicking on an **Order** or via a button, to show the list of **Albums** in that **Order**
+* The list of **Albums** to also include details of the **Artist** and a means to revert back to the **Order** list or the **Albums** list for that **Order**, e.g. a button
+
+The extant database has two **Orders** already recorded with a few entries in the **OrderDetails** table to match. You'll want to add your own directly to the database to make for more test data.
+
+Other Points to note:
+
+* You may use LINQ2SQL or Entity Framework - for this exercise there is no distinction
+* You should employ whatever features of the Bootstrap framework that you feel would enhance the UI but balance this against the marking scheme
+* Use of a master page (i.e. layout.cshtml) and partial views are encouraged
+* Provide robust code that defends against errors particularly wrt database access
+* Reward is provided for exceptional coding that (e.g. performant, robust, elegant)
+
+####Marking Scheme
+* Styling (use of Bootstrap etc.)                   **20 marks**
+* Controllers, data retrieval/querying, LINQ        **30 marks**
+* Constructing Views and using Razor View engine    **30 marks**
+* Good programming practice, innovative approach    **20 marks**
+
+####Upload
+Use Git (including Github or alternative) to manage your work. Follow the procedure outlined in my [post](/blog/git-assess) regarding submission. As this is possibly your first time to use Github in this way, feel free to consult with me by email should you experience a problem.
+----

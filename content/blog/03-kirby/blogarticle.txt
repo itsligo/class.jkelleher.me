@@ -1,0 +1,36 @@
+----
+Title: Introducting Kirby CMS
+----
+Date: 18-6-13
+----
+Description: a new take on cms
+----
+Tags: cms,kirby
+----
+Text:
+(image:kirbylogo.png class:img-right)(link:http://getkirby.com text:Kirby) is a different kind of CMS (Content Management System), the brain-child of (link: http://bastianallgeier.com/ text:Bastian Allgeier). Like other popular CMSs such as Wordpress and Joomla it uses PHP at the server side. However, unlike these it doesn't use a database so no need for mySQL. Instead the content the makes up the site is stored in a simple text file in a folder. The name of the folder is used as the path to the 'page' while the name of the text file ties the presentation of that text to a template of the same name.
+
+####Configuration & deployment
+There is a minimum of configuration at the server end - just ensure you have PHP 5.3 or better and away you go. FTP access is perfectly fine for uploading changed content. Or better yet, I use a Dropbox client running on the server which is shared out to my laptop. That way, I can make changes locally on the laptop and Dropbox looks after the syncing to the server in seconds.
+
+Backup is equally a breeze - just copy the folder structure. Or if you're using Dropbox, let Dropbox be your backup replete with versioning should you want to rollback.
+(image:markdown logo.gif width:150 class:img-right)PHP drives the rendering of the site's pages. However, the organisation of the content is made simple by using folders - a well understood mechanism. Typically, the site content is written in (link:http://daringfireball.net/projects/markdown/ text:Markdown), a wonderfully simple markup language (think HTML-lite) by John Gruber.
+
+Recently (late 2014), I've moved away from Dropbox propagation. Instead, I use (link:http://wbond.net/sublime_packages/sftp text:SFTP) (a plugin) for (link:www.sublimetext.com text:Sublime Text) which monitors for changes to local files and pushes the revised file to a specified FTP address.
+
+####Authoring
+Authoring and styling new content is a delight in Kirby. Maybe I never fully grasped Wordpress but I find Kirby is just big enough to be useful/flexible and small enough to let me fully understand what's going on. Integrating Bootstrap was a breeze though it's a hefty weight and if I were doing it again, I'd settle for something smaller.
+
+As for styling beyond Bootstrap, it's all pretty transparent. As for templates for different pages, simplying naming the text file in a folder (remember this is the content for the page that goes by the name of the folder) after a php template ensures it's served up as per the template.
+
+Kirby provides an ample set of commands to summon up page content, files/images in a folder, the URI of a page and a bunch of other useful data. Work up a template with some basic HTML, a little Bootstrap (or whatever you're using), some CSS (I grabbed a free theme that targetted Bootstrap that has features I liked) and inject some of Kirby's PHP functions to yield menus, gallery of images etc. All in, I had the site from zero to content-ready in 2-3 days.
+
+####Updating with Markdown
+Most people who use a CMS expect a 'back-end' to administer the site's configuration and content creation. With Kirby there is none. Well, Bastian does provide a 'panel' that neatly allows for updating of pages. However, many wont' be the least bit tempted to use it. Simply boot up your favourite text editor (I like (link:http://brackets.io/ text:Brackets) from Adobe - free & extensible) and open the text file that contains your page content.
+(image:brackets.png width:130 class:img-right)
+Brackets is a great fine. The guys are really helpful and have an extension to preview your Markdown right in Brackets, courtesy of (link:https://github.com/gruehle text:Glenn Reuhle). Glenn even helped me out by encouraging me to fork the Markdown extension so that it opened the Kirby txt files as well as the .md or .mdown files. For the record, I tried out Text Sublime 2 first and really liked it but the free Brackets is a worthy contender and my go-to editor.
+
+Actually, Kirby uses an enhanced custom version of Markdown called KirbyText. And if that's not enough, you can enable (link: http://michelf.ca/projects/php-markdown/extra/ text:Markdown Extra), courtesy of Martin Fortin.
+
+####Downsides of Kirby
+I'm struggling to find any. Having work with lots of CMSs, I think for many, the limitations for Kirby for many applications won't apply. Caching is supported but even on this site, it buzzes along. You'll still likely want to pay attention to things like minifying and compressing CSS/JS, ensuring images are scaled correctly before upload, customising any css/js you use (e.g. Bootstrap will let you pick and choose the bits you want), reducing the number of file calls by (say) putting images into CSS sprites.

@@ -1,0 +1,29 @@
+﻿Title: The Colony
+----
+Shortdesc: 3d Video game
+----
+Description:A 3D first person shooter
+----
+Tags: video games
+----
+Names:Joe Burke
+----
+StudentIDs:S00060751
+----
+prjurl:
+----
+gitrepo:
+----
+Programme: Software development y4
+----
+Supervisor: John Kelleher
+----
+Primaryarea: UDK
+----
+Primaryos: PC, Xbox, Playstation
+----
+Primarytechnology: UDK
+----
+Secondarytechnology: Maya, 3D Max
+----
+

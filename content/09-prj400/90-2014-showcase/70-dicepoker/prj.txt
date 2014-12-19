@@ -1,0 +1,29 @@
+Title:Dice Poker
+----
+Shortdesc:dice(based) game built with arduino 
+----
+Description: A poker game using arduino to make dice from LED's and record game states.   
+----
+Tags:arduino, dice, poker
+----
+Names:Thomas Mannion
+----
+StudentIDs:s00109663
+----
+prjurl:http://s00109663.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea:
+----
+Primaryos:arduino
+----
+Primarytechnology: C / C++ 
+----
+Secondarytechnology:
+----
+

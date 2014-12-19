@@ -1,0 +1,46 @@
+
+Title: Ajax & Partial Views
+
+----
+Description: Partial Views, jQuery
+----
+Date: Early Nov
+
+----
+Tags: jQuery,Partial Views
+
+----
+Text: 
+####Partial Views
+A normal View renders the supplied data according to a defined HTML structure, styled by CSS and behaviour modified by Javascript. Razor embedded into the View is interpreted into HTML and offers a convenient way to generate this HTML. A **_layout.cshtml** file (though the name of this file is defined in the viewstart.cshtml file) will typically be used into which other Views are rendered. This is in effect a master page for all other Views.
+Partial Views bypass the use of the **_layout.cshtml** 'master' page and are employed where you need to inject a piece of html/css/Razor/javascript into a larger View. This is particularly useful with Ajax calls where you seek to replace a piece of a View with the contents rendered by a Partial view. (link: http://mvc4beginner.com/Tutorial/MVC-Partial-Views.html text:Example of Partial Views) and some [notes](http://www.codeproject.com/Tips/833979/ASP-NET-MVC-Partial-Views-For-Beginners) and [videos](http://pluralsight.com/training/Player?author=scott-allen&name=mvc4-building-m6-ajax&mode=live&clip=0&course=mvc4-building).
+
+####jQuery
+[jQuery](http://jquery.com/) is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.
+
+(image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaGec04GTChQpBr6E0nShX0GuoICRHYBm42w_pf-gdAMKxUEE text: jQuery width:250)
+It is synonymous with the use of JavaScript at the client side of web development. It has been [enhanced](http://plugins.jquery.com/) with a multitude of plugins to extend its reach.
+Though you'll have encountered jQuery previously, we'll expand on its use here to help manipulate client-side interactions. Code School has a free [video course](https://www.codeschool.com/courses/try-jquery).
+
+####Resources
+Series of 30 short videos delivered each day to teach jQuery ([LearnjQuery.tutsplus.com](http://learnjquery.tutsplus.com/)).
+
+[Cheat sheet](http://oscarotero.com/jquery/) to aid in use of jQuery, ties into excellent jQuery documentation. (oscarotero.com).
+
+[Bob Tabor](http://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners/Getting-Started-with-jQuery-14) presents a short (35min) video on the introduction to jQuery (part of his Javascript [series](http://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners)). [Code School](https://www.codeschool.com/courses/try-jquery) also have a video series on jQuery.
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFxAjOYIIDBAspXpEPjSic5v-U_qWlqtVaRS7AbDlX_oNfEMO_ "JQuery UI")
+[jQuery UI](http://jqueryui.com/) complements jQuery with a rich set of well accepted user interface components that can be themed to match your needs.
+It is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice.
+
+![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS1DiTVWOnaFUDOTEJ0kyXqGUVK618FVFxeXpVwmO8kR8c_IFofDw "jQuery Mobile")
+Finally, jQuery Mobile extends the reach of JQuery into the mobile field, specifically HTML5 based apps. It is a unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation. Its lightweight code is built with progressive enhancement, and has a flexible, easily themeable design.
+
+####Using Toastr.js
+[Toastr](https://github.com/CodeSeven/toastr) is a notification plugin that provides attractive popups that by default fade away when complete. It requires just a css file, a js file and a single line of JS to employ. Be sure to have jQuery and Toastr loaded before use.
+
+----
+practices:
+####[CampRoll](https://github.com/itsligo/2014rad301ca1)
+####[MVC Music Base](https://github.com/itsligo/mvcbs_music_base)
+####[MVC Music Store](https://github.com/itsligo/mvcbs_music)

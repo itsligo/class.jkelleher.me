@@ -1,0 +1,49 @@
+Title: JS Framework
+----
+Description: Javascript Frameworks
+
+----
+Date: 2014-3-2
+
+----
+Tags: JS MVC Framework
+
+----
+Alert:
+This material is under review. It is likely that AngularJS will be the mechanism for MVC at the client.
+----
+Text: 
+###Javascript Client Frameworks
+In recent years, another approach to web applications has gained significant interest. Instead of relying on the server application to manage much of the processing (database querying, business logic & presentation of data), much of the work is relegated to the client where Javascript provides the processing.
+This has many advantages particularly in respect to responsiveness (fewer post-backs to server) and separation of concerns.
+
+####AngularJS
+AngularJS from [Google](http://angularjs.org/) is a Javascript framework for building rich responsive client web applications. Often backed by Web API or other RESTful back-end, AngularJS is a comprehensive framework similar to ember.js and backbone.js.
+
+#####Resources
+* Jeremy Howard - Web App in under an hour [Parts 1-4](http://jphoward.wordpress.com/2013/01/04/end-to-end-web-app-in-under-an-hour/)
+* [Egghead.io](http://egghead.io/) - good set of short videos.
+* [Dan Wahlin](http://weblogs.asp.net/dwahlin/archive/2013/04/12/video-tutorial-angularjs-fundamentals-in-60-ish-minutes.aspx) - 60min tutorial in AngularJS
+
+####Knockout.JS
+[Knockout](http://knockoutjs.com/) is a JavaScript library that helps you to create rich, responsive display and editor user interfaces with a clean underlying data model. Any time you have sections of UI that update dynamically (e.g., changing depending on the user’s actions or when an external data source changes), KO can help you implement it more simply and maintainably.
+
+KO is supported by Microsoft and is particularly useful in the creation of SPA (Single Page Applications) and similarly rich interactive applications that benefit from minimal and compact communications with the server.
+
+Introductory Video ([Brandom Satrom](http://channel9.msdn.com/posts/ASPNET-MVC-With-Community-Tools-Part-11-KnockoutJS))
+<video poster="http://ak.channel9.msdn.com/ch9/119e/e6c9d99f-6816-4bd1-9163-9f100131119e/11KnockoutJS_512_ch9.jpg" controls><source src="http://ak.channel9.msdn.com/ch9/119e/e6c9d99f-6816-4bd1-9163-9f100131119e/11KnockoutJS_low_ch9.mp4" type="video/mp4" /></video>
+Thi
+Author of KnockoutJS ([Steve Sanderson](http://channel9.msdn.com/events/MIX/MIX11/FRM08))
+<iframe style="height:400px;width:600px" src="http://channel9.msdn.com/Events/MIX/MIX11/FRM08/player?w=600&h=400" frameBorder="0" scrolling="no" ></iframe>
+
+Ryan Niemeyer on KnockoutJS:
+<iframe src="http://player.vimeo.com/video/51103092" width="500" height="335" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+[Knockmeout.net](http://www.knockmeout.net/) (Ryan Niemeyer) offers good commentary (and [videos](http://www.knockmeout.net/2012/10/twincitiescodecamp-2012-session.html)) on KnockoutJS.
+
+For a slides presentation, check out [Paxel Labs](http://www.slideshare.net/Paxcel/knockoutjs-explained).
+
+Ten things to know about KnockoutJS from [Day One](http://www.knockmeout.net/2011/06/10-things-to-know-about-knockoutjs-on.html) (Ryan Niemeyer)
+
+----
+practices:

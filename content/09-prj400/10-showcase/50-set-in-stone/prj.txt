@@ -1,0 +1,30 @@
+﻿Title: Set In Stone
+----
+Shortdesc:
+An application to allow a person involved in a building project to see what options they have for their stone work and how it will look in their project.
+----
+Description:
+The aim of the project is to develop an application that will allow a customer of a stone mason to visualise their options for the stone work, both interior and exterior, that will be implemented in their building project.  The application will allow the user to import architect plans of the building projects to give an actual look of what the stone work will look like in their project. An extra feature will be for the mason to give a quick price estimate of the work involved by inputting various details, such as measurements and stone type for the benefit of the customer. 
+----
+Tags: 
+----
+Names:David O Toole
+----
+StudentIDs:S00003408
+----
+prjurl: 
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: 
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: WPF,XNA
+----
+Secondarytechnology: Autodesk,3ds Max
+----

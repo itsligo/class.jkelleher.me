@@ -1,0 +1,40 @@
+Title: Revision
+
+----
+Description: Revision of module topics
+
+----
+Date: 2013-11-20
+
+----
+Tags:
+----
+Text: 
+
+####Directions
+This exercise brings together a number of previous topics and introduces some  new ones to cover the following:
+
+*   The Binding object
+*   DataContext
+*   DataTemplate
+*   Property change notifications
+*   Validation (including ValidationRule and  ValidationAdorner)
+*   Converter
+*   DataTrigger
+*   MultiBinding
+*   Binding to subproperties
+
+This app provides an eBay like experience. The initial screen  shown opposite lists items for auction. It is possible to add a new item through  a pop-up window.
+
+The items are listed with a distinct presentation according to whether it is  bordered in a colour or with a star alongside. Each item is associated with a  category drawn from the following list:
+
+*   Books
+*   Computers
+*   DVDs
+*   Electronics
+*   Home
+*   Sports
+
+Begin by creating a class **AuctionItem** which handles the details of a  single item for auction. This class should implement the  **INotifyPropertyChanged **interface to ensure updates are propagated to  the interface.
+
+You will need to create suitable classes for **User** and **Bid** to support the main **AuctionItem** object.

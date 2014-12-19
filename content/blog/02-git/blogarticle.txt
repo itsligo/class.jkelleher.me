@@ -1,0 +1,185 @@
+----
+Title: Git
+----
+Tags: Git
+----
+Description: using git version control
+----
+Date: 12-6-13
+----
+Text:
+(image: octocat.png class:img-right width:150) [Git](http://git-scm.com/downloads) is a distributed version software control which is a de facto standard in the software industry to manage source code. It is platform agnostic and being decentralised can be created locally and push to a choice of (typically) free hosting services. Employers place a high value on students with literacy in version control so I'll be using Git repositories to both distribute and receive practice exercises, submissions, assignments etc.
+
+####Learning Resources
+* [GUI interfaces](http://git-scm.com/downloads) to Git that can be used as an alternative to the VS2012 extension but most practitioners will use the command shell which in the case of VS is typically accessed via Powershell or Package Console within VS. Do know however (as of Nov 2013) that this extension is not a competent Git handler for anything beyond modest Git commands.
+The simplest/best Git client apps are provided by the two big Git hosting services (image:bitbucket logo.png class:img-right)- [SourceTree](http://www.sourcetreeapp.com/) by [BitBucket](http://bitbucket.org) and [GithubWindows](http://windows.github.com/) by [GitHub](http://windows.github.com/), the latter being by far the largest. Both of these support PC &amp; Mac but I found the VS integrated extension to be kinder to beginners. Ultimately, I recommend moving to the command shell interface as the range of commands aren't that extensive and it's quicker and sometimes more intuitive.
+* Visual Studio 2012 has an [extension](http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c) that enables integrated Git management through the Team Explorer.  Note that you required [Update 2](http://go.microsoft.com/fwlink/?LinkId=273878) for VS2012. Scott Hanselman has a [good post](http://www.hanselman.com/blog/GitSupportForVisualStudioGitTFSAndVSPutIntoContext.aspx) on its use. The Visual Studio [blog](http://blogs.msdn.com/b/visualstudioalm/archive/2013/02/06/set-up-connect-and-publish-using-visual-studio-with-git.aspx#clone) also has some basic run-throughs on its use. [Suprotim Agarwal](http://www.dotnetcurry.com/ShowArticle.aspx?ID=879) also has a similarly useful guide. 
+* Good but **short video** on [Treehouse](http://blog.teamtreehouse.com/in-case-you-missed-it-git-basics?utm_source=twitterfeed&utm_medium=twitter&utm_campaign=autopost) on Git basics.
+* A more **complete tutorial** is available on [githowto.com](http://githowto.com/). Or try Code School for a [video course](https://www.codeschool.com/courses/try-git) as well as [Udacity](https://www.udacity.com/course/viewer#!/c-ud775/l-2980038599/m-2960778924).
+* I've authored a short [video](http://youtu.be/xGYj1bAqg0A) to show how to post questions or **raise issues** on a Github repository.
+* [Git Immersion](http://gitimmersion.com/index.html) is a very accessible step-by-step tutorial on Git.
+* Git-Scm is an [online book](http://git-scm.com/book) with an easy to follow tutorial style with some quick-start [videos](http://git-scm.com/videos).
+* An excellent interactive tutorial on [Git](http://pcottle.github.io/learnGitBranching/) from P[eter Cottle](https://github.com/pcottle).
+
+Team Foundation Server from Microsoft is an alternative though centralised VSC. Recently MS released from beta a free online offering of TFS called (link:http://tfs.visualstudio.com/ text:Team Foundation Service) which you may wish to examine. In VS, you can easily switch between both with the extension. Incidentally, it is worth noting that off-the-shelf, TFS (Service, that is) offers private repositories for up to 5 team members. GitHub repos are always public, unless you pay and BitBucket offer a tempting free private repository. Both of the latter will offer education licences though.
+###Setup
+Github needs a little configuration to work - mostly, this isn't required when working from your own PC where proxy servers and firewalls are less rigid than in the college.
+####Setup Git Generally
+Git (for various platforms) can be downloaded [here](http://git-scm.com/). The install is pretty straightforward and personally I wouldn't reccomend any of the [GUI interfaces](http://git-scm.com/downloads/guis) to Git. Afterwards you will have Git and a Git [Bash shell](http://en.wikipedia.org/wiki/Bash_(Unix_shell)). Think of the latter as a Unix version of the Windows Command Window. It's worth learning some Bash [commands](https://docs.google.com/viewer?url=http%3A%2F%2Fcli.learncodethehardway.org%2Fbash_cheat_sheet.pdf) as it is widely used (also native to Linux and Mac OS X).
+Git is largely hidden - one way to interact with it is via the Git Bash shell but another is using the recent Visual Studio Tools for Git extension.
+
+####Setup in Visual Studio
+Inside VS2012 (only this an later versions, with at least [Update 2](http://www.microsoft.com/visualstudio/eng/visual-studio-update)), you should choose _Tools...Extensions & Updates_, then under _Installed_ look for VS Tools for Git. If there but disabled, then enabled. If not there, click on 'Online' and look for 'Visual Studio Tools for Git' and install and enable. Or download it separately [here](http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c?SRC=VSIDE).
+Once installed, you should ensure VS is aware of Git as an option. Go to _Tools...Options_ and choose _Source Control_ from the list of options. Typically _Team Foundation Server_ (TFS) is enabled (it being a MS alternative) - instead choose _Git for Windows_. Now head to _Team Explorer_ and click the _socket_ icon at the top. This should reveal sections below for both TFS and _Local Git Repositories_. VS is now setup.
+
+####Additional Git setup for college
+(image: /content/blog/02-git/workflow.png)
+
+****
+
+(link: http://git-scm.com/blog text: Image credit: Git-Scm)
+ 
+Lab setup at the college is necessarily restrictive so some additional steps are need to fully open up Git.
+```
+git clone https://github.com/itsligo/boxer_starter.git
+```
+This clones a remote GitHub repo to your local drive and is typical of what you will use in class to copy a provided example to your PC. You can achieve the same using the Visual Studio extension. Do note that this may not work if cloning to drive H but other drives work fine. Additionally, should this not work you may need to tell Git about the college proxy server:
+```
+git config --global http.proxy http://proxy.itsligo.ie:8080
+```
+Note that you can issue this command without the proxy url to see what (if any) proxy setting is in place.
+Next you must tell Git who you are so that your commits are tagged with your name.
+```
+git config --global user.name "jackcarthy"
+git config --global user.email "jackcarthy@mail.itsligo.ie"
+git config --global -l
+```
+Again, dropping the last parameter above will _tell_ you the current settings. The last command will list --global values.
+### Using Git (Bash shell)
+There are many good guides (e.g. [Git](http://git-scm.com/documentation)) but here is a quick introduction to using Git with a Bash shell.]
+#### Starting from nothing
+Begin by creating something to put in a folder from which you will make a repo (repository).
+```
+mkdir testrepo
+cd testrepo
+touch readme.MD
+echo "Some text to add to the file" > readme.MD
+cat readme.MD | more
+ls -h
+```
+This creates a test folder, descends into that folder, creates an emtpy file, adds a line to that file, outputs the file content to screen (with paging) and lists the folder content in a simple format. You may choose to edit a file in Bash - [vi](http://www.cs.rit.edu/~cslab/vi.html) or [vim](http://www.fprintf.net/vimCheatSheet.html) are available. If you accidentally enter these editors, know at least these commands:
+
+- ESC to enter commands such as _Save_
+- ESC + A to append text to the file
+- ESC + :wq to save your work and quit
+- ESC + :q! to quit without saving
+
+Some additional Bash commands can be useful to know:
+
+- pwd           _print working directory_, basically current folder
+- cd c:         _move_ to 'c' drive
+- cd test       _move_ to 'test' directory
+- mkdir test    _create_ a directory called 'test'
+- rmdir test    _delete_ the test directory (must be empty)
+- rm -Rf test   _delete_ the test directory and its contents without prompt
+- ls -A         _shows_ diectory content (all files/directories)
+- ls -h         simpler _listing_ of directory
+- cd ~          _go to_ home folder for this user
+
+Next we'll begin work with Git:
+```
+git init
+git add .
+git commit -m 'Added a readme file'
+git status
+```
+Here, we created a git repository (it's a hidden folder called _.git_ so look in there if you like), added all changed files to the new repo (we only have one), committed the changes to the repo along with a mandatory comment, and finally, looked to the status of the repo which will say all is well.
+Lastly, we should push this repo to Github (or similar) to help share with others. The first step is to logon to Github and create a repository. You are only asked for a name and an optional description of the repo. Once done, copy the provided url to the repo - it begins with https://
+Next, we'll take the url address of the freshly created empty repo and tell our local repository about it.
+```
+git remote add origin https://github.com/itsligo/helloworld.git
+git remote -v
+git push origin master
+```
+These commands connect your local repo with the online one. The first command tells the local repo where to push the files to. Note that _origin_ can be any name but _origin_ is typically used for the remote repo.
+The second command is optional but is useful to tell you which remote is associated with your local repository.
+The third command pushes changes that have been committed locally to the origin repo on the online service (in this case, Github). This can fail if the remote repo has changes which have not been _pulled_ to the local repo. This must first be done before the local commit can be pushed.
+```
+git fetch
+git pull
+```
+The _fetch_ option tells you of the remote changes that are not yet pulled. It is a non-destructive inquiry. The _pull_ option actually pulls the remote repo commit (that is absent locally) to the local repo. You will now have two commits locally - your own and the one you just pulled. Next you can re-attempt the push from earlier.
+```
+git merge master origin/master
+git diff
+```
+The first line above merges the online repo into the local repo. The second line shows difference between local and remote branches. However, this is often best done in VS as the _diff_ tool makes it easier to see the changes.
+####Undoing changes
+```
+git checkout readme.md
+git checkout .
+```
+This rolls back changes that have been made but **not yet _added_ to the staging area** i.e. still in the _working directory_. The first command is selective only reversing changes to a specific file while the second rejects all changes in the working directory.
+```
+git reset HEAD readme.md
+git checkout readme.md
+```
+This rolls back changes that **have been staged** - back to the working directory. You may want to employ _git checkout_ (second line) to remove that change from the staging area.
+```
+git revert HEAD --no-edit
+```
+This command cancels the last commit. The response confirms the commit comment for that commit and clears the staging area. The _--no-edit_ switch is optional but avoids prompting for a message to document the commit.
+```
+git log
+git reset --hard 3fae8fe
+git clean -fdx
+```
+The first command shows a list (in reverse time) of recent commits. The second command turns back time to the last commit (with SHA1 hash '3fae8fe'). The response confirms the commit comment for that commit and clears the staging area. The third command removes any files that had been added as well as ('x') untracked files.
+Alternatively, you can use the following to undo unstaged changes:
+```
+git checkout .
+git clean -df
+```
+
+####Tired of entering Git username/password?
+One option is to use SSH but Github promote an alternative using **git-credential**. You'll find instructions here for both [Mac and PC](https://help.github.com/articles/set-up-git). There's also a similar tool on [Codeplex](http://gitcredentialstore.codeplex.com/). I had difficulty getting either to work unless using the Bash shell. Note once installed, you'll be prompted for the username/password combo once and after that, it will hold those details for a default period (15 min) or longer:
+
+        git config --global credential.helper 'cache --timeout 3600'
+
+####Branches
+All of this presumes a simple scenario of a single branch locally, typically called _master_ and its matching online repo, typically called _origin/master_ or just _origin_. Branching is a means of having multiple threads of development secure from interference from one another but still all stored in the same folder. You switch from branch to branch as needed. A branch might be an attempt to incorporate some new feature. Should it _work out_, you may _merge_ that branch into the main _master_ branch, again returning to the single branch.
+```
+git branch
+git checkout master
+git checkout otherBranch
+```
+Here the first command lists the available branches in this repository. The branch marked with an asterisk is the current branch. The subsequent commands switch between two different branches.
+
+```
+git branch -d branch_to_delete
+git push origin :a_remote_branch
+git push origin --delete a_remote_branch
+```
+The first command deletes a local branch. If you have a tracked remote branch you can delete it using the second command. The third command is an alternative to the second.
+
+####Working with remote branches
+Consider that you are looking to work on a remotely hosted repo locally - one that has multiple branches committed. If you simple issue the following command, you will have cloned the **master** branch only:
+```
+git clone <github repo address>
+```
+
+However, you may want to work on a branch other than the **master** branch. To pull down a copy of another branch (say, called **version2**), then issue the following command:
+```
+git branch -a
+git checkout --track origin/version2
+git checkout -b version2 remotes/origin/version2
+...
+git push
+git push -f origin version2
+git push origin +version2:version2
+
+git push -u origin my_branch
+```
+
+The first command above is not actually necessary but it will list your local branches as well as those still on the remote repository. The second command checks out a particular branch (i.e. version2) of the remote repository. Repeating the first command will confirm that a second branch is now held locally and can be committed to and push back to the server later. The third command is an alternative to the second command and works with older versions of Git.
+The last set of push commands show how to push your local tracked branch changes to the remote repo (following usual add/commit). There are a few variants but obviously the first is the easiest once you're on the appropriate branch locally. Note the last git push uses the '-u' switch. This is used when a remote branch (to which you are pushing) doesn't yet exist and it is a shortcut way of using the '--set-upstream' switch. From that point on, the local 'my_branch' will track the branch of the same name on the remote repo.

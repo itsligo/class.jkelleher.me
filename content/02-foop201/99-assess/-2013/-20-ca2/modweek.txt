@@ -1,0 +1,58 @@
+Title: CA2
+
+----
+
+Description: Early Dec
+
+----
+Session: Semester 5 (2013-14)
+
+----
+Alert:
+####Feedback on CA2
+In the first instance, do note that these comments are general meaning that they may not apply directly or in full measure to you own individual work. I am happy to meet with you personally to offer feedback (see times available on my site & arrange an appt.).
+A few key points to note:
+
+* Nearly all did XAML well, good to see - try to spot similarities with CSS where we'll spend more time next year.
+* Not all checked if adding a **Patient** would be possible (if it exceeded the **Capacity** for a **Ward**). Those who did, did so in the **MainWindow** code-behind. However, given that the ability of a **Ward** to take another **Patient** is best decided by the **Ward** itself, this functionality should be in the **Ward** class. You should write a method **AddPatient()** in class **Ward** which (with reference to the **Capacity**) returns **true** if the addition went ahead or **false** if not. That way, the calling **MainWindow** could decide how to report the success or not of the request to add a **Patient**. Think always when deciding where to write code, of who (what class) should be responsible for the carrying out of the request.
+* The ctors for Patient & Ward didn't all have :this() calls to pass responsibilty down to other ctors
+* As shown in class, the switch statement is put to good use in deciding on the BloodType radiobutton.
+* Error checking throughout should be tightened up especially with out-of-class CA where time is not such an issue
+* In future, can you name your work with your StudentID and CAX (where 'X' is 1 or 2)
+----
+
+Text:
+
+The application manages a collection of **Wards** in a hospital and the **Patients** in those **Wards**. Clicking on a Ward shows the **Patients** in that Ward. Clicking on a **Patient** shows the details of that **Patient**.
+There is no saving and loading of data. Use the **Loaded** event to populate the **Wards** with **Patients**.
+
+(image: img1.png title: screenshot)
+
+####List of Features
+
+* Design a layout similar to the provided screenshot. Substitute if necessary alternative designs but aim for that shown for full marks. Ensure the layout scales well when resized and explicit positioning avoided. You can ignore the gradient effect.
+* Populate a few **Wards** and their **Patients** in the Loaded event and have these displayed on startup in the appropriate Listboxes, with the first Ward selected and its **Patients** showing
+* Each Ward has a Name and a Capacity. Ensure when adding **Patients** that this capacity is not exceeded. Warn the user if this is attempted. Provide generous constructors and employ constructor initialisers to reduce code.
+* Each **Patient** has a Name, a date of birth and a Blood type. Use an enum to hold the blood type, one of A,B,AB or O. As for Ward, provide generous constructors.
+* When a **Patient** is selected, the details of that **Patient** are shown on the right. Below you will find appropriate images for each Blood type. These images are to be stored in a folder called 'images' in the main folder of the project. Ensure your code identifies the location of these files and selects the appropriate one for display. Right-click on the images below to save. Try to avoid hard-coding file names.
+* Maintain a number for the **Wards** that have been created (ignore possiblity of removing **Wards**). Use a **Static** variable for this and display on header for **Wards** (as shown)
+* Use **Expander** controls or similar to offer ability to Add **Wards** and **Patients**. You may substitute other controls (for some fewer marks) if necessary. For example, use a **TextBox** in place of a **DatePicker**. If so, don't concern yourself with checking the date.
+* When adding a new Ward, only enable the 'Add Ward' button when something is entered for the Ward name. Do similarly for adding a **Patient**
+* Note the display format for both Listbox (e.g. Age rather than date of birth)
+
+<div class="container">
+(image: A.png class:thumbnail title: Type A width:90 height:90)(image: AB.png  class: thumbnail title: Type AB width:90 height:90) (image: B.png  class: thumbnail title: Type B width:90 height:90) (image: O.png  class: thumbnail title: Type O width:90 height:90)</div>
+
+****
+
+#####Marking Scheme
+
+* XAML, layout, UI controls & styling:<span class='pull-right'>**25 marks**</span>
+* Classes, ctors, ToString(), Static, enum:<span class='pull-right'>**20 marks**</span>
+* Application flow, supporting user interaction:<span class='pull-right'>**40 marks**</span>
+* Code quality, structure, comments, approach:<span class='pull-right'>**15 marks**</span>
+
+
+****
+<script type="text/javascript" src="http://form.jotformpro.com/jsform/20676655777974"></script>
+----

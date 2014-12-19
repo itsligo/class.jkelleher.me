@@ -1,0 +1,33 @@
+Title: Project Apex
+----
+Shortdesc: 
+A feature-rich mobile application for cycling enthusiasts.
+----
+Names: Enda Phelan,Phillip Ryan,Oisin Foley
+----
+StudentIDs: S00126107,S00128808,S00131154
+----
+Programme:B.Sc. Computing (Software Dev) Yr 3
+----
+Supervisor:Padraig Harte
+----
+
+Description: The aim of this project is to enhance cycling enthusiasts’ and novices’ experience through route-mapping, automated group excursions, intelligent pit stops & a strong focus on performance evaluation. The app will allow cyclists to save and create personalised routes, with options to included route details such as difficulty, gradients & terrain. There will be an option to post photos on the route from directly within the app, which are geotagged on the map for other app users to view. Routes can be rated by other cyclists, which will contribute to the creator’s score.
+
+Real-time data is available to the user, with integrated features such as speed, distance covered, gradient, elevation, calorie-counting, total time and moving time. If a connection is suddenly lost, the last known coordinates are saved until a connection can be reestablished.
+
+Group cycles can be created and posted, where a user posts a rendezvous at a defined point for cyclists of a similar caliber to participate. App users can view upcoming cycles in their feed, or turn on the option to receive push notifications, however, if the users decides to join this cycle and he/she does not meet the cycle’s difficulty standard, they will be recommended by Arthur to not participate.
+
+The app will also have an intelligent pit stop feature, where cyclists can view or be notified of places to stop along their route, such as coffee shops & convenience stores. Cyclists can rate pit-stops and exchange loyalty points from the app for discounts and freebies.
+
+A website will be built in conjunction with the service to allow a user to view and edit their profile and routes, as well as access the rest of their peripheral feature such as leaderboards and notifications.ithub.com/prjapex
+
+----
+Primaryarea: Mobile app development/Location services
+----
+Primaryos: Android OS
+----
+Primarytechnology: Java
+----
+Secondarytechnology: HTML, Bootstrap, CSS, MySQL, Google Maps API
+----

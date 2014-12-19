@@ -1,0 +1,14 @@
+Title: RAD301 Lesson
+----
+Description: Revision
+
+----
+Date: 2013-10-26
+
+----
+Tags: Revision
+
+----
+Text: 
+
+This lesson pulls together many of the topics from the previous weeks building out a large practice with attention to coding standards, debugging and deployment.

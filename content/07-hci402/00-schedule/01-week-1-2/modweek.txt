@@ -1,0 +1,23 @@
+Title: Week 1-2
+----
+Description: Interaction Design
+
+----
+Week: 1-2
+
+----
+Tags:
+
+----
+Text:
+####[<i class='icon-th-list icon-large'></i>    Interaction Design](https://docs.google.com/presentation/d/1tb_qmUnQ9442zXUV0NJmfd9sq3roEzstBtll6DOT1N0/edit?usp=sharing)
+*   What is [good design](http://ui-patterns.com/blog/What-is-good-design?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+UI-patterns-com+%28UI-patterns.com%29)? (Anders Toxboe) also [Dieter Rams](https://www.vitsoe.com/gb/about/good-design) link at end of page. ([Apple Comparision](http://www.cultofmac.com/188753/the-braun-products-that-inspired-apples-iconic-designs-gallery/))
+*   Steve Jobs - 6 Pillars of his Design Philosophy ([Technolog](http://technolog.msnbc.msn.com/_news/2011/11/12/8758769-the-6-pillars-of-steve-jobs-design-philosophy)) ([The-Litter-Box](http://the-litter-box.tumblr.com/post/46222855611/empathy-focus-impute)) ([Video - 1 Minute MBA](http://arkarthick.com/2013/01/30/apple-product-design-principles/))
+*   [McInterface](http://www.sims.berkeley.edu/courses/is213/s01/projects/P2/)
+*   The $200 wheelchair ([Amos Winter](http://youtu.be/k6qTwqiHnAM))
+*   [Visual](http://www.visualthesaurus.com/) Thesaurus
+*   [San  Jose](http://www.nytimes.com/2004/11/11/technology/circuits/11cops.html) Police System
+*   Jaguar Design [Philosophy](http://www.sensorydrive.co.uk/2008/05/08/jaguars-design-philosophy/)
+*   Target web store [redesign](http://uxmovement.com/forms/9-things-designers-can-learn-from-targets-checkout-form/)
+*   [No UI](http://www.cooper.com/journal/2012/08/the-best-interface-is-no-interface.html/) (Cooper.com)
+*   ARIA ([Web accessibility](http://zomigi.com/blog/videos-of-screen-readers-using-aria-updated/)) videos

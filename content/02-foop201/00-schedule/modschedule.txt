@@ -1,0 +1,13 @@
+Title: FOOP201 Schedule
+
+----
+
+Description: Schedule for Foundation Object Oriented Programming 201
+
+----
+Session: Semester 3 (2014-15)
+----
+Text:
+#### We progress through the module in carefully charted weekly payloads. Each week has an accompanying set of exercises.
+----
+removed: which are hosted on <a href='http://www.github.com'><i class='font-awesome icon-github'></i> Github</a>.

@@ -1,0 +1,38 @@
+﻿Title: Heartrate Arduino
+----
+Shortdesc:
+An arduino powered heart rate monitor
+----
+Description:
+An arduino powered device that can measure the rate of your heart either through your finger(or electrodes, havent 
+
+settled on one just yet) and show you a running live screen on your laptop. The general target aduience would be older 
+
+people, or people with heart conditions who would perhaps need there heart monitored daily. With this device, they could 
+
+measure the heart rate with ease in the comfort of their home, and if it was below or above it could notify the
+
+correct people (doctor, family) via sms, or an app with alarm etc. 
+----
+Tags: Arduino, health, heart rate, App, device
+----
+Names:Tommie Corrigan
+----
+StudentIDs:S00122306
+----
+prjurl:
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: Arduino Device
+----
+Primaryos: Arduino
+----
+Primarytechnology: 
+----
+Secondarytechnology: 
+----

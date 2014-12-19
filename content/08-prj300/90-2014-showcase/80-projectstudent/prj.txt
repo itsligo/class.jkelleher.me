@@ -1,0 +1,34 @@
+Title: Project Student
+----
+Shortdesc: Student assistance app for helping new students settle into IT Sligo.
+----
+Description: Mobile app to assist students in settling into IT Sligo, including timetables, campus maps, communication facility and native, improved student hub.
+We will parse the timetables to make them offline usable, with editing and re-organizing on-device from there. Maps will be maps of room locations, possibly leveraging GPS to show some sort of route to the rooms.
+We'll also show where the actual blocks are, as some students have difficulty locating some of the less used blocks.
+
+An improved, mobile-friendly version of the existing Student Hub will be included, with improved navigation (e.g. going directly to email, instead of having screens in-between).
+Credentials will also be stored, so the user won't have to re-enter email credentials, for example.
+There will also be a communication utility for communicating with other students, class reps, etc.
+----
+Tags: android, java, app
+----
+Names: James Boyle, Liam Noone, Samuel Tam, Thomas Wallace
+----
+StudentIDs: S00120815, S00122642, S00120804, S00121344
+----
+prjurl: http://projectstudent1.wordpress.com/
+----
+gitrepo: https://github.com/liamnoone/projectstudent
+----
+Programme: B.Sc Computing in Game Development / Software Development / Web Dev and Creative Media
+----
+Supervisor: Neil Gannon
+----
+Primaryarea: Android
+----
+Primaryos: Android
+----
+Primarytechnology: Java
+----
+Secondarytechnology: Database (TBD, probably SQLite3)
+----

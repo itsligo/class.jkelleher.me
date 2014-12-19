@@ -1,0 +1,23 @@
+Title: FOOP201 Lesson
+----
+Description: Further UI design & misc	
+
+----
+Date: 2013-12-1
+
+----
+Tags: misc
+
+----
+Text: 
+Here we revisit important past topics and round out our treatment of a variety of minor aspects such as:
+* UI controls - Expander, Radiobuttons, Combo-boxes, Group boxes, Slider
+* Data binding - populating listboxes via _ItemsSource_, role of **ObservableCollection**
+* Parsing folder and files
+* Operators - unary, binary, ternary and look at operator overloading
+* Closer look at **Switch** statement
+* Use of **sender** parameter in event handlers
+* Finer UI design and build
+----
+practices:
+####[Team Player](https://github.com/itsligo/teamplayer)

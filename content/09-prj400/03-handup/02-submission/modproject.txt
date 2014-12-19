@@ -1,0 +1,19 @@
+Title: Deliverables
+----
+Description: What to Submit
+
+----
+Session: Semester 7 & 8 (2013-14)
+----
+Tags: deliverables
+----
+
+Text: 
+#####The focus of PRJ400 is to expose the processes required to perform analysis and design of a chosen product, be it a web site, desktop application, network configuration etc. The submitted documentation should report on those processes and includes:
+****
+- Project Report (see here for [details](/prj400/handup/assessment)) - c. 9000 words
+- Deliverables – depending on your project choice, it is likely that you will need to submit design documents (e.g. database design, network schematic) and/or prototypes (low or high fidelity, e.g. web site mockup) or other expressions of your design.
+
+NOTE: Please follow these simple instructions exactly. Projects will only be accepted for adjudication if they are submitted according to these guidelines. Late submissions may not be accepted or if so, may be subject to a penalty of 10% of overall mark. Remember, the presentation contributes to your mark but without a proper project submission, no mark can be awarded.
+
+Your total submission should tally <15Mb. If it is likely to exceed this, do not upload and make contact with me. Please ensure that you include only relevant material in your submission and do not include multiple copies of your work as we will only assess the first encountered.

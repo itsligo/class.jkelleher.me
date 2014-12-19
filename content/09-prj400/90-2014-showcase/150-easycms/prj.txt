@@ -1,0 +1,29 @@
+----
+Title: easyCMS
+----
+Shortdesc: Build a CMS
+----
+Description:The aim of this project is to provide a CMS that will allow a high level on control over a website. Somes features I hope to provide are media and module management and highly customised creation of pages. 
+----
+Tags: ASP.Net,CMS,SQL
+----
+Names:David Grattan
+----
+StudentIDs:S00108166
+----
+prjurl:http://cmsproj.blogspot.ie/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Dev) Yr 4
+----
+Supervisor:
+----
+Primaryarea: CMS,Website building
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: ASP.Net,SQL
+----
+Secondarytechnology: CSS,jQuery
+----

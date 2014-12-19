@@ -1,0 +1,15 @@
+Title: Week 13-14
+----
+Description: Industry Advice
+
+----
+Week: 13-14
+
+----
+Tags:
+
+----
+Text: 
+* So You Want to be a (link:http://www.azarask.in/blog/post/be-a-designer/ text:Designer) (Aza Raskin)
+* Smashing Magazine ([Best of](https://docs.google.com/file/d/0B_ax7Tsevzx_N0pnTUtYdnUwTWc/edit?usp=sharing))
+* Dr. Keith Andrews, Graz University, Austria ([notes](http://courses.iicm.tugraz.at/hci/)) of Interaction Design (Tog)

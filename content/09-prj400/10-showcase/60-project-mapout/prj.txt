@@ -1,0 +1,47 @@
+﻿Title: Project Map-Out
+----
+Shortdesc:
+A feature-rich mobile application enhencing walkability and combining augmented reality for Older Adults
+----
+Description:
+The aim of this project is to make streets more age friendly and change the way planners look at planning infrastructure.
+We want an app to: 
+* Find location and Outline nearby spots (cracked footpath etc.) on the map,
+* Let Users to provided Hazard Spots info,
+* Let User to see marked obstacles information - distance to the obstacle and its type through the camera.
+* Let User to take a photo of the spot with some problem, select what the problem is (maybe rate it).
+* show nearby public toilets and sitting areas.
+* Find my car or starting location as an extra feature (many possibilities to enhance the experience).
+* find the best route that would avoid (if possible) problematic spots
+* visualise the hazards better thanks to camera rather than through a map scenario. This may also be easier to adapt across other platforms easier (although we feel that a cross platform app would be left aside at this stage.)
+
+A website will be built in conjunction with the app which would display collected data for the public view and for the councils
+* Councils should be also able to add walking obstacles information as well (e.g. footpath closed in certain spot due to road works between 25 and 30 September).
+* Councils should be able to edit existing data (eg. Problem fixed)
+Website should also have a Page with a challenge for councils.
+At the moment we are thinking about page that would let user to create a Mock up of design for for certain part of the street
+User would be able to drag and drop elements to the mock up window and when finished - system would rate the mock up
+according to. This ment to be an educative experiance.
+usability  
+----
+Tags: C#, Azure, SQL Server, ASP.Net Web API (Web server), HTML, Bootstrap, CSS
+----
+Names: Gerard Carroll, Marcin Kadziel
+----
+StudentIDs: S00009509, S00122901
+----
+prjurl:
+----
+gitrepo: https://bitbucket.org/itsicproject
+----
+Programme:B.Sc. Computing (Software Dev) Yr 4
+----
+Supervisor: Padraig Harte?
+----
+Primaryarea: Mobile app development
+----
+Primaryos: Windows
+----
+Primarytechnology: C#
+----
+Secondarytechnology: Azure, SQL Server, ASP.Net Web API (Web server), HTML, Bootstrap, CSS

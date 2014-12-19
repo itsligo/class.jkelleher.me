@@ -1,0 +1,29 @@
+Title:FB Apps
+----
+Shortdesc:Apps for Facebook
+----
+Description:A series of customizable facebook app,(puzzles,beat the clock  challenge, surveys,customizable landing page etc)  used  for competition/prize giveaways/general Info that will be used by the business. In order for a person to enter/win the current competition they must enter there information Name,Sex,Email,Mobile etc which will be saved into a DB, this will then allow the business to start a Email / Text etc message Marketing campaign in order to increases customer retention , acquisition and sales.
+----
+Tags:Php Facebook Marketing Apps
+----
+Names:Paul Reynolds
+----
+StudentIDs:s00101157
+----
+prjurl:http://s00101157.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Soft Dev) Yr 4
+----
+Supervisor:Dana Vasiloaica tbc
+----
+Primaryarea:Facebook Sdk
+----
+Primaryos:Web/Multi
+----
+Primarytechnology:PhP/
+----
+Secondarytechnology:JavaScript/HtmlCSS
+----
+

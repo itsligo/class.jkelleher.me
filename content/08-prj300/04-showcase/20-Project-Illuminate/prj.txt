@@ -1,0 +1,35 @@
+Title: Project Illuminate
+----
+Shortdesc:
+A Home security system using Kinect to detect intruders.
+----
+Description:
+The end goal of our team’s project is to develop a home security system that will detect intruders by using Kinect to determine whether a person who walks in front of the camera is an intruder or not. If the Kinect cannot recognise the individual in question, a message will be sent to a family member, alerting them to the intruders presence alongside sending them a photo of the person, to ensure that the person in question is not known to the owner of the house. 
+
+The project we develop will be set up to recognise the members of the house that live there, so they will not be accidentally mistaken for an unknown intruder. Their information(an image of their face, maybe height and weight) will be stored in a database. If someone walks in front of the camera, we will compare their attributes to the family member’s attributes, and if it is not a direct match then a family member will be alerted.
+
+Voice and gestures will be used to navigate the UI and to also deal with situations where the home owner may be detained by an intruder, enabling the home owner to direct a gesture or a voice command at the Kinect, to tell it that there is an intruder in the house and to call for help. 
+
+----
+Tags: Kinect, c#, Azure
+----
+Names:Paul Shannon, Seachlainn O’Rourke, Marguerita Blake, Miruna Encea
+----
+StudentIDs:S00132671, S00132651, S00132717, S00158056
+----
+prjurl: http://projectvoldermort.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Development) Yr 3
+----
+Supervisor:Neil Gannon
+----
+Primaryarea: Kinect Security system
+----
+Primaryos: Windows
+----
+Primarytechnology: C#
+----
+Secondarytechnology: Azure, XAML
+----

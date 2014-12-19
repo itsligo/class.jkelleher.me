@@ -1,0 +1,37 @@
+Title: Project Planner
+
+----
+
+Description: Project Management
+
+----
+Tags: prj_mgmnt
+----
+
+Text:
+####Maintaining careful control over all aspects of the work effort in your project is critical. In particular, keeping track of time is paramount to ensure that you complete the necessary milestones.
+****
+####Project Handbook
+(link:http://www.comp.nus.edu.sg/~damithch/guide3e/ text:Dr. Damith C. Rajapakse) of Singapore provides a useful (link: http://www.comp.nus.edu.sg/~damithch/guide3e text:handbook) providing extensive help and direction for those undertaking project work. The book targets software project primarily but there is much here for all doing projects. Also available as (file: Practical_Tips_for_Software_Intensive_Student_Projects-3e-review-copy-IT-Sligo.pdf text:pdf)
+
+####Asana
+(link: asana.com text: Asana) is an excellent project management tool. It helps groups in particular to organise tasks and those responsible for their completion. Watch this 2 minute video for an overview.
+(youtube: http://www.youtube.com/embed/liO5VbbIqIs?rel=0)
+###Tom's Planner
+(image: tom_planner.png title:Tom's Planner class:img-right)
+A tool you may find useful (for both students and their supervisors) is (link: https://www.tomsplanner.com/ text:Tom’s Planner). It an online, free, (link: http://en.wikipedia.org/wiki/Gantt_chart text:Gantt) chart tool with an emphasis on ease of use. One common problem with Project work is the lack of a clear plan of action and a timescale to follow. Tom’s Planner lets you quickly create a set of scheduled tasks that provide a ‘plan of campaign’ for your work over the module.
+
+Your chart is readily sharable online so you can send an email to your supervisor so he/she can see how progress is going and even leave comments on the tasks listed. A short (link: http://www.tomsplanner.com/software/project-planning/tour.aspx text:instruction) page tells you all you need to know to begin using it.
+
+There are other tools like (link: http://www.basecamphq.com text:Basecamp) and (link: http://www.huddle.com text:Huddle) but these are overkill for what is needed here.
+
+###Freedcamp
+(image: freedcamp.png title:Freedcamp class:img-right)(link: http://freedcamp.com/ text:Freedcamp) is a free (as in beer) project management system. When part of a project team, good communication is critical. Roles and tasks need to be defined and each member needs to be aware of progress and expectations on these areas. Much project management software is costly – for example, BaseCamp, which is sometimes used for projects within the college is expensive. This free system help your team to keep on course while providing essential feedback to your supervisor as well as team members.
+
+Part of your final mark in group work is attributable to how well you work as a group. A system like this underlines that effort and its successful use feeds into your final mark.
+
+
+For more on project planning, read (link:http://www.comp.nus.edu.sg/~damithch/guide3e/Ch8.html text:Chp. 8) of “Practical Tips for Software-Intensive Student Projects” by Damith C. Rajapaske.
+#### Google Project Planner
+(image: Google-Project.png title:Google Project Planner class:img-right)
+At the simpler end of the spectrum you can use Google (link: https://docs.google.com/previewtemplate?id=0As3tAuweYU9QcHlVM3hrY2tocEkwQ3J4NE44aVBxZVE&mode=public text:Spreadsheet) to manage the goals and tasks associated with your project. This is just one such example provided as a ready-to-go template. Share with your team members and (link: https://docs.google.com/support/bin/answer.py?answer=47134 text:publish) to your Project (link: prj300/begin/project_log text:log) so that your supervisor can see and comment.

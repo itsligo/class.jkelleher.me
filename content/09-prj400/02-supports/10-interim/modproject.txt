@@ -1,0 +1,40 @@
+Title: Interim Presentation
+
+----
+
+Description: Preparing for the interim presentation
+
+----
+Tags: interim
+----
+
+Text:
+#### Interim Presentation
+The purpose of the interim presentation is to take stock of your progress in the project. While your supervisor will have given direction throughout the first semester, this presentation offers an opportunity for a set of fresh eyes to view progress, offer insight and guidance and provide feedback. Your work to this point is also assessed formally and this feeds into your final result.
+
+#### What to expect
+Generally, three or more lecturers will sit in at the presentation usually to include your supervisor. Though we try not to be rigid, it is prudent to assume you have 10 minutes maximum to set out your achievements to date. Q&A then follows taking perhaps another 10-15 minutes. Within reason, we will prioritise our need to establish an understanding and appraisal of your work above time. However, it is important that you come prepared with well-rehearsed explanation of your work to date to assist us in this goal.
+
+#### What form should my presentation take?
+We are there to hear from you and what you have been working on. If you wish to use a Powerpoint presentation to frame this conversation, then that is fine. However, almost invariably, such presentation involve students reading back from screen what we can read for ourselves. This is not productive. I would recommend using diagrams to help structure your delivery and provide a focus for your talk. Perhaps one or two slides with minimal text to guide/prompt your delivery. On a practical level, bring any such electronic documents on a pen drive rather than waste time setting up or logging on.
+There is no requirement to submit work ahead of the presentation. We will want to be able to see everything you refer to, so have code/design work/research available for us to examine. We mark on the day so you need to have this material to hand.
+Mostly we want to hear about the processes you've used to get you to this point. It's about the journey as much as the destination. You are not being judged on your oratory skills but to some extent you are selling your work and you need to convince us of the achievement inherent in what you are showing.
+We want to hear:
+
+* of your decision processes
+* the things you considered
+* the things you rejected (and why)
+* the mis-steps, what you learned from that
+* the ideas you had but which wouldn't make the cut this time around
+* what the industry is doing in this space and why - make predictions
+* what you liked/dis-liked about X and how you'd do it differently
+* what tools/supports you used and your assessment of these
+* what you would do if you were back in September
+* how you think your course could have better supported you in your work
+* how you used your supervisor
+
+We will look to your blog/log for evidence of well-managed development of your ideas/output. In truth, there shouldn't be much needed by way of this presentation as you'll carry much of the information in your head having been immersed in this work for several months.
+However, you need to make a coherent 5-10min presentation of this work so take time to gather and organise your thoughts so that you make sense to those in the panel not familiar with your work/technologies etc. Avoid padding your talk with trivial commentary on topics that would be typically understood by those in the room. Be assured we will stop and ask if we don't understand something you say/show. Also, know that our questioning is often born out of natural curiosity of what you've been working on and not an attempt to 'catch you out'. If the questioning appears probing it is to ensure that you are fully rewarded for any relevant work that you have undertaken - it does not necessarily have to be successfully implemented to qualify for marks. The grade reflects what you have learned and not solely on its execution.
+
+
+

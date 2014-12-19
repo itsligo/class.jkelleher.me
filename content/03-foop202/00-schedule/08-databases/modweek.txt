@@ -1,0 +1,29 @@
+Title: FOOP202 Lesson
+----
+Description: -Using Databases
+
+----
+Tags: 
+
+----
+Text: 
+Many of the practices will use sample databases, for example, (link: northwnd.mdf text:NorthWind) and AdventureWorksLT2008R2. These are pre-populated datasets that will likely be used in any exams also.
+
+**You will find a collection of such databases at this Github [repository](https://github.com/itsligo/sampledbs.git).**
+
+To access a database we often use SQL Server (or some flavour thereof, eg. localdb). You'll have experience of using SQL Server as a dedicated server (eg CAIRNS\Kilross). Sometimes lab PCs will have their own individual SQL Server installed on that PC. From VS2012, there is the facility to use a lighter version of SQL Server, called LocalDb. This is similar to SQL Server Express if you are familiar. The benefits are that it consumes fewer resources, is free and does not need installing or to run constantly as a service like other SQL Server software. Once you have VS2012 or later, you have LocalDb.
+
+In an exam situation, you will typically use LocalDb. However, you will be tasked with employing a particular database to complete the exam. You will need to attach (add) this database to LocalDb either through your code or manually using SQL Server Management Studio Express. We will practice this often in class but it is a critical step that would make the remainder of the exam very difficult if not completed successfully - so practice.
+
+Alternatively, for those not using LocalDb (for whatever reason), you can follow these instructions for manually adding a database to a SQL Server instance.
+
+#### To Install A Database
+
+1.  Logon to the SQL Server Instance using Windows authentication.
+1.  Download the (file: Database-Scripts.zip text:Database Scripts) and unzip the file to reveal the SQL scripts for each database.
+3.  Delete the previous instance of the database on the server by using SQL Server Management Studio Express. Right-click on the database listed and choose Delete. Be sure the 'close all connections' checkbox is ticked. You may need to exit any program (including Visual Studio) that may have a lock on the database.
+4.  Open one of the database scripts downloaded earlier.
+5.  Click 'Execute' in the toolbar or menu or press F5 to run the script.
+6.  The database should now show in the Object Explorer side panel to the left.
+It is important that you familiarise yourself with this procedure ahead of any exams as it will be your responsibility to know how to access a database.
+Also of use is the [Pubs](http://dhdurso.org/databases/instpubs.zip) database.

@@ -1,0 +1,29 @@
+Title: Online Learning Center for Children
+----
+Shortdesc:
+----
+We will create a Learning Online Centre Website for three groups of kids - infants, toddlers & preschool, where the children can spend their time learning 
+and gaining knowledge in a games environment. There will be 2 or 3 main game types: English, Maths, Creativity 
+----
+Tags: Online Learning Center for Children, website, education, games
+----
+Names:Marcin Romel, Maciej Kamienski,Dana Diac,Paul Guihen
+----
+StudentIDs: s00120714,s00123749,S00149172,s00071352
+----
+prjurl:http://kidseducenter.wordpress.com
+----
+gitrepo:https://github.com/ddana0909/OnlineLearningGames.git
+----
+Programme:B.Sc. Computing (Web/Software Dev) Yr 3
+----
+Supervisor:Colm Davey
+----
+Primaryarea: Dynamic Website & Database
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: PHP/PHP5 , HTML 5, JavaScript, MySQL
+----
+Secondarytechnology: HTML, CSS/CSS3, Ajax, Jquery
+----

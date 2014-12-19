@@ -1,0 +1,30 @@
+Title: Bio-Metric Security
+----
+Shortdesc:
+To create a lockdown system with an administrative website to keep valuables secure.
+----
+Description:
+The aim of this project is to utilise existing hardware and the technology that matches it, for example using arduino, altering it as well as developing and creating software that works in tandem with the hardware to provide solutions to the security on individual computers.  It should be easy to access and fine tune to fit individual specific needs and desires, using simple thumb scans and pin verification along with safe and secure ways to access it. With a safe way to get access to more protected hardware and software reliably as and when it is needed. We aim to use existing bio-metric technology, incorporate it with open source hardware and software, and manipulate it to allow for a much more thorough security system when dealing with keeping valuables, such as laptops, secure. We intend to create, as a proof of concept, a secure “lock box” that utilizes hardware and software that we will create along with an in depth website that deals with administrative facilities for users, a high tech warning device that should be able to alert users of any danger to their privacy at any time, for example by phonei.e. sms.
+----
+Tags: Angular, Arduino, Lockbox, Bootstrap, Website, FingerPrint, Security
+----
+Names:Fergus McCormack,Jason Clerkin,Lee Meehan ,Timon Baudry
+----
+StudentIDs:S00133611,S00112898,S00133799,S00133309
+----
+prjurl: https://fingerlickinsecure.wordpress.com/
+----
+gitrepo:
+----
+Programme:B.Sc. Computing (Software Development) Yr 3
+----
+Supervisor:
+----
+Primaryarea: Bio-Metrics and security
+----
+Primaryos: Multi-platform
+----
+Primarytechnology: Arduino
+----
+Secondarytechnology: CSS,Html,SQL/MySql,Angular,Bootstrap,PHP,Ajax
+----

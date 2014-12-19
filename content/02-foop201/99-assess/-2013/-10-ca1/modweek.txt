@@ -1,0 +1,21 @@
+Title: CA1
+
+----
+
+Description: On 15-11-13
+
+----
+Session: Semester 5 (2013-14)
+----
+
+Text:
+CA1 is now available (link: ca1.pdf text: here) to view.
+
+* Ensure you name your project using your student ID. 
+* ZIP your completed solution, removing the **bin** and **obj** folders to save space
+* Ensure that your zip is correct - check if size not 1kb (empty), unzip again to confirm if necessary
+* Keep copy of uploaded zip for yourself but don't open or amend
+* Ensure you receive confirmation email of your upload
+
+<script type="text/javascript" src="http://form.jotformpro.com/jsform/20676655777974"></script>
+----

@@ -1,0 +1,18 @@
+Title: HCI401
+
+----
+
+Description: Human Computer Interaction 401
+
+----
+Session: Semester 7-8 (2014-15)
+----
+Alert This module content has recently been migrated from the old site. If you find anything missing, (email: kelleher.john@itsligo.ie text:email) me.
+----
+Alert Important : Register for HCI401 (link:https://docs.google.com/forms/d/1uVO8n1gvOJp_36KFRmW3M0udGoHq_ZhOWDUJCYJ9J_0/viewform text:here)
+----
+Text: HCI401 tackles the user experience and the various phenomenon that surround it. We look at techniques to better understand the user's perspective, work up prototypes, test designs, appreciate psychological and physiological aspects to user interfaces design.
+
+HCI401 (link:https://amm.itsligo.ie/module/webview//COMP08030/201100/999999 text:syllabus) is taught to BSc. (Hons.) Computing, BSc. (Hons.) Web Development & Creative Media and B.Sc. (Hons.) Games Development students, all at Year 4 Level 8. HCI is fast becoming a key feature of computer science study.
+
+With performance or feature list no longer a distinguishing feature, attention is being focused on the quality of the interaction and its concomitant knock-on effects in productivity, training and consequences of errors.

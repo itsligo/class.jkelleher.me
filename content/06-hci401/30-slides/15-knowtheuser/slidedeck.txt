@@ -1,0 +1,218 @@
+title:Know the User
+----
+name:knowtheuser
+----
+slides:class: center, middle
+# Know The User
+---
+class: left
+layout: true
+name: bulletSlide
+---
+#Basic Activities of Interaction Design
+
+* It is a process:
+    * a goal-directed problem solving activity informed by intended use, target domain, materials, cost, and feasibility
+    * a creative activity
+    * a decision-making activity to balance trade-offs
+* Four approaches: user-centered design, activity-centered design, systems design, and genius design
+---
+# Importance of Involving Users
+* Expectation management 
+	* Realistic expectations 
+	* No surprises, no disappointments
+	* Timely training
+	* Communication, but no hype
+* Ownership 
+	* Make the users active stakeholders
+	* More likely to forgive or accept problems
+	* Can make a big difference to acceptance and success of product
+* Participation
+    * Cycle users
+    * Design workshops/Evaluations
+---
+# User-Centered Design
+* User-centered approach is based on:
+    * Early focus on users and tasks: directly studying cognitive, behavioral, anthropomorphic & attitudinal characteristics 
+    * Empirical measurement:  users’ reactions and performance to scenarios, manuals, simulations & prototypes are observed, recorded and analysed
+    * Iterative design: when problems are found in user testing, fix them and carry out more tests
+---
+#Design must...
+
+* Ackowledge who the users are
+* Support the activities being carried out
+* Appreciate where the interaction is taking place
+* Optimize the interactions users have with a product
+* Match the users’ activities and needs
+
+---
+#Interaction Design
+
+#### "Designing interactive products to support the way people communicate and interact in their everyday and working lives"
+
+.quoted[Sharp, Rogers and Preece (2011)]
+
+#### "The design of spaces for human communication and interaction"
+
+.quoted[Winograd (1997)]
+---
+###Interaction Design Discliplines
+
+![Disciplines](http://benmelbourne.files.wordpress.com/2011/11/ux_disciplines.jpg)
+---
+###Professionals in Interaction Design
+
+* interaction designers
+    * people involved in the design of all the interactive aspects of a product
+* usability engineers
+    * people who focus on evaluating products, using usability methods and principles
+* web designers
+   * people who develop and create the visual design of websites, such as layouts
+* information architects
+    * people who come up with ideas of how to plan and structure interactive products
+* user experience designers (UX)
+   * people who do all the above but who may also carry out field studies to inform the design of products
+---
+# simple interaction design lifecycle model
+
+![Interactive Design Lifecycle Model](/content/06-hci401/30-slides/15-knowtheuser/interdesignlifecycle.gif)
+---
+##Who are Users/Stakeholders?
+
+* Not always obvious:
+    * direct users
+    * managers of direct users
+    * users further downstream consuming output
+    * those commissioning
+    * prospective customers to attract
+
+* Three categories of user (Eason, 1987):  
+    * primary: frequent hands-on
+    * secondary: occasional or via someone else
+    * tertiary: affected by its introduction, or will influence its purchase
+---
+##Defining 'Needs'
+* Users poor visionaries
+* Users can’t  tell you what they ‘need’ to help them achieve their goals 
+* Instead, look at existing tasks:
+    * their context
+    * what information do they require?
+    * who collaborates to achieve the task?
+    * why is the task achieved the way it is?
+---
+#IDEO Wells-Fargo ATM Redesign 1/2
+[![Interaction Design by IDEO](http://www.ideo.com/images/uploads/work/slides/wf_2_626px.jpg)](http://www.ideo.com/work/atm-interface/)
+
+.footnote[Go to [IDEO](http://www.ideo.com/work/atm-interface/)]
+---
+#IDEO Wells-Fargo ATM Redesign 2/2
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/6NI1Rpc5bUI?rel=0" frameborder="0" allowfullscreen></iframe>
+---
+##How to choose between alternatives
+
+* Prototype - field test your ideas cheaply and quickly
+* Technical feasibility: some just not possible or skills in short supply
+* Quality thresholds: Usability goals lead to usability criteria set early on and check regularly
+safety: how safe?
+    * utility: which functions are superfluous? 
+    * effectiveness: appropriate support? task coverage, information available
+    * efficiency: performance measurements
+---
+#Coffee Machine
+.img[![Poor Designed Coffee Machine](/content/06-hci401/30-slides/15-knowtheuser/coffeemachine.jpg)]
+
+.footnote[[www.baddesigns.com](http://www.baddesigns.com)]
+---
+##Ticket Machine
+[![Boston Transit Ticketing](http://incontextdesign.com/wp-content/media/charlie-kiosk.jpg)](http://incontextdesign.com/blog/interaction-design-and-the-boston-subway/)
+
+.footnote[[Incontextdesign.com](http://incontextdesign.com/blog/interaction-design-and-the-boston-subway/)]
+---
+###Interaction Design is iterative
+
+* cycling through various design processes and different levels of detail
+* thinking through a design problem
+* understanding users needs
+* coming up with possible models
+* prototyping models
+* evaluating them
+* thinking about design implications
+* making changes
+---
+##Marble Answering Machine
+####-Durell Bishop
+
+<iframe src="//player.vimeo.com/video/19930744" width="700" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+---
+### Categories of User
+* Novice
+    * frequent feedback
+    * actions prompted by choices
+    * safe exploration supported - robust
+    * easy undo
+    * selective disclosure
+* Intermediate
+    * knowledge of broad aspects
+    * need easy access to the details
+    * can be amalgam of novice and expert
+* Experts
+    * critical help system user
+    * lower, more subtle support and feedback
+    * accelerators required
+    * customisability desired
+    * experts less risk-averse in usage pattern
+---
+##Categories of User (Anecdotal)
+* Novice user
+    * someone who is afraid if they touch the keyboard they will break the system
+    
+* Intermediate user
+    * someone who has broken the computer and doesn’t know how to fix it
+    
+* Expert user
+    * someone who breaks other people’s computers
+---
+## Summary - Four Basic Activities of Interaction Design
+
+* Establishing requirements
+* Designing alternatives
+* Prototyping
+* Evaluating
+---
+.absolute-center[![Good Candy](/content/06-hci401/30-slides/15-knowtheuser/goodcandy.png)]
+---
+###Affinity Diagramming
+#### Participatory method where concepts written on cards are sorted into related groups and sub-groups.
+
+* Diagnose complicated problems by organising qualitative data
+* Analyze findings from field studies
+* Identify and group user functions as part of design
+* Analyze findings from a usability evaluation
+
+.footnote[[usabilityfirst.com](http://infodesign.com.au/usabilityresources/affinitydiagramming/)]
+---
+###Scenarios
+* an informal narrative story, simple, ‘natural’, personal, not generalisable
+* illustrate using storyboards
+* sequences of sketches showing screens & transitions
+* good to demonstrate to management, marketing and customers can replace much textual specification
+* similar to Use Cases in Software Engineering
+* examples of Scenarios ([Adam Torres](http://www.adamatorres.com/gallery-project/?page_id=271))
+.footnote[
+Reading: [Scenarios](http://infodesign.com.au/usabilityresources/scenarios/)]
+---
+###Personas
+#### Detailed descriptions of typical users and their backgrounds
+* Understanding the user
+* Clarifying assumptions
+* Fully exploring the design
+* Providing a context for reviewers
+* Helping other project tasks
+* Best Buy: roster of shopper profiles:
+    * Buzz (the young tech enthusiast)
+    * Barry (the wealthy professional man)
+    * Ray (the family man)
+    * Jill (a soccer-mom type, main shopper for family but usually avoids electronics stores)
+.footnote[[Examples](http://www.adamatorres.com/gallery-project/?page_id=138) [(Adam Torres)](http://www.adamatorres.com/gallery-project/)<br/>
+[Source](http://www.washingtonpost.com/wp-dyn/content/article/2005/08/16/AR2005081601906.html)]
