@@ -10,13 +10,13 @@ Session: Semester 5
 -Alert:
 ----
 Text:
-Write an ASP.NET MVC application that employs manages summer camps for kids. The application will have the following features/functionality:
+Write an ASP.NET MVC application that employs manages training courses for employees. The application will have the following features/functionality:
 
-* Each **Camp** consists of a **Title** and a **StartDate**.
-* Each **Camp** will have an associated number of children. Each **Child** has a **Name** and **Sex** (M/F).
-* Your app's home page will list each **Camp** (sorted by **StartDate**, most recent first) along with the number of children on that **Camp**. If there are no children on the **Camp**, display 'None'.
-* Display a styled button alongside each **Camp** which when clicked leads to a 'Details' page. This page displays the **Camp** name and a table of the children on that **Camp**. Provide a button to return the user to the 'Home' page.
-* The app will begin with 3 **Camps** - one **Camp** will have **two** children and the others will have none. Seed the database to provide this data. Do this properly using a database initialiser class.
+* Each **Course** consists of a **Title** and a **StartDate**.
+* Each **Course** will have an associated number of staff. Each **Employee** has a **Name** and **Department** (one of Sales, Support, or Research).
+* Your app's home page will list each **Course** (sorted by **StartDate**, most recent first) along with the number of staff on that **Course**. If there are no employees on the **Course**, display 'None'.
+* Display a styled button alongside each **Course** which when clicked leads to a 'Details' page. This page displays the **Course** name and a table of the employees on that **Course**. Provide a button to return the user to the 'Home' page.
+* The app will begin with 3 **Course**s - one **Course** will have **two** staff members and the others will have none. Seed the database to provide this data. Do this properly using a database initialiser class.
 
 Additionally ensure you adhere to the following technical requirements:
 
@@ -25,8 +25,14 @@ Additionally ensure you adhere to the following technical requirements:
 * Provide robust code that defends against errors particularly wrt database access
 * Reward is provided for exceptional coding that (e.g. performant, robust, elegant)
 * You should employ whatever features of the Bootstrap >3.0 framework that you feel would enhance the UI but balance this against the marking scheme
-* Be **sure** to enable Nuget (link: http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages text:restore) for your Solution to avoid submitting the large packages folder along with your solution.
 * Your zipped solution should be <3mb; if not, ensure you have followed the above points.
+
+####Sample Connection String
+```
+<connectionStrings>
+    <add name="BlogDb" connectionString="Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\blogdb.mdf;Integrated Security=True; MultipleActiveResultSets=True;" providerName="System.Data.SqlClient" />
+</connectionStrings>
+```
 
 ####Marking Scheme
 * Styling (use of Bootstrap etc.)                  **20 marks**
@@ -39,6 +45,7 @@ You cannot access past class exercises or other coded answers save those you fin
 
 * Stack Overflow
 * MSDN (Microsoft Reference)
+* Bootstrap docs
 * Pages of relevant Nuget packages/jQuery plugins
 
 You should not access all other sites including:
@@ -49,6 +56,6 @@ You should not access all other sites including:
 ####Upload
 Use this link: (link: http://bit.ly/rad30x text:bit.ly/rad30x)
 ----
-practices:
+practicesx:
 ####[Solution](https://github.com/itsligo/2014rad301ca1)
 <small>Sample solution</small>

@@ -1,0 +1,24 @@
+Title: Git
+
+----
+
+Description: Git Version Control
+
+----
+Tags: prj_mgmnt
+----
+
+Text:
+#### Version Control
+(link: http://github.com text:Git) is a popular source version control tool. It is a distributed version software control which is a de facto standard in the software industry to manage source code. It is platform agnostic and being decentralised can be created locally and push to a choice of (typically) free hosting services. Employers place a high value on students with literacy in version control so I'll be using Git repositories to both distribute and receive practice exercises, submissions, assignments etc.
+
+(image: octobiwan.png title:Git) 
+
+Visual Studio 2012 has an [extension](http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c) that enables integrated Git management through the Team Explorer.  Note that you required [Update 2](http://go.microsoft.com/fwlink/?LinkId=273878) for VS2012. Scott Hanselman has a [good post](http://www.hanselman.com/blog/GitSupportForVisualStudioGitTFSAndVSPutIntoContext.aspx) on its use. The Visual Studio [blog](http://blogs.msdn.com/b/visualstudioalm/archive/2013/02/06/set-up-connect-and-publish-using-visual-studio-with-git.aspx#clone) also has some basic run-throughs on its use. [Suprotim Agarwal](http://www.dotnetcurry.com/ShowArticle.aspx?ID=879) also has a similarly useful guide.
+
+Once you have a grasp of the basic, I recommend you take a look at an excellent [interactive workshop](http://pcottle.github.io/learnGitBranching/?demo) on Git hosted on Github itself, by [Peter Cottle](http://petermcottle.com/).
+
+You'll also find other [GUI interfaces](http://git-scm.com/downloads) to Git that can be used as an alternative to the VS2012 extension but most practitioners will use the command shell which in the case of VS is typically accessed via Powershell or Package Console within VS. The simplest/best Git client apps are provided by the two big Git hosting services (image: bitbucket.png class:img-right)- [SourceTree](http://www.sourcetreeapp.com/) by [BitBucket](http://bitbucket.org) and [GithubWindows](http://windows.github.com/) by [GitHub](http://windows.github.com/), the latter being by far the largest. Both of these support PC &amp; Mac but I found the VS integrated extension to be kinder to beginners. Ultimately, I recommend moving to the command shell interface as the range of commands aren't that extensive and it's quicker and sometimes more intuitive.
+
+Team Foundation Server from Microsoft is an alternative though centralised VSC. Recently MS released from beta a free online offering of TFS called (link:http://tfs.visualstudio.com/ text:Team Foundation Service) which you may wish to examine. In VS, you can easily switch between both with the extension. Incidentally, it is worth noting that off-the-shelf, TFS (Service, that is) offers private repositories for up to 5 team members. GitHub repos are always public, unless you pay and BitBucket offer a tempting free private repository. Both of the latter will offer education licences though.
+

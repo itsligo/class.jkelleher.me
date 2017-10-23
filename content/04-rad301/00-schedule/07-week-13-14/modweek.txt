@@ -12,3 +12,7 @@ Tags: Revision
 Text: 
 
 This lesson pulls together many of the topics from the previous weeks building out a large practice with attention to coding standards, debugging and deployment.
+
+###Lazy Loading
+
+<iframe src="http://media.heanet.ie/player/de9eb934f0e943ce30b3acc86f651a7f" name="de9eb934f0e943ce30b3acc86f651a7f" width="580" height="320" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>

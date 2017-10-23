@@ -5,7 +5,7 @@ Title: Past Exams
 Description: Past Papers for FOOP201
 
 ----
-Session: Semester 4 (2013-14)
+Session: Semester 4
 ----
 
 Text:

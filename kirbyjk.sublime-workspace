@@ -13,9 +13,14 @@
 	[
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -27,7 +32,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -48,26 +53,113 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/admin/Documents/sites/kirby",
-		"/Users/admin/Documents/sites/kirby/content",
-		"/Users/admin/Documents/sites/kirby/content/03-foop202",
-		"/Users/admin/Documents/sites/kirby/content/03-foop202/00-schedule",
-		"/Users/admin/Documents/sites/kirby/content/03-foop202/00-schedule/08-databases",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/99-assess",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/99-assess/05-ca",
-		"/Users/admin/Documents/sites/kirby/content/07-hci402",
-		"/Users/admin/Documents/sites/kirby/content/07-hci402/99-assess",
-		"/Users/admin/Documents/sites/kirby/content/07-hci402/99-assess/repeat_ca",
-		"/Users/admin/Documents/sites/kirby/content/09-prj400",
-		"/Users/admin/Documents/sites/kirby/content/09-prj400/03-handup",
-		"/Users/admin/Documents/sites/kirby/content/09-prj400/03-handup/04-assessment",
-		"/Users/admin/Documents/sites/kirby/content/about",
-		"/Users/admin/Documents/sites/kirby/content/blog",
-		"/Users/admin/Documents/sites/kirby/content/blog/03-kirby"
+		"/Users/john/Sites/class.jkelleher.me",
+		"/Users/john/Sites/class.jkelleher.me/.protect",
+		"/Users/john/Sites/class.jkelleher.me/assets",
+		"/Users/john/Sites/class.jkelleher.me/content"
 	],
 	"file_history":
 	[
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/2015-ca2 copy/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/00-schedule/01-week-7-8/modweek.txt",
+		"/Users/john/Desktop/StudentApp2.png",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/03-week-5-6/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/05-week-9-10/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/-2014-ca1/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/2015-ca1/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/-ca1-2014/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/ca1-2014/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/2014-ca1/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/module.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/00-schedule/01-week-3-4/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/99-assess/05-sample/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/00-schedule/01-week-1-2/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/00-schedule/02-week-3-4/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/00-schedule/03-week-5-6/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/00-schedule/01-week-5-6/modweek.txt",
+		"/Users/john/Downloads/rettig.prototyping.pdf",
+		"/Users/john/Sites/class.jkelleher.me/content/08-prj300/03-handup/04-assessment/modproject.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/08-prj300/03-handup/02-submission/modproject.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/home/home.txt",
+		"/Users/john/Downloads/google.csv",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/00-schedule/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/99-assess/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/07-week-13-14/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/00-schedule/06-week-11-12/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/00-schedule/05-week-9-10/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/00-schedule/04-Week-7-8/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/00-schedule/03-week-5-6/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/00-schedule/02-week-3-4/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/00-schedule/01-week-1-2/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/site/templates/module.php",
+		"/Users/john/Sites/class.jkelleher.me/site/templates/modexams.php",
+		"/Users/john/Sites/class.jkelleher.me/site/templates/modweek.php",
+		"/Users/john/Sites/class.jkelleher.me/site/snippets/map.php",
+		"/Users/john/Sites/class.jkelleher.me/kirby/parsers/smartypants.php",
+		"/Users/john/Sites/class.jkelleher.me/site/snippets/alert.php",
+		"/Users/john/Sites/class.jkelleher.me/sftp-config.json",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/99-assess/10-ca1/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/99-assess/ca1-2014/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/99-assess/ca2-2014/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/99-assess/01-ca1-2015/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/99-assess/25-prototyping/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/assets/prettyPhoto/css/prettyPhoto.css",
+		"/Users/john/Sites/class.jkelleher.me/kirbyjk.sublime-project",
+		"/Users/john/Sites/class.jkelleher.me/site/templates/prj.php",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/99-assess/2014-ca2/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/02-week-3-4/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/08-prj300/03-handup/10-showcase/modproject.txt",
+		"/Users/john/Documents/LOCAL TO DELETE 2013-14/PRJ300/WebPort/261135520112411491 - LauraEllisS00009037IndivReportWebport.pdf",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/20-ca2/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/01-week-1-2/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/06-hci401/99-assess/15-repeat-ca/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/00-schedule/01-week-1-2/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/08-prj300/03-handup/modproject.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/04-rad301/00-schedule/04-Week-7-8/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/08-prj300/03-handup/10-showcase/project.md",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/04-Week-7-8/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/08-prj300/04-showcase/prjshowcase.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/08-prj300/modprjhome.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/09-prj400/03-handup/02-submission/modproject.txt",
+		"/Users/john/Library/Application Support/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/99-assess/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/00-schedule/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/00-schedule/05-week-10-12/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/04-rad301/00-schedule/02-week-3-4/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/99-assess/-2013/-10-ca1/Assessment 1.docx",
+		"/Users/john/Sites/class.jkelleher.me/content/08-prj300/90-2014-showcase/30-Grinsengame/prj.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/blog/01-plagiarism/blogarticle.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/09-prj400/10-showcase/81-project-ghost/prj.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/08-databases/northwnd_log.ldf",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/08-databases/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/99-assess/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/00-schedule/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/04-rad301/00-schedule/06-week-11-12/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/04-rad301/00-schedule/07-week-13-14/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/04-rad301/00-schedule/modschedule.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/04-rad301/MvcMusicStore.mdf",
+		"/Users/john/Sites/class.jkelleher.me/content/09-prj400/10-showcase/prjshowcase.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/09-prj400/10-showcase/60-surgery-database/prj.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/99-assess/-ca1/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/09-prj400/modprjhome.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/99-assess/02-ca2/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/99-assess/20-ca2/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/kirby/modals/troubleshoot.php",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/08-databases/northwnd.mdf",
+		"/Users/john/Sites/class.jkelleher.me/content/03-foop202/00-schedule/06-week-11-12/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/about/about.txt",
+		"/Users/john/Sites/class.jkelleher.me/site/templates/about.php",
+		"/Users/john/Sites/class.jkelleher.me/content/05-rad302/99-assess/-2013-CA1/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/site/snippets/childrenMenu.php",
+		"/Users/john/Sites/class.jkelleher.me/content/02-foop201/99-assess/10-ca1/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/07-hci402/00-schedule/04-week-7-9/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/06-hci401/00-schedule/05-week-10-12/modweek.txt",
+		"/Users/john/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/john/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/john/Sites/class.jkelleher.me/content/06-hci401/00-schedule/04-week-7-9/modweek.txt",
+		"/Users/john/Sites/class.jkelleher.me/content/06-hci401/module.txt",
 		"/Users/admin/Documents/sites/kirby/sftp-config.json",
 		"/Users/admin/Documents/sites/kirby/content/blog/03-kirby/blogarticle.txt",
 		"/Users/admin/Documents/sites/kirby/content/about/about.txt",
@@ -95,111 +187,11 @@
 		"/Users/admin/Documents/sites/kirby/site/snippets/alert.php",
 		"/Users/admin/Documents/sites/kirby/content/06-hci401/99-assess/09-exams/modexams.txt",
 		"/Users/admin/Documents/sites/kirby/content/06-hci401/99-assess/-05-ca/modweek.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/99-assess/-02-ca2/modweek.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/99-assess/-01-ca1/modweek.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/30-slides/30-usabilityprinciples/slidedeck.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/30-slides/25-requirementsgathering/slidedeck.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/30-slides/15-knowtheuser/slidedeck.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/00-schedule/06-week-13-14/modweek.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/00-schedule/05-week-10-12/modweek.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/00-schedule/04-week-7-9/modweek.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/00-schedule/03-week-5-6/modweek.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/00-schedule/02-week-3-4/modweek.txt",
-		"/Users/admin/Documents/sites/kirby/content/06-hci401/00-schedule/01-week-1-2/modweek.txt",
-		"/Users/admin/Library/Application Support/Sublime Text 3/Packages/User/SFTP.errors.log",
-		"/Users/admin/Documents/sites/kirby/site/templates/module.php",
-		"/Users/admin/Documents/sites/kirby/site/templates/blogarticle.php",
-		"/Users/admin/Documents/sites/kirby/site/templates/blog.php",
-		"/Users/admin/Documents/sites/kirby/content/blog/blog.txt",
-		"/Users/admin/Documents/sites/kirby/assets/stylesXX/bootstrap.css",
-		"/Users/admin/Documents/sites/kirby/site/snippets/childrenMenu.php",
-		"/Users/admin/Documents/sites/kirby/site/config/config_old_kirby.php",
-		"/Users/admin/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
-		"/Users/admin/Documents/sites/kirby/content/home/home.txt",
-		"/Users/admin/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
-		"/Users/admin/Dropbox/kirby/content/home/home.txt",
-		"/Users/admin/Dropbox/kirby/content/04-rad301/99-assess/modschedule.txt",
-		"/Users/admin/Dropbox/kirby/content/04-rad301/00-schedule/modschedule.txt",
-		"/Users/admin/Dropbox/kirby/content/03-foop202/99-assess/modschedule.txt",
-		"/Users/admin/Dropbox/kirby/content/03-foop202/00-schedule/modschedule.txt",
-		"/Users/admin/Dropbox/kirby/content/02-foop201/99-assess/modschedule.txt",
-		"/Users/admin/Dropbox/kirby/content/02-foop201/00-schedule/modschedule.txt",
-		"/Users/admin/Dropbox/kirby/content/search/search.txt",
-		"/Users/admin/Dropbox/kirby/content/feed/feed.txt",
-		"/Users/admin/Dropbox/kirby/content/error/error.txt",
-		"/Users/admin/Dropbox/kirby/content/blog/blog.txt",
-		"/Users/admin/Dropbox/kirby/content/about/about.txt",
-		"/Users/admin/Dropbox/kirby/content/09-prj400/modprjhome.txt",
-		"/Users/admin/Dropbox/kirby/content/08-prj300/modprjhome.txt",
-		"/Users/admin/Dropbox/kirby/content/07-hci402/module.txt",
-		"/Users/admin/Dropbox/kirby/content/06-hci401/module.txt",
-		"/Users/admin/Dropbox/kirby/content/05-rad302/module.txt",
-		"/Users/admin/Dropbox/kirby/content/04-rad301/northwnd.mdf",
-		"/Users/admin/Dropbox/kirby/content/04-rad301/MvcMusicStore.mdf",
-		"/Users/admin/Dropbox/kirby/content/04-rad301/module.txt",
-		"/Users/admin/Dropbox/kirby/content/03-foop202/module.txt",
-		"/Users/admin/Dropbox/kirby/content/site.txt",
-		"/Users/admin/Dropbox/kirby/assets/css/font-awesome.css",
-		"/Users/admin/Dropbox/kirby/site/config/config.php",
-		"/Users/admin/Dropbox/kirby/site/config/config_old_kirby.php",
-		"/Users/admin/Dropbox/kirby/site/snippets/childrenMenu.php",
-		"/Users/admin/Dropbox/kirby/assets/sendmail.php",
-		"/Users/admin/Dropbox/kirby/site/site.txt",
-		"/Users/admin/Dropbox/kirby/site/templates/module.php",
-		"/Users/admin/Dropbox/kirby/content/02-foop201/module.txt",
-		"/Users/admin/Dropbox/kirby/content/05-rad302/99-assess/modschedule.txt",
-		"/Users/admin/Dropbox/kirby/site/templates/modschedule.php",
-		"/Users/admin/Dropbox/kirby/content/06-hci401/99-assess/modschedule.txt",
-		"/Users/admin/Dropbox/kirby/content/02-foop201/99-assess/99-exams/modexams.txt",
-		"/Users/admin/Dropbox/kirby/content/02-foop201/99-assess/07-fa2/modweek.txt",
-		"/Users/admin/Dropbox/kirby/content/09-prj400/03-handup/04-assessment/modproject.txt",
-		"/Users/admin/Dropbox/kirby/content/06-hci401/00-schedule/06-week-13-14/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/08-prj300/03-handup/01-repeat/modproject.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/09-prj400/modprjhome.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/09-prj400/03-handup/01-repeat/modproject.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/03-foop202/00-schedule/06-week-11-12/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/03-foop202/00-schedule/08-databases/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/99-assess/02-ca2/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/06-hci401/99-assess/05-ca/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/99-assess/07-ca/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/06-hci401/99-assess/09-ca/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/05-rad302/99-assess/modschedule.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/99-assess/modschedule.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/00-schedule/01-week-1-2/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/06-hci401/00-schedule/04-week-7-9/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/assets/sendmail.php",
-		"/Users/admin/Dropbox/kirby_jkwp/content/05-rad302/99-assess/01-CA1/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/05-rad302/99-assess/09-exams/modexams.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/05-rad302/00-schedule/01-week-3-4/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/05-rad302/00-schedule/01-week-1-2/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/04-rad301/module.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/99-assess/01-ca1/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/00-schedule/04-week-7-9/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/00-schedule/03-week-5-6/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/00-schedule/02-week-3-4/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/site/snippets/childrenMenu.php",
-		"/Users/admin/Dropbox/kirby_jkwp/site/templates/modweek.php",
-		"/Users/admin/Dropbox/kirby_jkwp/kirby/changelog.mdown",
-		"/Users/admin/Dropbox/kirby_jkwp/site/templates/module.php",
-		"/Users/admin/Dropbox/kirby_jkwp/content/03-foop202/00-schedule/07-week-13-14/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/00-schedule/05-week-10-12/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/03-foop202/00-schedule/05-week-9-10/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/03-foop202/00-schedule/04-Week-7-8/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/03-foop202/00-schedule/03-week-5-6/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/03-foop202/00-schedule/02-week-3-4/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/02-foop201/99-assess/05-fa1/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/00-schedule/06-week-13-14/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/00-schedule/modschedule.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/07-hci402/module.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/04-rad301/00-schedule/02-week-3-4/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/02-foop201/99-assess/10-ca1/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/02-foop201/99-assess/20-ca2/modweek.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/08-prj300/04-showcase/20-ArduinoCopter/prj.txt",
-		"/Users/admin/Dropbox/kirby_jkwp/content/02-foop201/99-assess/10-ca1/Assessment 1.docx"
+		"/Users/admin/Documents/sites/kirby/content/06-hci401/99-assess/-02-ca2/modweek.txt"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -213,6 +205,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tiny",
+			"tiney",
+			"fingers",
+			"paper",
+			"iframe",
+			"database",
+			"team",
+			"Title",
 			"dropbox",
 			"HCI401",
 			"accept",
@@ -263,7 +263,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -296,21 +296,127 @@
 	{
 		"height": 0.0
 	},
+	"output.markdown":
+	{
+		"height": 118.0
+	},
 	"output.sftp":
 	{
 		"height": 112.0
 	},
+	"pinned_build_system": "",
 	"project": "kirbyjk.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"foop202",
+				"content/03-foop202/99-assess/modschedule.txt"
+			],
+			[
+				"handup/ass",
+				"content/08-prj300/03-handup/04-assessment/modproject.txt"
+			],
+			[
+				"foop201/",
+				"content/02-foop201/module.txt"
+			],
+			[
+				"modweek",
+				"content/05-rad302/99-assess/05-sample/modweek.txt"
+			],
+			[
+				"sample/mod",
+				"content/05-rad302/99-assess/05-sample/modweek.txt"
+			],
+			[
+				"prototyping",
+				"content/07-hci402/99-assess/25-prototyping/modweek.txt"
+			],
+			[
+				"prj300/handup",
+				"content/08-prj300/03-handup/modproject.txt"
+			],
+			[
+				"handup/sub",
+				"content/08-prj300/03-handup/02-submission/modproject.txt"
+			],
+			[
+				"hci402/sched",
+				"content/07-hci402/00-schedule/01-week-1-2/modweek.txt"
+			],
+			[
+				"week-7-8",
+				"content/05-rad302/00-schedule/01-week-7-8/modweek.txt"
+			],
+			[
+				"rad302/sc",
+				"content/05-rad302/00-schedule/01-week-5-6/modweek.txt"
+			],
+			[
+				"foop201/assess",
+				"content/02-foop201/99-assess/modschedule.txt"
+			],
+			[
+				"foop202/week1-2",
+				"content/03-foop202/00-schedule/01-week-1-2/modweek.txt"
+			],
+			[
+				"hci402/week-1",
+				"content/07-hci402/00-schedule/01-week-1-2/modweek.txt"
+			],
+			[
+				"week-5-6",
+				"content/05-rad302/00-schedule/01-week-5-6/modweek.txt"
+			],
+			[
+				"foop202/schedule",
+				"content/03-foop202/00-schedule/02-week-3-4/modweek.txt"
+			],
+			[
+				"rad302/sched",
+				"content/05-rad302/00-schedule/01-week-1-2/modweek.txt"
+			],
+			[
+				"rad302/sch",
+				"content/05-rad302/00-schedule/01-week-1-2/modweek.txt"
+			],
+			[
+				"rad301/schedule/70",
+				"content/04-rad301/00-schedule/04-Week-7-8/modweek.txt"
+			],
+			[
+				"prj400",
+				"content/09-prj400/10-showcase/prjshowcase.txt"
+			],
+			[
+				"hci402/sch",
+				"content/07-hci402/00-schedule/02-week-3-4/modweek.txt"
+			],
+			[
+				"foop202/",
+				"content/03-foop202/00-schedule/04-Week-7-8/modweek.txt"
+			],
+			[
+				"about",
+				"site/templates/about.php"
+			],
+			[
+				"rad302/assess/",
+				"content/05-rad302/99-assess/10-ca1/modweek.txt"
+			],
+			[
+				"week7-9",
+				"content/07-hci402/00-schedule/04-week-7-9/modweek.txt"
+			],
 			[
 				"hci402/assess",
 				"content/07-hci402/99-assess/07-ca/modweek.txt"
@@ -326,10 +432,6 @@
 			[
 				"hci401",
 				"content/06-hci401/99-assess/-05-ca/modweek.txt"
-			],
-			[
-				"about",
-				"content/about/about.txt"
 			],
 			[
 				"home.txt",
@@ -352,15 +454,7 @@
 				"site/snippets/childrenMenu.php"
 			],
 			[
-				"modweek",
-				"site/templates/modweek.php"
-			],
-			[
 				"databa",
-				"content/03-foop202/00-schedule/08-databases/modweek.txt"
-			],
-			[
-				"foop202",
 				"content/03-foop202/00-schedule/08-databases/modweek.txt"
 			],
 			[
@@ -408,20 +502,8 @@
 				"content/04-rad301/module.txt"
 			],
 			[
-				"rad302/sch",
-				"content/05-rad302/00-schedule/01-week-5-6/modweek.txt"
-			],
-			[
-				"prj400",
-				"content/09-prj400/modprjhome.txt"
-			],
-			[
 				"handup/uplo",
 				"content/09-prj400/03-handup/03-upload/modproject.txt"
-			],
-			[
-				"handup/sub",
-				"content/09-prj400/03-handup/02-submission/modproject.txt"
 			],
 			[
 				"prj400/handup",
@@ -446,10 +528,6 @@
 			[
 				"week-3-4",
 				"content/03-foop202/00-schedule/02-week-3-4/modweek.txt"
-			],
-			[
-				"week-5-6",
-				"content/03-foop202/00-schedule/03-week-5-6/modweek.txt"
 			],
 			[
 				"week-1-2",
@@ -565,6 +643,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -577,6 +656,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -586,7 +666,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,

@@ -13,7 +13,9 @@ Tags: Entity_Framework, DropDownList
 Text: 
 
 ####DropDownlist
-The Select form tag allows for the creation of a list of item from which the user can choose. Razor provides a mechanism for creating such input controls. Refer to my blog (link: http://www.jkelleher.me/2013/11/using-dropdownlist-mvc-and-razor/ text: post) for details on the code.
+The Select form tag allows for the creation of a list of item from which the user can choose. Razor provides a mechanism for creating such input controls. Refer to my blog (link: http://blog.jkelleher.me/blog/using-dropdownlist-mvc-and-razor text: post) for details on the code or here for more on [dropdownlist](http://www.tutorialsteacher.com/mvc/htmlhelper-dropdownlist-dropdownlistfor).
+
+<iframe src="http://media.heanet.ie/player/6ac93cd159d741454e80a59f3a04bc41" name="6ac93cd159d741454e80a59f3a04bc41" width="560" height="315" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
 ####Toastr
 (link: http://www.toastrjs.com text: Toastr) is a Javascript library for Gnome / Growl type non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended. (link: http://codeseven.github.io/toastr/demo.html text: Demo.)
@@ -32,8 +34,12 @@ This video is part of a series which looks in detail (though a a simple level) a
 
 (link: http://msdn.microsoft.com/en-us/data/ff628208 text:Julie Lerman) continues with a [video](http://msdn.microsoft.com/en-us/data/ff628208) on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model. We use LINQ (Language Integrated Querying) to Entities to query the database.
 
+####Eager vs Lazy Loading
+Using the keyword **virtual** in conjunction with a navigation property will invoke lazy loading. That is, the entity when first accessed will also retrieve the related entities marked by **virtual**. This can impose an un-needed performance overhead. To avoid, we can use eager loading by omitting the **virtual** keyword. If on occasion, we wish to eagerly retrieve related entitites, you can use the `.Include<>` syntax. For more details, look [here](https://msdn.microsoft.com/en-us/data/jj574232.aspx).
+
 ####Video Walkthrough
-<iframe src="//media.heanet.ie/player/6bf55f08bc30d7b4970407a46ab81718" name="6bf55f08bc30d7b4970407a46ab81718" width="640" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
+<iframe src="https://media.heanet.ie/player/6bf55f08bc30d7b4970407a46ab81718&st=0" name="6bf55f08bc30d7b4970407a46ab81718" width="640" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
 #### Possible Issues with EF in labs
 Sometimes in the college labs we observed issues with working with Entity Framework. We prescribed solutions to all these issues but I will enumerate them here. Essentially, the problem was with working with EF Code First where the database wasn't created by the startup code. Normally, once you created the model classes and the associated DbContext class, running the application prompted the creation of the database in the local instance of SQL Express. However, this sometimes didn't happen.
@@ -42,17 +48,17 @@ A quick solution is to employ LocalDb rather than SQL Server - LocalDb is availa
 The solution is to provide a connection string to direct your application to the correct database on the appropriate server. Here are the steps required:
 
 1.  Open web.config for your application (not the Views web.config) and explicitly add  a connection string. This is somewhat similar to the connection string already present for handling membership. Here is a typical example:
-
+~~~~
+<add name="BlogDb" connectionString="Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\blogdb.mdf;Integrated Security=True; MultipleActiveResultSets=True;" providerName="System.Data.SqlClient" />
+~~~~
+or, if looking to use SQLSERVER:
 ~~~~
 <add name="blogConnString" connectionString="Data Source=.\SQLSERVER;Initial Catalog=BlogDB;Integrated Security=True;MultipleActiveResultSets=True" providerName="System.Data.SqlClient"/>
 ~~~~
-
-If using (localDb) here's the connection string:
-
+Here's another connection string that attaches the database to **localdb** - note from VS2015 onwards the **v11.0** is being replaced by **MSSQLLocalDB** as per the first connection string above:
 ~~~~
 <add name="BlogEntities" providerName="System.Data.SqlClient"  connectionString="Data Source=(localdb)\v11.0;Initial Catalog=BlogDb;Integrated Security=true;"/>
 ~~~~
-
 Note that the Data Source will differ depending on the name of the server. Note the name of the connection string as this is needed later in your code.
 2.  Ensure you have created the data model classes and the associated DbContext class.
 3.  Create a constructor for the DbContext class you created and invoke the base class constructor passing a single string parameter with the format "name=_name of connection string_" as follows:
@@ -67,6 +73,8 @@ While LINQ-to-SQL provides ready, easy access to database resources, it is commo
 
 ----
 practices:
+####[blog](http://itsligo.github.io/blog)
+***
 ####[Simple Seed Coder First](https://github.com/itsligo/simpleseedcodefirst.git)
 <small>EF database seeding, also 2nd branch showing partial views displayed using ajax calls</small>
 ####[AnotherBlogMVC](https://github.com/itsligo/anotherblogmvc.git)

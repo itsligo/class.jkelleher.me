@@ -8,32 +8,33 @@ Description: Assignment ASP.NET MVC + Bootstrap + EF
 Session: Semester 5
 ----
 Text:
-Write an ASP.NET MVC application that managing movie facts. The application will have the following **essential** features/functionality:
+Write an ASP.NET MVC application that managing movie facts. The application will have (as a minimum) the following **essential** features/functionality:
 
-* Permit the user to add/edit/delete movies and actors. Provdie for the recording of screen names of those actors in each of the movies in which they appear
-* Pre-populated with more than 5 movies and 10 actors. Some actors must have appeared on more than one movie
-* Styled interface that makes best use of partial views (preferably using Ajax) to improve interactivity & avoids (to some extent) the rudimentary scaffolding provided by ASP.NET MVC
+* Permit the user to add/edit/delete movies and actors. Provide for the recording of screen names of those actors in the movie in which they appear
+* Pre-populated with more than 5 movies and 10 actors.
+* Styled interface that makes best use of partial views (preferably using Ajax) to improve interactivity & avoid (to some extent) the rudimentary scaffolding provided by ASP.NET MVC
 * Some degree of sorting/filtering/summarising of the data - the more comprehensive the better. For example, clicking/hovering on an actor for a given movie shows his/her other movies.
 * The data in the database must be presented in a easy-to-digest manner. Avoid simple lists of a single table (e.g. movies) across multiple screen pages. Ideally, much of the viewing of the data should be navigable from a single page using partial views (using Ajax is appropriate) to selectively reveal details of a movie/actor.
 * Employs some basic jQuery plugins to improve the user experience (e.g. [Toast](https://github.com/CodeSeven/toastr))
 
 Other Points to note:
 
+* Use this [link](https://classroom.github.com/assignment-invitations/1d0672344c51069792a7d681241a0e76) as our sign-up repository. Github will create for you a private repository into which you will 
 * You should employ whatever features of the Bootstrap framework that you feel would enhance the UI but balance this against the marking scheme
 * You are free to decide the particular arrangement for the user interface to best fit your own ambition. For example, it is possible to have ASP.NET MVC scaffold out almost all the necessary code with little effort. However, this will garner few marks. Similarly, expecting the user to know the primary key id of a movie so as to add an actor to it is poor interface design. A drop-down list box (or a jquery enhanced [version](http://ivaynberg.github.io/select2/)) presenting movie names would be a better choice.
 * Provide robust code that defends against errors particularly wrt database access or empty return datasets.
 * Reward is provided for exceptional coding that (e.g. performant, robust, elegant)
 * Your solution must compile and execute. Otherwise, your mark will be scored out of **70%**. Comment out code that break your build and (optionally) describe your efforts in a README.md file, referring specifically to what you were trying but couldn't successfully complete
 * While some class community collaboration is useful, it is important that you fully 'own' your own submitted work. I will allocate time before end semester to interview a sub-set of students to ensure that the material is fully known to them. Marks are only awarded subject to a satisfactory interview.
-* Be sure to enable Nuget (link: http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages text:restore) for your Solution to avoid pushing the large packages folder to Github.
+* Be sure to provide a **.gitignore** file for your Solution to avoid pushing the large un-necessary folders/files to Github.
 
 ####Marking Scheme
-* Data Modelling (EF-related work, m<->m relationships, annotations)<span class='pull-right'>**20 marks**</span>
+* Data Modelling (EF-related work, annotations)<span class='pull-right'>**20 marks**</span>
 * Controllers, data retrieval/querying, LINQ<span class='pull-right'>**25 marks**</span>
 * Use of partial views, invoking with Ajax<span class='pull-right'>**15 marks**</span>
 * Constructing Views, using Razor View engine, jQuery, styling, CSS<span class='pull-right'>**25 marks**</span>
 * Good programming practice, innovative approach, use of 3rd party libraries<span class='pull-right'>**15 marks**</span>
 
 ####Upload
-Post your solution to a private github repository and share details of it to this (link: https://docs.google.com/forms/d/13tzf20kL9peYdv2OeoqvReRjChPS6uDYtd3-Yb7qB1o/viewform text:form)
+Use the Github (link:https://classroom.github.com/assignment-invitations/1d0672344c51069792a7d681241a0e76 text:link) to signup using your Student ID. This provides me with access - ensure that access extends only to you.
 ----

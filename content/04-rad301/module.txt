@@ -5,15 +5,15 @@ Title: RAD301
 Description: Rich Application Development 301
 
 ----
-Session: Semester 5 (2014-15)
-----
-Alert Important : Register for RAD301 (link:https://docs.google.com/forms/d/1uVO8n1gvOJp_36KFRmW3M0udGoHq_ZhOWDUJCYJ9J_0/viewform text:here)
+Session: Semester 5
+----  Remove colon to activate alert below
+:Alert: Register for RAD301 (link:https://docs.google.com/forms/d/1uVO8n1gvOJp_36KFRmW3M0udGoHq_ZhOWDUJCYJ9J_0/viewform text:here)
 ----
 Add colon after 'Alert' to activate
 Alert This module has been updated for 2013-14 following changes introduced in 2012-13. If repeating this module from pre-2012, you should be aware of these changes. If you need anything specific from past years, (email: kelleher.john@itsligo.ie text:email) me.
 ----
 
-Text: RAD301 (link: https://amm.itsligo.ie/module/webview/COMP/COMP07149/201300/999999 text:[syllabus]) typically builds on FOOP20x taking you away from the basic building blocks of OOP and focusing on more mainstream developer concerns of UI design and building, data access, frameworks, debugging & deployment.
+Text: RAD301 (link: https://amm.itsligo.ie/module/web/28/COMP07149/201300/999999 text:[syllabus]) typically builds on FOOP20x taking you away from the basic building blocks of OOP and focusing on more mainstream developer concerns of UI design and building, data access, frameworks, debugging & deployment.
 
 This module is taught currently to BSc. (Ord.) Computing (link: https://amm.itsligo.ie/programme/webview/COMP/SG_KSDEV_B07/201300/999999 text: [Software Development]) and B.Sc. (Ord.) Computing (link: https://amm.itsligo.ie/programme/webview/COMP/SG_KGDEV_B07/201200/999999 text: [Games Development]), both in year 3, Level 7. The programming language is C# in the .NET environment. The focus is on developing rich interfaces using a popular declarative markup language and exploring ways to manipulate in-memory and database hosted collections of objects.
 
@@ -25,11 +25,7 @@ So we bid farewell to XAML & WPF and look to ASP.NET MVC and CSS. While CSS will
 
 
 ####Recommended textbooks
-
-(image:http://ecx.images-amazon.com/images/I/51IoEQ1rzcL._SL160_AA160_.jpg link: http://www.amazon.co.uk/Pro-2010-Experts-Voice-NET/dp/1430272058/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1284398216&amp;sr=8-1-spell alt:Pro WPF, Apress, 2008 width:160  class:img-right img-rounded)
-(link: http://www.amazon.co.uk/Pro-2010-Experts-Voice-NET/dp/1430272058/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1284398216&amp;sr=8-1-spell text:Pro WPF) provides very comprehensive coverage  of all aspects of WPF. It does not deal with C#.
-
-(image:http://www.murach.com/images/cs10download.jpg link: http://www.murach.com/books/cs10/index.htm alt:Murach Press class:img-right img-rounded width:140)
+(image:https://www.murach.com/images/stories/virtuemart/product/c_sharp_2012.jpg link: http://www.murach.com/books/cs10/index.htm alt:Murach Press class:img-right img-rounded width:140)
 (link:http://www.murach.com/index.htm text:An excellent book on C#) at this level is Joel [Murach]()'s book Murach's [C# 2010](http://www.murach.com/books/cs10/index.htm). It is current with developments in .NET 4.0 and works well for those  not too confident with C#. Murach's approach is unique presenting topics example  by example in a very clear layout.
 
 (image: programmers_heaven.jpg alt:Programmers Heaven link:http://www.programmersheaven.com/ebooks/csharp_ebook.pdf class:img-right img-rounded width:140)

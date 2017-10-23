@@ -3,7 +3,7 @@ Title: FOOP201 Lesson
 Description: Consolidating work to date, more on Classes & Layout panels.
 
 ----
-Date: 2013-10-15
+Date: 2015-10-15
 
 ----
 Tags: class, layout, collections
@@ -30,15 +30,11 @@ Building on experience with **StackPanel**, we look at [DockPanel](http://www.wp
 
 ----
 practices:
-####[Cao](https://github.com/itsligo/cao)
-<small>Simple GUI to manipulate a Student class and present a list of Students. Covers:
-* creating a class
-* adding constructors (default and working ctors)
-* properties and corresponding data members
-* enumerated data types
-* using ObservableCollection<T> to handle data binding
-* handling events to ListBox and Buttons</small>
-####[Boxer-Starter](https://github.com/itsligo/boxer_starter)
-####[Boxer](https://github.com/itsligo/boxer)
-####[Cinema](https://github.com/itsligo/cinema)
-####[Client](https://github.com/itsligo/client)
+####[movies](http://itsligo.github.io/movies)
+####[zoo](http://itsligo.github.io/lectZoo)
+####[CAO](http://itsligo.github.io/cao)
+####[Boxer](http://itsligo.github.io/boxer)
+####[Boxer Start](http://itsligo.github.io/boxer_starter)
+----
+exer:
+http://itsligo.github.io/movies,http://itsligo.github.io/cao,http://itsligo.github.io/boxer,http://itsligo.github.io/boxer_starter

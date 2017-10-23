@@ -1,0 +1,18 @@
+Title: Log
+
+----
+
+Description: Project Log
+
+----
+Tags: project log
+----
+
+Text: 
+#####Documenting your work as you proceed is an important part of the design/development process. It serves as an insight into the work that you have done and in that way aid a fuller assessment of the module. More importantly though, it allows you either as an individual or collectively as a group to record design decisions and give you an opportunity to reflect on the choices made and the direction taken. This reflection can help keep a project focussed on the end-goal and avoid project creep, help delegate responsibilities (within groups) and better plan for outcomes within the timeframe of the module.
+
+(image: wordpress_logo.png alt:Wordpress title:WordPress class:img-right) For these reasons, a project log is mandatory. However, do regard this log as part of your submission’s documentation so you’re locking in marks as you go. Remember too that if operating in a group, marks for individuals may well vary reflecting the input from each member. This individual mark is influenced by the input given to the log by that member. These posts should be, at a minimum, one per week from each person.
+
+(link: http://www.wordpress.com text:WordPress.com) is probably the best choice for keeping a log. It’s quick, free and easy to setup and use. There’s a wide choice of themes to make your site distinctive. Each member (when in a group) should be given a unique sign-on so that posts are properly attributed. Don’t confuse this site with wordpress.org which provides a more sophisticated self-hosting solution, one not necessary for this requirement. Send your log URL along to me and I’ll list it here so that your supervisor can chart your progress and offer comments via the site.
+
+Keep your wordpress blog public and assign one member of the team as (link: http://en.support.wordpress.com/adding-users text:editor) and the others as contributors. Employ (link: http://en.support.wordpress.com/posts/categories text:categories) to help organise the various posts into meaningful collections – for example – evaluation, coding, design, testing etc. Avoid ‘indulging’ too much in your log to the detriment of actually getting things done but be watchful for notable achievements, breakthrough, insights that are worthy of inclusion. Remember, in groups, it is important that achievements are fairly attributed since the reported successes contribute to individual marks as well as the overall group mark. Other members (as well as the supervisor) should be free to make comment on any post to perhaps add to the account or clarify some points.

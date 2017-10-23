@@ -1,0 +1,35 @@
+Title: CA1
+
+----
+
+Description: CA
+
+----
+Session: Semester 6
+----
+
+Text:
+<!--<div class='alert alert-info'>Competition</div>
+(image: logo.png class: bg-success)
+> In recognition of the work involved in this CA, I thought it might be worth securing a small prize.  Happily [O'Reilly](http://shop.oreilly.com/category/ebooks.do) have offered two €50 eBook vouchers for their [store](http://shop.oreilly.com/category/ebooks.do).
+The best overall result for this CA will get one voucher and the most improved result (over the RAD301 result) will get another. Good luck.-->
+
+##Google Maps API & Northwind
+(image: nw_map.gif)
+
+<iframe src="https://media.heanet.ie/player/2105c03b2990349188d79d6776963c55" name="2105c03b2990349188d79d6776963c55" width="570" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
+<a href="itpc://media.heanet.ie/podcast/b13aad2a6523e3fadbbbbca0b12e7b73">Subscribe in iTunes</a>
+<a href="http://media.heanet.ie/podcast/b13aad2a6523e3fadbbbbca0b12e7b73">Subscribe via RSS</a>
+<a href="https://www.youtube.com/watch?v=XVlwkV2_HqM">Youtube</a>
+
+This app consumes two aspects of (link: https://developers.google.com/maps/ text: Google Maps) to assist in the display of the location of (link: http://gokemon.site90.net/tutorials/wp-content/uploads/2013/02/Northwind.png text:Northwind) data.
+
+Specifically, I use Google Map (link: https://developers.google.com/maps/documentation/geocoding/ text: Geocode) to look up the longitude and latitude of a given address. The address is sourced from the shipping address of a selected Order.
+
+* The Orders are retrieved via Entity Framework from a copy of Northwind held locally. These records are returned using conventional MVC and surfaced in a View attached to the Home Controller.
+
+* When the user selects an Order, the shipping address for that Order is retrieved. This is done via a Web API which surfaces the data held in the database (again via EF).
+
+* The client makes an Ajax JSON call to retrieve the address which is then displayed to screen.
+* The address is also passed to Google Maps Geocode API to try to identify the longitude and latitude of the address. If successful, the co-ordinates are then passed to Google Maps to render a map to the screen.

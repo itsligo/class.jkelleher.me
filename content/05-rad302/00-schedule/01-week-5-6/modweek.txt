@@ -1,18 +1,17 @@
 Title: WebAPI
 ----
-Description: Web API & Azure
+Description: Web API
 
 ----
-Date: 2014-2-26
 
 ----
 Tags: WebAPI,Azure
 
 ----
 Text:
-###Ajax calls of Partial Views
-We saw partial views in RAD301. They allow for the compartmentalising of output to your views. However, they work best when driven from the client-side using Ajax. We'll work through examples of this in-class but there are some good examples [online](http://www.c-sharpcorner.com/UploadFile/3d39b4/rendering-a-partial-view-and-json-data-using-ajax-in-Asp-Net/).
-We'll typically use $.ajax() calls from jQuery to invoke the appropriate action method in the controller back on the server. You can of course use JS or as we may see later, use custom libraries in say AngularJS to make that call. The response from the server can be a partial view or even JSON. If the latter, then you'll typically operate a MVC JS client-side framework to consume the returned JSON.
+
+####Database
+We'll work mostly with Northwind - download a copy (file: northwnd.zip text:here). We may also use [AdventureWorksLT2008R2](http://msftdbprodsamples.codeplex.com/releases/view/93587) - take note of the version to use.
 
 ###Web API
 ASP.NET [Web API](http://www.asp.net/web-api) is a framework that makes it easy to build HTTP services that reach a broad range of clients, including browsers and mobile devices. ASP.NET Web API is an ideal platform for building RESTful applications on the .NET Framework.
@@ -25,29 +24,57 @@ If you're curious of how web api and asp.Net MVC stack up then Scott Allen has a
 ####Web API Practicalities
 While Web API is generally well supported by MS VS, there are a number of issues that can arise but which are relatively easy to fix. If you encounter difficulties ensure you have the following covered:
 
-1. If using Ninject for DI, there is some extra work to do to notify the Dependency Injector to work with Web API. You'll find the additonal code [here](http://www.peterprovost.org/blog/2012/06/19/adding-ninject-to-web-api/) or [here](https://gist.github.com/jkelleher/9639182) and most of the amendments are to do with the **NinjectWebCommon.cs** file in the **App_Start** folder.
-1. If you find an exception while trying to enumerate the Json results, you may need to add this to the connection string: **MultipleActiveResultSets=True;**
-1. If using lazy loading (i.e. _virtual_ prefix for navigation properties), you may encounter an error when attempting to serialize objects in response to ajax calls. This is reported as **'Self referencing loop detected for property'** Look [here](http://blogs.msdn.com/b/hongyes/archive/2012/09/04/loop-reference-handling-in-serializer.aspx) for workarounds. Essentially, you can disable lazy loading which might be a good idea from a perf pov. This can be done on a case-by-case basis (over-riding the 'virtual' qualifier) or across your entire application. Alternatively, just apply this to tell JSON not to follow navigation properties when serializing: **config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;**
-1. You may encounter an error while attempting to serialize the results returned by your web api call. This is due to MS prioritising an XML format to the data rather than JSON. Fix this by adding the following code to your **webapiconfig..cs** file:
-```
-var json = config.Formatters.JsonFormatter;
-            json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
-			config.Formatters.Remove(config.Formatters.XmlFormatter);
-```
-Most of these issues are likely not to arise if you choose a MVC Web Api project initially. An increasingly typical course of action is to create a RESTful web api service at the server end, eschewing the use of Views. The Json data pulled using Ajax methods is then consumed by client-side JS, often handled by modern JS libraries/frameworks like KnockoutJS, AngularJS, Backbone or EmberJS. This aids responsiveness at the client as more can be accomplished without server-side calls. For example, a table of data could be sorted, filtered or queried locally, without expensive server calls.
+####If using VS2012
+
+1. The VS2012 templates will need to be updated to bring required NuGet packages up to date. You will typically get an error pointing to namespace *System.Web.Http*. The built-in NuGet Package Manager only allows you to bring packages to their latest version which is fine for all but EntityFramework. Regardless, go ahead and `Update All`.
+    If you want to do this from the PMC (Package Manager Console), use `Update-Package`
+2. Your app should now run. Unfortunately, when you try to scaffold an API controller for another Entity, the latest version of EF (that was updated above to v 6.0) [will not work](http://support.microsoft.com/kb/2816241?wa=wsignin1.0) with the MVC 4 which is currently in play. To correct, we need to revert to an older version of EF - v 5.0. To do this, we need to use the Package Manager Console and issue the command to uninstall EF6: `Uninstall-Package EntityFramework`. You will likely have to use the `-f` switch to `f`orce its removal as there are associated dependencies.
+3. Next, `Install-package EntityFramework -Version 5.0` - note the specific version being requested from NuGet. Don't forget to use TAB to autocomplete your command including prompting you for the range of possible versions NuGet has to offer.
+4. Try to compile your app and you'll find you have errors, principally to do with **EntityFramework.dll**. Unfortunately, the Package Manager Console didn't fully remove EF6 - it left EntityFramework.dll behind which needs to be manually deleted. Open up your Project and dig into the **bin** folder and delete **EntityFramework.dll**.
+Next you'll want to add the new (version 5.0) **EntityFramework.dll** to the **References** section of your Project. Right-click on References and choose Add Reference. Choose Browse and navigate to your new Project folder, then packages folder, then EntityFramework5.0.0, then Lib, then net45 and you'll find the necessary EntityFramework.dll - click to add to your project.
+4. Now you're almost ready to scaffold a new Controller for your app. Right click on **Controllers** and choose Add Controller. Choose the DbContext class and Entity you want to expose via the controller. However, you will get an error: `Unrecognized element 'providers'`.
+Fix this by finding and removing the `<providers> section at the bottom of the **web.config** file. Or you can just comment it out - it's another remnant of EF6.
+
+####Ninject Issues
+1. If using Ninject for DI along with Web API, there is some extra work to do to notify the Dependency Injector to work. You'll find the additonal code [here](http://www.peterprovost.org/blog/2012/06/19/adding-ninject-to-web-api/) or [here](https://gist.github.com/jkelleher/9639182) and most of the amendments are to do with the **NinjectWebCommon.cs** file in the **App_Start** folder. [Here](https://gist.github.com/korz/534361a0c9776d971d60) is another more complete walkthrough of using Ninject with Web API.
+Also, don't forget to add this line to `CreateKernel()` in class **`NinjectCommon.cs`**:
+      
+        GlobalConfiguration.Configuration.DependencyResolver = new NinjectDependencyResolver(kernel);
+
+####Web API Issues
+1. If you find an exception while trying to enumerate the Json results, you may need to add this to the connection string: `MultipleActiveResultSets=True;`
+1. If using lazy loading (i.e. _virtual_ prefix for navigation properties), you may encounter an error when attempting to serialize objects in response to ajax calls. This is reported as **'Self referencing loop detected for property'** Look [here](http://blogs.msdn.com/b/hongyes/archive/2012/09/04/loop-reference-handling-in-serializer.aspx) for workarounds. Essentially, you can disable lazy loading which might be a good idea from a perf pov. This can be done on a case-by-case basis (over-riding the 'virtual' qualifier) or across your entire application. Alternatively, just apply this to your **webapiconfig..cs** file to tell JSON not to follow navigation properties when serializing: `config.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;``
+2. If using database-first (rather than code-first), you won't have as much flexibility in how to disable or limit lazy loading. It's simplest to turn it off globally by opening the .edmx file, right click, choose properties and turn **Lazy Loading Enabled** to **false**.
+1. You may encounter an error while attempting to serialize the results returned by your web api call. This is due to MS prioritising an XML format to the data rather than JSON. Fix this by adding the following code to your **webapiconfig.cs** file:
+
+        
+        var json = config.Formatters.JsonFormatter;
+        json.SerializerSettings.PreserveReferencesHandling = 
+                Newtonsoft.Json.PreserveReferencesHandling.Objects;
+        config.Formatters.Remove(config.Formatters.XmlFormatter);
+        
+1. You'll find it useful to have Chrome parse returned JSON to present it in a more meaningul way by using [JSONFormatter](https://github.com/callumlocke/json-formatter). Note this is purely for display purposes and to aid (somewhat) with testing, helping you to **see** your data more clearly. JSON data however will typically be consumed by your client-side JS code.
+
+You can choose to go 'full' API and eschew the use of Views - if so, choose a MVC Web Api project initially. A hybrid model is also possible but it's best to create a separate Web API project and then consume that API through a separate standard MVC project. However, a more typical scenario is to use ASP.NET Web API to provide the back-end and then that Json data is pulled using Ajax methods and consumed by client-side JS, often handled by modern JS libraries/frameworks like KnockoutJS, AngularJS, Backbone or EmberJS. This aids responsiveness at the client as more can be accomplished without server-side calls. For example, a table of data could be sorted, filtered or queried locally, without expensive server calls.
+
+####nw_api Practice Exercise
+This app has two branches and illustrates the above workflow well. The **master** branch creates a database first EF app around the Northwind database. This employs a Repository Pattern and Web API interface, working locally. The **azure** branch does the same but employs a different connection string pointing to a copy of Northwind that I have hosted on Azure. You'll find details on access in the README.md file that accompanies either branch.
 
 ####Google Maps
-In class we'll employ the Google Maps API to work up an app to display the locations of countries around the world. We'll create a database of locations and their corresponding longitude and latitude coordinates. Wrapping this database with Entity Framework will let us surface the data at the client where the user can search for a particular country. The search will execute using ajax to the back-end, calling Google Maps into action to display the country in the main window.
+As well as creating your own Web API, we can consume third-party APIs. [Here](http://www.codeproject.com/Articles/829292/jQuery-Based-Ajax-ASP-NET-MVC-Google-Maps-Web-App) we'll employ the Google Maps API to work up an app to display the locations of countries around the world. We'll create a database of locations and their corresponding longitude and latitude coordinates. Wrapping this database with Entity Framework will let us surface the data at the client where the user can search for a particular country. The search will execute using ajax to the back-end, calling Google Maps into action to display the country in the main window.
 
-###Azure
-Azure is Microsoft's comprehensive offering for cloud computing. Scott Gu (VP) heads up Azure and provided this excellent 90min introduction the range of services.
-<iframe width="560" height="315" src="http://www.youtube.com/embed/i8MOJho5TDs?rel=0" frameborder="0" allowfullscreen></iframe>
-
+####CORS
+Browser security prevents a web page from making AJAX requests to another domain. This restriction is called the same-origin policy, and prevents a malicious site from reading sentitive data from another site. However, sometimes you might want to let other sites call your web API.
+Cross Origin Resource Sharing (CORS) is a W3C standard that allows a server to relax the same-origin policy. Using CORS, a server can explicitly allow some cross-origin requests while rejecting others. CORS is safer and more flexible than earlier techniques such as   JSONP. This tutorial shows how to enable CORS in your Web API application. Read more [here](http://www.asp.net/web-api/overview/security/enabling-cross-origin-requests-in-web-api).
 ----
 
 practices:
 ####[Web API 1](https://github.com/itsligo/web_api_1.git)
 <small>Simple introduction to web api</small>
+####[nw_api](https://github.com/itsligo/nw_api)
+<small>Web API, Ninject, MVC5, Entity Framework 5, JSON API</small>
+####[nw_map](https://github.com/itsligo/nw_map)
+<small>Making own Web API & consuming ot & 3rd party API </small>
 ####[College](https://github.com/itsligo/college)
 <small>asp.NET follow-on from EFBlogCon. DI branch uses Repository pattern with Dependency Injection from Ninject.</small>
 ####[College2](https://github.com/itsligo/college2)

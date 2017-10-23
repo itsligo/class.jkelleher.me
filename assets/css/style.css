@@ -1154,6 +1154,10 @@ ul.portfolio-img li {
     margin: 10px;
 }
 
+.img-small {
+    height:80px;
+}
+
 /*
 .tagcloud li {
   float: left;

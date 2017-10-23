@@ -3,7 +3,7 @@ Title: FOOP201 Lesson
 Description: Static, enum, ItemSource and larger practices
 
 ----
-Date: 2013-11-1
+Date: 2015-11-1
 
 ----
 Tags: class, layout, collections
@@ -64,6 +64,10 @@ To convert a value (say, a _String_), to an equivalent value in the enumerated d
 
 For more help, look to (link:http://www.dotnetperls.com/enum text:dotnetperls.com)
 
+####ItemsSource
+Todate we've used the **Items** property to push and pull data into/out of **ListBoxes**. This is problematic as you (the programmer) are required to ensure that the **ListBox** is an accurate reflection of the data in your 'database' or collection of data.
+We look at **ItemsSource** as another means of working with the contents of a **ListBox**. This alleviates us of the responsibility of continually re-populating the contents of a **ListBox** when the values changes.
+
 ####Miscellaneous
 Now that we understand classes better, we consider the notion of employing objects of one class within another class. This is the concept of composition and a major building block in itself in applications.
 ####Practice
@@ -74,7 +78,10 @@ Create a simple GUI to handle a collection of tenants. Incorporate the following
 * Permit the deletion of a tenancy by selecting from the list
 ----
 practices:
+####[zoo](https://itsligo.github.io/lectZoo)
+####[movies](https://itsligo.github.io/movies)
+<!-- ***
 ####[Boxer-Starter](https://github.com/itsligo/boxer_starter)
 ####[Boxer Rounds](https://github.com/itsligo/boxerrounds.git)
 ####[EnumExample](https://github.com/itsligo/enumExample)
-####[VetList](https://github.com/itsligo/VetList)
+####[VetList](https://github.com/itsligo/VetList) -->

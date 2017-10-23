@@ -3,7 +3,7 @@ Title: FOOP201 Lesson
 Description: Further UI design & misc	
 
 ----
-Date: 2013-12-1
+Date: 2015-12-1
 
 ----
 Tags: misc
@@ -18,6 +18,10 @@ Here we revisit important past topics and round out our treatment of a variety o
 * Closer look at **Switch** statement
 * Use of **sender** parameter in event handlers
 * Finer UI design and build
+
+####Using Static to provide lookup data store
+
+<iframe src="https://media.heanet.ie/player/083b24fcda4d3652bc6b6b8c4fb7e50f&st=0" name="083b24fcda4d3652bc6b6b8c4fb7e50f" width="580" height="320" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 ----
 practices:
-####[Team Player](https://github.com/itsligo/teamplayer)
+####[StaticLookup](https://github.com/itsligo/staticlookup.git)

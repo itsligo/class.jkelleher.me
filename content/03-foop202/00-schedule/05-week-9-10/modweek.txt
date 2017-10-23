@@ -12,11 +12,16 @@ Tags: database,LINQ, querying
 Text: 
 LINQ is equally capable to T-SQL and we look at increasingly realistic queries pulling varying datasets from the database. LINQ actually comes in two flavours - query syntax and method syntax. The former is similar to conventional T-SQL. Method syntax is typically more expressive and succinct but at the expense of being somewhat more convoluted in appearance.
 
-We also work with the UI to improve the ways in which we can display and interact with the data retrieved. This involves primarily working with **DataGrid** and other **ItemsControl**-like controls.
+We also work with the UI to improve the ways in swhich we can display and interact with the data retrieved. This involves primarily working with **DataGrid** and other **ItemsControl**-like controls. We also use (link:http://www.wpftutorial.net/datatemplates.html text:data templates) to substantially improve the appearance of data in listboxes (see practice opposite)
 
-Selection of LINQ query questions for (file: nwind linq queries.pdf text:Northwind).
+Also, be sure to watch Bob Tabor's excellent LINQ (link: http://www.microsoftvirtualacademy.com/training-courses/c-fundamentals-for-absolute-beginners?prid=ch9courselink text:video (Episode 23).
+
+----Selection of LINQ query questions for (file: nwind linq queries.pdf text:Northwind).
 
 ----
 practices:
 ####[Simple LINQ](https://github.com/itsligo/simpLINQ.git)
 ####[NWind LINQ](https://github.com/itsligo/nwindlinq.git)
+####[Data Tempates](https://github.com/itsligo/nwDataTemplate)
+####[NWind LINQ Tabs](https://github.com/itsligo/nwind_tabs.git)
+####[AdvWorks Advanced](https://github.com/itsligo/AdvWorksAdv.git)

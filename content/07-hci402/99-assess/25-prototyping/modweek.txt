@@ -5,11 +5,12 @@ Title: Prototyping
 Description: Prototyping Tools
 
 ----
-Session: Semester 8 (2014)
+Session: Semester 2
 ----
 
 Text:
-![](http://t0.gstatic.com/images?q=tbn:ANd9GcSs5r4iVbqOI8wlpeeRO2qeuvQjnWQRfKR2wyxVRyBAjzjWEzeiaQ "Prototyping")Prototyping is where you produce a limited, incomplete version of your product be it a software application, web site or item of hardware. By definition, the prototype is often lacking many features of the final, hoped for, solution but provides a tangible usually interactive product which helps stakeholders to identify with the direction the design is taking. The key ideas behind prototyping is that the effort to produce one is very limited so that ideally several prototypes can be produced at little cost (both time and money). This help drive design discussions and gives an opportunity for both designers and users to get 'hands-on' with something approximating the eventual product.
+![](http://t0.gstatic.com/images?q=tbn:ANd9GcSs5r4iVbqOI8wlpeeRO2qeuvQjnWQRfKR2wyxVRyBAjzjWEzeiaQ "Prototyping")
+Prototyping is where you produce a limited, incomplete version of your product be it a software application, web site or item of hardware. By definition, the prototype is often lacking many features of the final, hoped for, solution but provides a tangible usually interactive product which helps stakeholders to identify with the direction the design is taking. The key ideas behind prototyping is that the effort to produce one is very limited so that ideally several prototypes can be produced at little cost (both time and money). This help drive design discussions and gives an opportunity for both designers and users to get 'hands-on' with something approximating the eventual product.
 
 The production of the prototype should not be at as high an engineering level as that used to create the final solution. For example, in software, you would not use the programming language intended for the production release to create the prototype. Indeed, for web and client software development, it is becoming popular to employ paper-prototyping as a means of teasing out possible designs or 'exploring the design-space'.
 
@@ -31,19 +32,19 @@ The customers, including end-users, examine the prototype and provide feedback o
 Using the feedback both the specifications and the prototype can be improved. Negotiation about what is within the scope of the contract/product may be necessary. If changes are introduced then a repeat of steps #3 and #4 may be needed
 
 #### Prototyping Supports/Tools
+#####[AxureRP](http://www.axure.com/edu?utm_source=Axure+Newsletter&utm_campaign=56fabb2321-Academic_Perks_Email&utm_medium=email&utm_term=0_a7535690e8-56fabb2321-6414569)
+(image: http://i35.servimg.com/u/f35/15/45/43/38/05084410.jpg)
 
-Powerpoint Prototyping toolkit (courtesy: [istartedsomething.com](http://www.istartedsomething.com/))
-
-SketchFlow (part of [Expression Suite](http://msdn.microsoft.com/en-us/expression/))
-
+#####SketchFlow (part of [Expression Suite](http://msdn.microsoft.com/en-us/expression/))
 [![SketchFlow](http://blogs.msdn.com/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-01-44-28-metablogapi/1016.Blend_5F00_15978A55.png "SketchFlow")](http://www.microsoft.com/expression/products/sketchflow_overview.aspx)
 
-[Powerpoint Toolkit](http://www.istartedsomething.com/20071018/powerpoint-prototype-toolkit-01/)
+#####[Powerpoint Toolkit](http://www.istartedsomething.com/20071018/powerpoint-prototype-toolkit-01/)
+![](http://cdn.free-power-point-templates.com/articles/wp-content/uploads/2012/06/PowerPoint-Prototyping-Toolkit.jpg)
 
-![](http://www.justinmind.com/img/wireframe-interactive "justinmind.com")
+#####[justinmind.com](http://www.justinmind.com/prototyper/features-build)
+![](http://loogic.com/files/2009/04/justinmind-prototyper.jpg)
 
-[justinmind.com](http://www.justinmind.com/prototyper/features-build)
-
-[Codiqa](www.codiqa.com)(image:http://codiqa.com/static/images/v3/why/simple_interface_image.jpg)
-
-[ConceptBoard](http://conceptboard.com/)(image:http://www.finsmes.com/wp-content/uploads/2012/01/cb_logo.jpg)
+#####[Codiqa](www.codiqa.com)
+(image:http://codiqa.com/static/images/v3/why/simple_interface_image.jpg)
+#####[ConceptBoard](http://conceptboard.com/)
+(image:http://www.tokbox.com/blog/wp-content/uploads/2014/12/cb_logo_300ppi.png)

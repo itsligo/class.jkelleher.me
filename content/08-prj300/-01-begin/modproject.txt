@@ -1,0 +1,22 @@
+Title: PRJ300 Guidelines
+
+----
+
+Description: PRJ300 Guidelines
+
+----
+Session: Semester 5 & 6
+----
+
+Text: ###Beginning PRJ300
+#####Prj300 represents a substantial independent body of work undertaken by a **team of four**. The module aims to encourage innovation and a wider exploration of the field of study. It emphasises the importance of a high level rigorous and demanding approach to, and a strategy for the development of the chosen deliverable. It also helps to apply, to a deeper level, the techniques and concepts learned throughout the programme, including the technical skills of analysis, design and implementation.
+
+Teams will be created very early in the semester. The team will agree an outline project (link: prj300/begin/ideas text:idea), or one will be assigned to you by your supervisor. Once you have an agreed idea, work begins. Using this (file: prj.txtd text: prj.txt) file as a template, edit to insert your own details (rename file to prj.txt)
+
+The type of deliverables for Project 300 vary in concert with prior learning and chosen domain of the group as well as resource constraints. For software engineering students, for example, the deliverable will normally consist of documentation (requirements specification, use cases, scenarios, low−fidelity prototypes) and a working application of the finished software. For students of the Game Development stream, it could consist of game asset creation, storyboarding, level design, low−fidelity mockups of game play and an implemented solution.
+The intent is to provide students with a simulation of a real−world project along with the management issues (of time, people, resources and skills) and fixed deadlines that accompany it.
+An introductory slide show will answer some of your questions regarding the project.
+
+<iframe src="https://docs.google.com/presentation/d/19BnsTTgdXFQR3dDRbtnc5ajhFPi3W34ua6nyU_AMVvc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+You are expected to read the (file: prj300/prj_procedure.pdf text:Procedure) governing your Project submission. Submission of your Project implies your acceptance of the terms contained in the document. Please note that this document is currently under review – information on this website supercedes the document content.

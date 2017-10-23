@@ -1,0 +1,35 @@
+Title: Inheritance
+
+----
+Description: Assessment on Inheritance
+
+----
+Session: Semester 4
+----
+Text: 
+Create a GUI/WPF app (call it StudentApp) to handle different types of **Student** objects as follows:
+
+* **DayTime** students: StudentID, Name, ProgrammeOfStudy, ModulesOfStudy
+* **PartTime** students: StudentID, Name, ProgrammeOfStudy, ModulesOfStudy, Occupation
+
+The app will display a list of 20 Students created randomly from each of the above types and populated with information (ignore duplicates) drawn from the following data (feel free to copy into your code):
+
+* ProgrammeOfStudy:  one of "BSc. in Games", "BSc. in Web", "BSc. in Soft", "BSc. in Sys"
+* ModulesOfStudy: a number of "FOOP1", "FOOP2", "FOOP3", "FOOP4", "OS1", "OS2", "OS3", "OS4", "RAD1", "RAD2", "RAD3", "RAD4", "DESIGN1", "DESIGN2", "DESIGN3", "DESIGN4", "PRJ1", "PRJ2", "PRJ3", "PRJ4", "COMM1", "COMM2", "COMM3", "COMM4", "NETWORK1", "NETWORK2", "NETWORK3", "NETWORK4", "AI1", "AI2", "AI3", "AI4", "WEB1", "WEB2", "WEB3", "WEB4", "DB1", "DB2", "DB3", "DB4".
+* Name: one of "Jack", "Joe", "Frank", "Fran", "Libby", "Hank", "Rita", "Evelyn", "Lionel", "Zach", "Barry", "Ken"
+* StudentID: a sequential number assigned to each new **Student** starting at S1, then S2, then S3, such that the *76th* student created has StudentID of ''S76". Hint: use a **Static** method/member to implement this.§
+* Occupation (for PartTime only): One of "Professional", "Manual", "Semi-Skilled" only.
+
+Ensure that when you create a number of each of these types of **Student**s (20 Students in total), that you randomly create each **Student** with no more than 5 modules. All other state (e.g. ProgrammeOfStudy, Name etc.) will be set randomly. You should provide a constructor though should you need to create a **DayTime** or **PartTime** student with explicit values (though this won't be exercised in this app).
+
+Each Student will display all their details in one line of the listbox as shown:
+
+(image: StudentApp.png)
+
+###Marking Scheme
+* Proper use of class qualifiers **10 marks**
+* Proper use of **static** variables/methods including correct positioning **20 marks**
+* Appropriate constructors (both default & working) for all classes **20 marks**
+* Proper over-riding of virtual/over-ride/other methods to minimise code **20 marks**
+* Handling of random initialisation, including appropriate definition and supporting initialisation code **20 marks**
+* Correct setting of **StudentId** data member **10 marks**

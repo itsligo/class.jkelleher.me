@@ -19,8 +19,19 @@
                     </header>
                     <div class="content">
                         <?php snippet( 'alert') ?>
-                        <?php echo kirbytext($page->text()) ?></div>
-<!--                    <?php snippet( 'prevnext') ?>-->
+                        <?php echo kirbytext($page->text()) ?>   
+<!--                         <h3>Exercises</h3>
+                                <?php foreach(str::split($page->exer()) as $repo): ?>
+                                    <div class='row'>
+                                        <div class="span12">
+                                        <a href='<?php echo $repo?>'>
+                                                    <img src="http://api.screenshotlayer.com/api/capture?access_key=d3be8112a676bf9db6afb3187d93dad8&url=<?php echo $repo?>&force=1&viewport=750x200"/>
+                                        </a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                <?php endforeach ?>                         -->
+                    </div>  <!-- end content -->
                 </div>
                 <div class="span3">
                 <!-- Removed when practices moved to Github
@@ -30,7 +41,7 @@
                     <?php endif?>
                     <?php snippet('childrenMenu')?>
 -->
-                    <?php if ($page->practices()):?>
+                    <?php if ($page->practices()):?> 
                         <h3><a href='http://www.github.com'><i class='icon-github icon-large'></i></a>&nbsp;&nbsp;Practice</h3>
                         <?php echo markdown($page->practices())?>    
                     <?php endif?>

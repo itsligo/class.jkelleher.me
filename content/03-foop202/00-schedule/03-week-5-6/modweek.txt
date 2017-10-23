@@ -24,5 +24,11 @@ Binding is the mechanism whereby data can be injected into controls by declarati
 
 * Binding using [ItemsSource](http://blog.cylewitruk.com/2010/09/wpf-combobox-and-databinding-datacontext-itemssource-displaymemberpath-selecteditem-selectedvalue-selectedvaluepath/) to collection
 
+###More Inheritance 
+Working with **Static** members and methods to improve inheritance - see examples opposite.
 ----
 practices:
+####[Vehicles](https://github.com/itsligo/vehicle.git)
+<small>Inheritance used to generate fleet of Vehicles</small>
+####[Patients](https://github.com/itsligo/simplepatient.git)
+<small>Inheritance used to manage public/private Patients</small>

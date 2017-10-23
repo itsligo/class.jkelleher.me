@@ -18,6 +18,13 @@ I will retain Entity Framework (currently version 5) building on exposure to LIN
 
 Remember this is a short semester ahead of work placement so it is important that you consolidate your knowledge from (link:rad301 text:RAD301) ahead of tackling the concepts within this module.
 
+Future Roadmap:
+[IBM meanjs](http://www.ibm.com/developerworks/web/library/wa-mean1/index.html)
+[Thinkster.io MEAN tut](https://thinkster.io/mean-stack-tutorial/)
+[Simpler MEANstack generator](https://github.com/wlepinski/generator-meanstack)
+[meanjs.org](http://meanjs.org/)
+
+
 **Recommended textbooks**:
 (image: http://www.manning.com/palermo3/palermo3_cover150.jpg class:img-right img-rounded width:130 alt:Manning link:http://www.manning.com/palermo3)
 ASP.NET (link:http://www.manning.com/palermo3/ text:MVC 4 in Action) (Manning, 2012) - a thorough but reasonably demanding treatise of the subject.

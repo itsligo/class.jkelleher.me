@@ -5,12 +5,14 @@ Title: PRJ300 Handup
 Description: PRJ300 Handup
 
 ----
-Session: Semester 7 & 8 (2013-14)
+Session: Semester 7 & 8
 ----
 
 Text:
 ### Submitting work
-‘Handup‘ gives direction on the final leg – getting your project submitted. Upload here.
+‘Handup‘ gives direction on the final leg – getting your project submitted. Upload [here](http://class.jkelleher.me/prj300/handup/upload).
+
+<a href='http://class.jkelleher.me/prj300/handup/submission'><div class='alert alert-danger'>What to handup - deliverables & how we assess</div></a>
 
 Please note that your code should be in a single zip file in the following format:
 

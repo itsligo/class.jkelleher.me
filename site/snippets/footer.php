@@ -5,7 +5,7 @@
             <!-- <div class="footer-border"></div>-->
             <div class="row">
                 <div class="social span3 pull-left">
-                    <a class="linkedin" href="http://www.linkedin.com/in/appsolo"></a>
+                    <a class="linkedin" href="http://www.linkedin.com/in/johnjkelleher"></a>
                     <a class="googleplus" href="https://plus.google.com/116482141547251567088/posts"></a>
                     <a class="twitter" href="https://twitter.com/johnkelleher"></a>
                     <a class="github" href="https://github.com/jkelleher"></a>
@@ -14,9 +14,9 @@
                     <div style="margin-top:10px">
                     <span class="g-plusone" data-annotation="none" data-size="tall"></span>
                         </div>-->
-                    <a style="float: center">
+                    <!-- <a style="float: center">
                       <g:plusone align="left"></g:plusone>
-                    </a>
+                    </a> -->
                 </div>
                 <div class='copyright colophon span3'>
                     <p>
@@ -26,7 +26,7 @@
         </div>
     </footer>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
 <!--<script src="assets\js\bootstrap.min.js" type="text/javascript"></script>-->
 <!--<script src="/assets/js/jquery-1.8.2.min.js"></script>-->
 <!-- <script src="/assets/bootstrap/js/bootstrap.min.js"></script>-->
@@ -49,7 +49,7 @@
         });
     });
 </script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   window.___gcfg = {lang: 'en-GB'};
 
   (function() {
@@ -57,7 +57,7 @@
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
-</script>
+</script> -->
 </body>
 </script>
 

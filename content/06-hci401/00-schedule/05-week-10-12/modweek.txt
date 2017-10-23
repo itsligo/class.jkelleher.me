@@ -20,7 +20,6 @@ Text:
 *   The [Myth](http://tafein2009.files.wordpress.com/2009/09/the-myth-of-metaphor.pdf) of Metaphor by Alan Cooper
 *   Interesting spin on [interface](http://www.cs.unm.edu/~dlchao/flake/doom/) for System  Administration
 *   [Lifeline](http://www.cs.umd.edu/hcil/lifelines/latestdemo/chi.html) demo
-*   Interface Hall of Shame ([iarchitect.com](http://homepage.mac.com/bradster/iarchitect/shame.htm))
 *   MS  Paper Clip [Payback](http://www.idleworm.com/tch/pclip.shtml)
 *   Contextual [Inquiry](http://wiki.fluidproject.org/display/fluid/Contextual+Inquiry) (alt [ppt](http://courses.ischool.berkeley.edu/i213/s09/lectures/i213-3.ppt)): SitePoint [article](http://www.sitepoint.com/article/contextual-enquiry-primer) (Gerry Gaffney)
 *   [Scenarios](http://infodesign.com.au/usabilityresources/scenarios/) (InfoDesign.com) and [Personas](http://www.usability.gov/how-to-and-tools/methods/personas.html) (usability.gov), (alt [Personas](http://www.webcredible.co.uk/user-friendly-resources/web-usability/personas.shtml), Webcredible.co.uk)

@@ -13,6 +13,7 @@ Text:
 ####[<i class='icon-th-list icon-large'></i>    Usability Engineering](https://docs.google.com/presentation/d/1PSfdoatINC8ia7pi-P0f_x0pBgcjviU6x134XIjXoM8/embed?start=false&loop=false&delayms=3000) Lifecycle
 ####[<i class='icon-th-list icon-large'></i>    Prototyping](https://docs.google.com/presentation/d/1wtvUbfpFiGkuJOLt80pCkySXJGjzPwAzmIrYMO9_bU0/edit?usp=sharing) ([resources](http://infodesign.com.au/usabilityresources/paperprototypinggraphics/))
 *   [Perils](http://www.cooper.com/journal/1999/09/the_perils_of_prototyping.html) of Prototyping (Cooper)
+*   Prototyping for Tiny Fingers (file: rettig.prototyping.pdf text:((Marc Rettig))
 *   [IDEO Prototyping](http://www.slate.com/blogs/the_eye/2013/10/23/the_importance_of_prototyping_creative_confidence_by_tom_and_david_kelley.html)
 *   Usability and You: [The Design Process](http://spyrestudios.com/usability-and-you-the-design-process/) (Spyre Studios)
 *   Powerpoint for prototyping ([msdn](http://blogs.msdn.com/jensenh/archive/2006/02/20/535444.aspx)) &amp; [Bob's](http://blogs.msdn.com/jensenh/archive/2006/01/24/516810.aspx) feature

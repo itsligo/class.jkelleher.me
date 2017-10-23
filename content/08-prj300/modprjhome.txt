@@ -15,7 +15,7 @@ Alert:
 Project 2014-5 [List](https://docs.google.com/spreadsheets/d/1ie8KhEZU8rGIcesOUE99n62x6YGUv6eEbFur2zLgRjw/pubhtml?gid=1600570440&single=true)
 
 ----
---Alert: If repeating PRJ300, you should read carefully (link: prj300/handup/repeat text:this) advice.
+Alert: If repeating PRJ300, you should read carefully (link: prj300/handup/repeat text:this) advice.
 ----
 
 Text:

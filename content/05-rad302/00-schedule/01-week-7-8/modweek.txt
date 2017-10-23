@@ -9,41 +9,35 @@ Date: 2014-3-2
 Tags: JS MVC Framework
 
 ----
-Alert:
-This material is under review. It is likely that AngularJS will be the mechanism for MVC at the client.
-----
+
 Text: 
+###Azure
+Azure is Microsoft's comprehensive offering for cloud computing. Scott Gu (VP) heads up Azure and provided this excellent 90min introduction the range of services.
+<iframe width="560" height="315" src="http://www.youtube.com/embed/i8MOJho5TDs?rel=0" frameborder="0" allowfullscreen></iframe>
+
 ###Javascript Client Frameworks
-In recent years, another approach to web applications has gained significant interest. Instead of relying on the server application to manage much of the processing (database querying, business logic & presentation of data), much of the work is relegated to the client where Javascript provides the processing.
-This has many advantages particularly in respect to responsiveness (fewer post-backs to server) and separation of concerns.
+In recent years, another approach to web applications has gained significant interest. Instead of relying on the server application to manage much of the processing (database querying, business logic & presentation of data), much of the work is relegated to the client where Javascript provides the processing. This has many advantages particularly in respect to responsiveness (fewer post-backs to server) and separation of concerns.
+Popular frameworks include Angular (Google), Ember and Backbone ([comparison](http://readwrite.com/2014/02/06/angular-backbone-ember-best-javascript-framework-for-you))
 
 ####AngularJS
-AngularJS from [Google](http://angularjs.org/) is a Javascript framework for building rich responsive client web applications. Often backed by Web API or other RESTful back-end, AngularJS is a comprehensive framework similar to ember.js and backbone.js.
+[AngularJS](http://angularjs.org/) is a Javascript framework for building rich responsive client web applications backed by a dedicated team at Google and 800 open-source contributors. Key [features](http://angular-tips.com/blog/2013/08/why-does-angular-dot-js-rock/) include:
+
+* Data binding and scopes
+* Directives - extending standard HTML
+* [Filters](http://toddmotto.com/everything-about-custom-filters-in-angular-js/) - sort and filter data client-side
+* [Services](http://weblogs.asp.net/dwahlin/using-an-angularjs-factory-to-interact-with-a-restful-service) - singleton classes that provide application-wide functionality
 
 #####Resources
+* Why AngularJS? [(Robin Rizvi)](http://www.codeproject.com/Articles/869712/AngularJS)
+* Shaping up with Angular [with Codeschool](https://www.codeschool.com/courses/shaping-up-with-angular-js)
 * Jeremy Howard - Web App in under an hour [Parts 1-4](http://jphoward.wordpress.com/2013/01/04/end-to-end-web-app-in-under-an-hour/)
 * [Egghead.io](http://egghead.io/) - good set of short videos.
 * [Dan Wahlin](http://weblogs.asp.net/dwahlin/archive/2013/04/12/video-tutorial-angularjs-fundamentals-in-60-ish-minutes.aspx) - 60min tutorial in AngularJS
+* [Learn Angular](http://learn-angular.org/) - good introductory interactive tutorial
 
-####Knockout.JS
-[Knockout](http://knockoutjs.com/) is a JavaScript library that helps you to create rich, responsive display and editor user interfaces with a clean underlying data model. Any time you have sections of UI that update dynamically (e.g., changing depending on the user’s actions or when an external data source changes), KO can help you implement it more simply and maintainably.
-
-KO is supported by Microsoft and is particularly useful in the creation of SPA (Single Page Applications) and similarly rich interactive applications that benefit from minimal and compact communications with the server.
-
-Introductory Video ([Brandom Satrom](http://channel9.msdn.com/posts/ASPNET-MVC-With-Community-Tools-Part-11-KnockoutJS))
-<video poster="http://ak.channel9.msdn.com/ch9/119e/e6c9d99f-6816-4bd1-9163-9f100131119e/11KnockoutJS_512_ch9.jpg" controls><source src="http://ak.channel9.msdn.com/ch9/119e/e6c9d99f-6816-4bd1-9163-9f100131119e/11KnockoutJS_low_ch9.mp4" type="video/mp4" /></video>
-Thi
-Author of KnockoutJS ([Steve Sanderson](http://channel9.msdn.com/events/MIX/MIX11/FRM08))
-<iframe style="height:400px;width:600px" src="http://channel9.msdn.com/Events/MIX/MIX11/FRM08/player?w=600&h=400" frameBorder="0" scrolling="no" ></iframe>
-
-Ryan Niemeyer on KnockoutJS:
-<iframe src="http://player.vimeo.com/video/51103092" width="500" height="335" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-[Knockmeout.net](http://www.knockmeout.net/) (Ryan Niemeyer) offers good commentary (and [videos](http://www.knockmeout.net/2012/10/twincitiescodecamp-2012-session.html)) on KnockoutJS.
-
-For a slides presentation, check out [Paxel Labs](http://www.slideshare.net/Paxcel/knockoutjs-explained).
-
-Ten things to know about KnockoutJS from [Day One](http://www.knockmeout.net/2011/06/10-things-to-know-about-knockoutjs-on.html) (Ryan Niemeyer)
+#####Walk-throughs
+* Using VS2013 & Angular (Parts 1-3) [JMK-NI](http://www.codeproject.com/Articles/806029/Getting-started-with-AngularJS-and-ASP-NET-MVC-Par)
+* Setting up VS2013 to employ [Angular](https://programmium.wordpress.com/2014/08/31/angular-js-in-visual-studio-2013/)
 
 ----
 practices:

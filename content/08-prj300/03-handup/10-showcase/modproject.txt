@@ -1,0 +1,34 @@
+Title: Submit to Showcase
+
+----
+
+Description: Publicising your Project
+
+----
+Tags: showcase
+----
+
+Text: 
+#####This article provides direction on how to publicise your project to the Project Showcase web site.
+
+####What do I do?
+The process is quite straight-forward and you probably have most of the information already at hand. For each project I need the following to immediately publish your project to the site:
+
+* a completed text file with the project details - project.md
+* accompanying handful of project images - these should be approx 600w X 500 h or larger but not too much larger if possible
+* an [Animoto](http://www.animoto.com) video to really 'sell' your project (optional)
+* a recording to [SoundCloud](http://www.soundcloud.com) explaining your project (optional)
+
+####Animoto
+Animoto helps you make a reasonably engaging video with little input - some images, maybe some narrated audio provided by you, and some titling to explain what's going on in parts.
+I've created an educational account which enables you to create a short video with full features available. There is no complicated editing to do - Animoto does the clever work. I would encourage you all to make a short video - email me and I'll send you a free logon equivalent to a pro account.
+
+####Filling out the (link: https://gist.githubusercontent.com/jkelleher/faef948688ca209bb72e/raw/2b91f3faf57fafe112d6eb4fe69f2d3f7dae7299/project.md text:project.md) file
+The site I've built parses each (link: https://gist.githubusercontent.com/jkelleher/faef948688ca209bb72e/raw/2b91f3faf57fafe112d6eb4fe69f2d3f7dae7299/project.md text:project.md) file for your project and builds the site around its content. As such, it's important that you don't disrupt the format of it too much or your resultant project page will be ugly.
+The '.md' stands for 'Markdown' which is a popular way to write nicer looking text files. Read more about it [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Github uses it for its README.md files also.
+Your job is to take a copy of this file, change this data therein to reflect your own project (e.g. names etc.), gather a few images to showcase your work (e.g. screen shots), team/individual photo and email/share to me. The site will do the rest. I've commented the (link: https://gist.githubusercontent.com/jkelleher/faef948688ca209bb72e/raw/2b91f3faf57fafe112d6eb4fe69f2d3f7dae7299/project.md text:project.md) file substantially to assist you.
+This is a great way to publicise your work to the wider audience, in particular prospective employers, and to showcase the high quality of the work being undertaken by the student body.
+
+####Where's the site then?
+Currently at [projects.jkelleher.me](http://projects.jkelleher.me)
+

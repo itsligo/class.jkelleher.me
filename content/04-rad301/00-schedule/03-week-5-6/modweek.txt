@@ -12,6 +12,11 @@ Tags: css,LINQ-to-SQL
 ----
 Text: 
 
+####Video Walkthrough
+#####Covers [Blog](http://itsligo.github.io/blog) application through Stage 2
+
+<iframe src="https://media.heanet.ie/player/42b1cec3f2c2d9383246496c9b3386bd&st=0" name="42b1cec3f2c2d9383246496c9b3386bd" width="570" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
 ####Minification & Bundling
 [Bundling and minification](http://www.asp.net/mvc/tutorials/mvc-4/bundling-and-minification) are two techniques you can use in ASP.NET 4.5 to improve request load time.  Bundling and minification improves load time by reducing the number of requests to the server and reducing the size of requested assets (such as CSS and JavaScript.)
 
@@ -35,8 +40,11 @@ You'll find the databases we use included with the repos in any case.
 (file: /content/04-rad301/MvcMusicStore.mdf text: Music Store Database)
 ----
 practices:
-####[MVC Music Base](https://github.com/itsligo/mvcbs_music_base)
+####[blog](http://itsligo.github.io/blog)
+***
+<!-- ####[MVC Music Base](https://github.com/itsligo/mvcbs_music_base)
 ####[MVC Music Store](https://github.com/itsligo/mvcbs_music)
 ####[MVC Bootstrap](https://github.com/itsligo/mvcbs.git)
 ####[Basic LINQ2SQL](https://github.com/itsligo/linq2sqlmvc_simp "NW LINQ2SQL Access")
 ####[NW LINQ2SWQL](https://github.com/itsligo/mvcbs_nw.git "NW Bootstrap MVC")
+ -->

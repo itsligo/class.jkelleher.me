@@ -16,6 +16,8 @@ Great [collection](http://channel9.msdn.com/Series/C-Fundamentals-for-Absolute-B
 We draw a line under the recent larger practice exercises and target the significant topic of **Inheritance**. Like classes and encapsulation, **Inheritance** is a key concept to master in OO programming. It enables larger program to be built more readily while managing the complexity of relationships between classes. Remember, class are representations of real-world objects or concepts which need to be modeled in your software.
 We look at various keywords that arise (_virtual_, _override_, _new_) to support it. A number of practice exercises are used to reinforce this concept.
 
+<iframe src="https://media.heanet.ie/player/f0f01530830ba9d0beae96cf3f30c5dc" name="f0f01530830ba9d0beae96cf3f30c5dc" width="550" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
 Read the following articles on inheritance:
 (link:http://www.csee.usf.edu/~turnerr/Software_Systems_Development/028_Inheritance.ppt text:Slides) on Inheritance (South Florida College)
 (link:http://www.codeproject.com/Articles/1445/Introduction-to-inheritance-polymorphism-in-C text:Inheritance & Polymorphism) (CodeProject - (link:http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=20248 text:Nishant Sivakumar))
@@ -30,6 +32,8 @@ Inheritance helps with larger programs to manage the complexity of many classes.
 
 ----
 practices:
+####[BankAccounts](https://github.com/itsligo/bankaccount.git)
+<small>Inheritance used to handle different kinds of Bank Accounts</small>
 ####[VideoRental](https://github.com/itsligo/videorental.git)
 <small>Inheritance used to handle different kinds of DVD</small>
 ####[PractVideoRental](https://github.com/itsligo/practvideorental.git)
@@ -38,3 +42,5 @@ practices:
 <small>Using inheritance to handle different kinds of bank account</small>
 ####[Patients](https://github.com/itsligo/inheritPatients)
 <small>Using inheritance to handle public & private patients</small>
+####[Inheritcon](https://github.com/itsligo/inheritcon)
+<small>Simple class hierarchy exposed through console application</small>

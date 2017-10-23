@@ -1,0 +1,77 @@
+Title: CA Repeat
+----
+Description: REPEAT: Building a lo-fi prototype of UI design
+----
+Session: Semester 7 (2014-15 Repeat)
+----
+Text: 
+####Important
+<div class="alert">
+This repeat assignment is intended only for those repeat the CA portion of the **HCI401** module. You may also be required to sit the repeat examination in late summer and will have been notified of both requirements by the Examinations office, if that is the case.
+
+This repeat assignment is to be completed as an individual (not group work). It parallels the work set for continuous assessment for HCI401 and as such there will be aspects which are related. However, the application of your CA Repeat may not be that of any previous continuous assessment. For example, if you (or your group) chose to design a media player application previously, then you cannot use that application again. The same is true of the work by any other group or individual. It is for this reason that you should email me (kelleher.john@itsligo.ie) before the end of the academic year with a general outline of the domain that you seek to design/develop for so that I can approve your plan. If you do not get approval and submit work which is similar to that submitted by others, I will **not accept** the work. 
+</div>
+
+####Deadline
+The work must be submitted using the form below, before the first working day of September. I will not be bound to accept any submissions thereafter. You should submit using one of the following means:
+
+1. Using form below - This should be used in preference to other methods. You will receipt an email notification of your successful submission. If you do not receipt this email, then you must assume that your submission attempt was not successful and you should make other arrangements. 
+1. If you submit by post (see my address on the (link:/about text:site), ask for a certificate of postage.
+1. If you (or another) hand-deliver to the college, ensure you get a receipt and that the package is stamped at reception.
+1. If you email to me, assume it has not arrived unless you receive confirmation from me.
+1. If you submit using any other mechanism, again, assume I have not received it until you receive a confirmation email from me directly.
+
+####Overview
+In this CA, you will identify a need that can be fulfilled with a computer application. You will investigate the task requirements and document how you propose to improve or facilitate these transactions. You will produce an initial design, a reflection on current design or domain space, and the outcome of a conceptual enquiry exercise.
+
+####Requirements
+
+* Fully describe the problem domain, the environment of use, the users and any other such details as you have studied, as necessary to properly comprehend the work.
+* Document the challenges that the problem domain presents or (if new domain) that you perceive as such. Reflect on the reasons for the issues and offer opinion as to why the solution is so designed or (if new domain) un-resolved.
+* Prepare a series of low-fidelity mockups (e.g. wireframes and/or storyboards) to show state and transition between user interactions
+* Interview two target users (not class members) using the contextual inquiry technique employing the low-fidelity design. Employ a usability interview consent form.
+* Answer the standard task analysis questions.
+* Present 3 distinct non-trivial tasks to the users to complete. Document their comments and feedback.
+* Based on your analysis and tasks, derive and explain a revised proposed design. Describe in text and support your description with  sketches of important screens. You may need to use several sketches in sequence and properly annotated to convey the dialog with the program.
+
+####Deliverables
+
+You will submit by email a printed essay of approx. 3000 words. Your essay should follow the outline below. Note the word count offered are suggestions rather than hard rules though you should regard the overall count as indicative.
+
+* Problem and solution overview (500 words)
+* Document the design challenges and comment (600 words)
+* Documenting low-fidelity mockups (400 marks)
+* Contextual inquiry interview descriptions and results (800 words)
+* Reflection on contextual inquiry and proposed design changes (800 words)
+* Any additional sketches
+
+####Problem and solution overview
+This overview should be a concise statement of the problem you are tackling and a brief synopsis of your proposed solution. 
+
+####Design Challenges
+Expound on the issues that impact the design, the compromises required and the reasons why. Suggest possible approaches before choosing one course of action. Contrast with how this solution has been exploited elsewhere.
+
+####Low-Fidelity Prototyping
+Your sketches should fully document the necessary sequence of user interaction required to address the tasks proposed. These tasks should be non-trivial and reflect the uniqueness of and be central to the outcome of the chosen domain. Proper annotation and commmentary is important here.
+
+####Contextual inquiry interview descriptions and results
+Describe the rationale behind your choice of target users. For each of the two users, give some details of their background, the environment where you observed their work, and your role as the “apprentice”. Identify tasks and themes that the users shared in common in their work practices. Then, note anything unique about each interview and comment on the rationale behind these events.
+
+####Inquiry Reflection and re-design
+Drawing from your contextual inquiry findings, propose and defend the changes you see as necessary. Note that these need not necessarily concord with actual findings with your users but should at least be informed by what you have witnessed. Give a rationale for your re-design. 
+
+Scenarios include the steps users will go through to accomplish the task. You should include “storyboards” of the sequences described in your three scenarios. It is important that the sequence of actions necessary to progress the task is clearly evidenced in your mockups. Pay particular attention to labelling, annotations of screens, numbering and referencing in the text.
+
+####Marking Scheme
+* Domain and user investigation and reporting (25 marks)
+* Contextual Enquiry (20 marks)
+* Reflection & Redesign (30 marks)
+* Communication of ideas and design, including lo-fi prototyping (25 marks)
+
+####Submission
+
+Please submit your document as Sxxxxxxx HCI401 2014-15 CA Repeat TITLE Your_Name where TITLE is the working name for the application and Sxxxxxxxx is your student ID. If your submission is not named in this way, it will not be corrected.
+
+<div class='alert'>
+Click (link: http://www.jotform.com/form/20510407093 text: here popup: yes) to upload.
+</div>

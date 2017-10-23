@@ -5,7 +5,7 @@ Title: HCI401 Assessment
 Description: Schedule for Human Computer Interaction 401
 
 ----
-Session: Semester 7 (2014-15)
+Session: Semester 7
 ----
 
 Text:

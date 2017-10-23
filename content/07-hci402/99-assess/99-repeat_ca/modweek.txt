@@ -1,0 +1,66 @@
+Title: CA Repeat
+----
+Description: REPEAT: Conducting a Heuristic Evaluation
+----
+Session: Semester 8 (2013-14 Repeat)
+----
+Text: 
+####Important
+<div class="alert">
+This repeat assignment is intended only for those repeating the CA portion of the **HCI402** module. You may also be required to sit the repeat examination in late summer and will have been notified of both requirements by the Examinations office, if that is the case.
+
+This repeat assignment is to be completed as an individual (not group work). It parallels the work set for CA1 & CA2 and as such there will be aspects which are related. However, the application of your CA Repeat may not be that of any previous attempt in CA1 or CA2. For example, if you (or your group) chose to design a media player application previously, then you cannot use that application again. The same is true of the work by any other group or individual. It is for this reason that you should email me (kelleher.john@itsligo.ie) before the end of the academic year with a general outline of the domain that you seek to design/develop for so that I can approve your plan. If you do not get approval and submit work which is similar to that submitted by others, I will **not accept** the work. 
+</div>
+
+####Deadline
+The work must be submitted using the form below, on or before the first working day of September. I will not be bound to accept any submissions thereafter. You should submit using one of the following means:
+
+1. Using form below - This should be used in preference to other methods. You will receipt an email notification of your successful submission. If you do not receipt this email, then you must assume that your submission attempt was not successful and you should make other arrangements. 
+1. If you submit by post (see my address on (link: /about text: my about page), ask for a certificate of postage.
+1. If you (or another) hand-deliver to the college, ensure you get a receipt and that the package is stamped at reception.
+1. If you email to me, assume it has not arrived unless you receive confirmation from me.
+1. If you submit using any other mechanism, again, assume I have not received it until you receive a confirmation email from me directly.
+
+####Overview
+In this CA, you will conduct and report on a Heuristic Evaluation (HE) exercise. HE is well documented in class notes and online. You are free to choose the target for your exercise (notwithstanding above comments) but note that the target application/product should incorporate sufficient user interactivity to warrant the need for a HE.
+
+####Deliverables
+
+You will submit by email a printed essay of approx. 3000 words. Your essay should follow the outline below. Note the word count offered are suggestions rather than hard rules though you should regard the overall count as indicative.
+
+* Problem domain and current application description (300 words)
+* HE Process (600 words)
+* Test Results & Recommendations (2000 marks)
+
+#####Problem domain and current application description
+This overview should introduce the chosen target for HE emphasising why it is suited to the exercise. If necessary, the purpose and typical audience for the target should be described so that the domain is fully understood by the reader. 
+
+#####HE Process
+Expand on the process of HE and how you organised your work to conduct the evaluation. Elaborate briefly on each usability heuristic and provide a short example of how such a heuristic might be honoured.
+Describe a small set of tasks (3-5) that best rehearse common (non-trivial) behaviour for users.
+
+#####Test Results & Recommendations
+A clear presentation of the findings of the test. You should structure your documentation carefully to identify those parts of the interface that support each usability heuristic as well as (possibly) where it doesn't. Link each distinct problem with a unique number and associate the appropriate usability heuristic(s) with it.
+For each violation of a usability heuristic, rank its severity using the following scale:
+
+* 0 = not a problem
+* 1 = cosmetic, need not be fixed unless extra time is available on project
+* 2 = minor, fixing this should be given low priority
+* 3 = major, important to fix, should be given high priority
+* 4 = UI catastrophe, imperative to fix this before the product can be released
+
+Offer advice and/or recommendation(s) on how the violation might be remediated. Offer corresponding examples from other applications/sites/products that manage the issue better.
+Include screenshots to identify clearly the problem highlighted - you may need a sequence of such screenshots to illustrate an issue with interactivity.
+
+####Marking Scheme
+* Domain and user investigation and reporting (20 marks)
+* HE Process (20 marks)
+* Test Results & Opinion (60 marks)
+
+####Submission
+
+Please submit your document as Sxxxxxxx HCI402 CA Repeat TITLE Your_Name where TITLE is the working name for the application and Sxxxxxxxx is your student ID. If your submission is not named in this way, it will not be corrected.
+
+<div class='alert'>
+Click (link: http://www.jotform.com/form/20510407093 text: here popup: yes) to upload.
+</div>

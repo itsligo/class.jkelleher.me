@@ -17,9 +17,6 @@ Just as introducing the Random class earlier helps to make apps more engaging, *
 
 A **DispatcherTimer** needs to have an **Interval** set and responds to the **Start()** and **Stop()** methods. The **Interval** property is of type **TimeSpan**. An event handler needs to be wired up to the **Tick** event to intercept it and handle any custom code.
 
-###Working with loops
-You will have worked with loops and iteration in previous semesters but here we'll build more complicated applications to tease out your ability to work with iteration. For example, we'll shuffle a deck of cards using our knowledge of Random and looping structures.
-
 ###Canvas Layout Panel
 We won't use the **Canvas** control much but it makes for a very simple panel where you have a need for absolute coordinates - that is, positioning elements at specific x- and y-values. Read a little more [here](http://wpftutorial.net/Canvas.html).
 
@@ -43,8 +40,9 @@ View more presentations from (link:http://www.slideshare.net/randyconnolly text:
 Microsoft Virtual Academy [C# Fundamentals](http://www.microsoftvirtualacademy.com/training-courses/c-fundamentals-for-absolute-beginners)
 ----
 practices:
-####[30-9-14 Launch](https://github.com/itsligo/launch.git)
-####[7-10-14 TeacherMarks](https://github.com/itsligo/TeacherMarks.git)
+####[Launch](https://github.com/itsligo/launch.git)
 ####[Word Drop](https://github.com/itsligo/worddrop)
-####[Word Drop: Lect 8-10-13](https://github.com/itsligo/worddrop_class)
-####[Countdown](https://github.com/itsligo/countdown)
+####[Countdown](http://itsligo.github.io/countdown)
+####[Concentration Game](http://itsligo.github.io/rndPhotosGrid)
+####[Class Results 8-10](http://itsligo.github.io/classResults)
+----

@@ -1,35 +1,37 @@
-﻿Title: Surgery Database
+﻿Title: BI for Dental Services
 ----
 Shortdesc:
-Database for a dental surgery.
+Business Intelligence solution for dental services in the South West Region of Ireland
 ----
 Description:
-The aim of this project is to create a database for managing a dental surgery. 
-It will enable:
-Booking (receptionists will be able to book and re-schedule appointments for doctors; concurrency requirements and transaction management issues are considered)
-Managing medical history (dentists will be able to create and edit entries in medical history) 
-Managing orders for materials and equipment (dentists and nurses will be able to submit requests for materials and equipment)
-Managing payments (receptionists will make entries for cash/credit cards payments and create claims for payments from HSE; the financial manager will be able to track which payments are paid by HSE and which are due)
+
+Aim of the Project: To provide Business Intelligence solution for managing HSE payments for dental services in the South West Region of Ireland (2 counties and Cork city)
+
+IDEs: SQL Server 2012, Visual Studio 2012 SSDTBI (SQL Server Data Tools Business Intelligence)
+
+Languages: T-SQL, MDX (Multidimensional Expressions), DAX (Data Analysis Expressions), DMX (Data Mining Extensions), C#
+
+Scenario: HSE Manager wants to analyze treatments and payments provided for Medical Card patients according to The Dental Treatment Services Scheme (DTSS). Contracts for dental services are signed by HSE with individual dentists. One dentist could work in many surgeries with different locations. Dental treatments are categorized in DTSS scheme.
 ----
-Tags: SQL, T-SQL, SQL Server
-----
+Tags: Business Intelligence, T-SQL, MDX, DAX, DMX
+---
 Names:Jaroslaw Jablonski
 ----
 StudentIDs:S00124251
 ----
-prjurl:
+prjurl: https://businessintelligencecork.wordpress.com/
 ----
-gitrepo:
+gitrepo: https://github.com/jaroslaw-S00124251/Year-Project-4
 ----
 Programme:B.Sc. Computing (Software Development) Hons. Yr 4
 ----
-Supervisor:
+Supervisor: Therese Hume
 ----
-Primaryarea: Database Development
+Primaryarea: Database development
 ----
 Primaryos: Windows
 ----
-Primarytechnology: T-SQL
+Primarytechnology: T-SQL, MDX, DAX, DMX
 ----
-Secondarytechnology: 
+Secondarytechnology: C#
 ----

@@ -6,10 +6,10 @@ g::set('kmap.instances', $instances+1);
 if(!isset($id))      $id      = 'map-' . uniqid();
 if(!isset($width))   $width   = 300;
 if(!isset($height))  $height  = 300;
-if(!isset($type))    $type    = 'roadmap'; // roadmap, sattelite, hybrid, terrain 
+if(!isset($type))    $type    = 'terrain'; // roadmap, sattelite, hybrid, terrain 
 if(!isset($class))   $class   = 'map';
 if(!isset($zoom))    $zoom    = 15;
-if(!isset($address)) $address = 'Mannheim, Germany';
+if(!isset($address)) $address = 'Institute of Technology, Ash Lane, Sligo, Ireland';
 
 ?>
 <?php if(!$instances): ?>

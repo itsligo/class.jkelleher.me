@@ -1,5 +1,5 @@
 ----
-Title: Blog
+Title: Notes
 ----
 Text:
 News items and general class administration/advice will be posted here.

@@ -1,14 +1,47 @@
 Title: CA1
-
 ----
-
 Description: FOOP201 CA1
-
 ----
-Session: Semester 5
+Session: Semester 3
 ----
-
 Text:
+<br>
+<iframe src="http://media.heanet.ie/player/1968f6af761ac50c572a24ff7abfaa7b" name="1968f6af761ac50c572a24ff7abfaa7b" width="640" 
+height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
-Download and complete (link: FOOP201CA1.pdf text:CA1) here by date on class calendar.
-You must delete the bin, obj and debug folders before uploading your zip file. Unzip to ensure you have a working program.
+####Question
+Create a WPF Application to maintain details of rooms in a hotel. Each **Room** has a room number. Each **Room** *can* accommodate a single guest whose name is recorded. The date and time of the checking in of the guest is also recorded.
+
+Make appropriate classes to record this information. As there is no direct user input, your application (on startup) should:
+
+* create 20 **Room**s with *unique* sequential numbers starting from 1 through to 20
+* randomly assign a guest to some rooms - ensure some rooms are kept vacant
+* the name of each guest should be drawn randomly from a collection of names
+* record the check-in time by randomly generating a date and time from the last week (7 days previous to today) - you do not need to validate this as your program is generating the data
+
+Your UI (user interface) should show a list of **Room**s. A button at the bottom of the screen will add another **Room** (and randomly check-in another guest to that room). Each **Room** should be displayed similar to this:
+
+> Room No: 4 Frank on 3/8/2015 @ 15:35
+or
+    Room No: 7 (Vacant)
+
+* At the bottom of the screen, provide a % figure for occupancy i.e. the percentage of rooms with a guest. 
+* Provide a figure for the percentage of guests that checked in before noon (i.e. after mid-night but before noon).
+* Use some styling to decorate your UI.
+* Employ the most effective, efficient coding approaches you have been taught, for maximum marks.
+
+You must delete the bin, obj and debug folders before uploading your zip file. To ensure you have submitted a working program, unzip this zip file and open in VS. Upload only the zip file via the link on my [site](http://class.jkelleher.me/foop201/assess)
+
+####Marking Scheme
+
+* Class definitions, properties, ctors, data members         (20 marks)
+* Random data assigned         (30 marks)
+* XAML, styling, layout         (15 marks)
+* Statistics for hotel         (15 marks)
+* Appropriateness of code         (20 marks)
+
+> You may consult www.stackoverflow.com and MSDN online, but no other sites or own code can be used.
+
+----
+practices:
+####[Solution](http://itsligo.github.io/foop201_ca1)

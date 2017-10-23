@@ -1,0 +1,28 @@
+Title: FA2
+
+----
+
+Description: Formative Assignment 2
+
+----
+Session: Semester 3
+----
+
+Text:
+
+Create a WPF Application to maintain a list of **Patient**s. Each **Patient** will have the following attributes:
+
+* blood type (one of O, A, AB)
+* patient number (in form A999, where 'A' is random letter from alphabet and '999' is in range 000-999)
+
+Your UI should show a list of **Patient**s. Provide 4 (four) **RadioButton**s labelled 'All' and one for each of the blood types. These should be mutually exclusive such that as one button is pressed the current selected button is de-selected. The list of **Patients** should be filtered according to the **RadioButton** label. Display a small image depicting the currently filtered blood type - for example:
+
+<img src='http://whatsmybloodtype.org/files/images/typea.jpg' height='180' width='140'/>&nbsp;<img src='http://whatsmybloodtype.org/files/images/typeb.jpg' height='180' width='140'/>&nbsp;<img src='http://whatsmybloodtype.org/files/images/typeab.jpg' height='180' width='140'/>
+
+The **ListBox** should be pre-populated with a handful of **Patient**s on program startup, with random values for **Patient** attributes.
+
+Use some styling to decorate your UI.
+
+----
+practices:
+<!-- ####[Solution](http://itsligo.github.io/expenses) -->

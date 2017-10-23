@@ -5,12 +5,12 @@ Title: RAD301 Assessment
 Description: Schedule for Rich Application Development 301
 
 ----
-Session: Semester 5 (2014-15)
+Session: Semester 5
 ----
 Alert: If uploading solutions to CA or exams, use this (link: http://www.jotformpro.com/jkelleher/rad30x text:link).
 ----
 
-Text: **RAD301 (link: https://amm.itsligo.ie/module/webview//COMP07063/201100/999999 text:[syllabus])**
+Text: **RAD301**
 
- (Results [SD3&GD3](https://docs.google.com/spreadsheets/d/1HaxUyPeXgG-0ovfdHI1B_kUQmVmr99V3LUSA1zmBNeI/pubhtml?gid=1600570440&single=true))
+ (Results [SD3&GD3](https://docs.google.com/spreadsheets/d/1IS_eqH00CTvU8NdgS28CHbTcy7V3ss-xdt10TLqdKHo/pubhtml?gid=1600570440&single=true))
 ----

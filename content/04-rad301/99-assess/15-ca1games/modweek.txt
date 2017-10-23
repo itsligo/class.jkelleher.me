@@ -13,10 +13,9 @@ Text:
 Write an ASP.NET MVC application that employs manages job applications. The application will have the following features/functionality:
 
 * Each **Job** consists of a **Title** and a **StartDate**.
-* Each **Job** will have an associated number of Applicants. Each **Applicant** has a **Name** and **YrsExperience**.
-* Your app's home page will list each **Job** along with a list of the Applicants on that **Job**.
-* The user can add a **Applicant** to a **Job** by clicking a button alongside the name of each **Job**. You do not have to provide a separate page/form to ask for details of this **Applicant**. Just provide controller code to create an **Applicant** (any Name/YrsExperience will do), add it to the database and redisplay the view.
-* Clicking on the name of the **Job** sends the user to another page displaying the **Title** of the **Job**, the average number of years experience of the applicants, and a link back to the home page, suitably formatted.
+* Each **Job** will have an associated number of **Applicant**s. Each **Applicant** has a **Name** and **YrsExperience**.
+* Your app's home page will list all **Applicant**s (their **Name** and **YrsExperience**) in a table. The **Title** of the **Job** they have applied for should also be present on the row.
+* Clicking on the **Job** mentioned in the previous bullet takes the user to a screen showing all the **Applicant**s for that **Job**. The average number of years experience of the applicants for that **Job** and a link back to the home page, suitably formatted are also required.
 * The app will begin with 2 **Jobs** - one **Job** will have **two** Applicants and the other will have none. Seed the database to provide this data.
 
 Additionally ensure you adhere to the following technical requirements:
@@ -26,7 +25,13 @@ Additionally ensure you adhere to the following technical requirements:
 * Provide robust code that defends against errors particularly wrt database access
 * Reward is provided for exceptional coding that (e.g. performant, robust, elegant)
 * You should employ whatever features of the Bootstrap >3.0 framework that you feel would enhance the UI but balance this against the marking scheme
-* Be sure to enable Nuget (link: http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages text:restore) for your Solution to avoid pushing the large packages folder to Github.
+
+####Sample Connection String
+```
+<connectionStrings>
+    <add name="BlogDb" connectionString="Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\blogdb.mdf;Integrated Security=True; MultipleActiveResultSets=True;" providerName="System.Data.SqlClient" />
+</connectionStrings>
+```
 
 ####Marking Scheme
 * Styling (use of Bootstrap etc.)                   **20 marks**

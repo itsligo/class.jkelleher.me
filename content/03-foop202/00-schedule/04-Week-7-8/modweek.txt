@@ -23,18 +23,24 @@ We also look to how we can surface the data retrieved from the database in the U
 We'll work mostly with Northwind - download a copy [here](http://qubex.com.np/Downloads/NORTHWND.zip) and follow this [video](http://www.screencast.com/t/GvjnbCJw5) to see how to wire it up.
 Later, we'll use [AdventureWorksLT2008R2](http://msftdbprodsamples.codeplex.com/releases/view/93587) - take note of the version to use.
 
+<iframe src="http://media.heanet.ie/player/38ed2d476f81f2ccd9ee485d4d21839b" name="38ed2d476f81f2ccd9ee485d4d21839b" width="570" height="350" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
 ####LINQ
 LINQ (Language Integrated Querying) is a new technology promoting SQL  querying to a first-class element of your code. This means that you can now  refer to tables as classes within your code. Similarly, fields become properties  of those classes. LINQ also add new syntax to perform querying rather than  having to code SQL embedded in your code. You can also call stored procedures  and views, if that's the way you want to go.
 
 *	[Bob Tabor ](http://channel9.msdn.com/series/C-Fundamentals-for-Absolute-Beginners/23)kicks us off with a gentle treatment of LINQ for manipulating collections.
-*   LINQ to SQL ([5 min Overview](http://www.hookedonlinq.com/LinqToSQL5MinuteOVerview.ashx)) (HookedOnLINQ)
 *   101 LINQ [Samples](http://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b) (Intro ) (Microsoft) - useful summary of many LINQ queries
 *   Scott  Guthrie [video](http://weblogs.asp.net/scottgu/archive/2007/01/28/video-using-linq-with-asp-net-in-vs-orcas-part-1.aspx) on LINQ ([blog](http://weblogs.asp.net/scottgu/archive/2007/05/19/using-linq-to-sql-part-1.aspx))
 *   LINQ [videos](http://msmvps.com/blogs/luisabreu/archive/2007/04/20/mike-taulty-on-linq.aspx) (4 parts) ([Mike Taulty](http://www.miketaulty.com/))
 *   [Video ](http://msdn2.microsoft.com/en-us/library/bb820881.aspx)How to:  Writing Queries in C# (Walkthru) (LINQ) (MSDN) Wrox VB.NEt &amp; C# [LINQ Talk](http://www.wrox.com/WileyCDA/Section/id-291776.html) (66min.) code camp :  2006
 *   LINQ Connecting [SQL  Database](http://blogs.msdn.com/charlie/archive/2007/11/19/connect-to-a-sql-database-and-use-the-sql-designer.aspx) with LINQ to SQL Designer (Charlie  Calvert): very short but practical walkthu of basics.
+*   [LINQPAD](http://www.linqpad.net) is a useful resource to help work through LINQ queries without the need to build an app in Visual Studio.
 ----
 
 practices:
 ####[Really Simple LINQ](https://github.com/itsligo/reallysimplelinq)
 <small>Simple introduction to LINQ-SQL</small>
+####[LINQ Walkthrough](http://www.csharp-station.com/Tutorial/Linq)
+<small>Walkthrough using LINQ</small>
+####[Northwind Queries](http://www.mini.pw.edu.pl/~mossakow/materials/presentations/linq.3.5/linq_to_sql_northwind/index.html)
+<small>Sample LINQ-Northwind queries</small>

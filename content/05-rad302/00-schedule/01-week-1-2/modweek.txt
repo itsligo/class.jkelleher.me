@@ -1,4 +1,4 @@
-Title: Web Apps
+Title: Ajax & EF
 ----
 Description: Building out ASP.NET MVC using EF
 
@@ -26,11 +26,16 @@ The [first post](http://www.codeproject.com/Articles/456638/HTML5-JavaScript-Kno
 
 The [second post](http://www.codeproject.com/Articles/464853/HTML5-JavaScript-Knockout-JQuery-Guide-for-Recover) will make more sense to those quite familiar with Silverlight but there's still a lot of use here. Those who remember Bea Stollnitz's (Costa) excellent blog post on rendering a graphical solar system from templates and styling will appreciate Nick's version, now employing KnockoutJS.
 
+#### Pagination, Ajax and JS
+This video traces the behind-the-scenes work to provide ajax access to a database-first proxied database. I look at JS ajax calls and local client-side manipulation of the data.
+<iframe src="https://media.heanet.ie/player/caa53f729173b5dbc215e3408eddd469" name="caa53f729173b5dbc215e3408eddd469" width="560" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+<a href="https://www.youtube.com/watch?v=wpg0hYHPU6c">Youtube</a>
+
 ####Working with databases
 We will use Entity Framework (EF) to help with accessing and manipulating databases. EF (like its competitor [nHibernate](http://nhforge.org/)) is an object-relational mapping tool. This means it helps your app to liaise more easily with a database. There are two (popular) ways by which EF will do this:
 
 * Code First (new database) - building a **new** database from class definitions ([video](http://msdn.microsoft.com/en-us/data/jj193542))
-* Code First (existing database) - taking an **existing** database and having EF create a bunch of proxy classes to assist in interacting with that database ([video](http://msdn.microsoft.com/en-us/data/jj200620))
+* Database First (existing database) - taking an **existing** database and having EF create a bunch of proxy classes to assist in interacting with that database ([video](http://msdn.microsoft.com/en-us/data/jj200620))
 
 Julie Lerman (a guru in this area) has an excellent, short [article](http://msdn.microsoft.com/en-us/magazine/hh148150.aspx) explaining these approaches. For any information on EF, your best starting point is MS's EF [Page](http://msdn.microsoft.com/en-us/data/ee712907).
 
@@ -41,11 +46,39 @@ Entity Framework (EF) enables developers to create data access applications by p
 ####Flavours of EF support
 As Rowan Miller shows in this [video](http://channel9.msdn.com/Shows/Web+Camps+TV/Rowan-Miller-Demonstrates-Entity-Framework-5-Using-ASPNET-MVC-4), EF can be employed in various ways, depending on whether your database already exists or is being created fresh. Similarly, you may prefer to work with a schema designer or have your database created through POCOs.
 
-####Repository Pattern & Dependency Injection
-The Repository pattern ensures that there is separation of concerns between that part of your code that handles the direct data access and that part that constructs the views (controller). Doing this means that you can substitute another repository that (say) provides test data.
-Dependency injection ensures that the MVC controllers don't have a dependency on the repositories you create. We use [Ninject](http://www.nuget.org/packages/ninject) to provide this behaviour. Look to the Northwind or College examples opposite.
-See [here](http://www.asp.net/mvc/tutorials/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application) for a full walkthrough.
+####Database Migrations
+In earlier versions of EF, the solution was to 'drop' (delete) the database and re-script it. This meant that any extant data was lost. The work-around was to provide a 'Seed' method inside which code was used to created objects which then became entities in the database. While this wasn't arduous there needed to be a more 'gentle' way to update the database model.
 
+Later versions of EF provide for database migration. This is a more intelligent way to update the model. It works by taking the changes you propose for the classes and creates scripts which make the corresponding modifications to the database structure. An additional bonus is that these changes can be rolled back should you change your mind. Seeding the database as before is also supported albeit in a slightly different way.
+With code-first, the inevitability is that you will want to make changes to the model you created on foot of classes defined. This can have a significant effect on the resulting database and in the past necessitated the tear-down of the database and recreation. [Data migrations](http://msdn.microsoft.com/en-us/data/jj591621.aspx) aids in the updating of the schema to avoid the need to **drop** the database.
+
+Method:
+```
+Install-Package EntityFramework
+Enable-Migrations
+Add-Migration NewFieldForLocation
+Update-Database
+```
+In lab, we found that some needed to add the **-IncludePreRelease** switch to the Install-Package command (first command). This is likely to do with some conflict with EF and data migrations, one I haven't seen outside of labs.
+
+The first command above ensures that EF is installed. The second fires up Data Migrations - a one time deal. The third command you may call a number of times - whenever you make a change to the class that back the data model. Each time you will then call update-database to push your local changes to the database.
+
+####Issues with Data Migration
+Sometimes data migration can throw problems, reporting that Add-Migration must be run but this doesn't resolve the problem. This may be a common problem for those using EF6 as changes were made that prompt this error. If you are having such (or similar) issues, work through the solution here.
+
+1. Focus on the **Configuration** class that Data Migrations created for you. Ensure the following lines are in the ctor:
+~~~~
+    AutomaticMigrationsEnabled = true;
+    AutomaticMigrationDataLossAllowed = true;
+~~~~
+   These lines ensure that data migrations are automatically made (first line) and that if that migration leads to data loss (or change), then you accept that is okay (generally the case with seed data)
+2. Do your seeding of the database in the over-ridden Seed() method of **Configuration** class rather than a class derived from either **DropCreateDatabaseAlways<>** or **DropCreateDatabaseIfModelChanges<>**
+3. In the DbContext class, add the following line to the ctor:
+~~~~
+Database.SetInitializer(new MigrateDatabaseToLatestVersion<TourContext, Configuration>());
+~~~~
+4. You may have to update your EF version to >6 to ensure this works. You may wish to use NuGet package manager to remove the existing EF install to make sure that the latest version is installed.
+5. Remember to fully examine any exceptions that you get and remember to drill down into the last inner-exception to get the true cause of the problem.
 ----
 practices:
 ####[Northwind](https://github.com/itsligo/northwind)

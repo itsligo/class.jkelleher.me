@@ -1,0 +1,93 @@
+Title: CA
+----
+Description: UI Design & Prototyping
+----
+Session: Semester 8
+----
+Text:
+####Overview
+
+The goal of this assignment is to learn how to use prototyping to assist in the development of a UI design. We begin with low-fidelity prototyping to  ensure sufficient iterations are possible to refine the design in preparation for the development of a more complete prototype to present to users.
+By storyboarding your ideas with pen and paper you will develop new and/or revised scenarios for your tasks for implementing using a high-fidelity prototype tool.
+
+####Requirements
+
+At a minimum the prototypes should target three (3) key tasks that range in difficulty from modest to complex. These tasks should give good coverage of your interface and should be non-trivial. For example, the user registration process on a web site is well-defined so do not choose such a well-established task. Instead, choose a task that is unique (or close to) to your application/web site. For those who completed HCI401, you may use the tasks chosen then. Your design to address the challenge of these tasks will be developed and refined using low-fidelity paper prototyping. 
+
+For the low-fidelity prototype, use the techniques described in the “Prototyping for Tiny Fingers” paper as a guideline. You may choose to design your low-fi prototype either on paper or using a wire-framing tool like SketchFlow or Balsamiq or Codiqa or Justinmind or Conceptboard. (See the (link: http://class.jkelleher.me/hci402/assess/prototyping text:Prototyping) page for more).
+
+Subsequently to the low-fidelity prototyping, you will build out the refined prototype using a higher-fidelity prototyping tool, such as [AxureRP](http://www.axure.com/edu?utm_source=Axure+Newsletter&utm_campaign=56fabb2321-Academic_Perks_Email&utm_medium=email&utm_term=0_a7535690e8-56fabb2321-6414569). This will afford greater interactivity and a closer representation to the finished design so as to better communication your intentions to your prospective users.
+
+####Conducting tests of your paper prototype
+
+To gain benefit from paper prototyping you will need to test your design ideas and assumptions with a representative sample of the user base.
+These participants will be given a short demo of how to work the (paper) system, with you “playing computer”. Do not show them exactly how to perform the tasks. Just show how the system works in general and give an example of something specific that is different enough from your tasks. Your lo-fi prototype should therefore have reasonable coverage, typically horizontally if not vertically also in places.
+
+You should write-up a short script of your demo and follow the same script with each participant. The participant will then be given task directions for the first task that tells him/her what they are trying to achieve, not how to do it. When they are finished, you will give them the directions for the next task and so on. Keep each task on a separate card.
+
+During the experiment, you should log critical incidents (both positive and negative events). For example, the user might make a mistake or they might see something they like and say, “cool”. Write it down along with a description of what was going on at the time. Later you should prioritise these events and assign severity ratings to the problems.
+
+Each participant will perform all 3 tasks. You will want to keep the data separate for each task and participant.
+
+####Prototyping
+
+You will use a prototyping tool (e.g. AxureRP) to create an interactive prototype of your application. Read the page on (link: http://class.jkelleher.me/hci402/assess/prototyping text:prototyping) for details of your options here.
+
+Your prototype should implement (at a minimum) the three scenarios that you developed for your tasks, though in reality doing so will afford general usage of the system. In addition, the design of the prototype should now start to account for the size, resolution, colours, and other attributes of your target platform. However, the underlying functionality does not have to be fully implemented. For example, applications requiring large databases of information can instead have a sufficient number of hard-coded data points for supporting the three tasks - effectively 'mocking' behaviour.
+
+####Prototypes
+Your prototypes must be accessible via a web link. Typically, these tools will host the prototype in the cloud. If not, arrange to share via an online file sharing service. It must be accompanied by a README document that describes any installation requirements and operating instructions, including any limitations in the implementation. The prototype should ideally be executable without installing any additional software.
+
+####Deliverables
+
+Your report (~2500 words, pdf) should follow the outline below:
+
+* Front Page - Student ID, Programme of Study, Stage, Year, Student Name, URL of online copy of material submitted
+* Introduction & Mission Statement - statement of objectives and raison d'être (150 words)
+* Prototype description, with copious sketches and a picture of the entire system (400 words)
+* Method (100 words)
+* Participants (50 words)
+* Environment (50 words)
+* Tasks (250 words)
+* Test Procedure (250 words)
+* Results (250 words)
+* Discussion/Analysis (800 words)
+* Appendices (as many pages as necessary – link from text into the appendices)
+
+####Marking Scheme
+* Report preparation, format, structure and presentation (15 marks)
+* Evidence of depth of understanding of task domain and user supports required (20 marks)
+* Low-fidelity prototype preparation and delivery (20 marks)
+* Interpretation of & reflection on feedback from test users & subsequent revision work (20 marks)
+* High-fidelity prototype build (25 marks)
+
+####Introduction and Mission Statement
+
+Briefly introduce the system being evaluated, and state the purpose and rationale behind the experiment. Then, present your mission statement. The mission statement should represent the common purpose and goal of the project.
+
+####Prototype
+
+Describe your prototype thoroughly. Reference sketches of the interface screens in your description. Show full sequence of screens required to complete set tasks. Finally, take one picture (for a paper prototype) or screenshot of the entire system with all of its elements laid out. You will find these wireframing toolkits useful to help mockup your prototype screens. Effort will be required to prepare these sequences of screen mockups to ensure the task flow is clear. You may choose to use something like Conceptboard for this - document the link to any online walkthroughs clearly in your writeup.
+
+####Method & Participants
+
+Describe the participants in the experiment and how they were selected. Also describe the testing environment and how the prototype and any other equipment were set up. For many, this will be quite trivial.
+Describe some details of your testing procedure and how the prototype was presented to the user. You should concentrate on process data (i.e., what is happening in the big picture) in addition to some bottom-line data (i.e., time or # of errors) but bear in mind this is a low fidelity mockup of the final product and emphasis on timings is not recommended. Show your findings and how they informed your next design iteration. Make clear what you have learned and how your design remedies the problems found.
+####Environment
+Describe the test setting and how the test was conducted.
+####Tasks
+Describe the tasks set for the users to complete. Relate, in summary, the difficulties encountered and commentary on various aspects of the interface design.
+####Results
+Summarize & present clearly the results of the experiment from your process data. Use charts where appropriate, perhaps to indicate key pressure-points in your design.
+####Discussion
+Discuss your results and reflect on your assumptions and design. What did you learn from the experiment? How will the results change the design of your interface? Was there anything that the experiment could not reveal?
+Describe your experience using the high-fidelity prototyping software. Reflect how the low-fidelity paper prototyping might have expedited the arrival at a final design. Report on your experience working with the high-fidelity prototyping tool.
+####Appendix
+The appendix should include copies of all materials involved in the experiment. This includes the demo script, and any instructions or task descriptions you handed out or read out loud to your participants.
+Finally, it should include all the raw process data you gathered during the experiment. Merge the critical incidents logged by the observers and list them here. The word count does not comprehend appendix materials and screen shots.
+
+####Submission
+
+Please submit your document as HCI402 CA 20XX TITLE YOURNAME
+Upload through the usual form: (link: http://bit.ly/hci40x text: bit.ly/hci40x)
+----

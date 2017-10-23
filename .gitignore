@@ -1,3 +1,10 @@
+# OS Generated
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
 .DS_Store
 panel/
 site/panel

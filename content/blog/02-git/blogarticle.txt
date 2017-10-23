@@ -114,6 +114,10 @@ git merge master origin/master
 git diff
 ```
 The first line above merges the online repo into the local repo. The second line shows difference between local and remote branches. However, this is often best done in VS as the _diff_ tool makes it easier to see the changes.
+
+####Merging
+If there is a conflict upon merging, use `git mergetool --tool=p4merge` or `git mergetool --tool=kdiff3` to invoke either merge tool. You can inspect what merge tools are in effect globally by `git config --global -l`
+
 ####Undoing changes
 ```
 git checkout readme.md
@@ -146,6 +150,9 @@ One option is to use SSH but Github promote an alternative using **git-credentia
 
         git config --global credential.helper 'cache --timeout 3600'
 
+####Want to work with multiple Github accounts?
+See [Stackoverflow Answer](http://stackoverflow.com/questions/3225862/multiple-github-accounts-ssh-config)
+
 ####Branches
 All of this presumes a simple scenario of a single branch locally, typically called _master_ and its matching online repo, typically called _origin/master_ or just _origin_. Branching is a means of having multiple threads of development secure from interference from one another but still all stored in the same folder. You switch from branch to branch as needed. A branch might be an attempt to incorporate some new feature. Should it _work out_, you may _merge_ that branch into the main _master_ branch, again returning to the single branch.
 ```
@@ -168,18 +175,56 @@ Consider that you are looking to work on a remotely hosted repo locally - one th
 git clone <github repo address>
 ```
 
-However, you may want to work on a branch other than the **master** branch. To pull down a copy of another branch (say, called **version2**), then issue the following command:
+However, you may want to work on a branch other than the **master** branch. Clone a copy of a repo targetting only a specific branch with:
+
 ```
-git branch -a
-git checkout --track origin/version2
-git checkout -b version2 remotes/origin/version2
+git clone https://github.com/USER/awesome -b gh-pages --single-branch
+```
+
+For more detailed remote branch manipulation, consider:
+
+```
+git branch -a   # shows information on all branches (and remotes)
+git branch -vv  # shows remote tracking information for local branches (if any)
+git ls-remote # lists remote branches
+git checkout -b version2 origin/version2 # checks out *version2* from remote (origin) & tracks it from then on
+#git checkout --track origin/version2     #  alternative shortcut to above
+
 ...
 git push
-git push -f origin version2
+git push -f origin version2     # forces the remote to accept the push - not advised
 git push origin +version2:version2
 
 git push -u origin my_branch
 ```
 
-The first command above is not actually necessary but it will list your local branches as well as those still on the remote repository. The second command checks out a particular branch (i.e. version2) of the remote repository. Repeating the first command will confirm that a second branch is now held locally and can be committed to and push back to the server later. The third command is an alternative to the second command and works with older versions of Git.
+The first command above is not actually necessary but it will list your local branches as well as those still on the remote repository. The second commands lists only remote branches, which may have local tracking branches associated. The third command shows similar information but is clearer about tracking. The fourth command checks out a particular branch (i.e. version2) of the remote repository. Repeating the second command will confirm that a second branch is now held locally and can be committed to and push back to the server later.
 The last set of push commands show how to push your local tracked branch changes to the remote repo (following usual add/commit). There are a few variants but obviously the first is the easiest once you're on the appropriate branch locally. Note the last git push uses the '-u' switch. This is used when a remote branch (to which you are pushing) doesn't yet exist and it is a shortcut way of using the '--set-upstream' switch. From that point on, the local 'my_branch' will track the branch of the same name on the remote repo.
+Finally if you already have a local branch and want to set it to a remote branch you just pulled down, or want to change the upstream branch you’re tracking, you can use the -u or --set-upstream-to option to git branch to explicitly set it at any time.
+```
+git branch -u origin/version3
+```
+If the branch held remotely isn't present locally you need to issue:
+```
+git remote add -t gh-pages origin/gh-pages https://github.com/itsligo/worddrop.git
+git fetch #(optional)
+git pull origin/gh-pages gh-pages
+git checkout gh-pages
+```
+
+####Rebasing
+To squash a number of past commits perhaps to simplify the commit history prior to making a pull request, we can use the **rebase** git command.
+```
+git rebase -i HEAD~4        # initiates interactive rebasing to the commit 4 commits back from the current HEAD
+```
+Following this, you are prompted to decide what happens each commit. For example, we could squash all previous commits and **pick** the latest.
+
+####Removing previously tracked files from repo
+.gitignore will prevent untracked files from being added (without an add -f) to the set of files tracked by git, however git will continue to track any files that are already being tracked.
+
+To stop tracking a file you need to remove it from the index. This can be achieved with this command.
+```
+git rm --cached <file>
+git clean -fd   # sometimes needed to remove stubborn folders
+```
+The removal of the file from the head revision will happen on the next commit.

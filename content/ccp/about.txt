@@ -1,0 +1,17 @@
+
+Title: About
+Template: about
+
+----
+
+Description: John Kelleher short bio
+
+----
+
+Col1:
+### Presentation
+Strategic Development of (link: https://docs.google.com/presentation/d/1YB_8nzROcIcpp2LjDedVNcHPyioHjJns95rqE1Ct8dA/edit?usp=sharing text: CCP) (file: strategy.pptx text: pptx) 
+
+----
+Col2:
+###Download

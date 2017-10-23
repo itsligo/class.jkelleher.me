@@ -15,12 +15,20 @@ Text:
 A normal View renders the supplied data according to a defined HTML structure, styled by CSS and behaviour modified by Javascript. Razor embedded into the View is interpreted into HTML and offers a convenient way to generate this HTML. A **_layout.cshtml** file (though the name of this file is defined in the viewstart.cshtml file) will typically be used into which other Views are rendered. This is in effect a master page for all other Views.
 Partial Views bypass the use of the **_layout.cshtml** 'master' page and are employed where you need to inject a piece of html/css/Razor/javascript into a larger View. This is particularly useful with Ajax calls where you seek to replace a piece of a View with the contents rendered by a Partial view. (link: http://mvc4beginner.com/Tutorial/MVC-Partial-Views.html text:Example of Partial Views) and some [notes](http://www.codeproject.com/Tips/833979/ASP-NET-MVC-Partial-Views-For-Beginners) and [videos](http://pluralsight.com/training/Player?author=scott-allen&name=mvc4-building-m6-ajax&mode=live&clip=0&course=mvc4-building).
 
+<iframe src="http://media.heanet.ie/player/f9a8ed109179daea8e50ab81508114e1" name="f9a8ed109179daea8e50ab81508114e1" width="620" height="345" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
+
 ####jQuery
 [jQuery](http://jquery.com/) is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.
 
 (image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaGec04GTChQpBr6E0nShX0GuoICRHYBm42w_pf-gdAMKxUEE text: jQuery width:250)
 It is synonymous with the use of JavaScript at the client side of web development. It has been [enhanced](http://plugins.jquery.com/) with a multitude of plugins to extend its reach.
 Though you'll have encountered jQuery previously, we'll expand on its use here to help manipulate client-side interactions. Code School has a free [video course](https://www.codeschool.com/courses/try-jquery).
+
+####CRUD Ops
+Follow the directions here to implement comprehensive CRUD (Create, Read, Update & Delete) operations against your persisted data.
+
+<iframe src="https://media.heanet.ie/player/28b499a68af1790fa902a42a4d7aac8d&st=0" name="28b499a68af1790fa902a42a4d7aac8d" width="620" height="345" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
 ####Resources
 Series of 30 short videos delivered each day to teach jQuery ([LearnjQuery.tutsplus.com](http://learnjquery.tutsplus.com/)).
@@ -41,6 +49,8 @@ Finally, jQuery Mobile extends the reach of JQuery into the mobile field, specif
 
 ----
 practices:
-####[CampRoll](https://github.com/itsligo/2014rad301ca1)
+####[blog](http://itsligo.github.io/blog)
+####[campRoll](https://github.com/itsligo/camproll)
+***
 ####[MVC Music Base](https://github.com/itsligo/mvcbs_music_base)
 ####[MVC Music Store](https://github.com/itsligo/mvcbs_music)

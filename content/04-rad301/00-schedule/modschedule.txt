@@ -5,7 +5,7 @@ Title: RAD301 Schedule
 Description: Schedule for Rich Application Development 301
 
 ----
-Session: Semester 5 (2014-15)
+Session: Semester 5
 ----
 Text:
 #### We progress through the module in carefully charted weekly payloads. Every week has an accompanying set of exercises which are hosted on <a href='http://www.github.com'><i class='font-awesome icon-github'></i> Github</a>.

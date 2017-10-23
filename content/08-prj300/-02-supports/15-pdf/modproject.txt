@@ -1,0 +1,12 @@
+Title: PDFs
+
+----
+
+Description: Working with PDFs
+----
+Tags: pdf
+----
+Text: 
+
+####PDF is a widely recognised format for documents and works to ensure that your documentation is viewable by all regardless of how it was created. It also ensures that we can view the work into the future.
+To create PDF documents, you can either install a PDF printer driver to your own PC (recommended) or visit any number of online PDF creators (e.g. PDFOnline, AdobePDF, PDFConverter, PrimoPDF). These online convertors take your Word document and convert it to PDF, sending back a link by email so that you can download the PDF document.

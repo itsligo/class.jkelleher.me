@@ -1,0 +1,10 @@
+Title: LINQ
+
+----
+Description: LINQ
+
+----
+Session: Semester 4
+----
+Text: 
+The exam is in this (file: FOOP202_2015_CA2.pdf text: pdf).

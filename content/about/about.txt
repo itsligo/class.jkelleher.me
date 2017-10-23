@@ -15,8 +15,8 @@ My main interests are:
 - user experience design
 - front-end development
 - web design and development
-- css,js,php,cms (WP, Processwire)
-- client-side JS frameworks (Angular)
+- css, js, php, cms
+- fullstack JS frameworks (Angular, MEAN)
 - arduino, gadgeteer micro-controllers
 ----
 Col2:
@@ -28,8 +28,8 @@ I also entertain collaboration with industry in differing aspects of software/ha
 ####Student Queries
 Students are welcome to meet me for queries and arranged project meetings at the following specified times:
  
- * Monday 11-1:30
- * Thu 12-1:30
- * Fri 11-1:30
+ * Monday 10-1
+ * Wednesday 9-1
+ * Thursday 9-11
  
 Do note however that most queries have their answer on this site so please consult it in the first instance.

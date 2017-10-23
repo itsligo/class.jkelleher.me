@@ -1,9 +1,9 @@
-Title: More on EF
+Title: EF & Repository Pattern
 ----
-Description: More on EF
+Description: EF & Repository Pattern
 
 ----
-Date: 2014-2-26
+Date: 2015-2-18
 
 ----
 Tags: MVC,ASP.NET
@@ -19,51 +19,35 @@ The exercises opposite explore the following areas in particular:
 
 These topics are clearly commmented and explained in the code provided by the examples opposite. Note that there may be multiple branches within a project so that earlier material is preserved and not 'cluttered' by later more complicated work.
 
-####Database Migrations
-In earlier versions of EF, the solution was to 'drop' (delete) the database and re-script it. This meant that any extant data was lost. The work-around was to provide a 'Seed' method inside which code was used to created objects which then became entities in the database. While this wasn't arduous there needed to be a more 'gentle' way to update the database model.
-
-Later versions of EF provide for database migration. This is a more intelligent way to update the model. It works by taking the changes you propose for the classes and creates scripts which make the corresponding modifications to the database structure. An additional bonus is that these changes can be rolled back should you change your mind. Seeding the database as before is also supported albeit in a slightly different way.
-With code-first, the inevitability is that you will want to make changes to the model you created on foot of classes defined. This can have a significant effect on the resulting database and in the past necessitated the tear-down of the database and recreation. [Data migrations](http://msdn.microsoft.com/en-us/data/jj591621.aspx) aids in the updating of the schema to avoid the need to **drop** the database.
-
-Method:
-```
-Install-Package EntityFramework
-Enable-Migrations
-Add-Migration NewFieldForLocation
-Update-Database
-```
-In lab, we found that some needed to add the **-IncludePreRelease** switch to the Install-Package command (first command). This is likely to do with some conflict with EF and data migrations, one I haven't seen outside of labs.
-
-The first command above ensures that EF is installed. The second fires up Data Migrations - a one time deal. The third command you may call a number of times - whenever you make a change to the class that back the data model. Each time you will then call update-database to push your local changes to the database.
-
-####Issues with Data Migration
-Sometimes data migration can throw problems, reporting that Add-Migration must be run but this doesn't resolve the problem. This may be a common problem for those using EF6 as changes were made that prompt this error. If you are having such (or similar) issues, work through the solution here.
-
-1. Focus on the **Configuration** class that Data Migrations created for you. Ensure the following lines are in the ctor:
-~~~~
-    AutomaticMigrationsEnabled = true;
-    AutomaticMigrationDataLossAllowed = true;
-~~~~
-   These lines ensure that data migrations are automatically made (first line) and that if that migration leads to data loss (or change), then you accept that is okay (generally the case with seed data)
-2. Do your seeding of the database in the over-ridden Seed() method of **Configuration** class rather than a class derived from either **DropCreateDatabaseAlways<>** or **DropCreateDatabaseIfModelChanges<<>**
-3. In the DbContext class, add the following line to the ctor:
-~~~~
-Database.SetInitializer(new MigrateDatabaseToLatestVersion<TourContext, Configuration>());
-~~~~
-4. You may have to update your EF version to >6 to ensure this works. You may wish to use NuGet package manager to remove the existing EF install to make sure that the latest version is installed.
-5. Remember to fully examine any exceptions that you get and remember to drill down into the last inner-exception to get the true cause of the problem.
-
 ####Database First Approach
 Julie [Lerman](http://learnentityframework.com/learnentityframework/), an expert in the framework, presents this gentle, short [introduction](http://msdn.microsoft.com/en-us/data/ff191186) (downloadable video 10min) to _creating your first entity model_.
 This video is part of a series which looks in detail (though a a simple level) at the creation and use of an Entity model - all of which can be downloaded for later viewing.
-
-(link: http://msdn.microsoft.com/en-us/data/ff628208 text:Julie Lerman) continues with a [video](http://msdn.microsoft.com/en-us/data/ff628208) on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model.
-
-Julie Lerman continues with a video on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model.)Julie continues in this [video](Julie Lerman continues with a video on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model.) by finally consuming the data provided by the Entity Model. We use LINQ (Language Integrated Querying) to Entities to do this providing a C# language syntax to query the data.
+(link: http://msdn.microsoft.com/en-us/data/ff628208 text:Julie Lerman) continues with a [video](http://msdn.microsoft.com/en-us/data/ff628208) on consuming an entity data model. The previous video created an entity model in a class library (a dll file). This separation is best practice and helps to better structure your application. At the end of this video you will have a solution with two projects - one to manage the Entity Model (the class library) and the other to employ the Entity Model. We use LINQ (Language Integrated Querying) to Entities to do this providing a C# language syntax to query the data.
 
 ####Sample Database
-You'll find a [script](http://msftdbprodsamples.codeplex.com/releases/view/55330) for AdventureWorksLT (note the LT - light version) from Microsoft. You may choose to download the database instead if you find it easier.
+You'll find a [script](http://msftdbprodsamples.codeplex.com/releases/view/55330) for AdventureWorksLT (note the LT - light version) from Microsoft. You may choose to download the database instead if you find it easier. There are other sample databases (including Northwind) hosted on [Github](https://github.com/itsligo/sampledbs).
 
+####Repository Pattern & Dependency Injection
+The Repository pattern ensures that there is separation of concerns between that part of your code that handles the direct data access and that part that constructs the views (controller). Doing this means that you can substitute another repository that (say) provides test data.
+Dependency injection ensures that the MVC controllers don't have a dependency on the repositories you create. We use [Ninject](https://www.nuget.org/packages/Ninject.MVC3) to provide this behaviour. Look to the Northwind or College examples opposite.
+See [here](http://www.asp.net/mvc/tutorials/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application) for a full walkthrough.
+Or look to this [article](http://aspnetguru.com/how-to-use-ninject-in-asp-net-mvc-5-and-web-api-2/) to see how to inject your Repository into the MVC Controllers.
+
+####Video Introducing Repository Pattern
+<iframe src="https://media.heanet.ie/player/74bb340fe772de27c967099d5724f136" name="74bb340fe772de27c967099d5724f136" width="640" height="360" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+Also on (link:http://youtu.be/9Vfq1K8Exr0 text:Youtube) for download.
+
+####Useful Extensions to Visual Studio
+Some of these may become embedded in VS in future versions but each are individually worth investigating to leverage your productivity in VS.
+
+* Open Command Line ([Mads Kristensen](https://visualstudiogallery.msdn.microsoft.com/4e84e2cf-2d6b-472a-b1e2-b84932511379))
+     Opens a command line at the root of the project. Support for all consoles such as CMD, PowerShell, Bash etc
+* Web Essentials ([Mads Kristensen](http://vswebessentials.com/))
+     Extends Visual Studio with a lot of new features that web developers have been missing for many years. If you ever write CSS, HTML, JavaScript, TypeScript, CoffeeScript or LESS, then you will find many useful features that make your life as a developer easier. There are different versions for different versions of VS. Principle among its features are Zen coding, Markdown editing & preview, CSS hacks.
+* Visual Studio Tools for Git ([MS](https://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c))
+     An extension for Team Explorer to provide source control integration for Git. Enables integration with local Git repositories and provides tools to work with remote repositories. This is included by default in VS2013 onwards.
+* Productivity Power Tools 2012 ([MS](https://visualstudiogallery.msdn.microsoft.com/3a96a4dc-ba9c-4589-92c5-640e07332afd))
+     A set of extensions to Visual Studio 2012 Professional (and above) which improves developer productivity.
 ----
 practices:
 ####[Northwind](https://github.com/itsligo/northwind)

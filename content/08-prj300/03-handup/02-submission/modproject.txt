@@ -11,10 +11,10 @@ Tags: deliverables
 Text: 
 #####The focus of PRJ300 is to expose the processes required to perform analysis and design of a chosen product, be it a web site, desktop application, network configuration etc. The submitted documentation should report on those processes and includes:
 
-* Individual report – one from each member of the team
-* Team report – one only for the whole team
-* Peer Assessment – you must have on record your vote for your other team member. If unsure that this has been registered you must make contact with me.
-* Deliverables – depending on your project choice, it is likely that you will need to submit design documents (e.g. database design, network schematic) and/or prototypes (low or high fidelity, e.g. web site mockup) or other expressions of your design.
+* [Individual report](/prj300/handup/assessment) – one from each member of the team
+* [Team report](/prj300/handup/assessment) – one only for the whole team
+* Peer [Assessment](/prj300/handup/assessment) – you must have on record your vote for your other team member. If unsure that this has been registered you must make contact with me.
+* [Deliverables](/prj300/handup/assessment) – depending on your project choice, it is likely that you will need to submit design documents (e.g. database design, network schematic) and/or prototypes (low or high fidelity, e.g. web site mockup) or other expressions of your design.
 
 You should consult the [Assessment](/prj300/handup/assessment) for more detail regarding the format of the documentation.
 

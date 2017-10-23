@@ -19,17 +19,24 @@
                 <p>
                     <i class="icon-map-marker"></i> Address: Rm B1083,<br> Dept Computing & Creative Practices,</br>Institute of Technology Sligo,</br>Ash Lane, Sligo, Ireland</p>
                 <p>
-                    <i class="icon-phone"></i> Phone: +353 71 9155297</p>
+                    <i class="icon-phone"></i>&nbsp; Phone: +353 71 9155297</p>
                 <p>
-                    <i class="icon-user"></i>Twitter:  <a href="https://twitter.com/johnkelleher">@johnkelleher</a></p>
+                    <i class="icon-user"></i>&nbsp;Twitter:  <a href="https://twitter.com/johnkelleher">@johnkelleher</a></p>
                 <p>
-                    <i class="icon-user"></i>LinkedIn:  <a href="http://http://www.linkedin.com/in/appsolo">johnkelleher</a></p>
+                    <i class="icon-user"></i>&nbsp;LinkedIn:  <a href="http://http://www.linkedin.com/in/johnjkelleher">johnkelleher</a></p>
+                <p>
+                    <i class="icon-user"></i>&nbsp;Google+:  <a href="https://www.google.com/+JohnKelleher">+JohnKelleher</a></p>
+                <p>
                 <p>
                     <i class="icon-envelope-alt"></i> Email:
                     <a href="mailto:kelleher.john@itsligo.ie">kelleher.john_AT_itsligo.ie</a>
                 </p>
+                <p>
+                    <i class="icon-cloud"></i> Web:
+                    <a href="http://jkelleher.me">jkelleher.me</a>
+                </p>
                 <div class="show-tweets"></div>
-                <div style="margin:0px"><?php snippet( 'map', array( 'address'=>'Institute of Technology, Sligo, Ireland')) ?></div>
+                <div style="margin:0px"><?php snippet( 'map', array( 'address'=>'Institute of Technology, Ash Lane, Sligo, Ireland','type'=>'terrain')) ?></div>
             </div>
         </div>
     </article>

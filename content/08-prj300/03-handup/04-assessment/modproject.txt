@@ -3,7 +3,7 @@ Title: Assessment
 Description: How PRJ300 is assessed
 
 ----
-Session: Semester 5 & 6 (2013-14)
+Session: Semester 5 & 6
 ----
 Tags: assessment
 ----
@@ -21,7 +21,7 @@ The components that contribute to your result include:
 
 Each team is awarded a Collective Team Mark, with the different aspects of the project contributing according to the following table:
 
-- Team Report 25%
+- Research/Team Report 25%
 - Project Deliverables 55%
 - Presentation 20%
 
@@ -51,13 +51,14 @@ The front page of the report should include:
 
 - The text “Team Report”
 - Project Title (e.g. “Frogger iPhone App”)
-- Date (e.g. “Winter 2013″ or “Summer 2014″)
+- Date (e.g. “Winter 2014″ or “Summer 2015″)
 - Names and Student IDs and Streams of all team members (e.g. “John Kelleher, S01234567, Software Development”)
 Module (“PRJ300″)
 - Programme (e.g. “B.Sc. in Computing (Software Development) Level 7 Year 3″)
+- URL of Project blog
 - Name of supervisor
 
-The team report should run to about _8000_ words or _16_ pages, though with diagrams and tables, the likely completed document will be over 20 pages in total.
+The team report should run to about _8000_ words or _16_ pages, though with diagrams and tables, the likely completed document will be over 20 pages in total. Here is an (file: webport.pdf text:example).
 
 ###Individual Report
 
@@ -66,7 +67,8 @@ Individual reflection on the project is important for getting the most out of it
 - Summary of own individual contribution to the project.
 - Reflection on the project, the running of it, and own role within it.
 
-The reflection should cover aspects such as what was achieved, what was not achieved and why, critical discussion on the running of the project, what you have learnt from the project, and what you would do differently if you were starting over again. Note that the Individual Report is marked primarily on the quality of the reflection and on the qualities as a report, not on the extent of contribution as such to the project. The Individual Report should be submitted electronically, in PDF format. The front page of the report should include:
+The reflection should cover aspects such as what was achieved, what was not achieved and why, critical discussion on the running of the project, what you have learnt from the project, and what you would do differently if you were starting over again. Each student's own contribution to the posts on the blog are also considered as part of this documentation.
+Note that the Individual Report is marked primarily on the quality of the reflection and on the qualities as a report, not on the extent of contribution as such to the project. The Individual Report should be submitted electronically, in PDF format. The front page of the report should include:
 
 - The text “Individual Report”
 - Project Title (e.g. “Frogger iPhone App”)

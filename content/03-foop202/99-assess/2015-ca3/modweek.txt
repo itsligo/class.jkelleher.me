@@ -1,0 +1,18 @@
+Title: LINQ
+
+----
+Description: LINQ Catchup
+
+----
+Session: Semester 4
+----
+Text: 
+Implement a WPF application using a suitable user interface the following Northwind queries:
+
+1. Number of customers per country, sorted descending by number. Both the country and associated number should be displayed. **20 marks**
+2. Using a dropdown list of countries (for which there are Customers), display those customers upon selection of a country. **20 marks**
+3. A list of those orders not shipped to the same City as the Customer who ordered. **20 marks**
+4. Prepare a rudimentary bar chart (using * as blocks to build the bars) showing the number of orders shipped to each (Ship)city. **20 marks**
+5. A list of Employees in descending order of total sales made. **20 marks**
+
+Deadline: May 29th 2015

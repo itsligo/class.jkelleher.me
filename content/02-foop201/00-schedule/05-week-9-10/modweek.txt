@@ -13,9 +13,27 @@ Text:
 ####More UI Controls
 We look at how to use RadioButtons, Combo-boxes, Grid-splitters, Border, Checkbox and Image. Each of these will typically require code-behind to handle user interaction with the control. We look at ways to mediate this access.
 
-####ItemsSource
-Todate we've used the **Items** property to push and pull data into/out of **ListBoxes**. This is problematic as you (the programmer) are required to ensure that the **ListBox** is an accurate reflection of the data in your 'database' or collection of data.
-We look at **ItemsSource** as another means of working with the contents of a **ListBox**. This alleviates us of the responsibility of continually re-populating the contents of a **ListBox** when the values changes.
+####Image handling
+Image handling is not particularly straight-forward in WPF. There are a lot of competing ways to present a bitmap. Here I present two methods. The first (below) builds the path to the folder *images* where the *fido.jpg* image is found.
+
+```
+BitmapImage bm = new BitmapImage();
+bm.BeginInit();
+string currDir = Directory.GetCurrentDirectory();   // gets folder where app is running - typically bin/debug
+currDir = Directory.GetParent(currDir).ToString();  // finds parent folder typically bin folder
+currDir = Directory.GetParent(currDir).ToString();  // finds parent of bin, typically project folder
+var path = System.IO.Path.Combine(currDir, "images", "fido.jpg"); //  now adds name of image folder, here *images*
+bm.UriSource = new Uri(path); // build UriSource from the path built above
+imgAnimal.Source = bm;  // sets *Source* property of Image to point to fido.jpg
+bm.EndInit();
+```
+
+Another way to build the path is to hard-code the assembly (program) name, that is, the project name (first line below). Or you can call `Assembly.GetExecutingAssembly.GetName().Name` to retrieve the name for you (better, should the name change).
+
+```
+var path = "pack://application:,,,/my_project_name;component/images/fido.jpg";
+var path = "pack://application:,,,/" + Assembly.GetExecutingAssembly().GetName().Name + ";component/images/fido.jpg";
+```
 
 ####Static keyword
 The **static** keyword in C# (and other languages) serves a few roles so it's important to understand its distinct usage. MSDN provides a (link:http://msdn.microsoft.com/en-us/library/79b3xss3%28VS.80%29.aspx text:comprehensive account) though it's a keyword best explored through examples we'll work on in class.
@@ -24,12 +42,18 @@ The **static** keyword in C# (and other languages) serves a few roles so it's im
 Now that much of the basics are covered, we turn our attention to persisted storage - manipulating files on hard drives, typically. This leads to the manipulation of files in general in the next lesson and in a later semester, we'll focus on accessing data in databases which are the backbone of virtually all business applications.
 We'll learn how to browse the contents of a directory (folder) and parse collections of files to be found there. We'll introduce the notion of Streams to be explored in detail later.
 
+<iframe src="https://media.heanet.ie/player/7c89a74f74d1bea2e19aca198e91bed3&st=0" name="7c89a74f74d1bea2e19aca198e91bed3" width="610" height="340" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
 ####Dialog Boxes
 We'll also enhance our ability to improve the look of our user interface. First, we'll look to including bitmaps into our display from files on the hard drive. We'll also show how to code pop-up dialog boxes to solicit data from users, passing this data back to the program. We'll also use special built-in dialog boxes to find files, save to files and print.
 
 ----
 practices:
+####[zoo](https://itsligo.github.io/lectZoo)
+####[movies](https://itsligo.github.io/movies)
+####[bankmumdad](https://github.com/itsligo/bankmumdad)
+<!-- ***
 ####[Screenings](https://github.com/itsligo/screenings.git)
 ####[Flags2](https://github.com/itsligo/Flags2)
 ####[Child-Film](https://github.com/itsligo/childFilm)
-####[Vet-List](https://github.com/itsligo/VetList)
+####[Vet-List](https://github.com/itsligo/VetList) -->

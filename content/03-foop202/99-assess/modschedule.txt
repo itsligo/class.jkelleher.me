@@ -9,5 +9,7 @@ Session: Semester 4 (2014-15)
 ----
 Alert: If uploading solutions to CA or exams, use this (link: http://www.jotformpro.com/jkelleher/foop20x text:link).
 ----
-Text: FOOP202 (link: https://amm.itsligo.ie/module/webview//COMP06179/201200/999999 text:[syllabus]) runs for a full semester.
+Text: 
+
+FOOP202 (link: https://amm.itsligo.ie/module/webview//COMP06179/201200/999999 text:[syllabus]) runs for a full semester. You should familiarise yourself with the (link: http://jkwp.itsligo.ie/blog/ca-regs text: regulations) that apply to FOOP20X CA. [Results](https://docs.google.com/spreadsheets/d/1l8aujaz5pMXyGsUFs5eUuYBLflRsdcwAxE2cZsbQ1ig/edit?usp=sharing).
 ----

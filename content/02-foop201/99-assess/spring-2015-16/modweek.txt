@@ -1,0 +1,33 @@
+Title: Spring 2015 Exam
+
+----
+
+Description: FOOP201 Spring 2015 Exam
+
+----
+
+Session: Semester 3
+
+----
+
+Text:
+
+The images and data text file can be downloaded as (file: /content/02-foop201/99-assess/spring-2015-16/spring2015-16_assets.zip text:zip) file here or individually below. Here also is the data file:
+
+rufus,African Penguin,2011-10-23,rufus.jpg
+emma, Emu,2009-1-16,emma.jpg
+freddie, Fishing Cat, 2013-12-1,freddie.jpg
+gary, Golden Eagle, 2008-4-9, gary.jpg
+ruby, African Penguin, 2012-11-13, ruby.jpg
+grace, Golden Eagle, 2007-1-18, grace.jpg
+
+Image files:
+
+(file: /content/02-foop201/99-assess/spring-2015-16/emma.jpg text:emma)
+(file: /content/02-foop201/99-assess/spring-2015-16//freddie.jpg text:freddie)
+(file: /content/02-foop201/99-assess/spring-2015-16//gary.jpg text:gary)
+(file: /content/02-foop201/99-assess/spring-2015-16//grace.jpg text:grace)
+(file: /content/02-foop201/99-assess/spring-2015-16//rufus.jpg text:rufus)
+(file: /content/02-foop201/99-assess/spring-2015-16//ruby.jpg text:ruby)
+(file: /content/02-foop201/99-assess/spring-2015-16//animal.jpg text:animal)
+

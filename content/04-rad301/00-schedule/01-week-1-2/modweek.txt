@@ -15,7 +15,7 @@ This sprint is all about re-establishing your coding practice. We'll lightly and
 This will begin to create a comprehensive development stack fit for enterprise standards. In RAD302, we'll flesh out the database end of things with Entity Framework but for now we'll content ourselves with LINQ-to-SQL which you'll remember from last year.
 
 ####Git & Github 
-2013-14 will see the introduction of Git across the programming stream. We'll expend some time ensuring you are familiar with its workings and you'll find that most class material will be distributed via Github. Look [here](/prj300/supports/git) for more study material on Git.
+2013-14 will see the introduction of Git across the programming stream. We'll expend some time ensuring you are familiar with its workings and you'll find that most class material will be distributed via Github. Look [here](/blog/tag:Git) for more study material on Git.
 
 ####New development stacks
 To-date, we've focused on client-side applications (using WPF) as well as some exposure to web programming through ASP.NET. This pair of modules (RAD301/2) will move the debate embracing ASP.NET MVC (quite different) as well as significantly increase work with databases (from the programming end). Shane Wildermuth does a good job sketching this changing [web environment](https://docs.google.com/viewer?url=http%3A%2F%2Fwildermuth.com%2Fdownloads%2FCodeStock_ModernWebDev.pdf) and Dan Wahlin [introduces](http://weblogs.asp.net/dwahlin/archive/2011/02/22/getting-started-with-asp-net-mvc-3-and-razor.aspx) you to ASP.NET MVC.
@@ -42,20 +42,14 @@ For those approaching this module from a less than confident standpoint, you sho
 As we depart from XAML, we need a new candidate for client-side UI declarative language. For that CSS3 is the obvious choice, now well supported by [most browsers](http://css3test.com/). While I don't propose to deal with CSS directly (you will have encountered it in a previous module), I will look at means of expediting the creation, manipulation and deployment of CSS to speed up overall development.
 Rather than craft CSS classes individually we will employ a CSS framework to bring good quality designs to bear on your applications. There is [much choice here](http://usablica.github.io/front-end-frameworks/compare.html). However, a popular choice (now incorporated into VS2013) from Twitter is [Bootstrap](http://getbootstrap.com). Bootstrap is an open-source Javascript framework developed by the team at Twitter. It is a combination of CSS and some Javascript code (built on [jQuery](http://jquery.com/)) designed to help build user interfaces.
 ####Learning Bootstrap
+* Pluralsight module on [Bootstrap](http://pluralsight.com/training/Player?author=scott-allen&name=aspdotnet-mvc5-fundamentals-m4-bootstrap&mode=live&clip=0&course=aspdotnet-mvc5-fundamentals)
 * Understanding Bootstrap 3 ([Sitepoint](http://www.sitepoint.com/understanding-twitter-bootstrap-3/?utm_source=dlvr.it&utm_medium=facebook))
 * Read [Scott Allen's account](http://odetocode.com/blogs/scott/archive/2013/01/08/why-use-the-bootstrap-grid.aspx) of using grids in Bootstrap.
 * Mad Kristensen's interview brings some insight into how VS2012 supports the use of CSS during development:
 <iframe style="height:288px;width:512px" src="http://channel9.msdn.com/Shows/Web+Camps+TV/Mads-Kristensen-Takes-the-Pain-Out-of-CSS/player?w=512&h=288" frameBorder="0" scrolling="no" ></iframe>
-####Revision Practice
-To help you build up your coding skills:
-
-* Write a program to take a number and shows its reverse. While doing this for a string is a trivial exercise, do this exclusively with a number (int).
-* Write a conventional tictactoe game in WPF. You'll find full source on Github opposite, open in a week or so. This is a refresher.
-* Try the OddEven app which works to show how we can bind data from one part of an interface with another - declaratively, rather than procedurally, though we'll show both in action in this application. You'll see from the README.md that there are two branches showing both approaches.
 
 ----
 practices:
-####[Reverse Number](https://github.com/itsligo/reversenumber.git)
-####[Tictactoe](https://github.com/itsligo/tictactoe)
-####[Odd Even (WPF)](https://github.com/itsligo/wpfoddeven)
-####[Games Yr 3 App](https://github.com/itsligo/gd3mvcapp.git)
+####[Reverse Number](http://itsligo.github.io/reversenumber)
+####[Odd Even Sim](http://itsligo.github.io/wpfoddeven)
+####[Ransom Note](http://itsligo.github.io/ransomnote)

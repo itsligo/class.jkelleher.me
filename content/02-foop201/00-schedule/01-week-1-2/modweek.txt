@@ -13,13 +13,13 @@ Text:
 ###Core Objective
 This sprint is all about re-establishing your coding practice, revisiting concepts from the previous modules and ironing out any issues with new software. We will also introduce the notion of Classes as the basic building blocks in object-oriented programming.
 
-Bob Tabor, owner of (link:http://www.learnvisualstudio.net/ text:Learnvisualstudio.net) provides a very comprehensive (link: http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners text:set of videos) courtesy of Microsoft which cover everything we will do this term and next. It is a prime resource for all our work. Full (link:http://media.ch9.ms/csharpfundamentals/code/C9CS_Code.zip text: source code) is provided to his worked examples.
+Bob Tabor, owner of (link:http://www.learnvisualstudio.net/ text:Learnvisualstudio.net) provides a very comprehensive (link: https://channel9.msdn.com/Series/C-Fundamentals-for-Absolute-Beginners text:set of videos) courtesy of Microsoft which cover everything we will do this term and next. It is a prime resource for all our work. Full (link:http://media.ch9.ms/csharpfundamentals/code/C9CS_Code.zip text: source code) is provided to his worked examples.
 Microsoft Virtual Academy [C# Fundamentals](http://www.microsoftvirtualacademy.com/training-courses/c-fundamentals-for-absolute-beginners) is a similar, excellent video resource.
 
 ###Introducing WPF
 Windows Presentation Foundation (WPF), part of .NET Framework 4.0, builds the next-generation of Windows user experiences. It supports UI, media, documents, hardware acceleration, vector graphics, scalability to different form factors, interactive data visualization, and superior content readability. It is a client-side development library (not web). MS Expression Blend supports the development of such rich-client applications.
 
-[Walkthrough](http://msdn.microsoft.com/en-us/library/ms752299.aspx): Getting Started with WPF is a step-by-step walkthrough of some of the key features of WPF.
+[Walkthrough](https://msdn.microsoft.com/en-us/library/vstudio/ms752299%28v=vs.100%29.aspx): Getting Started with WPF is a step-by-step walkthrough of some of the key features of WPF.
 
 [WPF Tutorial.net](http://www.wpftutorial.net/Home.html) provides a complete but gentle set of examples of how to code with the WPF library.
 
@@ -28,9 +28,7 @@ We'll focus initially on how to build a user interface by assembling basic inter
 Layout Panels provide a comprehensive, highly customised means of laying out controls in a Window in WPF. (link:http://blogs.southworks.net/ejadib text:Ezequiel Jadib) presents a good (link:http://blogs.southworks.net/ejadib/2007/12/10/layout-in-windows-presentation-foundation-wpf/ text:description) of the various panels: StackPanel, DockPanel, Grid, UniformGrid, WrapPanel. There are also useful links to more detail on MSDN.
 
 ###Classes - building OO applications
-* [OO Development 4 - Object Concepts](http://www.slideshare.net/randyconnolly/oo-development-4-object-concepts "OO Development 4 - Object Concepts")
-* View more presentations from [Randy Connolly](http://www.slideshare.net/randyconnolly)
-* Using [Classes](http://msdn.microsoft.com/en-us/beginner/bb308750.aspx) (Microsoft, with examples)
+* [OO Development 4 - Object Concepts](http://www.slideshare.net/randyconnolly/oo-development-4-object-concepts "OO Development 4 - Object Concepts") - more presentations from [Randy Connolly](http://www.slideshare.net/randyconnolly)
 * Introduction to Classes ([dotnetperls.com](http://www.dotnetperls.com/property))
 * Constructor initialiser and using _base_ keyword ([dotnetperls.com](http://www.dotnetperls.com/this-constructor))
 * C#.Net Tutorials - [Introduction to Classes](http://csharp.net-tutorials.com/classes/introduction/)
@@ -40,22 +38,15 @@ Layout Panels provide a comprehensive, highly customised means of laying out con
 Git is a version control mechanism. Read me about it in my [blog post](/blog/git) and we will begin using it in class from Day 1.
 ###Working with Random Class
 The **Random** class is quite useful to many of our early practices, allowing us to introduce some randomness to games etc. It is also a relatively easy class to master. Read more about it (link:http://msdn.microsoft.com/en-us/library/system.random.aspx text:here).
-###Additional Exercises
-1. Write a WPF app with a single _TextBlock_ and _Button_. When the user enters a number and clicks the _Button_, a message appears beneath to indicate whether the number is odd or even.
-Try to make the program work (and not crash) if nothing is entered (and the _Button_ clicked) or something other than a number is entered.
-Try varying the colour in response to the _odd_ or _even_ state e.g. green for _even_ and red for _odd_. Hint: Change the _foreground_ property of the _TextBlock_
-1. Create a WPF app to record test scores for students. The student IDs and their respective scores are entered one by one and a separate _TextBlock_ displays the results recorded to date. As each new pair of data points are entered, the list of IDs and scores is updated. Use a _Button_ to capture the entered data.
-You could use two _TextBlocks_ to record the Student ID and score. Then concatenate the two strings together and add to the output string for display in the results _TextBlock_.
-You could practice your knowledge of _arrays_ from last year by storing the input data in an array - either a two dimensional array or two single dimensional arrays. This would represent a better solution as the data could be exploited for other purposes once stored in the array(s).
-Alternatively (and more difficult still) you could use a single _TextBlock_ and have the user enter the data separated by a commas as follows: **S00110101,79**. The challenge here is to take that input string and split it (clue:_Split_ method for a _String_) into two pieces.
-Experiment with rendering the UI in different ways using _StackPanel_ and its associated properties.
-1. Write a WPF app that takes a number and outputs the same number in reverse. You should do so without converting to a string and using built-in reverse function.
 
 ----
 practices:
-####[Hello World](https://github.com/itsligo/helloworld)
-####[Join Words](https://github.com/itsligo/joinwords)
-####[Join Words 2014 Class](https://github.com/itsligo/joinwords2014.git)
-####[Simple Student Results](https://github.com/itsligo/SimpleStudentResults.git)
-####[Student/Form (Classes)](https://github.com/itsligo/studentassessresults.git)
-####[Reverse Number](https://github.com/itsligo/reversenumber.git)
+####[Hello World](http://itsligo.github.io/helloworld)
+####[Reverse Number](http://itsligo.github.io/reversenumber)
+####[Join Words](http://itsligo.github.io/joinwords/)
+####[Boxer](http://itsligo.github.io/boxer)
+####[Simple Student Results](http://itsligo.github.io/SimpleStudentResults)
+####[Student/Form (Classes)](http://itsligo.github.io/studentassessresults)
+----
+exer:
+http://itsligo.github.io/helloworld,http://itsligo.github.io/reversenumber,http://itsligo.github.io/joinwords,http://itsligo.github.io/boxer,http://itsligo.github.io/SimpleStudentResults,http://itsligo.github.io/studentassessresults
